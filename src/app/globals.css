@@ -58,4 +58,7 @@ p {
   .caption {
     @apply text-text-primary font-normal text-xs md-text-sm leading-normal;
   }
+  .c-transition {
+    @apply transition-all duration-300;
+  }
 }
