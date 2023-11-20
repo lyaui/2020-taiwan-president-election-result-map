@@ -26,6 +26,7 @@ const config: Config = {
       'gray-700': '#495057',
       'gray-800': '#343a40',
       'gray-900': '#212529',
+      'primary-light': '#ed21b6',
       primary: '#D4009B',
       'text-primary': '#334155',
       'text-secondary': '#64748B',
