@@ -29,17 +29,23 @@ p {
 }
 
 @layer components {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+  .col-center {
+    @apply flex flex-col items-center justify-center;
+  }
   .heading-1 {
-    @apply text-text-primary font-bold text-[33.5px] md-text-[40px] leading-normal;
+    @apply text-text-primary font-bold text-[33.5px] md:text-[40px] leading-normal;
   }
   .heading-2 {
-    @apply text-text-primary font-bold text-[28px] md-text-[32px] leading-normal;
+    @apply text-text-primary font-bold text-[28px] md:text-[32px] leading-normal;
   }
   .heading-3 {
-    @apply text-text-primary font-bold text-[25.4px] md-text-[28px];
+    @apply text-text-primary font-bold text-[25.4px] md:text-[28px];
   }
   .heading-4 {
-    @apply text-text-primary font-bold text-[22.7px] md-text-[24px] leading-normal;
+    @apply text-text-primary font-bold text-[22.7px] md:text-[24px] leading-normal;
   }
   .heading-5 {
     /* 20px */
@@ -56,7 +62,7 @@ p {
     @apply text-text-primary font-normal text-sm leading-normal;
   }
   .caption {
-    @apply text-text-primary font-normal text-xs md-text-sm leading-normal;
+    @apply text-text-primary font-normal text-xs md:text-sm leading-normal;
   }
   .c-transition {
     @apply transition-all duration-300;
