@@ -34,7 +34,7 @@ const config: Config = {
       role1: '#8082FF',
       role2: '#F4A76F',
       role3: '#57D2A9',
-      background: '##E9ECEF',
+      background: '#E9ECEF',
     },
   },
   plugins: [],
