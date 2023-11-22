@@ -12,7 +12,7 @@ function YearSelector() {
   const searchParams = useSearchParams();
 
   const year = searchParams.get(QUERY.YEAR);
-  const currentYear = year ? parseInt(year) : (years.at(-1) as number);
+  const currentYear = year ? parseInt(year) : (years.at(0) as number);
 
   const handleYearChange = (value: number) => {
     const queryString = querystring.stringify(
