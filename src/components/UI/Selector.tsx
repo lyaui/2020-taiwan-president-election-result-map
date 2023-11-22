@@ -6,21 +6,26 @@ import { ChevronDownIcon } from '@heroicons/react/24/solid';
 
 interface SelectorProps<T extends ReactNode> {
   label?: string;
-  width?: number;
+  width?: number | string;
   value: T;
   options: { label: string; value: T }[];
   onChange: (value: T) => void;
+  disabled?: boolean;
 }
 
 function Selector<T extends ReactNode>({
   label,
-  width,
+  width = 'auto',
   value,
   options,
   onChange,
+  disabled = false,
 }: SelectorProps<T>) {
+  const buttonText =
+    options.find((_option) => _option.value === value)?.label || value;
+
   return (
-    <Listbox value={value} onChange={onChange}>
+    <Listbox value={value} onChange={onChange} disabled={disabled}>
       {({ open }) => (
         <div className='flex items-center gap-3'>
           {label && (
@@ -28,11 +33,12 @@ function Selector<T extends ReactNode>({
           )}
           <div className='relative'>
             <Listbox.Button
-              className={`w-[${
-                width || 120
-              }px] flex-center text-text-primary gap-8 rounded-[500px] bg-background px-4 py-[8.5px]`}
+              className={`${
+                disabled ? 'text-gray-600' : 'text-text-primary'
+              } flex justify-between items-center rounded-[500px] bg-background px-4 py-[8.5px]`}
+              style={{ width }}
             >
-              {options.find((_option) => _option.value === value)?.label}
+              {buttonText}
               <ChevronDownIcon
                 className={`w-[12px] ${open && '-rotate-180 c-transition'}`}
               />
