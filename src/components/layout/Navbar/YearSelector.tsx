@@ -1,7 +1,7 @@
 'use client';
 
 import { useRouter, useSearchParams } from 'next/navigation';
-import querystring from 'querystring';
+import querystring from 'query-string';
 
 import { ROUTER, QUERY } from '@/routers';
 import { years } from '@/constants/index';
@@ -15,9 +15,13 @@ function YearSelector() {
   const currentYear = year ? parseInt(year) : (years.at(-1) as number);
 
   const handleYearChange = (value: number) => {
-    const queryString = querystring.stringify({
-      [QUERY.YEAR]: value,
-    });
+    const queryString = querystring.stringify(
+      {
+        ...querystring.parse(searchParams.toString()),
+        [QUERY.YEAR]: value,
+      },
+      { skipEmptyString: true },
+    );
     router.push(`${ROUTER.ELECTION_DATA}?${queryString}`);
   };
 
@@ -32,6 +36,7 @@ function YearSelector() {
       value={currentYear}
       onChange={handleYearChange}
       options={yearOptions}
+      width={120}
     />
   );
 }
