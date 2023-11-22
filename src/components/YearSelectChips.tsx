@@ -1,6 +1,6 @@
 'use client';
 
-import querystring from 'querystring';
+import querystring from 'query-string';
 import { useRouter } from 'next/navigation';
 
 import { ROUTER, QUERY } from '@/routers/index';
