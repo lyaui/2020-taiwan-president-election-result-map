@@ -1,7 +1,7 @@
 'use client';
 
 import { useRouter, useSearchParams } from 'next/navigation';
-import querystring from 'querystring';
+import querystring from 'query-string';
 
 import { ROUTER, QUERY } from '@/routers';
 import taiwanCities from 'public/json/taiwancities.json';
@@ -26,14 +26,19 @@ function CitySelector() {
 
   const city = searchParams.get(QUERY.CITY) || '';
   const handleCityChange = (value: string) => {
-    const queryString = querystring.stringify({
-      [QUERY.CITY]: value,
-    });
+    const queryString = querystring.stringify(
+      {
+        ...querystring.parse(searchParams.toString()),
+        [QUERY.CITY]: value,
+        [QUERY.DIST]: '',
+      },
+      { skipEmptyString: true },
+    );
     router.push(`${ROUTER.ELECTION_DATA}?${queryString}`);
   };
 
   const cityOptions: CityOption[] = [
-    { label: '全部', value: '' },
+    { label: '全部縣市', value: '' },
     ...taiwanCities.map((_city: City) => ({
       label: _city.name,
       value: _city.name,
@@ -45,7 +50,7 @@ function CitySelector() {
       value={city}
       onChange={handleCityChange}
       options={cityOptions}
-      width={500}
+      width={190}
     />
   );
 }
