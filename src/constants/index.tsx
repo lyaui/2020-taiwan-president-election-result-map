@@ -1,1 +1,1 @@
-export const years = [1996, 2000, 2004, 2008, 2012, 2016, 2020];
+export const years = [2020, 2016, 2012];
