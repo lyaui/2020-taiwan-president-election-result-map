@@ -1,7 +1,11 @@
-import React from 'react';
+import Navbar from '@/components/layout/Navbar';
 
 function ElectionDataPage() {
-  return <div>ElectionDataPage</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 
 export default ElectionDataPage;
