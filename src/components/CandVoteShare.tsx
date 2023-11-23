@@ -52,6 +52,7 @@ function CandidateInfo({
           alt={cand_name}
           fill
           style={{ objectFit: 'cover', transform: 'scale(1.2)', top: 8 }}
+          draggable={false}
         />
       </div>
       <div className='flex flex-col gap-[2px]'>
