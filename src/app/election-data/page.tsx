@@ -1,8 +1,12 @@
+import { promises as fs } from 'fs';
+
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import Map from '@/components/Map/index';
 import Breadcrumb from '@/components/UI/Breadcrumb';
 import { getTitle, getBreadcrumbRouters } from '@/pageFunctions/election-data';
+import CandVoteShare from '@/components/CandVoteShare';
+import VotingRate from '@/components/VotingRate';
 
 export interface SearchParams {
   [key: string]: string | undefined;
@@ -34,12 +38,8 @@ function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
           <section className='flex flex-col gap-4 bg-background rounded-xl p-4'>
             <h4 className='heading-5'>總統得票數</h4>
             <div className='grid grid-cols-2 gap-4'>
-              <div className='bg-white px-6 py-[30px] rounded-xl'>
-                candidates
-              </div>
-              <div className='bg-white px-6 py-[30px] rounded-xl'>
-                donuts chart
-              </div>
+              <CandVoteShare />
+              <VotingRate />
             </div>
           </section>
 
