@@ -56,15 +56,27 @@ p {
     @apply text-text-primary font-bold text-base leading-normal;
   }
   .body {
+    /* 16px */
     @apply text-text-primary font-normal text-base leading-normal;
   }
   .body-small {
+    /* 14px */
     @apply text-text-primary font-normal text-sm leading-normal;
   }
   .caption {
+    /* 12px */
     @apply text-text-primary font-normal text-xs md:text-sm leading-normal;
   }
   .c-transition {
     @apply transition-all duration-300;
+  }
+  .party-1 {
+    @apply bg-party1;
+  }
+  .party-2 {
+    @apply bg-party2;
+  }
+  .party-3 {
+    @apply bg-party3;
   }
 }
