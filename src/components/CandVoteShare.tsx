@@ -1,7 +1,8 @@
 import Image from 'next/image';
 
 import { CheckCircleIcon } from '@heroicons/react/24/solid';
-import { numberWithCommas, transCommaStringToNumber } from '@/utils/index';
+import { numberWithCommas } from '@/utils/index';
+import { getOrderedVoteResult } from '@/pageFunctions/election-data';
 import { type Candidate, type Statics } from '@/types/index';
 import PercentageBar from '@/components/UI/PercentageBar';
 
@@ -54,21 +55,10 @@ function CandVoteShare({
   candidates: Candidate[];
   statistics: Statics;
 }) {
-  const orderedCandiData: (Candidate & { vote_cnt: number })[] = candidates
-    .map((_cand) => {
-      return {
-        ..._cand,
-        vote_cnt: transCommaStringToNumber(
-          statistics?.candidates[_cand.cand_id],
-        ),
-      };
-    })
-    .sort((_a, _b) => _b.vote_cnt - _a.vote_cnt);
-
-  const groups = orderedCandiData.map((_cand) => ({
-    color: _cand.party_id,
-    value: _cand.vote_cnt,
-  }));
+  const { orderedCandiData, barGroups } = getOrderedVoteResult({
+    candidates,
+    statistics,
+  });
 
   return (
     <div className='flex flex-col gap-3 bg-white px-6 py-[30px] rounded-xl'>
@@ -83,7 +73,7 @@ function CandVoteShare({
           ),
         )}
       </div>
-      <PercentageBar height={18} showValue={true} groups={groups} />
+      <PercentageBar height={18} showValue={true} groups={barGroups} />
     </div>
   );
 }

@@ -1,8 +1,9 @@
 import { promises as fs } from 'fs';
 import querystring from 'query-string';
 
-import { type SearchParams } from '@/types/index';
+import { type SearchParams, type Candidate, type Statics } from '@/types/index';
 import { type BreadCrumbProps } from '@/components/UI/Breadcrumb';
+import { transCommaStringToNumber } from '@/utils/index';
 import { years } from '@/constants/index';
 import { ROUTER, QUERY } from '@/routers/index';
 
@@ -75,4 +76,31 @@ export async function fetchElectionData(
     statistics,
     candidates,
   };
+}
+
+export function getOrderedVoteResult({
+  candidates,
+  statistics,
+}: {
+  candidates: Candidate[];
+  statistics: Statics;
+}) {
+  const orderedCandiData: (Candidate & { vote_cnt: number })[] = candidates
+    .map((_cand) => {
+      return {
+        ..._cand,
+        vote_cnt: transCommaStringToNumber(
+          statistics?.candidates[_cand.cand_id],
+        ),
+      };
+    })
+    .sort((_a, _b) => _b.vote_cnt - _a.vote_cnt);
+
+  // TODO tooltip
+  const barGroups = orderedCandiData.map((_cand) => ({
+    color: _cand.party_id,
+    value: _cand.vote_cnt,
+  }));
+
+  return { orderedCandiData, barGroups };
 }
