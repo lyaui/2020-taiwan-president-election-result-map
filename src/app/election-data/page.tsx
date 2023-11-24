@@ -61,7 +61,10 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
           {/* area result */}
           <section className='flex flex-col gap-2 py-4'>
             <h4 className='heading-5'>各區域投票總覽</h4>
-            <AreaVotingTable />
+            <AreaVotingTable
+              candidates={candidates}
+              statisticsArr={statistics.dist}
+            />
           </section>
           <Footer />
         </article>
