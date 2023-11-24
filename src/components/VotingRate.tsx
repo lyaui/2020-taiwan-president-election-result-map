@@ -1,16 +1,19 @@
-import { numberWithCommas } from '@/utils/index';
+import { type Statics } from '@/types/index';
 import DonutChart from '@/components/UI/DonutChart';
 
-function VotingRate() {
+function VotingRate({ statistics }: { statistics: Statics }) {
+  const { voter_turnout } = statistics;
+  const { total_votes, valid_votes, invalid_votes } = statistics.votes;
+
   const figures = [
-    { label: '投票數', value: numberWithCommas(2448302) },
-    { label: '投票率', value: 0.6627 * 100 + '%' },
-    { label: '有效票數', value: numberWithCommas(12284970) },
-    { label: '無效票', value: numberWithCommas(163332) },
+    { label: '投票數', value: total_votes },
+    { label: '投票率', value: (+voter_turnout).toFixed(2) },
+    { label: '有效票數', value: valid_votes },
+    { label: '無效票', value: invalid_votes },
   ];
   return (
     <div className='flex gap-10 bg-white px-6 py-[30px] rounded-xl'>
-      <DonutChart size={125} label='投票率' value={0.6627} />
+      <DonutChart size={125} label='投票率' value={+voter_turnout / 100} />
       <div className='grid grid-cols-2 gap-x-12 gap-y-4'>
         {figures.map((_figure) => (
           <div

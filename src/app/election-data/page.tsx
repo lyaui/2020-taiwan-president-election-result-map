@@ -45,7 +45,7 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
                 candidates={candidates}
                 statistics={statistics.city}
               />
-              <VotingRate />
+              <VotingRate statistics={statistics.city} />
             </div>
           </section>
 
