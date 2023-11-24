@@ -1,10 +1,12 @@
-import { promises as fs } from 'fs';
-
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import Map from '@/components/Map/index';
 import Breadcrumb from '@/components/UI/Breadcrumb';
-import { getTitle, getBreadcrumbRouters } from '@/pageFunctions/election-data';
+import {
+  getTitle,
+  getBreadcrumbRouters,
+  fetchElectionData,
+} from '@/pageFunctions/election-data';
 import CandVoteShare from '@/components/CandVoteShare';
 import VotingRate from '@/components/VotingRate';
 import AreaVotingTable from '@/components/AreaVotingTable';
@@ -19,9 +21,14 @@ interface ElectionDataPageProps {
   searchParams: SearchParams;
 }
 
-function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
+async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
   const title = getTitle(searchParams);
   const routers = getBreadcrumbRouters(searchParams);
+
+  const { year, city } = searchParams;
+
+  // TODO sleep & error handling
+  const { statistics, candidates } = await fetchElectionData(year, city);
 
   return (
     <div>
@@ -39,7 +46,10 @@ function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
           <section className='flex flex-col gap-4 bg-background rounded-xl p-4'>
             <h4 className='heading-5'>總統得票數</h4>
             <div className='grid grid-cols-2 gap-4'>
-              <CandVoteShare />
+              <CandVoteShare
+                candidates={candidates}
+                statistics={statistics.city}
+              />
               <VotingRate />
             </div>
           </section>

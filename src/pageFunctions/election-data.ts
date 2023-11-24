@@ -1,3 +1,4 @@
+import { promises as fs } from 'fs';
 import querystring from 'query-string';
 import { type SearchParams } from '@/app/election-data/page';
 import { type BreadCrumbProps } from '@/components/UI/Breadcrumb';
@@ -43,6 +44,26 @@ export function getBreadcrumbRouters(searchParams: SearchParams): RoutersType {
   return routes.map((_route) => ({
     label: _route.label,
     path:
-      ROUTER.ELECTION_DATA + '?' + querystring.stringify(_route.query, { skipEmptyString: true }),
+      ROUTER.ELECTION_DATA +
+      '?' +
+      querystring.stringify(_route.query, { skipEmptyString: true }),
   }));
+}
+
+export async function fetchElectionData(year: string, city: string) {
+  // TODO: error handling
+  const votingFile = await fs.readFile(
+    process.cwd() + `/public/json/${year}/${city}.json`,
+    'utf8',
+  );
+
+  const candiFile = await fs.readFile(
+    process.cwd() + `/public/json/candidates.json`,
+    'utf8',
+  );
+
+  return {
+    statistics: JSON.parse(votingFile),
+    candidates: JSON.parse(candiFile)[year],
+  };
 }
