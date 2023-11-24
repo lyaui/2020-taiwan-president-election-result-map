@@ -1,38 +1,13 @@
 import Image from 'next/image';
 
-import { numberWithCommas } from '@/utils/index';
+import { CheckCircleIcon } from '@heroicons/react/24/solid';
+import { numberWithCommas, transCommaStringToNumber } from '@/utils/index';
+import { type Candidate, type Statics } from '@/types/index';
 import PercentageBar from '@/components/UI/PercentageBar';
 
-const DUMMY_CANDIDATES = [
-  {
-    cand_id: '201201',
-    cand_name: '綠巨魔',
-    cand_img: 'troll',
-    party_id: 'party-3',
-    party_name: '木棍黨',
-  },
-  {
-    cand_id: '201202',
-    cand_name: '科學怪人',
-    cand_img: 'zombie',
-    party_id: 'party-1',
-    party_name: '蝙蝠黨',
-  },
-  {
-    cand_id: '201203',
-    cand_name: '林克',
-    cand_img: 'elf',
-    party_id: 'party-2',
-    party_name: '弓箭黨',
-  },
-];
-
-interface Candidate {
-  cand_id: string;
-  cand_name: string;
-  cand_img: string;
-  party_id: string;
-  party_name: string;
+interface CandidateInfoProps extends Candidate {
+  vote_cnt: number;
+  winner: boolean;
 }
 
 function CandidateInfo({
@@ -41,7 +16,9 @@ function CandidateInfo({
   cand_img,
   party_id,
   party_name,
-}: Candidate) {
+  vote_cnt,
+  winner,
+}: CandidateInfoProps) {
   return (
     <div key={cand_id} className='flex gap-3'>
       <div
@@ -57,41 +34,56 @@ function CandidateInfo({
       </div>
       <div className='flex flex-col gap-[2px]'>
         <p className='text-text-secondary caption'>{party_name}</p>
-        <p>{cand_name}</p>
+        <p className='flex gap-1'>
+          {cand_name}
+          {winner && <CheckCircleIcon className='w-[20px] text-primary' />}
+        </p>
         <p>
-          <span className='heading-6 mr-0.5'>{numberWithCommas(666666)}</span>票
+          <span className='heading-6 mr-0.5'>{numberWithCommas(vote_cnt)}</span>
+          票
         </p>
       </div>
     </div>
   );
 }
 
-function CandVoteShare() {
+function CandVoteShare({
+  candidates = [],
+  statistics,
+}: {
+  candidates: Candidate[];
+  statistics: Statics;
+}) {
+  const orderedCandiData: (Candidate & { vote_cnt: number })[] = candidates
+    .map((_cand) => {
+      return {
+        ..._cand,
+        vote_cnt: transCommaStringToNumber(
+          statistics?.candidates[_cand.cand_id],
+        ),
+      };
+    })
+    .sort((_a, _b) => _b.vote_cnt - _a.vote_cnt);
+
+  const groups = orderedCandiData.map((_cand) => ({
+    color: _cand.party_id,
+    value: _cand.vote_cnt,
+  }));
+
   return (
     <div className='flex flex-col gap-3 bg-white px-6 py-[30px] rounded-xl'>
       <div className='grid grid-cols-3 gap-10'>
-        {DUMMY_CANDIDATES.map((_cand: Candidate) => (
-          <CandidateInfo key={_cand.cand_id} {..._cand} />
-        ))}
+        {orderedCandiData.map(
+          (_cand: Candidate & { vote_cnt: number }, _index) => (
+            <CandidateInfo
+              key={_cand.cand_id}
+              {..._cand}
+              winner={_index === 0}
+            />
+          ),
+        )}
       </div>
-      <PercentageBar
-        height={18}
-        showValue={true}
-        groups={[
-          {
-            color: 'party-1',
-            value: 100,
-          },
-          {
-            color: 'party-2',
-            value: 200,
-          },
-          {
-            color: 'party-3',
-            value: 300,
-          },
-        ]}
-      />
+      <PercentageBar height={18} showValue={true} groups={groups} />
     </div>
   );
 }
