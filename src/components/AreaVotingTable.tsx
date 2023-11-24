@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import { type Candidate, type Statics } from '@/types/index';
 import PercentageBar from '@/components/UI/PercentageBar';
 import { getOrderedVoteResult } from '@/pageFunctions/election-data';
@@ -16,13 +18,28 @@ function VotingTableRow({
     statistics,
   });
 
+  const winner = orderedCandiData[0];
+
   return (
     <tr className='cursor-pointer text-text-primary hover:bg-hover border-b-[1px] border-line'>
       <td className='heading-6 px-2 py-2.5'>{name}</td>
       <td className='px-2 py-2.5'>
         <PercentageBar height={8} groups={barGroups} />
       </td>
-      <td className='px-2 py-2.5'>{orderedCandiData[0].cand_name}</td>
+      <td className='flex items-center gap-2 px-2 py-2.5'>
+        <div
+          className={`relative w-[32px] h-[32px] ${winner.party_id} rounded-full overflow-hidden`}
+        >
+          <Image
+            src={`/assets/images/candidate_${winner.cand_img}.png`}
+            alt={winner.cand_name}
+            fill
+            style={{ objectFit: 'cover', transform: 'scale(1.2)', top: 8 }}
+            draggable={false}
+          />
+        </div>
+        {winner.cand_name}
+      </td>
       <td className='px-2 py-2.5'>{votes.total_votes}</td>
       <td className='px-2 py-2.5'>{(+voter_turnout).toFixed(2) + '%'}</td>
       <td className='px-2 py-2.5 w-10'>{`>`}</td>
