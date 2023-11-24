@@ -1,0 +1,61 @@
+{
+  "city": {
+    "name": "新竹市",
+    "candidates": {
+      "cand_2020_01": "14,103",
+      "cand_2020_02": "102,725",
+      "cand_2020_03": "144,274"
+    },
+    "votes": {
+      "valid_votes": "261,102",
+      "invalid_votes": "3,423",
+      "total_votes": "264,525"
+    },
+    "voter_turnout": "76.5973"
+  },
+  "dist": [
+    {
+      "name": "東區",
+      "candidates": {
+        "cand_2020_01": "6,914",
+        "cand_2020_02": "50,693",
+        "cand_2020_03": "65,607"
+      },
+      "votes": {
+        "valid_votes": "123,214",
+        "invalid_votes": "1,693",
+        "total_votes": "124,907"
+      },
+      "voter_turnout": "77.6235"
+    },
+    {
+      "name": "北區",
+      "candidates": {
+        "cand_2020_01": "4,685",
+        "cand_2020_02": "35,256",
+        "cand_2020_03": "50,702"
+      },
+      "votes": {
+        "valid_votes": "90,643",
+        "invalid_votes": "1,147",
+        "total_votes": "91,790"
+      },
+
+      "voter_turnout": "75.9449"
+    },
+    {
+      "name": "香山區",
+      "candidates": {
+        "cand_2020_01": "2,504",
+        "cand_2020_02": "16,776",
+        "cand_2020_03": "27,965"
+      },
+      "votes": {
+        "valid_votes": "47,245",
+        "invalid_votes": "583",
+        "total_votes": "47,828"
+      },
+      "voter_turnout": "75.2403"
+    }
+  ]
+}
