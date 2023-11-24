@@ -4,7 +4,7 @@ import Map from '@/components/Map/index';
 import Breadcrumb from '@/components/UI/Breadcrumb';
 import CandVoteShare from '@/components/CandVoteShare';
 import VotingRate from '@/components/VotingRate';
-import AreaVotingTable from '@/components/AreaVotingTable';
+import AreaVotingTable from '@/components/AreaVotingTable/index';
 import {
   getTitle,
   getBreadcrumbRouters,
