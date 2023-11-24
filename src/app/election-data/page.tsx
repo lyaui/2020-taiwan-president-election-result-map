@@ -2,21 +2,16 @@ import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import Map from '@/components/Map/index';
 import Breadcrumb from '@/components/UI/Breadcrumb';
+import CandVoteShare from '@/components/CandVoteShare';
+import VotingRate from '@/components/VotingRate';
+import AreaVotingTable from '@/components/AreaVotingTable';
 import {
   getTitle,
   getBreadcrumbRouters,
   fetchElectionData,
 } from '@/pageFunctions/election-data';
-import CandVoteShare from '@/components/CandVoteShare';
-import VotingRate from '@/components/VotingRate';
-import AreaVotingTable from '@/components/AreaVotingTable';
+import { type SearchParams } from '@/types/index';
 
-export interface SearchParams {
-  [key: string]: string | undefined;
-  year?: string;
-  city?: string;
-  dist?: string;
-}
 interface ElectionDataPageProps {
   searchParams: SearchParams;
 }
