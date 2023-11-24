@@ -7,6 +7,7 @@ import Breadcrumb from '@/components/UI/Breadcrumb';
 import { getTitle, getBreadcrumbRouters } from '@/pageFunctions/election-data';
 import CandVoteShare from '@/components/CandVoteShare';
 import VotingRate from '@/components/VotingRate';
+import AreaVotingTable from '@/components/AreaVotingTable';
 
 export interface SearchParams {
   [key: string]: string | undefined;
@@ -53,9 +54,9 @@ function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
             </div>
           </section>
           {/* area result */}
-          <section className='py-4'>
+          <section className='flex flex-col gap-2 py-4'>
             <h4 className='heading-5'>各區域投票總覽</h4>
-            <div>area data table</div>
+            <AreaVotingTable />
           </section>
           <Footer />
         </article>
