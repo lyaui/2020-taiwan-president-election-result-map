@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { type Candidate, type Statics } from '@/types/index';
 import PercentageBar from '@/components/UI/PercentageBar';
 import { getOrderedVoteResult } from '@/pageFunctions/election-data';
+import VotingTableRowWrapper from '@/components/AreaVotingTable/VotingTableRowWrapper';
 
 function VotingTableRow({
   candidates,
@@ -21,7 +22,7 @@ function VotingTableRow({
   const winner = orderedCandiData[0];
 
   return (
-    <tr className='cursor-pointer text-text-primary hover:bg-hover border-b-[1px] border-line'>
+    <VotingTableRowWrapper placeName={statistics.name}>
       <td className='heading-6 px-2 py-2.5'>{name}</td>
       <td className='px-2 py-2.5'>
         <PercentageBar height={8} groups={barGroups} />
@@ -43,7 +44,7 @@ function VotingTableRow({
       <td className='px-2 py-2.5'>{votes.total_votes}</td>
       <td className='px-2 py-2.5'>{(+voter_turnout).toFixed(2) + '%'}</td>
       <td className='px-2 py-2.5 w-10'>{`>`}</td>
-    </tr>
+    </VotingTableRowWrapper>
   );
 }
 
