@@ -1,0 +1,71 @@
+{
+  "2012": [
+    {
+      "cand_id": "cand_2012_01",
+      "cand_name": "綠巨魔",
+      "cand_img": "troll",
+      "party_id": "party-3",
+      "party_name": "木棍黨"
+    },
+    {
+      "cand_id": "cand_2012_02",
+      "cand_name": "科學怪人",
+      "cand_img": "zombie",
+      "party_id": "party-1",
+      "party_name": "蝙蝠黨"
+    },
+    {
+      "cand_id": "cand_2012_03",
+      "cand_name": "林克",
+      "cand_img": "elf",
+      "party_id": "party-2",
+      "party_name": "弓箭黨"
+    }
+  ],
+  "2016": [
+    {
+      "cand_id": "cand_2016_01",
+      "cand_name": "梅林",
+      "cand_img": "mage",
+      "party_id": "party-1",
+      "party_name": "蝙蝠黨"
+    },
+    {
+      "cand_id": "cand_2016_02",
+      "cand_name": "綠巨魔",
+      "cand_img": "troll",
+      "party_id": "party-3",
+      "party_name": "木棍黨"
+    },
+    {
+      "cand_id": "cand_2016_03",
+      "cand_name": "林克",
+      "cand_img": "elf",
+      "party_id": "party-2",
+      "party_name": "弓箭黨"
+    }
+  ],
+  "2020": [
+    {
+      "cand_id": "cand_2020_01",
+      "cand_name": "林克",
+      "cand_img": "elf",
+      "party_id": "party-2",
+      "party_name": "弓箭黨"
+    },
+    {
+      "cand_id": "cand_2020_02",
+      "cand_name": "德古拉",
+      "cand_img": "vampire",
+      "party_id": "party-1",
+      "party_name": "蝙蝠黨"
+    },
+    {
+      "cand_id": "cand_2020_03",
+      "cand_name": "綠巨魔",
+      "cand_img": "troll",
+      "party_id": "party-3",
+      "party_name": "木棍黨"
+    }
+  ]
+}
