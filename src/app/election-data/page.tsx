@@ -1,6 +1,7 @@
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import Map from '@/components/Map/index';
+import GoPreviousLevelButton from '@/components/GoPreviousLevelButton';
 import Breadcrumb from '@/components/UI/Breadcrumb';
 import CandVoteShare from '@/components/CandVoteShare';
 import VotingRate from '@/components/VotingRate';
@@ -36,10 +37,13 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
         <Map />
         <article className='h-[calc(100vh-65px)] w-full flex flex-col gap-6 px-12 pt-8 overflow-auto '>
           {/* info */}
-          <div>
-            <h3 className='heading-3 mb-[6px]'>{title}</h3>
+          <section>
+            <div className='flex items-center gap-2.5 mb-[6px]'>
+              <GoPreviousLevelButton city={city} dist={dist} />
+              <h3 className='heading-3'>{title}</h3>
+            </div>
             <Breadcrumb routers={routers} />
-          </div>
+          </section>
 
           {/* overview */}
           <section className='flex flex-col gap-4 bg-background rounded-xl p-4'>
