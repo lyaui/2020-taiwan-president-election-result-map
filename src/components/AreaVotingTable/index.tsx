@@ -8,7 +8,7 @@ function AreaVotingTable({
   candidates: Candidate[];
   votingResultArr: VotingResult[];
 }) {
-  const headers = ['縣市', '得票率', '當選人', '投票數', '投票率', ' '];
+  const headers = ['地區', '得票率', '當選人', '投票數', '投票率', ' '];
   return (
     <table className='w-full table-auto'>
       <thead className='bg-background'>
