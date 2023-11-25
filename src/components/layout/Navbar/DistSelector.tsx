@@ -42,10 +42,13 @@ function DistSelector() {
   );
 
   const distOptions: DistOption[] = foundCity
-    ? foundCity.districts.map((_dist) => ({
-        label: _dist.name,
-        value: _dist.name,
-      }))
+    ? [
+        { label: '全部區域', value: '' },
+        ...foundCity.districts.map((_dist) => ({
+          label: _dist.name,
+          value: _dist.name,
+        })),
+      ]
     : [];
 
   const value = city && dist ? dist : '選擇區域';
