@@ -10,7 +10,7 @@ import Chip from '@/components/UI/Chip';
 function YearSelectChips() {
   const router = useRouter();
 
-  const handleGoMapPage = (year: number) => () => {
+  const handleGoMapPage = (year: string) => () => {
     const queryString = querystring.stringify({
       [QUERY.YEAR]: year,
     });
