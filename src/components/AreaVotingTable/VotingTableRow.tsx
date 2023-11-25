@@ -24,7 +24,10 @@ function VotingTableRow({
   const winner = orderedCandiData[0];
 
   return (
-    <VotingTableRowWrapper placeName={votingResult.name}>
+    <VotingTableRowWrapper
+      placeName={votingResult.name}
+      placeLevel={votingResult.level}
+    >
       <td className='w-[180px] heading-6 px-2 py-2.5'>{name}</td>
       <td className='w-[330px] px-2 py-2.5'>
         <PercentageBar height={8} groups={barGroups} />

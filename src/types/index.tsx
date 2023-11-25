@@ -1,8 +1,12 @@
 import { years, levels } from '@/constants/index';
 
+export type Year = (typeof years)[number];
+
+export type Level = keyof typeof levels;
+
 export interface SearchParams {
   [key: string]: string | undefined;
-  year?: (typeof years)[number];
+  year?: Year;
   city?: string;
   dist?: string;
 }
@@ -17,7 +21,7 @@ export interface Candidate {
 
 export interface VotingResult {
   name: string;
-  level: keyof typeof levels;
+  level: Level;
   affiliation: string;
   candidates: Record<string, string>;
   votes: {
