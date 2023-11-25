@@ -1,0 +1,3304 @@
+{
+  "city": [
+    {
+      "name": "新竹縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2020_01": "18,435",
+        "cand_2020_02": "154,224",
+        "cand_2020_03": "152,380"
+      },
+      "votes": {
+        "valid_votes": "325,039",
+        "invalid_votes": "3,970",
+        "total_votes": "329,009"
+      },
+      "voter_turnout": "75.1078"
+    }
+  ],
+  "dist": [
+    {
+      "name": "竹北市",
+      "level": "dist",
+      "affiliation": "新竹縣",
+      "candidates": {
+        "cand_2020_01": "6,576",
+        "cand_2020_02": "42,591",
+        "cand_2020_03": "56,892"
+      },
+      "votes": {
+        "valid_votes": "106,059",
+        "invalid_votes": "1,364",
+        "total_votes": "107,423"
+      },
+      "voter_turnout": "77.6071"
+    },
+    {
+      "name": "竹東鎮",
+      "level": "dist",
+      "affiliation": "新竹縣",
+      "candidates": {
+        "cand_2020_01": "3,202",
+        "cand_2020_02": "29,892",
+        "cand_2020_03": "23,445"
+      },
+      "votes": {
+        "valid_votes": "56,539",
+        "invalid_votes": "677",
+        "total_votes": "57,216"
+      },
+      "voter_turnout": "74.1476"
+    },
+    {
+      "name": "新埔鎮",
+      "level": "dist",
+      "affiliation": "新竹縣",
+      "candidates": {
+        "cand_2020_01": "993",
+        "cand_2020_02": "9,446",
+        "cand_2020_03": "10,182"
+      },
+      "votes": {
+        "valid_votes": "20,621",
+        "invalid_votes": "249",
+        "total_votes": "20,870"
+      },
+      "voter_turnout": "74.4029"
+    },
+    {
+      "name": "關西鎮",
+      "level": "dist",
+      "affiliation": "新竹縣",
+      "candidates": {
+        "cand_2020_01": "772",
+        "cand_2020_02": "9,016",
+        "cand_2020_03": "7,673"
+      },
+      "votes": {
+        "valid_votes": "17,461",
+        "invalid_votes": "214",
+        "total_votes": "17,675"
+      },
+      "voter_turnout": "74.6537"
+    },
+    {
+      "name": "湖口鄉",
+      "level": "dist",
+      "affiliation": "新竹縣",
+      "candidates": {
+        "cand_2020_01": "2,630",
+        "cand_2020_02": "22,354",
+        "cand_2020_03": "19,949"
+      },
+      "votes": {
+        "valid_votes": "44,933",
+        "invalid_votes": "529",
+        "total_votes": "45,462"
+      },
+      "voter_turnout": "73.2490"
+    },
+    {
+      "name": "新豐鄉",
+      "level": "dist",
+      "affiliation": "新竹縣",
+      "candidates": {
+        "cand_2020_01": "1,866",
+        "cand_2020_02": "14,817",
+        "cand_2020_03": "15,881"
+      },
+      "votes": {
+        "valid_votes": "32,564",
+        "invalid_votes": "389",
+        "total_votes": "32,953"
+      },
+      "voter_turnout": "73.6973"
+    },
+    {
+      "name": "芎林鄉",
+      "level": "dist",
+      "affiliation": "新竹縣",
+      "candidates": {
+        "cand_2020_01": "712",
+        "cand_2020_02": "6,554",
+        "cand_2020_03": "5,393"
+      },
+      "votes": {
+        "valid_votes": "12,659",
+        "invalid_votes": "172",
+        "total_votes": "12,831"
+      },
+      "voter_turnout": "76.0716"
+    },
+    {
+      "name": "橫山鄉",
+      "level": "dist",
+      "affiliation": "新竹縣",
+      "candidates": {
+        "cand_2020_01": "389",
+        "cand_2020_02": "4,685",
+        "cand_2020_03": "3,023"
+      },
+      "votes": {
+        "valid_votes": "8,097",
+        "invalid_votes": "100",
+        "total_votes": "8,197"
+      },
+      "voter_turnout": "74.7901"
+    },
+    {
+      "name": "北埔鄉",
+      "level": "dist",
+      "affiliation": "新竹縣",
+      "candidates": {
+        "cand_2020_01": "287",
+        "cand_2020_02": "3,220",
+        "cand_2020_03": "2,323"
+      },
+      "votes": {
+        "valid_votes": "5,830",
+        "invalid_votes": "62",
+        "total_votes": "5,892"
+      },
+      "voter_turnout": "74.9142"
+    },
+    {
+      "name": "寶山鄉",
+      "level": "dist",
+      "affiliation": "新竹縣",
+      "candidates": {
+        "cand_2020_01": "563",
+        "cand_2020_02": "4,594",
+        "cand_2020_03": "4,253"
+      },
+      "votes": {
+        "valid_votes": "9,410",
+        "invalid_votes": "93",
+        "total_votes": "9,503"
+      },
+      "voter_turnout": "75.3489"
+    },
+    {
+      "name": "峨眉鄉",
+      "level": "dist",
+      "affiliation": "新竹縣",
+      "candidates": {
+        "cand_2020_01": "144",
+        "cand_2020_02": "1,882",
+        "cand_2020_03": "1,593"
+      },
+      "votes": {
+        "valid_votes": "3,619",
+        "invalid_votes": "38",
+        "total_votes": "3,657"
+      },
+      "voter_turnout": "75.4487"
+    },
+    {
+      "name": "尖石鄉",
+      "level": "dist",
+      "affiliation": "新竹縣",
+      "candidates": {
+        "cand_2020_01": "208",
+        "cand_2020_02": "3,291",
+        "cand_2020_03": "1,185"
+      },
+      "votes": {
+        "valid_votes": "4,684",
+        "invalid_votes": "53",
+        "total_votes": "4,737"
+      },
+      "voter_turnout": "67.0488"
+    },
+    {
+      "name": "五峰鄉",
+      "level": "dist",
+      "affiliation": "新竹縣",
+      "candidates": {
+        "cand_2020_01": "93",
+        "cand_2020_02": "1,882",
+        "cand_2020_03": "588"
+      },
+      "votes": {
+        "valid_votes": "2,563",
+        "invalid_votes": "30",
+        "total_votes": "2,593"
+      },
+      "voter_turnout": "69.2575"
+    }
+  ],
+  "village": [
+    {
+      "name": "鹿場里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "536",
+        "cand_2020_02": "2,938",
+        "cand_2020_03": "4,071"
+      },
+      "votes": {
+        "valid_votes": "7,545",
+        "invalid_votes": "104",
+        "total_votes": "7,649"
+      },
+      "voter_turnout": "80.7368"
+    },
+    {
+      "name": "東平里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "615",
+        "cand_2020_02": "2,911",
+        "cand_2020_03": "5,044"
+      },
+      "votes": {
+        "valid_votes": "8,570",
+        "invalid_votes": "125",
+        "total_votes": "8,695"
+      },
+      "voter_turnout": "80.5093"
+    },
+    {
+      "name": "中興里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "367",
+        "cand_2020_02": "2,143",
+        "cand_2020_03": "3,075"
+      },
+      "votes": {
+        "valid_votes": "5,585",
+        "invalid_votes": "95",
+        "total_votes": "5,680"
+      },
+      "voter_turnout": "80.5217"
+    },
+    {
+      "name": "隘口里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "134",
+        "cand_2020_02": "829",
+        "cand_2020_03": "1,041"
+      },
+      "votes": {
+        "valid_votes": "2,004",
+        "invalid_votes": "27",
+        "total_votes": "2,031"
+      },
+      "voter_turnout": "79.8035"
+    },
+    {
+      "name": "東海里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "95",
+        "cand_2020_02": "1,115",
+        "cand_2020_03": "929"
+      },
+      "votes": {
+        "valid_votes": "2,139",
+        "invalid_votes": "21",
+        "total_votes": "2,160"
+      },
+      "voter_turnout": "73.1212"
+    },
+    {
+      "name": "東興里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "292",
+        "cand_2020_02": "1,698",
+        "cand_2020_03": "2,740"
+      },
+      "votes": {
+        "valid_votes": "4,730",
+        "invalid_votes": "55",
+        "total_votes": "4,785"
+      },
+      "voter_turnout": "79.0387"
+    },
+    {
+      "name": "北興里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "251",
+        "cand_2020_02": "1,076",
+        "cand_2020_03": "2,047"
+      },
+      "votes": {
+        "valid_votes": "3,374",
+        "invalid_votes": "40",
+        "total_votes": "3,414"
+      },
+      "voter_turnout": "79.4508"
+    },
+    {
+      "name": "十興里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "376",
+        "cand_2020_02": "1,788",
+        "cand_2020_03": "2,691"
+      },
+      "votes": {
+        "valid_votes": "4,855",
+        "invalid_votes": "59",
+        "total_votes": "4,914"
+      },
+      "voter_turnout": "79.8116"
+    },
+    {
+      "name": "興安里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "155",
+        "cand_2020_02": "1,111",
+        "cand_2020_03": "1,220"
+      },
+      "votes": {
+        "valid_votes": "2,486",
+        "invalid_votes": "25",
+        "total_votes": "2,511"
+      },
+      "voter_turnout": "78.1026"
+    },
+    {
+      "name": "文化里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "153",
+        "cand_2020_02": "1,092",
+        "cand_2020_03": "1,224"
+      },
+      "votes": {
+        "valid_votes": "2,469",
+        "invalid_votes": "32",
+        "total_votes": "2,501"
+      },
+      "voter_turnout": "79.3968"
+    },
+    {
+      "name": "斗崙里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "314",
+        "cand_2020_02": "1,962",
+        "cand_2020_03": "2,594"
+      },
+      "votes": {
+        "valid_votes": "4,870",
+        "invalid_votes": "67",
+        "total_votes": "4,937"
+      },
+      "voter_turnout": "80.2112"
+    },
+    {
+      "name": "中崙里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "266",
+        "cand_2020_02": "1,869",
+        "cand_2020_03": "2,391"
+      },
+      "votes": {
+        "valid_votes": "4,526",
+        "invalid_votes": "63",
+        "total_votes": "4,589"
+      },
+      "voter_turnout": "80.5229"
+    },
+    {
+      "name": "北崙里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "185",
+        "cand_2020_02": "1,242",
+        "cand_2020_03": "1,348"
+      },
+      "votes": {
+        "valid_votes": "2,775",
+        "invalid_votes": "41",
+        "total_votes": "2,816"
+      },
+      "voter_turnout": "77.5544"
+    },
+    {
+      "name": "新崙里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "284",
+        "cand_2020_02": "1,856",
+        "cand_2020_03": "2,457"
+      },
+      "votes": {
+        "valid_votes": "4,597",
+        "invalid_votes": "65",
+        "total_votes": "4,662"
+      },
+      "voter_turnout": "77.5707"
+    },
+    {
+      "name": "竹北里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "321",
+        "cand_2020_02": "2,123",
+        "cand_2020_03": "2,519"
+      },
+      "votes": {
+        "valid_votes": "4,963",
+        "invalid_votes": "62",
+        "total_votes": "5,025"
+      },
+      "voter_turnout": "75.7804"
+    },
+    {
+      "name": "竹仁里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "358",
+        "cand_2020_02": "3,055",
+        "cand_2020_03": "3,037"
+      },
+      "votes": {
+        "valid_votes": "6,450",
+        "invalid_votes": "75",
+        "total_votes": "6,525"
+      },
+      "voter_turnout": "77.0912"
+    },
+    {
+      "name": "福德里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "118",
+        "cand_2020_02": "1,102",
+        "cand_2020_03": "1,145"
+      },
+      "votes": {
+        "valid_votes": "2,365",
+        "invalid_votes": "20",
+        "total_votes": "2,385"
+      },
+      "voter_turnout": "75.9554"
+    },
+    {
+      "name": "竹義里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "210",
+        "cand_2020_02": "1,792",
+        "cand_2020_03": "1,956"
+      },
+      "votes": {
+        "valid_votes": "3,958",
+        "invalid_votes": "35",
+        "total_votes": "3,993"
+      },
+      "voter_turnout": "70.6601"
+    },
+    {
+      "name": "泰和里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "239",
+        "cand_2020_02": "1,885",
+        "cand_2020_03": "1,964"
+      },
+      "votes": {
+        "valid_votes": "4,088",
+        "invalid_votes": "55",
+        "total_votes": "4,143"
+      },
+      "voter_turnout": "74.6756"
+    },
+    {
+      "name": "新社里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "310",
+        "cand_2020_02": "2,040",
+        "cand_2020_03": "2,511"
+      },
+      "votes": {
+        "valid_votes": "4,861",
+        "invalid_votes": "61",
+        "total_votes": "4,922"
+      },
+      "voter_turnout": "74.6889"
+    },
+    {
+      "name": "新國里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "248",
+        "cand_2020_02": "1,620",
+        "cand_2020_03": "2,346"
+      },
+      "votes": {
+        "valid_votes": "4,214",
+        "invalid_votes": "48",
+        "total_votes": "4,262"
+      },
+      "voter_turnout": "76.1343"
+    },
+    {
+      "name": "聯興里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "195",
+        "cand_2020_02": "1,392",
+        "cand_2020_03": "1,689"
+      },
+      "votes": {
+        "valid_votes": "3,276",
+        "invalid_votes": "38",
+        "total_votes": "3,314"
+      },
+      "voter_turnout": "76.8731"
+    },
+    {
+      "name": "麻園里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "86",
+        "cand_2020_02": "541",
+        "cand_2020_03": "791"
+      },
+      "votes": {
+        "valid_votes": "1,418",
+        "invalid_votes": "22",
+        "total_votes": "1,440"
+      },
+      "voter_turnout": "75.0391"
+    },
+    {
+      "name": "溪州里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "70",
+        "cand_2020_02": "740",
+        "cand_2020_03": "994"
+      },
+      "votes": {
+        "valid_votes": "1,804",
+        "invalid_votes": "23",
+        "total_votes": "1,827"
+      },
+      "voter_turnout": "76.7647"
+    },
+    {
+      "name": "新庄里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "38",
+        "cand_2020_02": "317",
+        "cand_2020_03": "403"
+      },
+      "votes": {
+        "valid_votes": "758",
+        "invalid_votes": "12",
+        "total_votes": "770"
+      },
+      "voter_turnout": "75.2688"
+    },
+    {
+      "name": "白地里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "82",
+        "cand_2020_02": "520",
+        "cand_2020_03": "950"
+      },
+      "votes": {
+        "valid_votes": "1,552",
+        "invalid_votes": "26",
+        "total_votes": "1,578"
+      },
+      "voter_turnout": "75.9750"
+    },
+    {
+      "name": "新港里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "41",
+        "cand_2020_02": "228",
+        "cand_2020_03": "600"
+      },
+      "votes": {
+        "valid_votes": "869",
+        "invalid_votes": "14",
+        "total_votes": "883"
+      },
+      "voter_turnout": "75.0850"
+    },
+    {
+      "name": "大眉里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "60",
+        "cand_2020_02": "497",
+        "cand_2020_03": "682"
+      },
+      "votes": {
+        "valid_votes": "1,239",
+        "invalid_votes": "16",
+        "total_votes": "1,255"
+      },
+      "voter_turnout": "74.2604"
+    },
+    {
+      "name": "大義里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "57",
+        "cand_2020_02": "334",
+        "cand_2020_03": "739"
+      },
+      "votes": {
+        "valid_votes": "1,130",
+        "invalid_votes": "11",
+        "total_votes": "1,141"
+      },
+      "voter_turnout": "73.4707"
+    },
+    {
+      "name": "尚義里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "53",
+        "cand_2020_02": "349",
+        "cand_2020_03": "794"
+      },
+      "votes": {
+        "valid_votes": "1,196",
+        "invalid_votes": "13",
+        "total_votes": "1,209"
+      },
+      "voter_turnout": "74.6757"
+    },
+    {
+      "name": "崇義里",
+      "level": "village",
+      "affiliation": "竹北市",
+      "candidates": {
+        "cand_2020_01": "67",
+        "cand_2020_02": "426",
+        "cand_2020_03": "900"
+      },
+      "votes": {
+        "valid_votes": "1,393",
+        "invalid_votes": "14",
+        "total_votes": "1,407"
+      },
+      "voter_turnout": "75.8900"
+    },
+    {
+      "name": "上坪里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "12",
+        "cand_2020_02": "138",
+        "cand_2020_03": "63"
+      },
+      "votes": {
+        "valid_votes": "213",
+        "invalid_votes": "2",
+        "total_votes": "215"
+      },
+      "voter_turnout": "70.9571"
+    },
+    {
+      "name": "瑞峰里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "10",
+        "cand_2020_02": "156",
+        "cand_2020_03": "116"
+      },
+      "votes": {
+        "valid_votes": "282",
+        "invalid_votes": "5",
+        "total_votes": "287"
+      },
+      "voter_turnout": "72.1106"
+    },
+    {
+      "name": "軟橋里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "15",
+        "cand_2020_02": "167",
+        "cand_2020_03": "89"
+      },
+      "votes": {
+        "valid_votes": "271",
+        "invalid_votes": "1",
+        "total_votes": "272"
+      },
+      "voter_turnout": "73.7127"
+    },
+    {
+      "name": "員崠里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "84",
+        "cand_2020_02": "926",
+        "cand_2020_03": "540"
+      },
+      "votes": {
+        "valid_votes": "1,550",
+        "invalid_votes": "16",
+        "total_votes": "1,566"
+      },
+      "voter_turnout": "72.5336"
+    },
+    {
+      "name": "上舘里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "367",
+        "cand_2020_02": "3,616",
+        "cand_2020_03": "2,475"
+      },
+      "votes": {
+        "valid_votes": "6,458",
+        "invalid_votes": "63",
+        "total_votes": "6,521"
+      },
+      "voter_turnout": "73.1710"
+    },
+    {
+      "name": "東寧里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "136",
+        "cand_2020_02": "1,334",
+        "cand_2020_03": "866"
+      },
+      "votes": {
+        "valid_votes": "2,336",
+        "invalid_votes": "27",
+        "total_votes": "2,363"
+      },
+      "voter_turnout": "74.5191"
+    },
+    {
+      "name": "中正里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "89",
+        "cand_2020_02": "739",
+        "cand_2020_03": "604"
+      },
+      "votes": {
+        "valid_votes": "1,432",
+        "invalid_votes": "21",
+        "total_votes": "1,453"
+      },
+      "voter_turnout": "76.1530"
+    },
+    {
+      "name": "大鄉里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "154",
+        "cand_2020_02": "1,737",
+        "cand_2020_03": "1,278"
+      },
+      "votes": {
+        "valid_votes": "3,169",
+        "invalid_votes": "45",
+        "total_votes": "3,214"
+      },
+      "voter_turnout": "72.9957"
+    },
+    {
+      "name": "中山里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "77",
+        "cand_2020_02": "719",
+        "cand_2020_03": "446"
+      },
+      "votes": {
+        "valid_votes": "1,242",
+        "invalid_votes": "14",
+        "total_votes": "1,256"
+      },
+      "voter_turnout": "76.2599"
+    },
+    {
+      "name": "南華里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "40",
+        "cand_2020_02": "406",
+        "cand_2020_03": "317"
+      },
+      "votes": {
+        "valid_votes": "763",
+        "invalid_votes": "5",
+        "total_votes": "768"
+      },
+      "voter_turnout": "74.7809"
+    },
+    {
+      "name": "東華里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "21",
+        "cand_2020_02": "281",
+        "cand_2020_03": "211"
+      },
+      "votes": {
+        "valid_votes": "513",
+        "invalid_votes": "3",
+        "total_votes": "516"
+      },
+      "voter_turnout": "77.3613"
+    },
+    {
+      "name": "商華里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "98",
+        "cand_2020_02": "1,136",
+        "cand_2020_03": "698"
+      },
+      "votes": {
+        "valid_votes": "1,932",
+        "invalid_votes": "19",
+        "total_votes": "1,951"
+      },
+      "voter_turnout": "65.4259"
+    },
+    {
+      "name": "竹東里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "41",
+        "cand_2020_02": "491",
+        "cand_2020_03": "476"
+      },
+      "votes": {
+        "valid_votes": "1,008",
+        "invalid_votes": "9",
+        "total_votes": "1,017"
+      },
+      "voter_turnout": "77.9908"
+    },
+    {
+      "name": "忠孝里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "56",
+        "cand_2020_02": "590",
+        "cand_2020_03": "455"
+      },
+      "votes": {
+        "valid_votes": "1,101",
+        "invalid_votes": "18",
+        "total_votes": "1,119"
+      },
+      "voter_turnout": "73.9102"
+    },
+    {
+      "name": "鷄林里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "149",
+        "cand_2020_02": "1,559",
+        "cand_2020_03": "1,027"
+      },
+      "votes": {
+        "valid_votes": "2,735",
+        "invalid_votes": "37",
+        "total_votes": "2,772"
+      },
+      "voter_turnout": "74.7170"
+    },
+    {
+      "name": "仁愛里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "121",
+        "cand_2020_02": "1,301",
+        "cand_2020_03": "946"
+      },
+      "votes": {
+        "valid_votes": "2,368",
+        "invalid_votes": "29",
+        "total_votes": "2,397"
+      },
+      "voter_turnout": "75.6390"
+    },
+    {
+      "name": "榮樂里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "62",
+        "cand_2020_02": "582",
+        "cand_2020_03": "374"
+      },
+      "votes": {
+        "valid_votes": "1,018",
+        "invalid_votes": "14",
+        "total_votes": "1,032"
+      },
+      "voter_turnout": "76.3314"
+    },
+    {
+      "name": "榮華里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "248",
+        "cand_2020_02": "2,781",
+        "cand_2020_03": "1,980"
+      },
+      "votes": {
+        "valid_votes": "5,009",
+        "invalid_votes": "81",
+        "total_votes": "5,090"
+      },
+      "voter_turnout": "76.3233"
+    },
+    {
+      "name": "五豐里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "294",
+        "cand_2020_02": "2,629",
+        "cand_2020_03": "2,096"
+      },
+      "votes": {
+        "valid_votes": "5,019",
+        "invalid_votes": "54",
+        "total_votes": "5,073"
+      },
+      "voter_turnout": "70.4388"
+    },
+    {
+      "name": "陸豐里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "18",
+        "cand_2020_02": "229",
+        "cand_2020_03": "175"
+      },
+      "votes": {
+        "valid_votes": "422",
+        "invalid_votes": "3",
+        "total_votes": "425"
+      },
+      "voter_turnout": "77.4135"
+    },
+    {
+      "name": "三重里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "277",
+        "cand_2020_02": "2,204",
+        "cand_2020_03": "1,992"
+      },
+      "votes": {
+        "valid_votes": "4,473",
+        "invalid_votes": "46",
+        "total_votes": "4,519"
+      },
+      "voter_turnout": "74.3257"
+    },
+    {
+      "name": "二重里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "539",
+        "cand_2020_02": "3,642",
+        "cand_2020_03": "3,884"
+      },
+      "votes": {
+        "valid_votes": "8,065",
+        "invalid_votes": "95",
+        "total_votes": "8,160"
+      },
+      "voter_turnout": "74.4729"
+    },
+    {
+      "name": "頭重里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "186",
+        "cand_2020_02": "1,581",
+        "cand_2020_03": "1,498"
+      },
+      "votes": {
+        "valid_votes": "3,265",
+        "invalid_votes": "49",
+        "total_votes": "3,314"
+      },
+      "voter_turnout": "77.6294"
+    },
+    {
+      "name": "員山里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "84",
+        "cand_2020_02": "721",
+        "cand_2020_03": "640"
+      },
+      "votes": {
+        "valid_votes": "1,445",
+        "invalid_votes": "15",
+        "total_votes": "1,460"
+      },
+      "voter_turnout": "78.3682"
+    },
+    {
+      "name": "柯湖里",
+      "level": "village",
+      "affiliation": "竹東鎮",
+      "candidates": {
+        "cand_2020_01": "24",
+        "cand_2020_02": "227",
+        "cand_2020_03": "199"
+      },
+      "votes": {
+        "valid_votes": "450",
+        "invalid_votes": "6",
+        "total_votes": "456"
+      },
+      "voter_turnout": "78.4854"
+    },
+    {
+      "name": "新埔里",
+      "level": "village",
+      "affiliation": "新埔鎮",
+      "candidates": {
+        "cand_2020_01": "26",
+        "cand_2020_02": "372",
+        "cand_2020_03": "317"
+      },
+      "votes": {
+        "valid_votes": "715",
+        "invalid_votes": "5",
+        "total_votes": "720"
+      },
+      "voter_turnout": "76.3521"
+    },
+    {
+      "name": "新生里",
+      "level": "village",
+      "affiliation": "新埔鎮",
+      "candidates": {
+        "cand_2020_01": "14",
+        "cand_2020_02": "189",
+        "cand_2020_03": "229"
+      },
+      "votes": {
+        "valid_votes": "432",
+        "invalid_votes": "1",
+        "total_votes": "433"
+      },
+      "voter_turnout": "76.6372"
+    },
+    {
+      "name": "新民里",
+      "level": "village",
+      "affiliation": "新埔鎮",
+      "candidates": {
+        "cand_2020_01": "49",
+        "cand_2020_02": "407",
+        "cand_2020_03": "308"
+      },
+      "votes": {
+        "valid_votes": "764",
+        "invalid_votes": "8",
+        "total_votes": "772"
+      },
+      "voter_turnout": "75.2437"
+    },
+    {
+      "name": "田新里",
+      "level": "village",
+      "affiliation": "新埔鎮",
+      "candidates": {
+        "cand_2020_01": "87",
+        "cand_2020_02": "961",
+        "cand_2020_03": "848"
+      },
+      "votes": {
+        "valid_votes": "1,896",
+        "invalid_votes": "27",
+        "total_votes": "1,923"
+      },
+      "voter_turnout": "76.2188"
+    },
+    {
+      "name": "旱坑里",
+      "level": "village",
+      "affiliation": "新埔鎮",
+      "candidates": {
+        "cand_2020_01": "63",
+        "cand_2020_02": "635",
+        "cand_2020_03": "553"
+      },
+      "votes": {
+        "valid_votes": "1,251",
+        "invalid_votes": "11",
+        "total_votes": "1,262"
+      },
+      "voter_turnout": "72.0731"
+    },
+    {
+      "name": "五埔里",
+      "level": "village",
+      "affiliation": "新埔鎮",
+      "candidates": {
+        "cand_2020_01": "60",
+        "cand_2020_02": "633",
+        "cand_2020_03": "656"
+      },
+      "votes": {
+        "valid_votes": "1,349",
+        "invalid_votes": "16",
+        "total_votes": "1,365"
+      },
+      "voter_turnout": "71.2050"
+    },
+    {
+      "name": "四座里",
+      "level": "village",
+      "affiliation": "新埔鎮",
+      "candidates": {
+        "cand_2020_01": "131",
+        "cand_2020_02": "1,010",
+        "cand_2020_03": "1,267"
+      },
+      "votes": {
+        "valid_votes": "2,408",
+        "invalid_votes": "21",
+        "total_votes": "2,429"
+      },
+      "voter_turnout": "75.2711"
+    },
+    {
+      "name": "照門里",
+      "level": "village",
+      "affiliation": "新埔鎮",
+      "candidates": {
+        "cand_2020_01": "40",
+        "cand_2020_02": "409",
+        "cand_2020_03": "487"
+      },
+      "votes": {
+        "valid_votes": "936",
+        "invalid_votes": "10",
+        "total_votes": "946"
+      },
+      "voter_turnout": "69.2533"
+    },
+    {
+      "name": "清水里",
+      "level": "village",
+      "affiliation": "新埔鎮",
+      "candidates": {
+        "cand_2020_01": "7",
+        "cand_2020_02": "123",
+        "cand_2020_03": "189"
+      },
+      "votes": {
+        "valid_votes": "319",
+        "invalid_votes": "3",
+        "total_votes": "322"
+      },
+      "voter_turnout": "78.1553"
+    },
+    {
+      "name": "鹿鳴里",
+      "level": "village",
+      "affiliation": "新埔鎮",
+      "candidates": {
+        "cand_2020_01": "18",
+        "cand_2020_02": "196",
+        "cand_2020_03": "310"
+      },
+      "votes": {
+        "valid_votes": "524",
+        "invalid_votes": "5",
+        "total_votes": "529"
+      },
+      "voter_turnout": "75.1420"
+    },
+    {
+      "name": "新北里",
+      "level": "village",
+      "affiliation": "新埔鎮",
+      "candidates": {
+        "cand_2020_01": "17",
+        "cand_2020_02": "179",
+        "cand_2020_03": "240"
+      },
+      "votes": {
+        "valid_votes": "436",
+        "invalid_votes": "6",
+        "total_votes": "442"
+      },
+      "voter_turnout": "77.1379"
+    },
+    {
+      "name": "巨埔里",
+      "level": "village",
+      "affiliation": "新埔鎮",
+      "candidates": {
+        "cand_2020_01": "29",
+        "cand_2020_02": "325",
+        "cand_2020_03": "490"
+      },
+      "votes": {
+        "valid_votes": "844",
+        "invalid_votes": "15",
+        "total_votes": "859"
+      },
+      "voter_turnout": "76.8336"
+    },
+    {
+      "name": "內立里",
+      "level": "village",
+      "affiliation": "新埔鎮",
+      "candidates": {
+        "cand_2020_01": "23",
+        "cand_2020_02": "373",
+        "cand_2020_03": "374"
+      },
+      "votes": {
+        "valid_votes": "770",
+        "invalid_votes": "14",
+        "total_votes": "784"
+      },
+      "voter_turnout": "72.3915"
+    },
+    {
+      "name": "寶石里",
+      "level": "village",
+      "affiliation": "新埔鎮",
+      "candidates": {
+        "cand_2020_01": "23",
+        "cand_2020_02": "288",
+        "cand_2020_03": "316"
+      },
+      "votes": {
+        "valid_votes": "627",
+        "invalid_votes": "6",
+        "total_votes": "633"
+      },
+      "voter_turnout": "74.7344"
+    },
+    {
+      "name": "文山里",
+      "level": "village",
+      "affiliation": "新埔鎮",
+      "candidates": {
+        "cand_2020_01": "164",
+        "cand_2020_02": "1,471",
+        "cand_2020_03": "1,401"
+      },
+      "votes": {
+        "valid_votes": "3,036",
+        "invalid_votes": "41",
+        "total_votes": "3,077"
+      },
+      "voter_turnout": "73.9130"
+    },
+    {
+      "name": "上寮里",
+      "level": "village",
+      "affiliation": "新埔鎮",
+      "candidates": {
+        "cand_2020_01": "66",
+        "cand_2020_02": "563",
+        "cand_2020_03": "666"
+      },
+      "votes": {
+        "valid_votes": "1,295",
+        "invalid_votes": "17",
+        "total_votes": "1,312"
+      },
+      "voter_turnout": "73.6251"
+    },
+    {
+      "name": "下寮里",
+      "level": "village",
+      "affiliation": "新埔鎮",
+      "candidates": {
+        "cand_2020_01": "107",
+        "cand_2020_02": "790",
+        "cand_2020_03": "916"
+      },
+      "votes": {
+        "valid_votes": "1,813",
+        "invalid_votes": "25",
+        "total_votes": "1,838"
+      },
+      "voter_turnout": "74.2326"
+    },
+    {
+      "name": "南平里",
+      "level": "village",
+      "affiliation": "新埔鎮",
+      "candidates": {
+        "cand_2020_01": "35",
+        "cand_2020_02": "323",
+        "cand_2020_03": "374"
+      },
+      "votes": {
+        "valid_votes": "732",
+        "invalid_votes": "13",
+        "total_votes": "745"
+      },
+      "voter_turnout": "77.3624"
+    },
+    {
+      "name": "北平里",
+      "level": "village",
+      "affiliation": "新埔鎮",
+      "candidates": {
+        "cand_2020_01": "34",
+        "cand_2020_02": "199",
+        "cand_2020_03": "241"
+      },
+      "votes": {
+        "valid_votes": "474",
+        "invalid_votes": "5",
+        "total_votes": "479"
+      },
+      "voter_turnout": "78.3961"
+    },
+    {
+      "name": "東興里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "11",
+        "cand_2020_02": "187",
+        "cand_2020_03": "152"
+      },
+      "votes": {
+        "valid_votes": "350",
+        "invalid_votes": "1",
+        "total_votes": "351"
+      },
+      "voter_turnout": "78.1737"
+    },
+    {
+      "name": "西安里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "77",
+        "cand_2020_02": "832",
+        "cand_2020_03": "515"
+      },
+      "votes": {
+        "valid_votes": "1,424",
+        "invalid_votes": "14",
+        "total_votes": "1,438"
+      },
+      "voter_turnout": "78.2372"
+    },
+    {
+      "name": "南雄里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "22",
+        "cand_2020_02": "250",
+        "cand_2020_03": "240"
+      },
+      "votes": {
+        "valid_votes": "512",
+        "invalid_votes": "8",
+        "total_votes": "520"
+      },
+      "voter_turnout": "77.0370"
+    },
+    {
+      "name": "北斗里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "111",
+        "cand_2020_02": "1,373",
+        "cand_2020_03": "1,100"
+      },
+      "votes": {
+        "valid_votes": "2,584",
+        "invalid_votes": "28",
+        "total_votes": "2,612"
+      },
+      "voter_turnout": "74.7140"
+    },
+    {
+      "name": "北山里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "27",
+        "cand_2020_02": "282",
+        "cand_2020_03": "261"
+      },
+      "votes": {
+        "valid_votes": "570",
+        "invalid_votes": "10",
+        "total_votes": "580"
+      },
+      "voter_turnout": "76.5172"
+    },
+    {
+      "name": "仁安里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "36",
+        "cand_2020_02": "331",
+        "cand_2020_03": "347"
+      },
+      "votes": {
+        "valid_votes": "714",
+        "invalid_votes": "12",
+        "total_votes": "726"
+      },
+      "voter_turnout": "73.4818"
+    },
+    {
+      "name": "南山里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "32",
+        "cand_2020_02": "369",
+        "cand_2020_03": "334"
+      },
+      "votes": {
+        "valid_votes": "735",
+        "invalid_votes": "15",
+        "total_votes": "750"
+      },
+      "voter_turnout": "74.7012"
+    },
+    {
+      "name": "東安里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "114",
+        "cand_2020_02": "1,300",
+        "cand_2020_03": "1,155"
+      },
+      "votes": {
+        "valid_votes": "2,569",
+        "invalid_votes": "30",
+        "total_votes": "2,599"
+      },
+      "voter_turnout": "73.5635"
+    },
+    {
+      "name": "東山里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "30",
+        "cand_2020_02": "288",
+        "cand_2020_03": "296"
+      },
+      "votes": {
+        "valid_votes": "614",
+        "invalid_votes": "7",
+        "total_votes": "621"
+      },
+      "voter_turnout": "76.7614"
+    },
+    {
+      "name": "東光里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "30",
+        "cand_2020_02": "454",
+        "cand_2020_03": "418"
+      },
+      "votes": {
+        "valid_votes": "902",
+        "invalid_votes": "13",
+        "total_votes": "915"
+      },
+      "voter_turnout": "72.7345"
+    },
+    {
+      "name": "南新里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "32",
+        "cand_2020_02": "347",
+        "cand_2020_03": "231"
+      },
+      "votes": {
+        "valid_votes": "610",
+        "invalid_votes": "6",
+        "total_votes": "616"
+      },
+      "voter_turnout": "71.2963"
+    },
+    {
+      "name": "新富里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "20",
+        "cand_2020_02": "149",
+        "cand_2020_03": "186"
+      },
+      "votes": {
+        "valid_votes": "355",
+        "invalid_votes": "5",
+        "total_votes": "360"
+      },
+      "voter_turnout": "69.6325"
+    },
+    {
+      "name": "玉山里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "12",
+        "cand_2020_02": "141",
+        "cand_2020_03": "124"
+      },
+      "votes": {
+        "valid_votes": "277",
+        "invalid_votes": "6",
+        "total_votes": "283"
+      },
+      "voter_turnout": "64.3182"
+    },
+    {
+      "name": "金山里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "12",
+        "cand_2020_02": "218",
+        "cand_2020_03": "149"
+      },
+      "votes": {
+        "valid_votes": "379",
+        "invalid_votes": "2",
+        "total_votes": "381"
+      },
+      "voter_turnout": "70.9497"
+    },
+    {
+      "name": "錦山里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "21",
+        "cand_2020_02": "358",
+        "cand_2020_03": "235"
+      },
+      "votes": {
+        "valid_votes": "614",
+        "invalid_votes": "8",
+        "total_votes": "622"
+      },
+      "voter_turnout": "69.4972"
+    },
+    {
+      "name": "大同里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "25",
+        "cand_2020_02": "266",
+        "cand_2020_03": "314"
+      },
+      "votes": {
+        "valid_votes": "605",
+        "invalid_votes": "11",
+        "total_votes": "616"
+      },
+      "voter_turnout": "78.8732"
+    },
+    {
+      "name": "石光里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "56",
+        "cand_2020_02": "667",
+        "cand_2020_03": "586"
+      },
+      "votes": {
+        "valid_votes": "1,309",
+        "invalid_votes": "12",
+        "total_votes": "1,321"
+      },
+      "voter_turnout": "75.7020"
+    },
+    {
+      "name": "東平里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "31",
+        "cand_2020_02": "337",
+        "cand_2020_03": "311"
+      },
+      "votes": {
+        "valid_votes": "679",
+        "invalid_votes": "9",
+        "total_votes": "688"
+      },
+      "voter_turnout": "73.3475"
+    },
+    {
+      "name": "上林里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "24",
+        "cand_2020_02": "332",
+        "cand_2020_03": "238"
+      },
+      "votes": {
+        "valid_votes": "594",
+        "invalid_votes": "6",
+        "total_votes": "600"
+      },
+      "voter_turnout": "76.2389"
+    },
+    {
+      "name": "新力里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "21",
+        "cand_2020_02": "224",
+        "cand_2020_03": "184"
+      },
+      "votes": {
+        "valid_votes": "429",
+        "invalid_votes": "2",
+        "total_votes": "431"
+      },
+      "voter_turnout": "79.2279"
+    },
+    {
+      "name": "南和里",
+      "level": "village",
+      "affiliation": "關西鎮",
+      "candidates": {
+        "cand_2020_01": "28",
+        "cand_2020_02": "311",
+        "cand_2020_03": "297"
+      },
+      "votes": {
+        "valid_votes": "636",
+        "invalid_votes": "9",
+        "total_votes": "645"
+      },
+      "voter_turnout": "78.6585"
+    },
+    {
+      "name": "和興村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "84",
+        "cand_2020_02": "930",
+        "cand_2020_03": "1,027"
+      },
+      "votes": {
+        "valid_votes": "2,041",
+        "invalid_votes": "18",
+        "total_votes": "2,059"
+      },
+      "voter_turnout": "74.0647"
+    },
+    {
+      "name": "東興村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "180",
+        "cand_2020_02": "1,328",
+        "cand_2020_03": "1,390"
+      },
+      "votes": {
+        "valid_votes": "2,898",
+        "invalid_votes": "26",
+        "total_votes": "2,924"
+      },
+      "voter_turnout": "73.0817"
+    },
+    {
+      "name": "德盛村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "183",
+        "cand_2020_02": "1,554",
+        "cand_2020_03": "1,519"
+      },
+      "votes": {
+        "valid_votes": "3,256",
+        "invalid_votes": "45",
+        "total_votes": "3,301"
+      },
+      "voter_turnout": "71.5742"
+    },
+    {
+      "name": "愛勢村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "158",
+        "cand_2020_02": "1,428",
+        "cand_2020_03": "1,330"
+      },
+      "votes": {
+        "valid_votes": "2,916",
+        "invalid_votes": "37",
+        "total_votes": "2,953"
+      },
+      "voter_turnout": "77.3239"
+    },
+    {
+      "name": "仁勢村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "38",
+        "cand_2020_02": "299",
+        "cand_2020_03": "298"
+      },
+      "votes": {
+        "valid_votes": "635",
+        "invalid_votes": "7",
+        "total_votes": "642"
+      },
+      "voter_turnout": "76.5197"
+    },
+    {
+      "name": "孝勢村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "45",
+        "cand_2020_02": "497",
+        "cand_2020_03": "405"
+      },
+      "votes": {
+        "valid_votes": "947",
+        "invalid_votes": "12",
+        "total_votes": "959"
+      },
+      "voter_turnout": "78.8003"
+    },
+    {
+      "name": "中勢村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "148",
+        "cand_2020_02": "1,018",
+        "cand_2020_03": "1,058"
+      },
+      "votes": {
+        "valid_votes": "2,224",
+        "invalid_votes": "26",
+        "total_votes": "2,250"
+      },
+      "voter_turnout": "77.0284"
+    },
+    {
+      "name": "中正村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "126",
+        "cand_2020_02": "1,073",
+        "cand_2020_03": "1,080"
+      },
+      "votes": {
+        "valid_votes": "2,279",
+        "invalid_votes": "21",
+        "total_votes": "2,300"
+      },
+      "voter_turnout": "77.8078"
+    },
+    {
+      "name": "信勢村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "232",
+        "cand_2020_02": "1,658",
+        "cand_2020_03": "1,652"
+      },
+      "votes": {
+        "valid_votes": "3,542",
+        "invalid_votes": "34",
+        "total_votes": "3,576"
+      },
+      "voter_turnout": "70.8680"
+    },
+    {
+      "name": "信義村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "154",
+        "cand_2020_02": "1,213",
+        "cand_2020_03": "1,108"
+      },
+      "votes": {
+        "valid_votes": "2,475",
+        "invalid_votes": "30",
+        "total_votes": "2,505"
+      },
+      "voter_turnout": "75.5656"
+    },
+    {
+      "name": "波羅村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "90",
+        "cand_2020_02": "668",
+        "cand_2020_03": "749"
+      },
+      "votes": {
+        "valid_votes": "1,507",
+        "invalid_votes": "26",
+        "total_votes": "1,533"
+      },
+      "voter_turnout": "71.7025"
+    },
+    {
+      "name": "長嶺村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "131",
+        "cand_2020_02": "1,090",
+        "cand_2020_03": "966"
+      },
+      "votes": {
+        "valid_votes": "2,187",
+        "invalid_votes": "22",
+        "total_votes": "2,209"
+      },
+      "voter_turnout": "72.1188"
+    },
+    {
+      "name": "長安村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "43",
+        "cand_2020_02": "333",
+        "cand_2020_03": "414"
+      },
+      "votes": {
+        "valid_votes": "790",
+        "invalid_votes": "13",
+        "total_votes": "803"
+      },
+      "voter_turnout": "75.7547"
+    },
+    {
+      "name": "湖口村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "116",
+        "cand_2020_02": "1,006",
+        "cand_2020_03": "902"
+      },
+      "votes": {
+        "valid_votes": "2,024",
+        "invalid_votes": "28",
+        "total_votes": "2,052"
+      },
+      "voter_turnout": "76.1410"
+    },
+    {
+      "name": "湖鏡村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "85",
+        "cand_2020_02": "978",
+        "cand_2020_03": "659"
+      },
+      "votes": {
+        "valid_votes": "1,722",
+        "invalid_votes": "18",
+        "total_votes": "1,740"
+      },
+      "voter_turnout": "76.4163"
+    },
+    {
+      "name": "湖南村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "64",
+        "cand_2020_02": "606",
+        "cand_2020_03": "426"
+      },
+      "votes": {
+        "valid_votes": "1,096",
+        "invalid_votes": "10",
+        "total_votes": "1,106"
+      },
+      "voter_turnout": "74.9831"
+    },
+    {
+      "name": "中興村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "263",
+        "cand_2020_02": "2,248",
+        "cand_2020_03": "1,522"
+      },
+      "votes": {
+        "valid_votes": "4,033",
+        "invalid_votes": "51",
+        "total_votes": "4,084"
+      },
+      "voter_turnout": "70.0755"
+    },
+    {
+      "name": "鳳凰村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "189",
+        "cand_2020_02": "1,651",
+        "cand_2020_03": "1,533"
+      },
+      "votes": {
+        "valid_votes": "3,373",
+        "invalid_votes": "55",
+        "total_votes": "3,428"
+      },
+      "voter_turnout": "69.4630"
+    },
+    {
+      "name": "勝利村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "161",
+        "cand_2020_02": "1,528",
+        "cand_2020_03": "1,070"
+      },
+      "votes": {
+        "valid_votes": "2,759",
+        "invalid_votes": "28",
+        "total_votes": "2,787"
+      },
+      "voter_turnout": "70.1132"
+    },
+    {
+      "name": "鳳山村",
+      "level": "village",
+      "affiliation": "湖口鄉",
+      "candidates": {
+        "cand_2020_01": "140",
+        "cand_2020_02": "1,248",
+        "cand_2020_03": "841"
+      },
+      "votes": {
+        "valid_votes": "2,229",
+        "invalid_votes": "22",
+        "total_votes": "2,251"
+      },
+      "voter_turnout": "72.3097"
+    },
+    {
+      "name": "福興村",
+      "level": "village",
+      "affiliation": "新豐鄉",
+      "candidates": {
+        "cand_2020_01": "43",
+        "cand_2020_02": "315",
+        "cand_2020_03": "394"
+      },
+      "votes": {
+        "valid_votes": "752",
+        "invalid_votes": "12",
+        "total_votes": "764"
+      },
+      "voter_turnout": "73.4615"
+    },
+    {
+      "name": "青埔村",
+      "level": "village",
+      "affiliation": "新豐鄉",
+      "candidates": {
+        "cand_2020_01": "61",
+        "cand_2020_02": "618",
+        "cand_2020_03": "621"
+      },
+      "votes": {
+        "valid_votes": "1,300",
+        "invalid_votes": "17",
+        "total_votes": "1,317"
+      },
+      "voter_turnout": "73.4523"
+    },
+    {
+      "name": "中崙村",
+      "level": "village",
+      "affiliation": "新豐鄉",
+      "candidates": {
+        "cand_2020_01": "127",
+        "cand_2020_02": "1,032",
+        "cand_2020_03": "1,024"
+      },
+      "votes": {
+        "valid_votes": "2,183",
+        "invalid_votes": "30",
+        "total_votes": "2,213"
+      },
+      "voter_turnout": "71.5024"
+    },
+    {
+      "name": "瑞興村",
+      "level": "village",
+      "affiliation": "新豐鄉",
+      "candidates": {
+        "cand_2020_01": "68",
+        "cand_2020_02": "502",
+        "cand_2020_03": "649"
+      },
+      "votes": {
+        "valid_votes": "1,219",
+        "invalid_votes": "18",
+        "total_votes": "1,237"
+      },
+      "voter_turnout": "70.0453"
+    },
+    {
+      "name": "後湖村",
+      "level": "village",
+      "affiliation": "新豐鄉",
+      "candidates": {
+        "cand_2020_01": "75",
+        "cand_2020_02": "593",
+        "cand_2020_03": "596"
+      },
+      "votes": {
+        "valid_votes": "1,264",
+        "invalid_votes": "19",
+        "total_votes": "1,283"
+      },
+      "voter_turnout": "72.8977"
+    },
+    {
+      "name": "坡頭村",
+      "level": "village",
+      "affiliation": "新豐鄉",
+      "candidates": {
+        "cand_2020_01": "13",
+        "cand_2020_02": "195",
+        "cand_2020_03": "371"
+      },
+      "votes": {
+        "valid_votes": "579",
+        "invalid_votes": "7",
+        "total_votes": "586"
+      },
+      "voter_turnout": "71.3764"
+    },
+    {
+      "name": "埔和村",
+      "level": "village",
+      "affiliation": "新豐鄉",
+      "candidates": {
+        "cand_2020_01": "114",
+        "cand_2020_02": "628",
+        "cand_2020_03": "1,182"
+      },
+      "votes": {
+        "valid_votes": "1,924",
+        "invalid_votes": "16",
+        "total_votes": "1,940"
+      },
+      "voter_turnout": "72.6864"
+    },
+    {
+      "name": "新豐村",
+      "level": "village",
+      "affiliation": "新豐鄉",
+      "candidates": {
+        "cand_2020_01": "84",
+        "cand_2020_02": "499",
+        "cand_2020_03": "898"
+      },
+      "votes": {
+        "valid_votes": "1,481",
+        "invalid_votes": "24",
+        "total_votes": "1,505"
+      },
+      "voter_turnout": "74.2110"
+    },
+    {
+      "name": "員山村",
+      "level": "village",
+      "affiliation": "新豐鄉",
+      "candidates": {
+        "cand_2020_01": "109",
+        "cand_2020_02": "890",
+        "cand_2020_03": "773"
+      },
+      "votes": {
+        "valid_votes": "1,772",
+        "invalid_votes": "24",
+        "total_votes": "1,796"
+      },
+      "voter_turnout": "73.0675"
+    },
+    {
+      "name": "忠孝村",
+      "level": "village",
+      "affiliation": "新豐鄉",
+      "candidates": {
+        "cand_2020_01": "146",
+        "cand_2020_02": "1,315",
+        "cand_2020_03": "1,136"
+      },
+      "votes": {
+        "valid_votes": "2,597",
+        "invalid_votes": "27",
+        "total_votes": "2,624"
+      },
+      "voter_turnout": "76.9276"
+    },
+    {
+      "name": "山崎村",
+      "level": "village",
+      "affiliation": "新豐鄉",
+      "candidates": {
+        "cand_2020_01": "194",
+        "cand_2020_02": "1,484",
+        "cand_2020_03": "1,488"
+      },
+      "votes": {
+        "valid_votes": "3,166",
+        "invalid_votes": "34",
+        "total_votes": "3,200"
+      },
+      "voter_turnout": "76.3905"
+    },
+    {
+      "name": "上坑村",
+      "level": "village",
+      "affiliation": "新豐鄉",
+      "candidates": {
+        "cand_2020_01": "51",
+        "cand_2020_02": "523",
+        "cand_2020_03": "496"
+      },
+      "votes": {
+        "valid_votes": "1,070",
+        "invalid_votes": "20",
+        "total_votes": "1,090"
+      },
+      "voter_turnout": "73.6984"
+    },
+    {
+      "name": "鳳坑村",
+      "level": "village",
+      "affiliation": "新豐鄉",
+      "candidates": {
+        "cand_2020_01": "29",
+        "cand_2020_02": "319",
+        "cand_2020_03": "375"
+      },
+      "votes": {
+        "valid_votes": "723",
+        "invalid_votes": "12",
+        "total_votes": "735"
+      },
+      "voter_turnout": "73.0616"
+    },
+    {
+      "name": "重興村",
+      "level": "village",
+      "affiliation": "新豐鄉",
+      "candidates": {
+        "cand_2020_01": "194",
+        "cand_2020_02": "1,680",
+        "cand_2020_03": "1,617"
+      },
+      "votes": {
+        "valid_votes": "3,491",
+        "invalid_votes": "37",
+        "total_votes": "3,528"
+      },
+      "voter_turnout": "70.4614"
+    },
+    {
+      "name": "崎頂村",
+      "level": "village",
+      "affiliation": "新豐鄉",
+      "candidates": {
+        "cand_2020_01": "103",
+        "cand_2020_02": "939",
+        "cand_2020_03": "903"
+      },
+      "votes": {
+        "valid_votes": "1,945",
+        "invalid_votes": "16",
+        "total_votes": "1,961"
+      },
+      "voter_turnout": "74.6763"
+    },
+    {
+      "name": "松林村",
+      "level": "village",
+      "affiliation": "新豐鄉",
+      "candidates": {
+        "cand_2020_01": "192",
+        "cand_2020_02": "1,526",
+        "cand_2020_03": "1,408"
+      },
+      "votes": {
+        "valid_votes": "3,126",
+        "invalid_votes": "30",
+        "total_votes": "3,156"
+      },
+      "voter_turnout": "75.0714"
+    },
+    {
+      "name": "松柏村",
+      "level": "village",
+      "affiliation": "新豐鄉",
+      "candidates": {
+        "cand_2020_01": "263",
+        "cand_2020_02": "1,759",
+        "cand_2020_03": "1,950"
+      },
+      "votes": {
+        "valid_votes": "3,972",
+        "invalid_votes": "46",
+        "total_votes": "4,018"
+      },
+      "voter_turnout": "74.9347"
+    },
+    {
+      "name": "華龍村",
+      "level": "village",
+      "affiliation": "芎林鄉",
+      "candidates": {
+        "cand_2020_01": "6",
+        "cand_2020_02": "173",
+        "cand_2020_03": "107"
+      },
+      "votes": {
+        "valid_votes": "286",
+        "invalid_votes": "3",
+        "total_votes": "289"
+      },
+      "voter_turnout": "73.7245"
+    },
+    {
+      "name": "五龍村",
+      "level": "village",
+      "affiliation": "芎林鄉",
+      "candidates": {
+        "cand_2020_01": "15",
+        "cand_2020_02": "232",
+        "cand_2020_03": "132"
+      },
+      "votes": {
+        "valid_votes": "379",
+        "invalid_votes": "5",
+        "total_votes": "384"
+      },
+      "voter_turnout": "77.7328"
+    },
+    {
+      "name": "秀湖村",
+      "level": "village",
+      "affiliation": "芎林鄉",
+      "candidates": {
+        "cand_2020_01": "43",
+        "cand_2020_02": "394",
+        "cand_2020_03": "253"
+      },
+      "votes": {
+        "valid_votes": "690",
+        "invalid_votes": "13",
+        "total_votes": "703"
+      },
+      "voter_turnout": "76.9989"
+    },
+    {
+      "name": "永興村",
+      "level": "village",
+      "affiliation": "芎林鄉",
+      "candidates": {
+        "cand_2020_01": "10",
+        "cand_2020_02": "174",
+        "cand_2020_03": "108"
+      },
+      "votes": {
+        "valid_votes": "292",
+        "invalid_votes": "3",
+        "total_votes": "295"
+      },
+      "voter_turnout": "73.2010"
+    },
+    {
+      "name": "石潭村",
+      "level": "village",
+      "affiliation": "芎林鄉",
+      "candidates": {
+        "cand_2020_01": "101",
+        "cand_2020_02": "990",
+        "cand_2020_03": "786"
+      },
+      "votes": {
+        "valid_votes": "1,877",
+        "invalid_votes": "18",
+        "total_votes": "1,895"
+      },
+      "voter_turnout": "73.7067"
+    },
+    {
+      "name": "新鳳村",
+      "level": "village",
+      "affiliation": "芎林鄉",
+      "candidates": {
+        "cand_2020_01": "64",
+        "cand_2020_02": "589",
+        "cand_2020_03": "501"
+      },
+      "votes": {
+        "valid_votes": "1,154",
+        "invalid_votes": "17",
+        "total_votes": "1,171"
+      },
+      "voter_turnout": "74.7288"
+    },
+    {
+      "name": "中坑村",
+      "level": "village",
+      "affiliation": "芎林鄉",
+      "candidates": {
+        "cand_2020_01": "30",
+        "cand_2020_02": "269",
+        "cand_2020_03": "142"
+      },
+      "votes": {
+        "valid_votes": "441",
+        "invalid_votes": "6",
+        "total_votes": "447"
+      },
+      "voter_turnout": "74.3760"
+    },
+    {
+      "name": "水坑村",
+      "level": "village",
+      "affiliation": "芎林鄉",
+      "candidates": {
+        "cand_2020_01": "29",
+        "cand_2020_02": "281",
+        "cand_2020_03": "237"
+      },
+      "votes": {
+        "valid_votes": "547",
+        "invalid_votes": "9",
+        "total_votes": "556"
+      },
+      "voter_turnout": "73.9362"
+    },
+    {
+      "name": "文林村",
+      "level": "village",
+      "affiliation": "芎林鄉",
+      "candidates": {
+        "cand_2020_01": "90",
+        "cand_2020_02": "971",
+        "cand_2020_03": "659"
+      },
+      "votes": {
+        "valid_votes": "1,720",
+        "invalid_votes": "19",
+        "total_votes": "1,739"
+      },
+      "voter_turnout": "74.9246"
+    },
+    {
+      "name": "芎林村",
+      "level": "village",
+      "affiliation": "芎林鄉",
+      "candidates": {
+        "cand_2020_01": "74",
+        "cand_2020_02": "544",
+        "cand_2020_03": "551"
+      },
+      "votes": {
+        "valid_votes": "1,169",
+        "invalid_votes": "14",
+        "total_votes": "1,183"
+      },
+      "voter_turnout": "78.0343"
+    },
+    {
+      "name": "上山村",
+      "level": "village",
+      "affiliation": "芎林鄉",
+      "candidates": {
+        "cand_2020_01": "209",
+        "cand_2020_02": "1,535",
+        "cand_2020_03": "1,551"
+      },
+      "votes": {
+        "valid_votes": "3,295",
+        "invalid_votes": "53",
+        "total_votes": "3,348"
+      },
+      "voter_turnout": "78.2426"
+    },
+    {
+      "name": "下山村",
+      "level": "village",
+      "affiliation": "芎林鄉",
+      "candidates": {
+        "cand_2020_01": "41",
+        "cand_2020_02": "402",
+        "cand_2020_03": "366"
+      },
+      "votes": {
+        "valid_votes": "809",
+        "invalid_votes": "12",
+        "total_votes": "821"
+      },
+      "voter_turnout": "77.5992"
+    },
+    {
+      "name": "橫山村",
+      "level": "village",
+      "affiliation": "橫山鄉",
+      "candidates": {
+        "cand_2020_01": "110",
+        "cand_2020_02": "1,384",
+        "cand_2020_03": "873"
+      },
+      "votes": {
+        "valid_votes": "2,367",
+        "invalid_votes": "29",
+        "total_votes": "2,396"
+      },
+      "voter_turnout": "73.3619"
+    },
+    {
+      "name": "田寮村",
+      "level": "village",
+      "affiliation": "橫山鄉",
+      "candidates": {
+        "cand_2020_01": "22",
+        "cand_2020_02": "347",
+        "cand_2020_03": "257"
+      },
+      "votes": {
+        "valid_votes": "626",
+        "invalid_votes": "9",
+        "total_votes": "635"
+      },
+      "voter_turnout": "75.5054"
+    },
+    {
+      "name": "南昌村",
+      "level": "village",
+      "affiliation": "橫山鄉",
+      "candidates": {
+        "cand_2020_01": "7",
+        "cand_2020_02": "93",
+        "cand_2020_03": "41"
+      },
+      "votes": {
+        "valid_votes": "141",
+        "invalid_votes": "0",
+        "total_votes": "141"
+      },
+      "voter_turnout": "72.3077"
+    },
+    {
+      "name": "豐鄉村",
+      "level": "village",
+      "affiliation": "橫山鄉",
+      "candidates": {
+        "cand_2020_01": "8",
+        "cand_2020_02": "80",
+        "cand_2020_03": "67"
+      },
+      "votes": {
+        "valid_votes": "155",
+        "invalid_votes": "3",
+        "total_votes": "158"
+      },
+      "voter_turnout": "74.5283"
+    },
+    {
+      "name": "豐田村",
+      "level": "village",
+      "affiliation": "橫山鄉",
+      "candidates": {
+        "cand_2020_01": "8",
+        "cand_2020_02": "125",
+        "cand_2020_03": "111"
+      },
+      "votes": {
+        "valid_votes": "244",
+        "invalid_votes": "1",
+        "total_votes": "245"
+      },
+      "voter_turnout": "75.1534"
+    },
+    {
+      "name": "內灣村",
+      "level": "village",
+      "affiliation": "橫山鄉",
+      "candidates": {
+        "cand_2020_01": "34",
+        "cand_2020_02": "371",
+        "cand_2020_03": "216"
+      },
+      "votes": {
+        "valid_votes": "621",
+        "invalid_votes": "7",
+        "total_votes": "628"
+      },
+      "voter_turnout": "71.9359"
+    },
+    {
+      "name": "力行村",
+      "level": "village",
+      "affiliation": "橫山鄉",
+      "candidates": {
+        "cand_2020_01": "31",
+        "cand_2020_02": "347",
+        "cand_2020_03": "222"
+      },
+      "votes": {
+        "valid_votes": "600",
+        "invalid_votes": "8",
+        "total_votes": "608"
+      },
+      "voter_turnout": "76.0000"
+    },
+    {
+      "name": "福興村",
+      "level": "village",
+      "affiliation": "橫山鄉",
+      "candidates": {
+        "cand_2020_01": "13",
+        "cand_2020_02": "144",
+        "cand_2020_03": "146"
+      },
+      "votes": {
+        "valid_votes": "303",
+        "invalid_votes": "10",
+        "total_votes": "313"
+      },
+      "voter_turnout": "71.9540"
+    },
+    {
+      "name": "沙坑村",
+      "level": "village",
+      "affiliation": "橫山鄉",
+      "candidates": {
+        "cand_2020_01": "30",
+        "cand_2020_02": "396",
+        "cand_2020_03": "304"
+      },
+      "votes": {
+        "valid_votes": "730",
+        "invalid_votes": "9",
+        "total_votes": "739"
+      },
+      "voter_turnout": "77.3822"
+    },
+    {
+      "name": "新興村",
+      "level": "village",
+      "affiliation": "橫山鄉",
+      "candidates": {
+        "cand_2020_01": "58",
+        "cand_2020_02": "684",
+        "cand_2020_03": "396"
+      },
+      "votes": {
+        "valid_votes": "1,138",
+        "invalid_votes": "12",
+        "total_votes": "1,150"
+      },
+      "voter_turnout": "76.5136"
+    },
+    {
+      "name": "大肚村",
+      "level": "village",
+      "affiliation": "橫山鄉",
+      "candidates": {
+        "cand_2020_01": "68",
+        "cand_2020_02": "714",
+        "cand_2020_03": "390"
+      },
+      "votes": {
+        "valid_votes": "1,172",
+        "invalid_votes": "12",
+        "total_votes": "1,184"
+      },
+      "voter_turnout": "76.1905"
+    },
+    {
+      "name": "北埔村",
+      "level": "village",
+      "affiliation": "北埔鄉",
+      "candidates": {
+        "cand_2020_01": "46",
+        "cand_2020_02": "462",
+        "cand_2020_03": "346"
+      },
+      "votes": {
+        "valid_votes": "854",
+        "invalid_votes": "11",
+        "total_votes": "865"
+      },
+      "voter_turnout": "78.0686"
+    },
+    {
+      "name": "南興村",
+      "level": "village",
+      "affiliation": "北埔鄉",
+      "candidates": {
+        "cand_2020_01": "42",
+        "cand_2020_02": "514",
+        "cand_2020_03": "306"
+      },
+      "votes": {
+        "valid_votes": "862",
+        "invalid_votes": "15",
+        "total_votes": "877"
+      },
+      "voter_turnout": "75.6687"
+    },
+    {
+      "name": "大湖村",
+      "level": "village",
+      "affiliation": "北埔鄉",
+      "candidates": {
+        "cand_2020_01": "19",
+        "cand_2020_02": "226",
+        "cand_2020_03": "148"
+      },
+      "votes": {
+        "valid_votes": "393",
+        "invalid_votes": "2",
+        "total_votes": "395"
+      },
+      "voter_turnout": "71.9490"
+    },
+    {
+      "name": "埔尾村",
+      "level": "village",
+      "affiliation": "北埔鄉",
+      "candidates": {
+        "cand_2020_01": "86",
+        "cand_2020_02": "991",
+        "cand_2020_03": "759"
+      },
+      "votes": {
+        "valid_votes": "1,836",
+        "invalid_votes": "18",
+        "total_votes": "1,854"
+      },
+      "voter_turnout": "73.6299"
+    },
+    {
+      "name": "水磜村",
+      "level": "village",
+      "affiliation": "北埔鄉",
+      "candidates": {
+        "cand_2020_01": "25",
+        "cand_2020_02": "293",
+        "cand_2020_03": "274"
+      },
+      "votes": {
+        "valid_votes": "592",
+        "invalid_votes": "4",
+        "total_votes": "596"
+      },
+      "voter_turnout": "72.6829"
+    },
+    {
+      "name": "南埔村",
+      "level": "village",
+      "affiliation": "北埔鄉",
+      "candidates": {
+        "cand_2020_01": "19",
+        "cand_2020_02": "154",
+        "cand_2020_03": "85"
+      },
+      "votes": {
+        "valid_votes": "258",
+        "invalid_votes": "1",
+        "total_votes": "259"
+      },
+      "voter_turnout": "71.5470"
+    },
+    {
+      "name": "大林村",
+      "level": "village",
+      "affiliation": "北埔鄉",
+      "candidates": {
+        "cand_2020_01": "33",
+        "cand_2020_02": "323",
+        "cand_2020_03": "212"
+      },
+      "votes": {
+        "valid_votes": "568",
+        "invalid_votes": "7",
+        "total_votes": "575"
+      },
+      "voter_turnout": "78.9835"
+    },
+    {
+      "name": "南坑村",
+      "level": "village",
+      "affiliation": "北埔鄉",
+      "candidates": {
+        "cand_2020_01": "10",
+        "cand_2020_02": "146",
+        "cand_2020_03": "101"
+      },
+      "votes": {
+        "valid_votes": "257",
+        "invalid_votes": "2",
+        "total_votes": "259"
+      },
+      "voter_turnout": "77.3134"
+    },
+    {
+      "name": "外坪村",
+      "level": "village",
+      "affiliation": "北埔鄉",
+      "candidates": {
+        "cand_2020_01": "7",
+        "cand_2020_02": "111",
+        "cand_2020_03": "92"
+      },
+      "votes": {
+        "valid_votes": "210",
+        "invalid_votes": "2",
+        "total_votes": "212"
+      },
+      "voter_turnout": "74.1259"
+    },
+    {
+      "name": "雙溪村",
+      "level": "village",
+      "affiliation": "寶山鄉",
+      "candidates": {
+        "cand_2020_01": "150",
+        "cand_2020_02": "837",
+        "cand_2020_03": "921"
+      },
+      "votes": {
+        "valid_votes": "1,908",
+        "invalid_votes": "19",
+        "total_votes": "1,927"
+      },
+      "voter_turnout": "75.0097"
+    },
+    {
+      "name": "雙新村",
+      "level": "village",
+      "affiliation": "寶山鄉",
+      "candidates": {
+        "cand_2020_01": "98",
+        "cand_2020_02": "871",
+        "cand_2020_03": "901"
+      },
+      "votes": {
+        "valid_votes": "1,870",
+        "invalid_votes": "15",
+        "total_votes": "1,885"
+      },
+      "voter_turnout": "73.3749"
+    },
+    {
+      "name": "大崎村",
+      "level": "village",
+      "affiliation": "寶山鄉",
+      "candidates": {
+        "cand_2020_01": "107",
+        "cand_2020_02": "686",
+        "cand_2020_03": "665"
+      },
+      "votes": {
+        "valid_votes": "1,458",
+        "invalid_votes": "19",
+        "total_votes": "1,477"
+      },
+      "voter_turnout": "78.0243"
+    },
+    {
+      "name": "三峰村",
+      "level": "village",
+      "affiliation": "寶山鄉",
+      "candidates": {
+        "cand_2020_01": "35",
+        "cand_2020_02": "382",
+        "cand_2020_03": "292"
+      },
+      "votes": {
+        "valid_votes": "709",
+        "invalid_votes": "3",
+        "total_votes": "712"
+      },
+      "voter_turnout": "71.5578"
+    },
+    {
+      "name": "新城村",
+      "level": "village",
+      "affiliation": "寶山鄉",
+      "candidates": {
+        "cand_2020_01": "38",
+        "cand_2020_02": "420",
+        "cand_2020_03": "398"
+      },
+      "votes": {
+        "valid_votes": "856",
+        "invalid_votes": "6",
+        "total_votes": "862"
+      },
+      "voter_turnout": "74.6967"
+    },
+    {
+      "name": "寶斗村",
+      "level": "village",
+      "affiliation": "寶山鄉",
+      "candidates": {
+        "cand_2020_01": "26",
+        "cand_2020_02": "267",
+        "cand_2020_03": "246"
+      },
+      "votes": {
+        "valid_votes": "539",
+        "invalid_votes": "3",
+        "total_votes": "542"
+      },
+      "voter_turnout": "74.1450"
+    },
+    {
+      "name": "深井村",
+      "level": "village",
+      "affiliation": "寶山鄉",
+      "candidates": {
+        "cand_2020_01": "20",
+        "cand_2020_02": "349",
+        "cand_2020_03": "238"
+      },
+      "votes": {
+        "valid_votes": "607",
+        "invalid_votes": "5",
+        "total_votes": "612"
+      },
+      "voter_turnout": "77.4684"
+    },
+    {
+      "name": "寶山村",
+      "level": "village",
+      "affiliation": "寶山鄉",
+      "candidates": {
+        "cand_2020_01": "44",
+        "cand_2020_02": "330",
+        "cand_2020_03": "232"
+      },
+      "votes": {
+        "valid_votes": "606",
+        "invalid_votes": "7",
+        "total_votes": "613"
+      },
+      "voter_turnout": "77.5949"
+    },
+    {
+      "name": "油田村",
+      "level": "village",
+      "affiliation": "寶山鄉",
+      "candidates": {
+        "cand_2020_01": "17",
+        "cand_2020_02": "244",
+        "cand_2020_03": "193"
+      },
+      "votes": {
+        "valid_votes": "454",
+        "invalid_votes": "4",
+        "total_votes": "458"
+      },
+      "voter_turnout": "78.5592"
+    },
+    {
+      "name": "山湖村",
+      "level": "village",
+      "affiliation": "寶山鄉",
+      "candidates": {
+        "cand_2020_01": "28",
+        "cand_2020_02": "208",
+        "cand_2020_03": "167"
+      },
+      "votes": {
+        "valid_votes": "403",
+        "invalid_votes": "12",
+        "total_votes": "415"
+      },
+      "voter_turnout": "77.1375"
+    },
+    {
+      "name": "峨眉村",
+      "level": "village",
+      "affiliation": "峨眉鄉",
+      "candidates": {
+        "cand_2020_01": "31",
+        "cand_2020_02": "372",
+        "cand_2020_03": "235"
+      },
+      "votes": {
+        "valid_votes": "638",
+        "invalid_votes": "9",
+        "total_votes": "647"
+      },
+      "voter_turnout": "78.0458"
+    },
+    {
+      "name": "中盛村",
+      "level": "village",
+      "affiliation": "峨眉鄉",
+      "candidates": {
+        "cand_2020_01": "15",
+        "cand_2020_02": "231",
+        "cand_2020_03": "259"
+      },
+      "votes": {
+        "valid_votes": "505",
+        "invalid_votes": "8",
+        "total_votes": "513"
+      },
+      "voter_turnout": "77.9635"
+    },
+    {
+      "name": "石井村",
+      "level": "village",
+      "affiliation": "峨眉鄉",
+      "candidates": {
+        "cand_2020_01": "16",
+        "cand_2020_02": "236",
+        "cand_2020_03": "184"
+      },
+      "votes": {
+        "valid_votes": "436",
+        "invalid_votes": "4",
+        "total_votes": "440"
+      },
+      "voter_turnout": "75.9931"
+    },
+    {
+      "name": "七星村",
+      "level": "village",
+      "affiliation": "峨眉鄉",
+      "candidates": {
+        "cand_2020_01": "12",
+        "cand_2020_02": "231",
+        "cand_2020_03": "212"
+      },
+      "votes": {
+        "valid_votes": "455",
+        "invalid_votes": "3",
+        "total_votes": "458"
+      },
+      "voter_turnout": "77.1044"
+    },
+    {
+      "name": "富興村",
+      "level": "village",
+      "affiliation": "峨眉鄉",
+      "candidates": {
+        "cand_2020_01": "44",
+        "cand_2020_02": "495",
+        "cand_2020_03": "418"
+      },
+      "votes": {
+        "valid_votes": "957",
+        "invalid_votes": "5",
+        "total_votes": "962"
+      },
+      "voter_turnout": "71.0487"
+    },
+    {
+      "name": "湖光村",
+      "level": "village",
+      "affiliation": "峨眉鄉",
+      "candidates": {
+        "cand_2020_01": "26",
+        "cand_2020_02": "317",
+        "cand_2020_03": "285"
+      },
+      "votes": {
+        "valid_votes": "628",
+        "invalid_votes": "9",
+        "total_votes": "637"
+      },
+      "voter_turnout": "76.4706"
+    },
+    {
+      "name": "嘉樂村",
+      "level": "village",
+      "affiliation": "尖石鄉",
+      "candidates": {
+        "cand_2020_01": "37",
+        "cand_2020_02": "367",
+        "cand_2020_03": "166"
+      },
+      "votes": {
+        "valid_votes": "570",
+        "invalid_votes": "2",
+        "total_votes": "572"
+      },
+      "voter_turnout": "72.2222"
+    },
+    {
+      "name": "義興村",
+      "level": "village",
+      "affiliation": "尖石鄉",
+      "candidates": {
+        "cand_2020_01": "14",
+        "cand_2020_02": "258",
+        "cand_2020_03": "105"
+      },
+      "votes": {
+        "valid_votes": "377",
+        "invalid_votes": "8",
+        "total_votes": "385"
+      },
+      "voter_turnout": "67.4256"
+    },
+    {
+      "name": "新樂村",
+      "level": "village",
+      "affiliation": "尖石鄉",
+      "candidates": {
+        "cand_2020_01": "36",
+        "cand_2020_02": "645",
+        "cand_2020_03": "154"
+      },
+      "votes": {
+        "valid_votes": "835",
+        "invalid_votes": "10",
+        "total_votes": "845"
+      },
+      "voter_turnout": "69.8347"
+    },
+    {
+      "name": "錦屏村",
+      "level": "village",
+      "affiliation": "尖石鄉",
+      "candidates": {
+        "cand_2020_01": "30",
+        "cand_2020_02": "585",
+        "cand_2020_03": "136"
+      },
+      "votes": {
+        "valid_votes": "751",
+        "invalid_votes": "7",
+        "total_votes": "758"
+      },
+      "voter_turnout": "68.2268"
+    },
+    {
+      "name": "梅花村",
+      "level": "village",
+      "affiliation": "尖石鄉",
+      "candidates": {
+        "cand_2020_01": "10",
+        "cand_2020_02": "312",
+        "cand_2020_03": "96"
+      },
+      "votes": {
+        "valid_votes": "418",
+        "invalid_votes": "9",
+        "total_votes": "427"
+      },
+      "voter_turnout": "71.4047"
+    },
+    {
+      "name": "玉峰村",
+      "level": "village",
+      "affiliation": "尖石鄉",
+      "candidates": {
+        "cand_2020_01": "52",
+        "cand_2020_02": "517",
+        "cand_2020_03": "268"
+      },
+      "votes": {
+        "valid_votes": "837",
+        "invalid_votes": "3",
+        "total_votes": "840"
+      },
+      "voter_turnout": "65.7792"
+    },
+    {
+      "name": "秀巒村",
+      "level": "village",
+      "affiliation": "尖石鄉",
+      "candidates": {
+        "cand_2020_01": "29",
+        "cand_2020_02": "607",
+        "cand_2020_03": "260"
+      },
+      "votes": {
+        "valid_votes": "896",
+        "invalid_votes": "14",
+        "total_votes": "910"
+      },
+      "voter_turnout": "60.4250"
+    },
+    {
+      "name": "大隘村",
+      "level": "village",
+      "affiliation": "五峰鄉",
+      "candidates": {
+        "cand_2020_01": "35",
+        "cand_2020_02": "725",
+        "cand_2020_03": "153"
+      },
+      "votes": {
+        "valid_votes": "913",
+        "invalid_votes": "14",
+        "total_votes": "927"
+      },
+      "voter_turnout": "71.9162"
+    },
+    {
+      "name": "桃山村",
+      "level": "village",
+      "affiliation": "五峰鄉",
+      "candidates": {
+        "cand_2020_01": "27",
+        "cand_2020_02": "644",
+        "cand_2020_03": "233"
+      },
+      "votes": {
+        "valid_votes": "904",
+        "invalid_votes": "7",
+        "total_votes": "911"
+      },
+      "voter_turnout": "65.7287"
+    },
+    {
+      "name": "花園村",
+      "level": "village",
+      "affiliation": "五峰鄉",
+      "candidates": {
+        "cand_2020_01": "20",
+        "cand_2020_02": "324",
+        "cand_2020_03": "149"
+      },
+      "votes": {
+        "valid_votes": "493",
+        "invalid_votes": "5",
+        "total_votes": "498"
+      },
+      "voter_turnout": "71.5517"
+    },
+    {
+      "name": "竹林村",
+      "level": "village",
+      "affiliation": "五峰鄉",
+      "candidates": {
+        "cand_2020_01": "11",
+        "cand_2020_02": "189",
+        "cand_2020_03": "53"
+      },
+      "votes": {
+        "valid_votes": "253",
+        "invalid_votes": "4",
+        "total_votes": "257"
+      },
+      "voter_turnout": "68.9008"
+    }
+  ]
+}
