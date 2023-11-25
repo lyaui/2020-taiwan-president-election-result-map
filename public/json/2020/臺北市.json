@@ -15,54 +15,6 @@
         "total_votes": "1,653,834"
       },
       "voter_turnout": "76.3098"
-    },
-    {
-      "name": "南港區",
-      "level": "dist",
-      "affiliation": "臺北市",
-      "candidates": {
-        "cand_2020_01": "3,409",
-        "cand_2020_02": "30,968",
-        "cand_2020_03": "40,969"
-      },
-      "votes": {
-        "valid_votes": "75,346",
-        "invalid_votes": "1,010",
-        "total_votes": "76,356"
-      },
-      "voter_turnout": "77.2560"
-    },
-    {
-      "name": "內湖區",
-      "level": "dist",
-      "affiliation": "臺北市",
-      "candidates": {
-        "cand_2020_01": "8,356",
-        "cand_2020_02": "74,437",
-        "cand_2020_03": "94,269"
-      },
-      "votes": {
-        "valid_votes": "177,062",
-        "invalid_votes": "2,349",
-        "total_votes": "179,411"
-      },
-      "voter_turnout": "77.7883"
-    },
-    {
-      "name": "士林區",
-      "level": "dist",
-      "affiliation": "臺北市",
-      "candidates": {
-        "cand_2020_01": "7,185",
-        "cand_2020_02": "65,183",
-        "cand_2020_03": "104,881"
-      },
-      "votes": {
-        "valid_votes": "177,249",
-        "invalid_votes": "2,020",
-        "total_votes": "179,269"
-      },
-      "voter_turnout": "76.3090"
     }
   ],
   "dist": [
@@ -193,6 +145,54 @@
         "total_votes": "170,275"
       },
       "voter_turnout": "77.0078"
+    },
+    {
+      "name": "南港區",
+      "level": "dist",
+      "affiliation": "臺北市",
+      "candidates": {
+        "cand_2020_01": "3,409",
+        "cand_2020_02": "30,968",
+        "cand_2020_03": "40,969"
+      },
+      "votes": {
+        "valid_votes": "75,346",
+        "invalid_votes": "1,010",
+        "total_votes": "76,356"
+      },
+      "voter_turnout": "77.2560"
+    },
+    {
+      "name": "內湖區",
+      "level": "dist",
+      "affiliation": "臺北市",
+      "candidates": {
+        "cand_2020_01": "8,356",
+        "cand_2020_02": "74,437",
+        "cand_2020_03": "94,269"
+      },
+      "votes": {
+        "valid_votes": "177,062",
+        "invalid_votes": "2,349",
+        "total_votes": "179,411"
+      },
+      "voter_turnout": "77.7883"
+    },
+    {
+      "name": "士林區",
+      "level": "dist",
+      "affiliation": "臺北市",
+      "candidates": {
+        "cand_2020_01": "7,185",
+        "cand_2020_02": "65,183",
+        "cand_2020_03": "104,881"
+      },
+      "votes": {
+        "valid_votes": "177,249",
+        "invalid_votes": "2,020",
+        "total_votes": "179,269"
+      },
+      "voter_turnout": "76.3090"
     },
     {
       "name": "北投區",
