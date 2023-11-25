@@ -115,6 +115,54 @@
       "voter_turnout": "77.4424"
     },
     {
+      "name": "基隆市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2020_01": "11,878",
+        "cand_2020_02": "99,360",
+        "cand_2020_03": "114,966"
+      },
+      "votes": {
+        "valid_votes": "226,204",
+        "invalid_votes": "2,458",
+        "total_votes": "228,662"
+      },
+      "voter_turnout": "73.3359"
+    },
+    {
+      "name": "宜蘭縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2020_01": "10,739",
+        "cand_2020_02": "90,010",
+        "cand_2020_03": "173,657"
+      },
+      "votes": {
+        "valid_votes": "274,406",
+        "invalid_votes": "3,029",
+        "total_votes": "277,435"
+      },
+      "voter_turnout": "73.8629"
+    },
+    {
+      "name": "新竹市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2020_01": "14,103",
+        "cand_2020_02": "102,725",
+        "cand_2020_03": "144,274"
+      },
+      "votes": {
+        "valid_votes": "261,102",
+        "invalid_votes": "3,423",
+        "total_votes": "264,525"
+      },
+      "voter_turnout": "76.5973"
+    },
+    {
       "name": "新竹縣",
       "level": "city",
       "affiliation": "中央",
@@ -195,6 +243,22 @@
       "voter_turnout": "71.6457"
     },
     {
+      "name": "嘉義市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2020_01": "6,204",
+        "cand_2020_02": "56,269",
+        "cand_2020_03": "99,265"
+      },
+      "votes": {
+        "valid_votes": "161,738",
+        "invalid_votes": "1,664",
+        "total_votes": "163,402"
+      },
+      "voter_turnout": "75.9815"
+    },
+    {
       "name": "嘉義縣",
       "level": "city",
       "affiliation": "中央",
@@ -226,22 +290,7 @@
       },
       "voter_turnout": "74.9198"
     },
-    {
-      "name": "宜蘭縣",
-      "level": "city",
-      "affiliation": "中央",
-      "candidates": {
-        "cand_2020_01": "10,739",
-        "cand_2020_02": "90,010",
-        "cand_2020_03": "173,657"
-      },
-      "votes": {
-        "valid_votes": "274,406",
-        "invalid_votes": "3,029",
-        "total_votes": "277,435"
-      },
-      "voter_turnout": "73.8629"
-    },
+
     {
       "name": "花蓮縣",
       "level": "city",
@@ -290,54 +339,7 @@
       },
       "voter_turnout": "58.2911"
     },
-    {
-      "name": "基隆市",
-      "level": "city",
-      "affiliation": "中央",
-      "candidates": {
-        "cand_2020_01": "11,878",
-        "cand_2020_02": "99,360",
-        "cand_2020_03": "114,966"
-      },
-      "votes": {
-        "valid_votes": "226,204",
-        "invalid_votes": "2,458",
-        "total_votes": "228,662"
-      },
-      "voter_turnout": "73.3359"
-    },
-    {
-      "name": "新竹市",
-      "level": "city",
-      "affiliation": "中央",
-      "candidates": {
-        "cand_2020_01": "14,103",
-        "cand_2020_02": "102,725",
-        "cand_2020_03": "144,274"
-      },
-      "votes": {
-        "valid_votes": "261,102",
-        "invalid_votes": "3,423",
-        "total_votes": "264,525"
-      },
-      "voter_turnout": "76.5973"
-    },
-    {
-      "name": "嘉義市",
-      "level": "city",
-      "affiliation": "中央",
-      "candidates": {
-        "cand_2020_01": "6,204",
-        "cand_2020_02": "56,269",
-        "cand_2020_03": "99,265"
-      },
-      "votes": {
-        "valid_votes": "161,738",
-        "invalid_votes": "1,664",
-        "total_votes": "163,402"
-      },
-      "voter_turnout": "75.9815"
-    },
+
     {
       "name": "金門縣",
       "level": "city",
