@@ -64,7 +64,7 @@ export async function fetchElectionData(
 ) {
   // TODO: error handling
   const votingFile = await fs.readFile(
-    process.cwd() + `/public/json/${year}/${city}.json`,
+    process.cwd() + `/public/json/${year}/${city || '全國'}.json`,
     'utf8',
   );
 
@@ -100,8 +100,9 @@ export async function fetchElectionData(
   }
 
   return {
-    // votingResult,
-    // candidates,
+    candidates,
+    votingResult: votingResult.country[0],
+    subareas: votingResult.city,
   };
 }
 
