@@ -15,6 +15,7 @@ export interface Candidate {
 
 export interface VotingResult {
   name: string;
+  level: 0 | 1 | 2 | 3; // 全國 | 縣市 | 區域 | 鄉里
   candidates: Record<string, string>;
   votes: {
     valid_votes: string;
