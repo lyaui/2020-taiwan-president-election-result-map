@@ -1,0 +1,2648 @@
+{
+  "city": [
+    {
+      "name": "基隆市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2020_01": "11,878",
+        "cand_2020_02": "99,360",
+        "cand_2020_03": "114,966"
+      },
+      "votes": {
+        "valid_votes": "226,204",
+        "invalid_votes": "2,458",
+        "total_votes": "228,662"
+      },
+      "voter_turnout": "73.3359"
+    }
+  ],
+  "dist": [
+    {
+      "name": "中正區",
+      "level": "dist",
+      "affiliation": "基隆市",
+      "candidates": {
+        "cand_2020_01": "1,618",
+        "cand_2020_02": "13,887",
+        "cand_2020_03": "15,540"
+      },
+      "votes": {
+        "valid_votes": "31,045",
+        "invalid_votes": "383",
+        "total_votes": "31,428"
+      },
+      "voter_turnout": "70.7949"
+    },
+    {
+      "name": "七堵區",
+      "level": "dist",
+      "affiliation": "基隆市",
+      "candidates": {
+        "cand_2020_01": "1,815",
+        "cand_2020_02": "13,618",
+        "cand_2020_03": "17,516"
+      },
+      "votes": {
+        "valid_votes": "32,949",
+        "invalid_votes": "337",
+        "total_votes": "33,286"
+      },
+      "voter_turnout": "73.7771"
+    },
+    {
+      "name": "暖暖區",
+      "level": "dist",
+      "affiliation": "基隆市",
+      "candidates": {
+        "cand_2020_01": "1,306",
+        "cand_2020_02": "10,660",
+        "cand_2020_03": "11,537"
+      },
+      "votes": {
+        "valid_votes": "23,503",
+        "invalid_votes": "276",
+        "total_votes": "23,779"
+      },
+      "voter_turnout": "73.2992"
+    },
+    {
+      "name": "仁愛區",
+      "level": "dist",
+      "affiliation": "基隆市",
+      "candidates": {
+        "cand_2020_01": "1,305",
+        "cand_2020_02": "10,742",
+        "cand_2020_03": "13,701"
+      },
+      "votes": {
+        "valid_votes": "25,748",
+        "invalid_votes": "273",
+        "total_votes": "26,021"
+      },
+      "voter_turnout": "73.3606"
+    },
+    {
+      "name": "中山區",
+      "level": "dist",
+      "affiliation": "基隆市",
+      "candidates": {
+        "cand_2020_01": "1,579",
+        "cand_2020_02": "12,468",
+        "cand_2020_03": "15,032"
+      },
+      "votes": {
+        "valid_votes": "29,079",
+        "invalid_votes": "352",
+        "total_votes": "29,431"
+      },
+      "voter_turnout": "72.6512"
+    },
+    {
+      "name": "安樂區",
+      "level": "dist",
+      "affiliation": "基隆市",
+      "candidates": {
+        "cand_2020_01": "2,560",
+        "cand_2020_02": "22,200",
+        "cand_2020_03": "25,735"
+      },
+      "votes": {
+        "valid_votes": "50,495",
+        "invalid_votes": "509",
+        "total_votes": "51,004"
+      },
+      "voter_turnout": "74.2222"
+    },
+    {
+      "name": "信義區",
+      "level": "dist",
+      "affiliation": "基隆市",
+      "candidates": {
+        "cand_2020_01": "1,695",
+        "cand_2020_02": "15,785",
+        "cand_2020_03": "15,905"
+      },
+      "votes": {
+        "valid_votes": "33,385",
+        "invalid_votes": "328",
+        "total_votes": "33,713"
+      },
+      "voter_turnout": "74.6656"
+    }
+  ],
+  "village": [
+    {
+      "name": "長潭里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "14",
+        "cand_2020_02": "99",
+        "cand_2020_03": "234"
+      },
+      "votes": {
+        "valid_votes": "347",
+        "invalid_votes": "6",
+        "total_votes": "353"
+      },
+      "voter_turnout": "78.7946"
+    },
+    {
+      "name": "砂子里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "195",
+        "cand_2020_02": "1,564",
+        "cand_2020_03": "1,755"
+      },
+      "votes": {
+        "valid_votes": "3,514",
+        "invalid_votes": "40",
+        "total_votes": "3,554"
+      },
+      "voter_turnout": "67.3489"
+    },
+    {
+      "name": "八斗里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "36",
+        "cand_2020_02": "257",
+        "cand_2020_03": "728"
+      },
+      "votes": {
+        "valid_votes": "1,021",
+        "invalid_votes": "12",
+        "total_votes": "1,033"
+      },
+      "voter_turnout": "73.1069"
+    },
+    {
+      "name": "碧砂里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "38",
+        "cand_2020_02": "273",
+        "cand_2020_03": "513"
+      },
+      "votes": {
+        "valid_votes": "824",
+        "invalid_votes": "8",
+        "total_votes": "832"
+      },
+      "voter_turnout": "68.2527"
+    },
+    {
+      "name": "新富里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "187",
+        "cand_2020_02": "1,537",
+        "cand_2020_03": "1,625"
+      },
+      "votes": {
+        "valid_votes": "3,349",
+        "invalid_votes": "30",
+        "total_votes": "3,379"
+      },
+      "voter_turnout": "68.6928"
+    },
+    {
+      "name": "新豐里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "214",
+        "cand_2020_02": "1,792",
+        "cand_2020_03": "1,790"
+      },
+      "votes": {
+        "valid_votes": "3,796",
+        "invalid_votes": "43",
+        "total_votes": "3,839"
+      },
+      "voter_turnout": "71.5831"
+    },
+    {
+      "name": "平寮里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "40",
+        "cand_2020_02": "314",
+        "cand_2020_03": "480"
+      },
+      "votes": {
+        "valid_votes": "834",
+        "invalid_votes": "18",
+        "total_votes": "852"
+      },
+      "voter_turnout": "70.0658"
+    },
+    {
+      "name": "社寮里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "60",
+        "cand_2020_02": "447",
+        "cand_2020_03": "675"
+      },
+      "votes": {
+        "valid_votes": "1,182",
+        "invalid_votes": "11",
+        "total_votes": "1,193"
+      },
+      "voter_turnout": "70.9697"
+    },
+    {
+      "name": "和憲里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "22",
+        "cand_2020_02": "332",
+        "cand_2020_03": "261"
+      },
+      "votes": {
+        "valid_votes": "615",
+        "invalid_votes": "4",
+        "total_votes": "619"
+      },
+      "voter_turnout": "65.2954"
+    },
+    {
+      "name": "海濱里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "46",
+        "cand_2020_02": "417",
+        "cand_2020_03": "308"
+      },
+      "votes": {
+        "valid_votes": "771",
+        "invalid_votes": "6",
+        "total_votes": "777"
+      },
+      "voter_turnout": "69.0053"
+    },
+    {
+      "name": "正濱里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "31",
+        "cand_2020_02": "302",
+        "cand_2020_03": "330"
+      },
+      "votes": {
+        "valid_votes": "663",
+        "invalid_votes": "9",
+        "total_votes": "672"
+      },
+      "voter_turnout": "71.8717"
+    },
+    {
+      "name": "中正里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "51",
+        "cand_2020_02": "493",
+        "cand_2020_03": "617"
+      },
+      "votes": {
+        "valid_votes": "1,161",
+        "invalid_votes": "12",
+        "total_votes": "1,173"
+      },
+      "voter_turnout": "72.0074"
+    },
+    {
+      "name": "中濱里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "39",
+        "cand_2020_02": "433",
+        "cand_2020_03": "443"
+      },
+      "votes": {
+        "valid_votes": "915",
+        "invalid_votes": "11",
+        "total_votes": "926"
+      },
+      "voter_turnout": "73.9026"
+    },
+    {
+      "name": "建國里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "82",
+        "cand_2020_02": "742",
+        "cand_2020_03": "529"
+      },
+      "votes": {
+        "valid_votes": "1,353",
+        "invalid_votes": "12",
+        "total_votes": "1,365"
+      },
+      "voter_turnout": "71.9557"
+    },
+    {
+      "name": "砂灣里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "73",
+        "cand_2020_02": "698",
+        "cand_2020_03": "573"
+      },
+      "votes": {
+        "valid_votes": "1,344",
+        "invalid_votes": "20",
+        "total_votes": "1,364"
+      },
+      "voter_turnout": "70.3455"
+    },
+    {
+      "name": "真砂里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "52",
+        "cand_2020_02": "443",
+        "cand_2020_03": "476"
+      },
+      "votes": {
+        "valid_votes": "971",
+        "invalid_votes": "13",
+        "total_votes": "984"
+      },
+      "voter_turnout": "76.1610"
+    },
+    {
+      "name": "正砂里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "86",
+        "cand_2020_02": "827",
+        "cand_2020_03": "735"
+      },
+      "votes": {
+        "valid_votes": "1,648",
+        "invalid_votes": "25",
+        "total_votes": "1,673"
+      },
+      "voter_turnout": "73.8631"
+    },
+    {
+      "name": "中砂里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "45",
+        "cand_2020_02": "412",
+        "cand_2020_03": "460"
+      },
+      "votes": {
+        "valid_votes": "917",
+        "invalid_votes": "10",
+        "total_votes": "927"
+      },
+      "voter_turnout": "59.3090"
+    },
+    {
+      "name": "入船里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "26",
+        "cand_2020_02": "231",
+        "cand_2020_03": "287"
+      },
+      "votes": {
+        "valid_votes": "544",
+        "invalid_votes": "14",
+        "total_votes": "558"
+      },
+      "voter_turnout": "73.5178"
+    },
+    {
+      "name": "正船里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "44",
+        "cand_2020_02": "439",
+        "cand_2020_03": "428"
+      },
+      "votes": {
+        "valid_votes": "911",
+        "invalid_votes": "10",
+        "total_votes": "921"
+      },
+      "voter_turnout": "74.9390"
+    },
+    {
+      "name": "中船里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "53",
+        "cand_2020_02": "346",
+        "cand_2020_03": "411"
+      },
+      "votes": {
+        "valid_votes": "810",
+        "invalid_votes": "15",
+        "total_votes": "825"
+      },
+      "voter_turnout": "72.5594"
+    },
+    {
+      "name": "港通里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "43",
+        "cand_2020_02": "345",
+        "cand_2020_03": "472"
+      },
+      "votes": {
+        "valid_votes": "860",
+        "invalid_votes": "14",
+        "total_votes": "874"
+      },
+      "voter_turnout": "76.1324"
+    },
+    {
+      "name": "義重里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "45",
+        "cand_2020_02": "331",
+        "cand_2020_03": "363"
+      },
+      "votes": {
+        "valid_votes": "739",
+        "invalid_votes": "11",
+        "total_votes": "750"
+      },
+      "voter_turnout": "74.2574"
+    },
+    {
+      "name": "正義里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "33",
+        "cand_2020_02": "363",
+        "cand_2020_03": "445"
+      },
+      "votes": {
+        "valid_votes": "841",
+        "invalid_votes": "14",
+        "total_votes": "855"
+      },
+      "voter_turnout": "72.3350"
+    },
+    {
+      "name": "信義里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "38",
+        "cand_2020_02": "253",
+        "cand_2020_03": "332"
+      },
+      "votes": {
+        "valid_votes": "623",
+        "invalid_votes": "12",
+        "total_votes": "635"
+      },
+      "voter_turnout": "72.9885"
+    },
+    {
+      "name": "德義里",
+      "level": "village",
+      "affiliation": "中正區",
+      "candidates": {
+        "cand_2020_01": "25",
+        "cand_2020_02": "197",
+        "cand_2020_03": "270"
+      },
+      "votes": {
+        "valid_votes": "492",
+        "invalid_votes": "3",
+        "total_votes": "495"
+      },
+      "voter_turnout": "73.3333"
+    },
+    {
+      "name": "長興里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "150",
+        "cand_2020_02": "1,163",
+        "cand_2020_03": "1,324"
+      },
+      "votes": {
+        "valid_votes": "2,637",
+        "invalid_votes": "31",
+        "total_votes": "2,668"
+      },
+      "voter_turnout": "73.6000"
+    },
+    {
+      "name": "正光里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "86",
+        "cand_2020_02": "748",
+        "cand_2020_03": "892"
+      },
+      "votes": {
+        "valid_votes": "1,726",
+        "invalid_votes": "17",
+        "total_votes": "1,743"
+      },
+      "voter_turnout": "71.4052"
+    },
+    {
+      "name": "正明里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "80",
+        "cand_2020_02": "581",
+        "cand_2020_03": "742"
+      },
+      "votes": {
+        "valid_votes": "1,403",
+        "invalid_votes": "13",
+        "total_votes": "1,416"
+      },
+      "voter_turnout": "76.3342"
+    },
+    {
+      "name": "富民里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "151",
+        "cand_2020_02": "1,207",
+        "cand_2020_03": "1,199"
+      },
+      "votes": {
+        "valid_votes": "2,557",
+        "invalid_votes": "40",
+        "total_votes": "2,597"
+      },
+      "voter_turnout": "75.8913"
+    },
+    {
+      "name": "永平里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "69",
+        "cand_2020_02": "633",
+        "cand_2020_03": "710"
+      },
+      "votes": {
+        "valid_votes": "1,412",
+        "invalid_votes": "9",
+        "total_votes": "1,421"
+      },
+      "voter_turnout": "77.1026"
+    },
+    {
+      "name": "永安里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "108",
+        "cand_2020_02": "713",
+        "cand_2020_03": "791"
+      },
+      "votes": {
+        "valid_votes": "1,612",
+        "invalid_votes": "9",
+        "total_votes": "1,621"
+      },
+      "voter_turnout": "75.7831"
+    },
+    {
+      "name": "八德里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "65",
+        "cand_2020_02": "412",
+        "cand_2020_03": "564"
+      },
+      "votes": {
+        "valid_votes": "1,041",
+        "invalid_votes": "8",
+        "total_votes": "1,049"
+      },
+      "voter_turnout": "71.3605"
+    },
+    {
+      "name": "自強里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "50",
+        "cand_2020_02": "343",
+        "cand_2020_03": "400"
+      },
+      "votes": {
+        "valid_votes": "793",
+        "invalid_votes": "13",
+        "total_votes": "806"
+      },
+      "voter_turnout": "72.6781"
+    },
+    {
+      "name": "泰安里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "193",
+        "cand_2020_02": "1,225",
+        "cand_2020_03": "1,587"
+      },
+      "votes": {
+        "valid_votes": "3,005",
+        "invalid_votes": "35",
+        "total_votes": "3,040"
+      },
+      "voter_turnout": "72.7447"
+    },
+    {
+      "name": "六堵里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "94",
+        "cand_2020_02": "691",
+        "cand_2020_03": "888"
+      },
+      "votes": {
+        "valid_votes": "1,673",
+        "invalid_votes": "22",
+        "total_votes": "1,695"
+      },
+      "voter_turnout": "75.7373"
+    },
+    {
+      "name": "堵南里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "61",
+        "cand_2020_02": "520",
+        "cand_2020_03": "790"
+      },
+      "votes": {
+        "valid_votes": "1,371",
+        "invalid_votes": "12",
+        "total_votes": "1,383"
+      },
+      "voter_turnout": "69.7428"
+    },
+    {
+      "name": "長安里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "78",
+        "cand_2020_02": "702",
+        "cand_2020_03": "913"
+      },
+      "votes": {
+        "valid_votes": "1,693",
+        "invalid_votes": "15",
+        "total_votes": "1,708"
+      },
+      "voter_turnout": "70.3170"
+    },
+    {
+      "name": "堵北里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "135",
+        "cand_2020_02": "891",
+        "cand_2020_03": "1,518"
+      },
+      "votes": {
+        "valid_votes": "2,544",
+        "invalid_votes": "25",
+        "total_votes": "2,569"
+      },
+      "voter_turnout": "74.5502"
+    },
+    {
+      "name": "百福里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "237",
+        "cand_2020_02": "1,602",
+        "cand_2020_03": "2,440"
+      },
+      "votes": {
+        "valid_votes": "4,279",
+        "invalid_votes": "31",
+        "total_votes": "4,310"
+      },
+      "voter_turnout": "73.8014"
+    },
+    {
+      "name": "實踐里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "144",
+        "cand_2020_02": "1,034",
+        "cand_2020_03": "1,484"
+      },
+      "votes": {
+        "valid_votes": "2,662",
+        "invalid_votes": "28",
+        "total_votes": "2,690"
+      },
+      "voter_turnout": "72.5458"
+    },
+    {
+      "name": "瑪南里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "24",
+        "cand_2020_02": "106",
+        "cand_2020_03": "173"
+      },
+      "votes": {
+        "valid_votes": "303",
+        "invalid_votes": "3",
+        "total_votes": "306"
+      },
+      "voter_turnout": "75.9305"
+    },
+    {
+      "name": "瑪東里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "8",
+        "cand_2020_02": "100",
+        "cand_2020_03": "126"
+      },
+      "votes": {
+        "valid_votes": "234",
+        "invalid_votes": "5",
+        "total_votes": "239"
+      },
+      "voter_turnout": "72.6444"
+    },
+    {
+      "name": "瑪西里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "10",
+        "cand_2020_02": "102",
+        "cand_2020_03": "141"
+      },
+      "votes": {
+        "valid_votes": "253",
+        "invalid_votes": "3",
+        "total_votes": "256"
+      },
+      "voter_turnout": "75.2941"
+    },
+    {
+      "name": "友一里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "67",
+        "cand_2020_02": "711",
+        "cand_2020_03": "640"
+      },
+      "votes": {
+        "valid_votes": "1,418",
+        "invalid_votes": "13",
+        "total_votes": "1,431"
+      },
+      "voter_turnout": "76.2793"
+    },
+    {
+      "name": "友二里",
+      "level": "village",
+      "affiliation": "七堵區",
+      "candidates": {
+        "cand_2020_01": "5",
+        "cand_2020_02": "134",
+        "cand_2020_03": "194"
+      },
+      "votes": {
+        "valid_votes": "333",
+        "invalid_votes": "5",
+        "total_votes": "338"
+      },
+      "voter_turnout": "76.4706"
+    },
+    {
+      "name": "八西里",
+      "level": "village",
+      "affiliation": "暖暖區",
+      "candidates": {
+        "cand_2020_01": "51",
+        "cand_2020_02": "408",
+        "cand_2020_03": "526"
+      },
+      "votes": {
+        "valid_votes": "985",
+        "invalid_votes": "7",
+        "total_votes": "992"
+      },
+      "voter_turnout": "71.8841"
+    },
+    {
+      "name": "八中里",
+      "level": "village",
+      "affiliation": "暖暖區",
+      "candidates": {
+        "cand_2020_01": "18",
+        "cand_2020_02": "119",
+        "cand_2020_03": "173"
+      },
+      "votes": {
+        "valid_votes": "310",
+        "invalid_votes": "1",
+        "total_votes": "311"
+      },
+      "voter_turnout": "70.3620"
+    },
+    {
+      "name": "八堵里",
+      "level": "village",
+      "affiliation": "暖暖區",
+      "candidates": {
+        "cand_2020_01": "19",
+        "cand_2020_02": "188",
+        "cand_2020_03": "271"
+      },
+      "votes": {
+        "valid_votes": "478",
+        "invalid_votes": "4",
+        "total_votes": "482"
+      },
+      "voter_turnout": "75.3125"
+    },
+    {
+      "name": "八南里",
+      "level": "village",
+      "affiliation": "暖暖區",
+      "candidates": {
+        "cand_2020_01": "19",
+        "cand_2020_02": "199",
+        "cand_2020_03": "295"
+      },
+      "votes": {
+        "valid_votes": "513",
+        "invalid_votes": "8",
+        "total_votes": "521"
+      },
+      "voter_turnout": "71.0778"
+    },
+    {
+      "name": "過港里",
+      "level": "village",
+      "affiliation": "暖暖區",
+      "candidates": {
+        "cand_2020_01": "149",
+        "cand_2020_02": "1,194",
+        "cand_2020_03": "1,234"
+      },
+      "votes": {
+        "valid_votes": "2,577",
+        "invalid_votes": "35",
+        "total_votes": "2,612"
+      },
+      "voter_turnout": "73.2063"
+    },
+    {
+      "name": "暖暖里",
+      "level": "village",
+      "affiliation": "暖暖區",
+      "candidates": {
+        "cand_2020_01": "100",
+        "cand_2020_02": "811",
+        "cand_2020_03": "964"
+      },
+      "votes": {
+        "valid_votes": "1,875",
+        "invalid_votes": "35",
+        "total_votes": "1,910"
+      },
+      "voter_turnout": "75.0491"
+    },
+    {
+      "name": "暖同里",
+      "level": "village",
+      "affiliation": "暖暖區",
+      "candidates": {
+        "cand_2020_01": "87",
+        "cand_2020_02": "797",
+        "cand_2020_03": "816"
+      },
+      "votes": {
+        "valid_votes": "1,700",
+        "invalid_votes": "24",
+        "total_votes": "1,724"
+      },
+      "voter_turnout": "69.0429"
+    },
+    {
+      "name": "暖東里",
+      "level": "village",
+      "affiliation": "暖暖區",
+      "candidates": {
+        "cand_2020_01": "13",
+        "cand_2020_02": "115",
+        "cand_2020_03": "155"
+      },
+      "votes": {
+        "valid_votes": "283",
+        "invalid_votes": "4",
+        "total_votes": "287"
+      },
+      "voter_turnout": "70.6897"
+    },
+    {
+      "name": "暖西里",
+      "level": "village",
+      "affiliation": "暖暖區",
+      "candidates": {
+        "cand_2020_01": "172",
+        "cand_2020_02": "1,421",
+        "cand_2020_03": "1,731"
+      },
+      "votes": {
+        "valid_votes": "3,324",
+        "invalid_votes": "46",
+        "total_votes": "3,370"
+      },
+      "voter_turnout": "74.9889"
+    },
+    {
+      "name": "碇內里",
+      "level": "village",
+      "affiliation": "暖暖區",
+      "candidates": {
+        "cand_2020_01": "102",
+        "cand_2020_02": "916",
+        "cand_2020_03": "891"
+      },
+      "votes": {
+        "valid_votes": "1,909",
+        "invalid_votes": "16",
+        "total_votes": "1,925"
+      },
+      "voter_turnout": "74.8445"
+    },
+    {
+      "name": "碇和里",
+      "level": "village",
+      "affiliation": "暖暖區",
+      "candidates": {
+        "cand_2020_01": "97",
+        "cand_2020_02": "1,154",
+        "cand_2020_03": "865"
+      },
+      "votes": {
+        "valid_votes": "2,116",
+        "invalid_votes": "18",
+        "total_votes": "2,134"
+      },
+      "voter_turnout": "75.6469"
+    },
+    {
+      "name": "碇祥里",
+      "level": "village",
+      "affiliation": "暖暖區",
+      "candidates": {
+        "cand_2020_01": "256",
+        "cand_2020_02": "1,827",
+        "cand_2020_03": "1,868"
+      },
+      "votes": {
+        "valid_votes": "3,951",
+        "invalid_votes": "38",
+        "total_votes": "3,989"
+      },
+      "voter_turnout": "70.8023"
+    },
+    {
+      "name": "碇安里",
+      "level": "village",
+      "affiliation": "暖暖區",
+      "candidates": {
+        "cand_2020_01": "223",
+        "cand_2020_02": "1,511",
+        "cand_2020_03": "1,748"
+      },
+      "votes": {
+        "valid_votes": "3,482",
+        "invalid_votes": "40",
+        "total_votes": "3,522"
+      },
+      "voter_turnout": "74.7929"
+    },
+    {
+      "name": "林泉里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "77",
+        "cand_2020_02": "477",
+        "cand_2020_03": "642"
+      },
+      "votes": {
+        "valid_votes": "1,196",
+        "invalid_votes": "15",
+        "total_votes": "1,211"
+      },
+      "voter_turnout": "70.4889"
+    },
+    {
+      "name": "花崗里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "33",
+        "cand_2020_02": "315",
+        "cand_2020_03": "425"
+      },
+      "votes": {
+        "valid_votes": "773",
+        "invalid_votes": "9",
+        "total_votes": "782"
+      },
+      "voter_turnout": "76.5916"
+    },
+    {
+      "name": "虹橋里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "58",
+        "cand_2020_02": "496",
+        "cand_2020_03": "537"
+      },
+      "votes": {
+        "valid_votes": "1,091",
+        "invalid_votes": "12",
+        "total_votes": "1,103"
+      },
+      "voter_turnout": "73.2890"
+    },
+    {
+      "name": "水錦里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "63",
+        "cand_2020_02": "561",
+        "cand_2020_03": "569"
+      },
+      "votes": {
+        "valid_votes": "1,193",
+        "invalid_votes": "11",
+        "total_votes": "1,204"
+      },
+      "voter_turnout": "71.6240"
+    },
+    {
+      "name": "智仁里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "71",
+        "cand_2020_02": "727",
+        "cand_2020_03": "860"
+      },
+      "votes": {
+        "valid_votes": "1,658",
+        "invalid_votes": "15",
+        "total_votes": "1,673"
+      },
+      "voter_turnout": "73.4739"
+    },
+    {
+      "name": "和明里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "82",
+        "cand_2020_02": "523",
+        "cand_2020_03": "601"
+      },
+      "votes": {
+        "valid_votes": "1,206",
+        "invalid_votes": "16",
+        "total_votes": "1,222"
+      },
+      "voter_turnout": "75.1076"
+    },
+    {
+      "name": "忠勇里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "28",
+        "cand_2020_02": "269",
+        "cand_2020_03": "370"
+      },
+      "votes": {
+        "valid_votes": "667",
+        "invalid_votes": "6",
+        "total_votes": "673"
+      },
+      "voter_turnout": "74.2826"
+    },
+    {
+      "name": "玉田里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "26",
+        "cand_2020_02": "284",
+        "cand_2020_03": "401"
+      },
+      "votes": {
+        "valid_votes": "711",
+        "invalid_votes": "4",
+        "total_votes": "715"
+      },
+      "voter_turnout": "74.9476"
+    },
+    {
+      "name": "仁德里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "33",
+        "cand_2020_02": "249",
+        "cand_2020_03": "367"
+      },
+      "votes": {
+        "valid_votes": "649",
+        "invalid_votes": "6",
+        "total_votes": "655"
+      },
+      "voter_turnout": "75.9861"
+    },
+    {
+      "name": "博愛里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "56",
+        "cand_2020_02": "449",
+        "cand_2020_03": "594"
+      },
+      "votes": {
+        "valid_votes": "1,099",
+        "invalid_votes": "15",
+        "total_votes": "1,114"
+      },
+      "voter_turnout": "77.4149"
+    },
+    {
+      "name": "福仁里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "26",
+        "cand_2020_02": "197",
+        "cand_2020_03": "334"
+      },
+      "votes": {
+        "valid_votes": "557",
+        "invalid_votes": "7",
+        "total_votes": "564"
+      },
+      "voter_turnout": "75.9085"
+    },
+    {
+      "name": "誠仁里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "39",
+        "cand_2020_02": "249",
+        "cand_2020_03": "397"
+      },
+      "votes": {
+        "valid_votes": "685",
+        "invalid_votes": "6",
+        "total_votes": "691"
+      },
+      "voter_turnout": "75.1087"
+    },
+    {
+      "name": "吉仁里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "95",
+        "cand_2020_02": "695",
+        "cand_2020_03": "989"
+      },
+      "votes": {
+        "valid_votes": "1,779",
+        "invalid_votes": "21",
+        "total_votes": "1,800"
+      },
+      "voter_turnout": "70.0389"
+    },
+    {
+      "name": "育仁里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "21",
+        "cand_2020_02": "166",
+        "cand_2020_03": "331"
+      },
+      "votes": {
+        "valid_votes": "518",
+        "invalid_votes": "2",
+        "total_votes": "520"
+      },
+      "voter_turnout": "70.4607"
+    },
+    {
+      "name": "英仁里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "50",
+        "cand_2020_02": "351",
+        "cand_2020_03": "502"
+      },
+      "votes": {
+        "valid_votes": "903",
+        "invalid_votes": "4",
+        "total_votes": "907"
+      },
+      "voter_turnout": "71.7563"
+    },
+    {
+      "name": "龍門里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "32",
+        "cand_2020_02": "184",
+        "cand_2020_03": "347"
+      },
+      "votes": {
+        "valid_votes": "563",
+        "invalid_votes": "4",
+        "total_votes": "567"
+      },
+      "voter_turnout": "74.7036"
+    },
+    {
+      "name": "德厚里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "78",
+        "cand_2020_02": "528",
+        "cand_2020_03": "629"
+      },
+      "votes": {
+        "valid_votes": "1,235",
+        "invalid_votes": "20",
+        "total_votes": "1,255"
+      },
+      "voter_turnout": "74.7469"
+    },
+    {
+      "name": "曲水里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "26",
+        "cand_2020_02": "211",
+        "cand_2020_03": "336"
+      },
+      "votes": {
+        "valid_votes": "573",
+        "invalid_votes": "6",
+        "total_votes": "579"
+      },
+      "voter_turnout": "71.8362"
+    },
+    {
+      "name": "崇文里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "40",
+        "cand_2020_02": "253",
+        "cand_2020_03": "339"
+      },
+      "votes": {
+        "valid_votes": "632",
+        "invalid_votes": "7",
+        "total_votes": "639"
+      },
+      "voter_turnout": "76.8029"
+    },
+    {
+      "name": "文安里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "13",
+        "cand_2020_02": "241",
+        "cand_2020_03": "334"
+      },
+      "votes": {
+        "valid_votes": "588",
+        "invalid_votes": "7",
+        "total_votes": "595"
+      },
+      "voter_turnout": "71.8599"
+    },
+    {
+      "name": "兆連里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "27",
+        "cand_2020_02": "245",
+        "cand_2020_03": "241"
+      },
+      "votes": {
+        "valid_votes": "513",
+        "invalid_votes": "5",
+        "total_votes": "518"
+      },
+      "voter_turnout": "76.1765"
+    },
+    {
+      "name": "獅球里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "42",
+        "cand_2020_02": "295",
+        "cand_2020_03": "355"
+      },
+      "votes": {
+        "valid_votes": "692",
+        "invalid_votes": "7",
+        "total_votes": "699"
+      },
+      "voter_turnout": "72.2854"
+    },
+    {
+      "name": "書院里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "38",
+        "cand_2020_02": "292",
+        "cand_2020_03": "396"
+      },
+      "votes": {
+        "valid_votes": "726",
+        "invalid_votes": "14",
+        "total_votes": "740"
+      },
+      "voter_turnout": "71.2909"
+    },
+    {
+      "name": "朝棟里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "94",
+        "cand_2020_02": "1,028",
+        "cand_2020_03": "834"
+      },
+      "votes": {
+        "valid_votes": "1,956",
+        "invalid_votes": "21",
+        "total_votes": "1,977"
+      },
+      "voter_turnout": "74.3233"
+    },
+    {
+      "name": "光華里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "73",
+        "cand_2020_02": "717",
+        "cand_2020_03": "873"
+      },
+      "votes": {
+        "valid_votes": "1,663",
+        "invalid_votes": "15",
+        "total_votes": "1,678"
+      },
+      "voter_turnout": "69.3675"
+    },
+    {
+      "name": "明德里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "25",
+        "cand_2020_02": "210",
+        "cand_2020_03": "267"
+      },
+      "votes": {
+        "valid_votes": "502",
+        "invalid_votes": "6",
+        "total_votes": "508"
+      },
+      "voter_turnout": "73.6232"
+    },
+    {
+      "name": "同風里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "19",
+        "cand_2020_02": "163",
+        "cand_2020_03": "245"
+      },
+      "votes": {
+        "valid_votes": "427",
+        "invalid_votes": "3",
+        "total_votes": "430"
+      },
+      "voter_turnout": "77.1993"
+    },
+    {
+      "name": "文昌里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "27",
+        "cand_2020_02": "181",
+        "cand_2020_03": "350"
+      },
+      "votes": {
+        "valid_votes": "558",
+        "invalid_votes": "6",
+        "total_votes": "564"
+      },
+      "voter_turnout": "75.8065"
+    },
+    {
+      "name": "新店里",
+      "level": "village",
+      "affiliation": "仁愛區",
+      "candidates": {
+        "cand_2020_01": "13",
+        "cand_2020_02": "186",
+        "cand_2020_03": "236"
+      },
+      "votes": {
+        "valid_votes": "435",
+        "invalid_votes": "3",
+        "total_votes": "438"
+      },
+      "voter_turnout": "74.7440"
+    },
+    {
+      "name": "新建里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "27",
+        "cand_2020_02": "225",
+        "cand_2020_03": "315"
+      },
+      "votes": {
+        "valid_votes": "567",
+        "invalid_votes": "6",
+        "total_votes": "573"
+      },
+      "voter_turnout": "72.6236"
+    },
+    {
+      "name": "安民里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "39",
+        "cand_2020_02": "329",
+        "cand_2020_03": "421"
+      },
+      "votes": {
+        "valid_votes": "789",
+        "invalid_votes": "11",
+        "total_votes": "800"
+      },
+      "voter_turnout": "78.9733"
+    },
+    {
+      "name": "安平里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "38",
+        "cand_2020_02": "222",
+        "cand_2020_03": "289"
+      },
+      "votes": {
+        "valid_votes": "549",
+        "invalid_votes": "10",
+        "total_votes": "559"
+      },
+      "voter_turnout": "75.4386"
+    },
+    {
+      "name": "中山里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "34",
+        "cand_2020_02": "241",
+        "cand_2020_03": "405"
+      },
+      "votes": {
+        "valid_votes": "680",
+        "invalid_votes": "18",
+        "total_votes": "698"
+      },
+      "voter_turnout": "74.2553"
+    },
+    {
+      "name": "民治里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "28",
+        "cand_2020_02": "271",
+        "cand_2020_03": "286"
+      },
+      "votes": {
+        "valid_votes": "585",
+        "invalid_votes": "9",
+        "total_votes": "594"
+      },
+      "voter_turnout": "77.0428"
+    },
+    {
+      "name": "中興里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "37",
+        "cand_2020_02": "446",
+        "cand_2020_03": "434"
+      },
+      "votes": {
+        "valid_votes": "917",
+        "invalid_votes": "15",
+        "total_votes": "932"
+      },
+      "voter_turnout": "75.7724"
+    },
+    {
+      "name": "仁正里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "34",
+        "cand_2020_02": "244",
+        "cand_2020_03": "269"
+      },
+      "votes": {
+        "valid_votes": "547",
+        "invalid_votes": "9",
+        "total_votes": "556"
+      },
+      "voter_turnout": "73.3509"
+    },
+    {
+      "name": "健民里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "39",
+        "cand_2020_02": "339",
+        "cand_2020_03": "434"
+      },
+      "votes": {
+        "valid_votes": "812",
+        "invalid_votes": "8",
+        "total_votes": "820"
+      },
+      "voter_turnout": "72.1831"
+    },
+    {
+      "name": "通化里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "44",
+        "cand_2020_02": "340",
+        "cand_2020_03": "309"
+      },
+      "votes": {
+        "valid_votes": "693",
+        "invalid_votes": "10",
+        "total_votes": "703"
+      },
+      "voter_turnout": "72.8497"
+    },
+    {
+      "name": "居仁里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "62",
+        "cand_2020_02": "406",
+        "cand_2020_03": "405"
+      },
+      "votes": {
+        "valid_votes": "873",
+        "invalid_votes": "17",
+        "total_votes": "890"
+      },
+      "voter_turnout": "69.1531"
+    },
+    {
+      "name": "通明里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "63",
+        "cand_2020_02": "508",
+        "cand_2020_03": "667"
+      },
+      "votes": {
+        "valid_votes": "1,238",
+        "invalid_votes": "13",
+        "total_votes": "1,251"
+      },
+      "voter_turnout": "73.3294"
+    },
+    {
+      "name": "和平里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "10",
+        "cand_2020_02": "173",
+        "cand_2020_03": "139"
+      },
+      "votes": {
+        "valid_votes": "322",
+        "invalid_votes": "6",
+        "total_votes": "328"
+      },
+      "voter_turnout": "74.3764"
+    },
+    {
+      "name": "仙洞里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "15",
+        "cand_2020_02": "172",
+        "cand_2020_03": "210"
+      },
+      "votes": {
+        "valid_votes": "397",
+        "invalid_votes": "3",
+        "total_votes": "400"
+      },
+      "voter_turnout": "71.9424"
+    },
+    {
+      "name": "太白里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "40",
+        "cand_2020_02": "246",
+        "cand_2020_03": "300"
+      },
+      "votes": {
+        "valid_votes": "586",
+        "invalid_votes": "10",
+        "total_votes": "596"
+      },
+      "voter_turnout": "69.9531"
+    },
+    {
+      "name": "協和里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "68",
+        "cand_2020_02": "414",
+        "cand_2020_03": "560"
+      },
+      "votes": {
+        "valid_votes": "1,042",
+        "invalid_votes": "10",
+        "total_votes": "1,052"
+      },
+      "voter_turnout": "69.1196"
+    },
+    {
+      "name": "文化里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "38",
+        "cand_2020_02": "293",
+        "cand_2020_03": "374"
+      },
+      "votes": {
+        "valid_votes": "705",
+        "invalid_votes": "6",
+        "total_votes": "711"
+      },
+      "voter_turnout": "56.6986"
+    },
+    {
+      "name": "德安里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "120",
+        "cand_2020_02": "1,095",
+        "cand_2020_03": "1,460"
+      },
+      "votes": {
+        "valid_votes": "2,675",
+        "invalid_votes": "28",
+        "total_votes": "2,703"
+      },
+      "voter_turnout": "72.7591"
+    },
+    {
+      "name": "德和里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "216",
+        "cand_2020_02": "1,841",
+        "cand_2020_03": "1,952"
+      },
+      "votes": {
+        "valid_votes": "4,009",
+        "invalid_votes": "39",
+        "total_votes": "4,048"
+      },
+      "voter_turnout": "77.7863"
+    },
+    {
+      "name": "中和里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "197",
+        "cand_2020_02": "1,782",
+        "cand_2020_03": "1,885"
+      },
+      "votes": {
+        "valid_votes": "3,864",
+        "invalid_votes": "46",
+        "total_votes": "3,910"
+      },
+      "voter_turnout": "72.7442"
+    },
+    {
+      "name": "和慶里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "271",
+        "cand_2020_02": "1,784",
+        "cand_2020_03": "2,339"
+      },
+      "votes": {
+        "valid_votes": "4,394",
+        "invalid_votes": "60",
+        "total_votes": "4,454"
+      },
+      "voter_turnout": "71.0367"
+    },
+    {
+      "name": "西康里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "67",
+        "cand_2020_02": "433",
+        "cand_2020_03": "596"
+      },
+      "votes": {
+        "valid_votes": "1,096",
+        "invalid_votes": "6",
+        "total_votes": "1,102"
+      },
+      "voter_turnout": "69.8352"
+    },
+    {
+      "name": "西定里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "33",
+        "cand_2020_02": "246",
+        "cand_2020_03": "353"
+      },
+      "votes": {
+        "valid_votes": "632",
+        "invalid_votes": "4",
+        "total_votes": "636"
+      },
+      "voter_turnout": "70.5882"
+    },
+    {
+      "name": "西華里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "32",
+        "cand_2020_02": "239",
+        "cand_2020_03": "345"
+      },
+      "votes": {
+        "valid_votes": "616",
+        "invalid_votes": "5",
+        "total_votes": "621"
+      },
+      "voter_turnout": "75.2727"
+    },
+    {
+      "name": "西榮里",
+      "level": "village",
+      "affiliation": "中山區",
+      "candidates": {
+        "cand_2020_01": "27",
+        "cand_2020_02": "179",
+        "cand_2020_03": "285"
+      },
+      "votes": {
+        "valid_votes": "491",
+        "invalid_votes": "3",
+        "total_votes": "494"
+      },
+      "voter_turnout": "72.5404"
+    },
+    {
+      "name": "新西里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "55",
+        "cand_2020_02": "399",
+        "cand_2020_03": "470"
+      },
+      "votes": {
+        "valid_votes": "924",
+        "invalid_votes": "14",
+        "total_votes": "938"
+      },
+      "voter_turnout": "70.5263"
+    },
+    {
+      "name": "西川里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "38",
+        "cand_2020_02": "379",
+        "cand_2020_03": "389"
+      },
+      "votes": {
+        "valid_votes": "806",
+        "invalid_votes": "7",
+        "total_votes": "813"
+      },
+      "voter_turnout": "69.4278"
+    },
+    {
+      "name": "定國里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "39",
+        "cand_2020_02": "297",
+        "cand_2020_03": "379"
+      },
+      "votes": {
+        "valid_votes": "715",
+        "invalid_votes": "6",
+        "total_votes": "721"
+      },
+      "voter_turnout": "72.1722"
+    },
+    {
+      "name": "定邦里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "35",
+        "cand_2020_02": "330",
+        "cand_2020_03": "378"
+      },
+      "votes": {
+        "valid_votes": "743",
+        "invalid_votes": "14",
+        "total_votes": "757"
+      },
+      "voter_turnout": "77.4821"
+    },
+    {
+      "name": "慈仁里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "29",
+        "cand_2020_02": "220",
+        "cand_2020_03": "400"
+      },
+      "votes": {
+        "valid_votes": "649",
+        "invalid_votes": "8",
+        "total_votes": "657"
+      },
+      "voter_turnout": "74.2373"
+    },
+    {
+      "name": "干城里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "66",
+        "cand_2020_02": "577",
+        "cand_2020_03": "721"
+      },
+      "votes": {
+        "valid_votes": "1,364",
+        "invalid_votes": "10",
+        "total_votes": "1,374"
+      },
+      "voter_turnout": "69.2191"
+    },
+    {
+      "name": "永康里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "60",
+        "cand_2020_02": "508",
+        "cand_2020_03": "763"
+      },
+      "votes": {
+        "valid_votes": "1,331",
+        "invalid_votes": "18",
+        "total_votes": "1,349"
+      },
+      "voter_turnout": "71.2249"
+    },
+    {
+      "name": "安和里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "26",
+        "cand_2020_02": "219",
+        "cand_2020_03": "392"
+      },
+      "votes": {
+        "valid_votes": "637",
+        "invalid_votes": "7",
+        "total_votes": "644"
+      },
+      "voter_turnout": "77.7778"
+    },
+    {
+      "name": "樂一里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "25",
+        "cand_2020_02": "146",
+        "cand_2020_03": "236"
+      },
+      "votes": {
+        "valid_votes": "407",
+        "invalid_votes": "4",
+        "total_votes": "411"
+      },
+      "voter_turnout": "73.9209"
+    },
+    {
+      "name": "嘉仁里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "116",
+        "cand_2020_02": "830",
+        "cand_2020_03": "1,333"
+      },
+      "votes": {
+        "valid_votes": "2,279",
+        "invalid_votes": "28",
+        "total_votes": "2,307"
+      },
+      "voter_turnout": "73.4246"
+    },
+    {
+      "name": "三民里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "100",
+        "cand_2020_02": "851",
+        "cand_2020_03": "842"
+      },
+      "votes": {
+        "valid_votes": "1,793",
+        "invalid_votes": "18",
+        "total_votes": "1,811"
+      },
+      "voter_turnout": "73.4686"
+    },
+    {
+      "name": "壯觀里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "147",
+        "cand_2020_02": "1,472",
+        "cand_2020_03": "1,417"
+      },
+      "votes": {
+        "valid_votes": "3,036",
+        "invalid_votes": "30",
+        "total_votes": "3,066"
+      },
+      "voter_turnout": "76.8806"
+    },
+    {
+      "name": "四維里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "199",
+        "cand_2020_02": "1,565",
+        "cand_2020_03": "1,781"
+      },
+      "votes": {
+        "valid_votes": "3,545",
+        "invalid_votes": "36",
+        "total_votes": "3,581"
+      },
+      "voter_turnout": "77.7633"
+    },
+    {
+      "name": "五福里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "134",
+        "cand_2020_02": "1,112",
+        "cand_2020_03": "1,270"
+      },
+      "votes": {
+        "valid_votes": "2,516",
+        "invalid_votes": "23",
+        "total_votes": "2,539"
+      },
+      "voter_turnout": "75.4981"
+    },
+    {
+      "name": "六合里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "155",
+        "cand_2020_02": "1,383",
+        "cand_2020_03": "1,447"
+      },
+      "votes": {
+        "valid_votes": "2,985",
+        "invalid_votes": "24",
+        "total_votes": "3,009"
+      },
+      "voter_turnout": "77.8928"
+    },
+    {
+      "name": "七賢里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "88",
+        "cand_2020_02": "786",
+        "cand_2020_03": "939"
+      },
+      "votes": {
+        "valid_votes": "1,813",
+        "invalid_votes": "16",
+        "total_votes": "1,829"
+      },
+      "voter_turnout": "75.1438"
+    },
+    {
+      "name": "長樂里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "142",
+        "cand_2020_02": "1,205",
+        "cand_2020_03": "1,169"
+      },
+      "votes": {
+        "valid_votes": "2,516",
+        "invalid_votes": "34",
+        "total_votes": "2,550"
+      },
+      "voter_turnout": "79.7623"
+    },
+    {
+      "name": "鶯歌里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "74",
+        "cand_2020_02": "858",
+        "cand_2020_03": "953"
+      },
+      "votes": {
+        "valid_votes": "1,885",
+        "invalid_votes": "14",
+        "total_votes": "1,899"
+      },
+      "voter_turnout": "65.5506"
+    },
+    {
+      "name": "鶯安里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "188",
+        "cand_2020_02": "1,671",
+        "cand_2020_03": "1,609"
+      },
+      "votes": {
+        "valid_votes": "3,468",
+        "invalid_votes": "43",
+        "total_votes": "3,511"
+      },
+      "voter_turnout": "76.4757"
+    },
+    {
+      "name": "興寮里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "159",
+        "cand_2020_02": "1,452",
+        "cand_2020_03": "1,661"
+      },
+      "votes": {
+        "valid_votes": "3,272",
+        "invalid_votes": "30",
+        "total_votes": "3,302"
+      },
+      "voter_turnout": "72.5395"
+    },
+    {
+      "name": "外寮里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "124",
+        "cand_2020_02": "1,167",
+        "cand_2020_03": "1,416"
+      },
+      "votes": {
+        "valid_votes": "2,707",
+        "invalid_votes": "20",
+        "total_votes": "2,727"
+      },
+      "voter_turnout": "72.3150"
+    },
+    {
+      "name": "新崙里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "136",
+        "cand_2020_02": "1,189",
+        "cand_2020_03": "1,455"
+      },
+      "votes": {
+        "valid_votes": "2,780",
+        "invalid_votes": "29",
+        "total_votes": "2,809"
+      },
+      "voter_turnout": "72.6027"
+    },
+    {
+      "name": "武崙里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "189",
+        "cand_2020_02": "1,498",
+        "cand_2020_03": "1,756"
+      },
+      "votes": {
+        "valid_votes": "3,443",
+        "invalid_votes": "26",
+        "total_votes": "3,469"
+      },
+      "voter_turnout": "75.8251"
+    },
+    {
+      "name": "中崙里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "53",
+        "cand_2020_02": "492",
+        "cand_2020_03": "651"
+      },
+      "votes": {
+        "valid_votes": "1,196",
+        "invalid_votes": "13",
+        "total_votes": "1,209"
+      },
+      "voter_turnout": "74.4458"
+    },
+    {
+      "name": "內寮里",
+      "level": "village",
+      "affiliation": "安樂區",
+      "candidates": {
+        "cand_2020_01": "183",
+        "cand_2020_02": "1,594",
+        "cand_2020_03": "1,908"
+      },
+      "votes": {
+        "valid_votes": "3,685",
+        "invalid_votes": "37",
+        "total_votes": "3,722"
+      },
+      "voter_turnout": "72.1737"
+    },
+    {
+      "name": "仁壽里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "39",
+        "cand_2020_02": "339",
+        "cand_2020_03": "409"
+      },
+      "votes": {
+        "valid_votes": "787",
+        "invalid_votes": "12",
+        "total_votes": "799"
+      },
+      "voter_turnout": "77.1236"
+    },
+    {
+      "name": "仁義里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "45",
+        "cand_2020_02": "484",
+        "cand_2020_03": "419"
+      },
+      "votes": {
+        "valid_votes": "948",
+        "invalid_votes": "10",
+        "total_votes": "958"
+      },
+      "voter_turnout": "80.4366"
+    },
+    {
+      "name": "義昭里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "27",
+        "cand_2020_02": "421",
+        "cand_2020_03": "418"
+      },
+      "votes": {
+        "valid_votes": "866",
+        "invalid_votes": "16",
+        "total_votes": "882"
+      },
+      "voter_turnout": "76.2316"
+    },
+    {
+      "name": "義幸里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "70",
+        "cand_2020_02": "877",
+        "cand_2020_03": "780"
+      },
+      "votes": {
+        "valid_votes": "1,727",
+        "invalid_votes": "19",
+        "total_votes": "1,746"
+      },
+      "voter_turnout": "77.2566"
+    },
+    {
+      "name": "義民里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "20",
+        "cand_2020_02": "240",
+        "cand_2020_03": "284"
+      },
+      "votes": {
+        "valid_votes": "544",
+        "invalid_votes": "3",
+        "total_votes": "547"
+      },
+      "voter_turnout": "77.6989"
+    },
+    {
+      "name": "義和里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "51",
+        "cand_2020_02": "461",
+        "cand_2020_03": "382"
+      },
+      "votes": {
+        "valid_votes": "894",
+        "invalid_votes": "3",
+        "total_votes": "897"
+      },
+      "voter_turnout": "61.2287"
+    },
+    {
+      "name": "智慧里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "45",
+        "cand_2020_02": "235",
+        "cand_2020_03": "252"
+      },
+      "votes": {
+        "valid_votes": "532",
+        "invalid_votes": "13",
+        "total_votes": "545"
+      },
+      "voter_turnout": "77.1955"
+    },
+    {
+      "name": "智誠里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "52",
+        "cand_2020_02": "416",
+        "cand_2020_03": "589"
+      },
+      "votes": {
+        "valid_votes": "1,057",
+        "invalid_votes": "16",
+        "total_votes": "1,073"
+      },
+      "voter_turnout": "71.9169"
+    },
+    {
+      "name": "禮儀里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "61",
+        "cand_2020_02": "572",
+        "cand_2020_03": "559"
+      },
+      "votes": {
+        "valid_votes": "1,192",
+        "invalid_votes": "11",
+        "total_votes": "1,203"
+      },
+      "voter_turnout": "76.3325"
+    },
+    {
+      "name": "禮東里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "59",
+        "cand_2020_02": "553",
+        "cand_2020_03": "494"
+      },
+      "votes": {
+        "valid_votes": "1,106",
+        "invalid_votes": "19",
+        "total_votes": "1,125"
+      },
+      "voter_turnout": "76.7918"
+    },
+    {
+      "name": "信綠里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "75",
+        "cand_2020_02": "705",
+        "cand_2020_03": "734"
+      },
+      "votes": {
+        "valid_votes": "1,514",
+        "invalid_votes": "9",
+        "total_votes": "1,523"
+      },
+      "voter_turnout": "75.1357"
+    },
+    {
+      "name": "東信里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "155",
+        "cand_2020_02": "1,548",
+        "cand_2020_03": "1,391"
+      },
+      "votes": {
+        "valid_votes": "3,094",
+        "invalid_votes": "30",
+        "total_votes": "3,124"
+      },
+      "voter_turnout": "76.9837"
+    },
+    {
+      "name": "東光里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "59",
+        "cand_2020_02": "620",
+        "cand_2020_03": "621"
+      },
+      "votes": {
+        "valid_votes": "1,300",
+        "invalid_votes": "11",
+        "total_votes": "1,311"
+      },
+      "voter_turnout": "75.5184"
+    },
+    {
+      "name": "東明里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "132",
+        "cand_2020_02": "1,299",
+        "cand_2020_03": "1,130"
+      },
+      "votes": {
+        "valid_votes": "2,561",
+        "invalid_votes": "20",
+        "total_votes": "2,581"
+      },
+      "voter_turnout": "75.3137"
+    },
+    {
+      "name": "東安里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "87",
+        "cand_2020_02": "980",
+        "cand_2020_03": "937"
+      },
+      "votes": {
+        "valid_votes": "2,004",
+        "invalid_votes": "21",
+        "total_votes": "2,025"
+      },
+      "voter_turnout": "74.6681"
+    },
+    {
+      "name": "孝賢里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "139",
+        "cand_2020_02": "1,263",
+        "cand_2020_03": "1,161"
+      },
+      "votes": {
+        "valid_votes": "2,563",
+        "invalid_votes": "28",
+        "total_votes": "2,591"
+      },
+      "voter_turnout": "77.5052"
+    },
+    {
+      "name": "孝忠里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "308",
+        "cand_2020_02": "2,364",
+        "cand_2020_03": "2,580"
+      },
+      "votes": {
+        "valid_votes": "5,252",
+        "invalid_votes": "42",
+        "total_votes": "5,294"
+      },
+      "voter_turnout": "75.0603"
+    },
+    {
+      "name": "孝德里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "74",
+        "cand_2020_02": "764",
+        "cand_2020_03": "860"
+      },
+      "votes": {
+        "valid_votes": "1,698",
+        "invalid_votes": "16",
+        "total_votes": "1,714"
+      },
+      "voter_turnout": "70.6804"
+    },
+    {
+      "name": "孝深里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "148",
+        "cand_2020_02": "1,230",
+        "cand_2020_03": "1,412"
+      },
+      "votes": {
+        "valid_votes": "2,790",
+        "invalid_votes": "20",
+        "total_votes": "2,810"
+      },
+      "voter_turnout": "69.5889"
+    },
+    {
+      "name": "孝岡里",
+      "level": "village",
+      "affiliation": "信義區",
+      "candidates": {
+        "cand_2020_01": "49",
+        "cand_2020_02": "414",
+        "cand_2020_03": "493"
+      },
+      "votes": {
+        "valid_votes": "956",
+        "invalid_votes": "9",
+        "total_votes": "965"
+      },
+      "voter_turnout": "75.3318"
+    }
+  ]
+}
