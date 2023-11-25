@@ -1,10 +1,11 @@
 import Image from 'next/image';
 import { ChevronRightIcon } from '@heroicons/react/24/solid';
 
-import { type Candidate, type VotingResult } from '@/types/index';
-import PercentageBar from '@/components/UI/PercentageBar';
+import { type Candidate, type VotingResult } from '@/types';
+import { levels } from '@/constants';
 import { getOrderedVoteResult } from '@/pageFunctions/election-data';
 import VotingTableRowWrapper from '@/components/AreaVotingTable/VotingTableRowWrapper';
+import PercentageBar from '@/components/UI/PercentageBar';
 
 function VotingTableRow({
   candidates,
@@ -24,8 +25,8 @@ function VotingTableRow({
 
   return (
     <VotingTableRowWrapper placeName={votingResult.name}>
-      <td className='heading-6 px-2 py-2.5'>{name}</td>
-      <td className='px-2 py-2.5'>
+      <td className='w-[180px] heading-6 px-2 py-2.5'>{name}</td>
+      <td className='w-[330px] px-2 py-2.5'>
         <PercentageBar height={8} groups={barGroups} />
       </td>
       <td className='flex items-center gap-2 px-2 py-2.5'>
@@ -45,7 +46,9 @@ function VotingTableRow({
       <td className='px-2 py-2.5'>{votes.total_votes}</td>
       <td className='px-2 py-2.5'>{(+voter_turnout).toFixed(2) + '%'}</td>
       <td className='px-2 py-2.5 w-10'>
-        {level !== 3 && <ChevronRightIcon className='w-[14px] mr-5' />}
+        {level !== levels.village && (
+          <ChevronRightIcon className='w-[14px] mr-5' />
+        )}
       </td>
     </VotingTableRowWrapper>
   );
