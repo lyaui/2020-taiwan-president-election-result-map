@@ -1,0 +1,232 @@
+{
+  "city": [
+    {
+      "name": "連江縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2020_01": "188",
+        "cand_2020_02": "4,776",
+        "cand_2020_03": "1,226"
+      },
+      "votes": {
+        "valid_votes": "6,190",
+        "invalid_votes": "82",
+        "total_votes": "6,272"
+      },
+      "voter_turnout": "57.3361"
+    }
+  ],
+  "dist": [
+    {
+      "name": "南竿鄉",
+      "level": "dist",
+      "affiliation": "連江縣",
+      "candidates": {
+        "cand_2020_01": "114",
+        "cand_2020_02": "2,875",
+        "cand_2020_03": "784"
+      },
+      "votes": {
+        "valid_votes": "3,773",
+        "invalid_votes": "53",
+        "total_votes": "3,826"
+      },
+      "voter_turnout": "61.1475"
+    },
+    {
+      "name": "北竿鄉",
+      "level": "dist",
+      "affiliation": "連江縣",
+      "candidates": {
+        "cand_2020_01": "25",
+        "cand_2020_02": "883",
+        "cand_2020_03": "201"
+      },
+      "votes": {
+        "valid_votes": "1,109",
+        "invalid_votes": "14",
+        "total_votes": "1,123"
+      },
+      "voter_turnout": "51.3020"
+    },
+    {
+      "name": "莒光鄉",
+      "level": "dist",
+      "affiliation": "連江縣",
+      "candidates": {
+        "cand_2020_01": "14",
+        "cand_2020_02": "513",
+        "cand_2020_03": "105"
+      },
+      "votes": {
+        "valid_votes": "632",
+        "invalid_votes": "9",
+        "total_votes": "641"
+      },
+      "voter_turnout": "46.6521"
+    },
+    {
+      "name": "東引鄉",
+      "level": "dist",
+      "affiliation": "連江縣",
+      "candidates": {
+        "cand_2020_01": "35",
+        "cand_2020_02": "505",
+        "cand_2020_03": "136"
+      },
+      "votes": {
+        "valid_votes": "676",
+        "invalid_votes": "6",
+        "total_votes": "682"
+      },
+      "voter_turnout": "60.9473"
+    }
+  ],
+  "village": [
+    {
+      "name": "介壽村",
+      "level": "village",
+      "affiliation": "南竿鄉",
+      "candidates": {
+        "cand_2020_01": "40",
+        "cand_2020_02": "915",
+        "cand_2020_03": "247"
+      },
+      "votes": {
+        "valid_votes": "1,202",
+        "invalid_votes": "20",
+        "total_votes": "1,222"
+      },
+      "voter_turnout": "63.7122"
+    },
+    {
+      "name": "復興村、福沃村",
+      "level": "village",
+      "affiliation": "南竿鄉",
+      "candidates": {
+        "cand_2020_01": "27",
+        "cand_2020_02": "765",
+        "cand_2020_03": "196"
+      },
+      "votes": {
+        "valid_votes": "988",
+        "invalid_votes": "19",
+        "total_votes": "1,007"
+      },
+      "voter_turnout": "58.4785"
+    },
+    {
+      "name": "清水村、珠螺村",
+      "level": "village",
+      "affiliation": "南竿鄉",
+      "candidates": {
+        "cand_2020_01": "25",
+        "cand_2020_02": "495",
+        "cand_2020_03": "170"
+      },
+      "votes": {
+        "valid_votes": "690",
+        "invalid_votes": "7",
+        "total_votes": "697"
+      },
+      "voter_turnout": "62.3993"
+    },
+    {
+      "name": "仁愛村、津沙村、馬祖村、四維村",
+      "level": "village",
+      "affiliation": "南竿鄉",
+      "candidates": {
+        "cand_2020_01": "22",
+        "cand_2020_02": "700",
+        "cand_2020_03": "171"
+      },
+      "votes": {
+        "valid_votes": "893",
+        "invalid_votes": "7",
+        "total_votes": "900"
+      },
+      "voter_turnout": "60.0000"
+    },
+    {
+      "name": "塘岐村、后沃村",
+      "level": "village",
+      "affiliation": "北竿鄉",
+      "candidates": {
+        "cand_2020_01": "15",
+        "cand_2020_02": "487",
+        "cand_2020_03": "121"
+      },
+      "votes": {
+        "valid_votes": "623",
+        "invalid_votes": "6",
+        "total_votes": "629"
+      },
+      "voter_turnout": "51.5152"
+    },
+    {
+      "name": "橋仔村、芹壁村、坂里村、白沙村",
+      "level": "village",
+      "affiliation": "北竿鄉",
+      "candidates": {
+        "cand_2020_01": "10",
+        "cand_2020_02": "396",
+        "cand_2020_03": "80"
+      },
+      "votes": {
+        "valid_votes": "486",
+        "invalid_votes": "8",
+        "total_votes": "494"
+      },
+      "voter_turnout": "51.0331"
+    },
+    {
+      "name": "青帆村、田沃村、西坵村",
+      "level": "village",
+      "affiliation": "莒光鄉",
+      "candidates": {
+        "cand_2020_01": "9",
+        "cand_2020_02": "228",
+        "cand_2020_03": "43"
+      },
+      "votes": {
+        "valid_votes": "280",
+        "invalid_votes": "3",
+        "total_votes": "283"
+      },
+      "voter_turnout": "44.2188"
+    },
+    {
+      "name": "福正村、大坪村",
+      "level": "village",
+      "affiliation": "莒光鄉",
+      "candidates": {
+        "cand_2020_01": "5",
+        "cand_2020_02": "285",
+        "cand_2020_03": "62"
+      },
+      "votes": {
+        "valid_votes": "352",
+        "invalid_votes": "6",
+        "total_votes": "358"
+      },
+      "voter_turnout": "48.7738"
+    },
+    {
+      "name": "中柳村、樂華村",
+      "level": "village",
+      "affiliation": "東引鄉",
+      "candidates": {
+        "cand_2020_01": "35",
+        "cand_2020_02": "505",
+        "cand_2020_03": "136"
+      },
+      "votes": {
+        "valid_votes": "676",
+        "invalid_votes": "6",
+        "total_votes": "682"
+      },
+      "voter_turnout": "60.9473"
+    }
+  ]
+}
