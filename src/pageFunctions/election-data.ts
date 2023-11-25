@@ -58,7 +58,7 @@ export function getBreadcrumbRouters(searchParams: SearchParams): RoutersType {
 }
 
 export async function fetchElectionData(
-  year: string = `${years[0]}`,
+  year: (typeof years)[number] = years[0],
   city: string = '',
   dist: string = '',
 ) {
@@ -73,12 +73,35 @@ export async function fetchElectionData(
     'utf8',
   );
 
+  // TODO type
   const votingResult = JSON.parse(votingFile);
   const candidates = JSON.parse(candiFile)[year];
 
+  if (dist) {
+    return {
+      candidates,
+      votingResult: votingResult.dist.find(
+        (_result: VotingResult) => _result.name === dist,
+      ),
+      subareas: votingResult.village.filter(
+        (_result: VotingResult) => _result.affiliation === dist,
+      ),
+    };
+  }
+
+  if (city) {
+    return {
+      candidates,
+      votingResult: votingResult.city.find(
+        (_result: VotingResult) => _result.name === city,
+      ),
+      subareas: votingResult.dist,
+    };
+  }
+
   return {
-    votingResult,
-    candidates,
+    // votingResult,
+    // candidates,
   };
 }
 

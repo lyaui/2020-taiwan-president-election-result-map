@@ -20,10 +20,14 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
   const title = getTitle(searchParams);
   const routers = getBreadcrumbRouters(searchParams);
 
-  const { year, city } = searchParams;
+  const { year, city, dist = '' } = searchParams;
 
   // TODO sleep & error handling
-  const { votingResult, candidates } = await fetchElectionData(year, city);
+  const { candidates, votingResult, subareas } = await fetchElectionData(
+    year,
+    city,
+    dist,
+  );
 
   return (
     <div>
@@ -43,9 +47,9 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
             <div className='grid grid-cols-2 gap-4'>
               <CandVoteShare
                 candidates={candidates}
-                votingResult={votingResult.city}
+                votingResult={votingResult}
               />
-              <VotingRate votingResult={votingResult.city} />
+              <VotingRate votingResult={votingResult} />
             </div>
           </section>
 
@@ -63,7 +67,7 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
             <h4 className='heading-5'>各區域投票總覽</h4>
             <AreaVotingTable
               candidates={candidates}
-              votingResultArr={votingResult.dist}
+              votingResultArr={subareas}
             />
           </section>
           <Footer />
