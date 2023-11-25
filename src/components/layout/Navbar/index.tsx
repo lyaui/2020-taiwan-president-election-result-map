@@ -1,6 +1,8 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { MagnifyingGlassIcon } from '@heroicons/react/24/solid';
 
+import { ROUTER } from '@/routers';
 import logoNavImg from 'public/assets/logo/logo_nav.svg';
 import fbIcon from 'public/assets/icons/facebook.svg';
 import igIcon from 'public/assets/icons/instagram.svg';
@@ -8,6 +10,18 @@ import ytIcon from 'public/assets/icons/youtube.svg';
 import YearSelector from '@/components/layout/Navbar/YearSelector';
 import CitySelector from '@/components/layout/Navbar/CitySelector';
 import DistSelector from '@/components/layout/Navbar/DistSelector';
+
+const logoStyle = {
+  backgroundImage: `url(${logoNavImg.src})`,
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'contain',
+  width: '100%',
+  height: '100%',
+  display: 'block',
+  textIndent: '101%',
+  overflow: 'hidden',
+  'white-space': 'nowrap',
+};
 
 function Navbar() {
   const medias = [
@@ -17,7 +31,11 @@ function Navbar() {
   ];
   return (
     <nav className='fixed top-0 z-50 bg-white w-full flex items-center gap-6 h-[65px] border-b-[1px] border-line py-3 px-6'>
-      <Image src={logoNavImg} alt='台灣歷年總統 都幾' />
+      <h1 className='w-[310px] h-[40px]'>
+        <Link href={ROUTER.HOME} style={logoStyle}>
+          台灣歷年總統 都幾
+        </Link>
+      </h1>
       <div className='flex gap-4'>
         <YearSelector />
         <div className='relative flex-center bg-background rounded-[500px] pl-6'>
