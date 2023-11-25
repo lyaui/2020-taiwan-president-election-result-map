@@ -1,9 +1,9 @@
-import { type Statics } from '@/types/index';
+import { type VotingResult } from '@/types/index';
 import DonutChart from '@/components/UI/DonutChart';
 
-function VotingRate({ statistics }: { statistics: Statics }) {
-  const { voter_turnout } = statistics;
-  const { total_votes, valid_votes, invalid_votes } = statistics.votes;
+function VotingRate({ votingResult }: { votingResult: VotingResult }) {
+  const { voter_turnout } = votingResult;
+  const { total_votes, valid_votes, invalid_votes } = votingResult.votes;
 
   const figures = [
     { label: '投票數', value: total_votes },

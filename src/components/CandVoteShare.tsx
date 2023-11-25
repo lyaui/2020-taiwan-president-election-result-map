@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { CheckCircleIcon } from '@heroicons/react/24/solid';
 import { numberWithCommas } from '@/utils/index';
 import { getOrderedVoteResult } from '@/pageFunctions/election-data';
-import { type Candidate, type Statics } from '@/types/index';
+import { type Candidate, type VotingResult } from '@/types/index';
 import PercentageBar from '@/components/UI/PercentageBar';
 
 interface CandidateInfoProps extends Candidate {
@@ -50,14 +50,14 @@ function CandidateInfo({
 
 function CandVoteShare({
   candidates = [],
-  statistics,
+  votingResult,
 }: {
   candidates: Candidate[];
-  statistics: Statics;
+  votingResult: VotingResult;
 }) {
   const { orderedCandiData, barGroups } = getOrderedVoteResult({
     candidates,
-    statistics,
+    votingResult,
   });
 
   return (

@@ -23,7 +23,7 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
   const { year, city } = searchParams;
 
   // TODO sleep & error handling
-  const { statistics, candidates } = await fetchElectionData(year, city);
+  const { votingResult, candidates } = await fetchElectionData(year, city);
 
   return (
     <div>
@@ -43,9 +43,9 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
             <div className='grid grid-cols-2 gap-4'>
               <CandVoteShare
                 candidates={candidates}
-                statistics={statistics.city}
+                votingResult={votingResult.city}
               />
-              <VotingRate statistics={statistics.city} />
+              <VotingRate votingResult={votingResult.city} />
             </div>
           </section>
 
@@ -63,7 +63,7 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
             <h4 className='heading-5'>各區域投票總覽</h4>
             <AreaVotingTable
               candidates={candidates}
-              statisticsArr={statistics.dist}
+              votingResultArr={votingResult.dist}
             />
           </section>
           <Footer />

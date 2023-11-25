@@ -13,7 +13,7 @@ export interface Candidate {
   party_name: string;
 }
 
-export interface Statics {
+export interface VotingResult {
   name: string;
   candidates: Record<string, string>;
   votes: {

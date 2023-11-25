@@ -1,12 +1,12 @@
-import { type Candidate, type Statics } from '@/types/index';
+import { type Candidate, type VotingResult } from '@/types/index';
 import VotingTableRow from '@/components/AreaVotingTable/VotingTableRow';
 
 function AreaVotingTable({
   candidates = [],
-  statisticsArr = [],
+  votingResultArr = [],
 }: {
   candidates: Candidate[];
-  statisticsArr: Statics[];
+  votingResultArr: VotingResult[];
 }) {
   const headers = ['縣市', '得票率', '當選人', '投票數', '投票率', ' '];
   return (
@@ -22,10 +22,10 @@ function AreaVotingTable({
       </thead>
       {/* TODO order , children server comp */}
       <tbody>
-        {statisticsArr.map((_static) => (
+        {votingResultArr.map((_result) => (
           <VotingTableRow
-            key={_static.name}
-            statistics={_static}
+            key={_result.name}
+            votingResult={_result}
             candidates={candidates}
           />
         ))}

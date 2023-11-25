@@ -1,7 +1,11 @@
 import { promises as fs } from 'fs';
 import querystring from 'query-string';
 
-import { type SearchParams, type Candidate, type Statics } from '@/types/index';
+import {
+  type SearchParams,
+  type Candidate,
+  type VotingResult,
+} from '@/types/index';
 import { type BreadCrumbProps } from '@/components/UI/Breadcrumb';
 import { transCommaStringToNumber } from '@/utils/index';
 import { years } from '@/constants/index';
@@ -69,28 +73,28 @@ export async function fetchElectionData(
     'utf8',
   );
 
-  const statistics = JSON.parse(votingFile);
+  const votingResult = JSON.parse(votingFile);
   const candidates = JSON.parse(candiFile)[year];
 
   return {
-    statistics,
+    votingResult,
     candidates,
   };
 }
 
 export function getOrderedVoteResult({
   candidates,
-  statistics,
+  votingResult,
 }: {
   candidates: Candidate[];
-  statistics: Statics;
+  votingResult: VotingResult;
 }) {
   const orderedCandiData: (Candidate & { vote_cnt: number })[] = candidates
     .map((_cand) => {
       return {
         ..._cand,
         vote_cnt: transCommaStringToNumber(
-          statistics?.candidates[_cand.cand_id],
+          votingResult?.candidates[_cand.cand_id],
         ),
       };
     })
