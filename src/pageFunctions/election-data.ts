@@ -1,3 +1,4 @@
+import path from 'path';
 import { promises as fs } from 'fs';
 import querystring from 'query-string';
 
@@ -62,14 +63,16 @@ export async function fetchElectionData(
   city: string = '',
   dist: string = '',
 ) {
+  const workDirPath = process.cwd();
+  const folderPath = `public/json`;
+
   // TODO: error handling
   const votingFile = await fs.readFile(
-    process.cwd() + `/public/json/${year}/${city || '全國'}.json`,
+    path.join(workDirPath, `${folderPath}/${year}`, `${city || '全國'}.json`),
     'utf8',
   );
-
   const candiFile = await fs.readFile(
-    process.cwd() + `/public/json/candidates.json`,
+    path.join(workDirPath, `${folderPath}/`, 'candidates.json'),
     'utf8',
   );
 
