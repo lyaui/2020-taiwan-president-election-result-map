@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { ChevronRightIcon } from '@heroicons/react/24/solid';
 
 import { type Candidate, type VotingResult } from '@/types/index';
 import PercentageBar from '@/components/UI/PercentageBar';
@@ -12,7 +13,7 @@ function VotingTableRow({
   candidates: Candidate[];
   votingResult: VotingResult;
 }) {
-  const { name, votes, voter_turnout } = votingResult;
+  const { name, level, votes, voter_turnout } = votingResult;
 
   const { orderedCandiData, barGroups } = getOrderedVoteResult({
     candidates,
@@ -43,7 +44,9 @@ function VotingTableRow({
       </td>
       <td className='px-2 py-2.5'>{votes.total_votes}</td>
       <td className='px-2 py-2.5'>{(+voter_turnout).toFixed(2) + '%'}</td>
-      <td className='px-2 py-2.5 w-10'>{`>`}</td>
+      <td className='px-2 py-2.5 w-10'>
+        {level !== 3 && <ChevronRightIcon className='w-[14px] mr-5' />}
+      </td>
     </VotingTableRowWrapper>
   );
 }
