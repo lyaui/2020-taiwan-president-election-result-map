@@ -1,13 +1,27 @@
 import Image from 'next/image';
-import YearSelectChips from '@/components/YearSelectChips';
+
+import vampireImg from 'public/assets/images/candidate_vampire.png';
+import superVillainImg from 'public/assets/images/candidate_supervillain.png';
+import trollImg from 'public/assets/images/candidate_troll.png';
+import mageImg from 'public/assets/images/candidate_mage.png';
+import elfImg from 'public/assets/images/candidate_elf.png';
+import zombieImg from 'public/assets/images/candidate_zombie.png';
 import logoImage from 'public/assets/logo/logo.svg';
 import titleImage from 'public/assets/logo/title_text.svg';
+import YearSelectChips from '@/components/YearSelectChips';
 
 export default function Home() {
-  const handleYearClick = () => {};
+  const candidatesImgs = [
+    vampireImg,
+    superVillainImg,
+    trollImg,
+    mageImg,
+    elfImg,
+    zombieImg,
+  ];
   return (
-    <main className='flex min-h-screen flex-col items-center justify-between p-24'>
-      <div className='max-w-[924px] py-[96px] col-center gap-6'>
+    <main className='relative flex flex-col 2xl:justify-center items-center w-full h-screen bg-gray-100 overflow-hidden'>
+      <div className='py-[96px] col-center gap-10 px-10'>
         <>
           <Image
             src={logoImage}
@@ -24,8 +38,24 @@ export default function Home() {
             draggable={false}
           />
         </>
-        <h4 className='heading-4 text-primary'>查詢選擇年份</h4>
+        <h4 className='heading-4 !text-primary'>查詢選擇年份</h4>
         <YearSelectChips />
+      </div>
+      <div className='absolute flex-center sm:gap-12 bottom-0'>
+        {candidatesImgs.map((_img, index) => (
+          <div
+            key={index}
+            className='relative w-[100px] sm:w-[200px] md:w-[256px] h-[100px] sm:h-[200px] md:h-[256px]'
+          >
+            <Image
+              src={_img}
+              alt='candidate'
+              fill
+              draggable={false}
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
+        ))}
       </div>
     </main>
   );
