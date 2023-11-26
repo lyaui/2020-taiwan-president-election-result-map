@@ -66,7 +66,7 @@ function PercentageBar({
         enterTo='opacity-100'
       >
         <div
-          className='py-2'
+          className='cursor-default py-2'
           onMouseEnter={handleShowTooltip}
           onMouseLeave={handleHideTooltip}
         >
@@ -80,7 +80,7 @@ function PercentageBar({
                 return (
                   <span
                     key={_item.color}
-                    className={`!text-white ${_item.color} text-center caption hover:brightness-110 c-transition`}
+                    className={` !text-white ${_item.color} text-center caption hover:brightness-110 c-transition`}
                     style={{
                       width: percent * 100 + '%',
                       lineHeight: height + 'px',
