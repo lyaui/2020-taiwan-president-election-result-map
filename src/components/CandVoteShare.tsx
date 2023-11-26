@@ -34,7 +34,7 @@ function CandidateInfo({
         />
       </div>
       <div className='flex flex-col gap-[2px]'>
-        <p className='text-text-secondary caption'>{party_name}</p>
+        <p className='!text-text-secondary caption'>{party_name}</p>
         <p className='flex gap-1'>
           {cand_name}
           {winner && <CheckCircleIcon className='w-[20px] text-primary' />}
@@ -61,8 +61,8 @@ function CandVoteShare({
   });
 
   return (
-    <div className='flex flex-col gap-3 bg-white px-6 py-[30px] rounded-xl'>
-      <div className='grid grid-cols-3 gap-10'>
+    <div className='flex flex-col gap-3 bg-white p-4 xs:px-6 xs:py-[30px] rounded-xl'>
+      <div className='grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-10'>
         {orderedCandiData.map(
           (_cand: Candidate & { vote_cnt: number }, _index) => (
             <CandidateInfo
