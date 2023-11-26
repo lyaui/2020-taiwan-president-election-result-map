@@ -1,11 +1,12 @@
 import Navbar from '@/components/layout/Navbar';
-import Footer from '@/components/layout/Footer';
+
 import Map from '@/components/Map/index';
 import GoPreviousLevelButton from '@/components/GoPreviousLevelButton';
 import Breadcrumb from '@/components/UI/Breadcrumb';
 import CandVoteShare from '@/components/CandVoteShare';
 import VotingRate from '@/components/VotingRate';
-import AreaVotingTable from '@/components/AreaVotingTable/index';
+import AreaVotingTable from '@/components/AreaVotingTable';
+import StatisticsLayout from '@/components/layout/StatisticsLayout';
 import {
   getTitle,
   getBreadcrumbRouters,
@@ -34,8 +35,13 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
     <div>
       <Navbar />
       <main className='flex mt-[65px]'>
-        <Map />
-        <article className='h-[calc(100vh-65px)] w-full flex flex-col gap-6 px-12 pt-8 overflow-auto '>
+        {/* map */}
+        <article className='w-[500px] h-[calc(100vh-65px)] bg-gray-400 overflow-auto shrink-0'>
+          <Map />
+        </article>
+
+        {/* statistics */}
+        <StatisticsLayout>
           {/* info */}
           <section>
             <div className='flex items-center gap-2.5 mb-[6px]'>
@@ -66,6 +72,7 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
               <h4 className='heading-5'>歷屆政黨得票率</h4>
             </div>
           </section>
+
           {/* area result */}
           <section className='flex flex-col gap-2 py-4'>
             <h4 className='heading-5'>各區域投票總覽</h4>
@@ -74,8 +81,7 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
               votingResultArr={subareas}
             />
           </section>
-          <Footer />
-        </article>
+        </StatisticsLayout>
       </main>
     </div>
   );
