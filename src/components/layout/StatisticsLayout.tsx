@@ -1,6 +1,7 @@
 'use client';
 
-import { useRef, type ReactNode } from 'react';
+import { useEffect, useRef, type ReactNode } from 'react';
+import { useSearchParams } from 'next/navigation';
 
 import IconButton from '@/components/UI/IconButton';
 import Footer from '@/components/layout/Footer';
@@ -11,11 +12,18 @@ interface StatisticsLayoutProps {
 
 function StatisticsLayout({ children }: StatisticsLayoutProps) {
   const sectionRef = useRef<HTMLElement>(null);
+  const searchParams = useSearchParams();
 
-  const handleScrollTopClick = () => {
+  const queryString = searchParams.toString();
+
+  const handleScrollTop = () => {
     if (!sectionRef.current) return;
     sectionRef.current.scrollTo({ top: 0, behavior: 'smooth' });
   };
+
+  useEffect(() => {
+    handleScrollTop();
+  }, [queryString]);
 
   return (
     <article
@@ -24,7 +32,7 @@ function StatisticsLayout({ children }: StatisticsLayoutProps) {
     >
       {children}
       <IconButton
-        onClick={handleScrollTopClick}
+        onClick={handleScrollTop}
         iconName='ArrowUpIcon'
         variant='outlined'
         color='primary'
