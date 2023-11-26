@@ -57,9 +57,9 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
             <div className='grid grid-cols-1 xl:grid-cols-2 gap-4'>
               <CandVoteShare
                 candidates={candidates}
-                votingResult={votingResult}
+                votingResult={votingResult!}
               />
-              <VotingRate votingResult={votingResult} />
+              <VotingRate votingResult={votingResult!} />
             </div>
           </section>
 
