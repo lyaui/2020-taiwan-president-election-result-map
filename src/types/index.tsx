@@ -19,7 +19,7 @@ export interface Candidate {
   party_name: string;
 }
 
-export interface VotingResult {
+type VotingResult = {
   [key: string]: string | undefined | object;
   name: string;
   level: Level;
@@ -31,4 +31,4 @@ export interface VotingResult {
     total_votes: string;
   };
   voter_turnout: string;
-}
+} | null;
