@@ -36,7 +36,7 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
       <Navbar />
       <main className='2xl:flex mt-[65px]'>
         {/* map */}
-        <article className='w-full 2xl:w-[500px] h-[calc(100vh-65px)] bg-gray-400 overflow-auto shrink-0'>
+        <article className='w-full 2xl:w-[500px] h-[150px] 2xl:h-[calc(100vh-65px)] bg-gray-400 overflow-auto shrink-0'>
           <Map />
         </article>
 
@@ -64,7 +64,7 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
           </section>
 
           {/* party result */}
-          <section className='grid grid-cols-2 gap-4'>
+          <section className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
             <div className='border-[1px] border-line px-4 py-6 rounded-xl'>
               <h4 className='heading-5'>歷屆政黨得票數</h4>
             </div>
