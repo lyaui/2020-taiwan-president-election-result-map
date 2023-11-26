@@ -1,0 +1,8152 @@
+{
+  "city": [
+    {
+      "name": "桃園市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 369013,
+        "cand_2016_02": 547573,
+        "cand_2016_03": 156518
+      },
+      "votes": {
+        "valid_votes": 1073104,
+        "invalid_votes": 11898,
+        "total_votes": 1085002
+      },
+      "voter_turnout": 66.66000366210938
+    }
+  ],
+  "dist": [
+    {
+      "name": "蘆竹區",
+      "level": "dist",
+      "affiliation": "桃園市",
+      "candidates": {
+        "cand_2016_01": 22563,
+        "cand_2016_02": 43527,
+        "cand_2016_03": 10187
+      },
+      "votes": {
+        "valid_votes": 76277,
+        "invalid_votes": 886,
+        "total_votes": 77163
+      },
+      "voter_turnout": 67.04000091552734
+    },
+    {
+      "name": "龜山區",
+      "level": "dist",
+      "affiliation": "桃園市",
+      "candidates": {
+        "cand_2016_01": 24434,
+        "cand_2016_02": 39495,
+        "cand_2016_03": 10293
+      },
+      "votes": {
+        "valid_votes": 74222,
+        "invalid_votes": 874,
+        "total_votes": 75096
+      },
+      "voter_turnout": 65.68000030517578
+    },
+    {
+      "name": "桃園區",
+      "level": "dist",
+      "affiliation": "桃園市",
+      "candidates": {
+        "cand_2016_01": 70295,
+        "cand_2016_02": 113237,
+        "cand_2016_03": 30352
+      },
+      "votes": {
+        "valid_votes": 213884,
+        "invalid_votes": 2241,
+        "total_votes": 216125
+      },
+      "voter_turnout": 66.30999755859375
+    },
+    {
+      "name": "大園區",
+      "level": "dist",
+      "affiliation": "桃園市",
+      "candidates": {
+        "cand_2016_01": 12256,
+        "cand_2016_02": 25620,
+        "cand_2016_03": 5800
+      },
+      "votes": {
+        "valid_votes": 43676,
+        "invalid_votes": 519,
+        "total_votes": 44195
+      },
+      "voter_turnout": 66.69000244140625
+    },
+    {
+      "name": "觀音區",
+      "level": "dist",
+      "affiliation": "桃園市",
+      "candidates": {
+        "cand_2016_01": 8193,
+        "cand_2016_02": 20639,
+        "cand_2016_03": 4410
+      },
+      "votes": {
+        "valid_votes": 33242,
+        "invalid_votes": 359,
+        "total_votes": 33601
+      },
+      "voter_turnout": 67.01000213623047
+    },
+    {
+      "name": "新屋區",
+      "level": "dist",
+      "affiliation": "桃園市",
+      "candidates": {
+        "cand_2016_01": 7619,
+        "cand_2016_02": 15897,
+        "cand_2016_03": 3327
+      },
+      "votes": {
+        "valid_votes": 26843,
+        "invalid_votes": 273,
+        "total_votes": 27116
+      },
+      "voter_turnout": 69.63999938964844
+    },
+    {
+      "name": "楊梅區",
+      "level": "dist",
+      "affiliation": "桃園市",
+      "candidates": {
+        "cand_2016_01": 28747,
+        "cand_2016_02": 37912,
+        "cand_2016_03": 13569
+      },
+      "votes": {
+        "valid_votes": 80228,
+        "invalid_votes": 884,
+        "total_votes": 81112
+      },
+      "voter_turnout": 65.55000305175781
+    },
+    {
+      "name": "中壢區",
+      "level": "dist",
+      "affiliation": "桃園市",
+      "candidates": {
+        "cand_2016_01": 76846,
+        "cand_2016_02": 93743,
+        "cand_2016_03": 30880
+      },
+      "votes": {
+        "valid_votes": 201469,
+        "invalid_votes": 2165,
+        "total_votes": 203634
+      },
+      "voter_turnout": 67.30000305175781
+    },
+    {
+      "name": "平鎮區",
+      "level": "dist",
+      "affiliation": "桃園市",
+      "candidates": {
+        "cand_2016_01": 40402,
+        "cand_2016_02": 53999,
+        "cand_2016_03": 17617
+      },
+      "votes": {
+        "valid_votes": 112018,
+        "invalid_votes": 1299,
+        "total_votes": 113317
+      },
+      "voter_turnout": 67.2699966430664
+    },
+    {
+      "name": "龍潭區",
+      "level": "dist",
+      "affiliation": "桃園市",
+      "candidates": {
+        "cand_2016_01": 23696,
+        "cand_2016_02": 27280,
+        "cand_2016_03": 9226
+      },
+      "votes": {
+        "valid_votes": 60202,
+        "invalid_votes": 697,
+        "total_votes": 60899
+      },
+      "voter_turnout": 65.55999755859375
+    },
+    {
+      "name": "八德區",
+      "level": "dist",
+      "affiliation": "桃園市",
+      "candidates": {
+        "cand_2016_01": 35965,
+        "cand_2016_02": 47708,
+        "cand_2016_03": 13991
+      },
+      "votes": {
+        "valid_votes": 97664,
+        "invalid_votes": 1118,
+        "total_votes": 98782
+      },
+      "voter_turnout": 66.91000366210938
+    },
+    {
+      "name": "大溪區",
+      "level": "dist",
+      "affiliation": "桃園市",
+      "candidates": {
+        "cand_2016_01": 15669,
+        "cand_2016_02": 26959,
+        "cand_2016_03": 6010
+      },
+      "votes": {
+        "valid_votes": 48638,
+        "invalid_votes": 531,
+        "total_votes": 49169
+      },
+      "voter_turnout": 67.2300033569336
+    },
+    {
+      "name": "復興區",
+      "level": "dist",
+      "affiliation": "桃園市",
+      "candidates": {
+        "cand_2016_01": 2328,
+        "cand_2016_02": 1557,
+        "cand_2016_03": 856
+      },
+      "votes": {
+        "valid_votes": 4741,
+        "invalid_votes": 52,
+        "total_votes": 4793
+      },
+      "voter_turnout": 56.70000076293945
+    }
+  ],
+  "village": [
+    {
+      "name": "新興里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 412,
+        "cand_2016_02": 1402,
+        "cand_2016_03": 208
+      },
+      "votes": {
+        "valid_votes": 2022,
+        "invalid_votes": 23,
+        "total_votes": 2045
+      },
+      "voter_turnout": 73.43000030517578
+    },
+    {
+      "name": "中福里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 466,
+        "cand_2016_02": 1620,
+        "cand_2016_03": 254
+      },
+      "votes": {
+        "valid_votes": 2340,
+        "invalid_votes": 21,
+        "total_votes": 2361
+      },
+      "voter_turnout": 72.25
+    },
+    {
+      "name": "上興里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 593,
+        "cand_2016_02": 1128,
+        "cand_2016_03": 270
+      },
+      "votes": {
+        "valid_votes": 1991,
+        "invalid_votes": 21,
+        "total_votes": 2012
+      },
+      "voter_turnout": 69.73999786376953
+    },
+    {
+      "name": "中興里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 677,
+        "cand_2016_02": 1285,
+        "cand_2016_03": 339
+      },
+      "votes": {
+        "valid_votes": 2301,
+        "invalid_votes": 19,
+        "total_votes": 2320
+      },
+      "voter_turnout": 64.13999938964844
+    },
+    {
+      "name": "新莊里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 703,
+        "cand_2016_02": 1776,
+        "cand_2016_03": 345
+      },
+      "votes": {
+        "valid_votes": 2824,
+        "invalid_votes": 28,
+        "total_votes": 2852
+      },
+      "voter_turnout": 68.0199966430664
+    },
+    {
+      "name": "上竹里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 634,
+        "cand_2016_02": 1234,
+        "cand_2016_03": 287
+      },
+      "votes": {
+        "valid_votes": 2155,
+        "invalid_votes": 26,
+        "total_votes": 2181
+      },
+      "voter_turnout": 69.75
+    },
+    {
+      "name": "宏竹里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 460,
+        "cand_2016_02": 1292,
+        "cand_2016_03": 216
+      },
+      "votes": {
+        "valid_votes": 1968,
+        "invalid_votes": 23,
+        "total_votes": 1991
+      },
+      "voter_turnout": 71.48999786376953
+    },
+    {
+      "name": "大竹里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 824,
+        "cand_2016_02": 1436,
+        "cand_2016_03": 350
+      },
+      "votes": {
+        "valid_votes": 2610,
+        "invalid_votes": 23,
+        "total_votes": 2633
+      },
+      "voter_turnout": 69.16000366210938
+    },
+    {
+      "name": "富竹里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 146,
+        "cand_2016_02": 693,
+        "cand_2016_03": 101
+      },
+      "votes": {
+        "valid_votes": 940,
+        "invalid_votes": 8,
+        "total_votes": 948
+      },
+      "voter_turnout": 75.30000305175781
+    },
+    {
+      "name": "蘆竹里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 573,
+        "cand_2016_02": 1948,
+        "cand_2016_03": 247
+      },
+      "votes": {
+        "valid_votes": 2768,
+        "invalid_votes": 28,
+        "total_votes": 2796
+      },
+      "voter_turnout": 73
+    },
+    {
+      "name": "南興里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 993,
+        "cand_2016_02": 1369,
+        "cand_2016_03": 418
+      },
+      "votes": {
+        "valid_votes": 2780,
+        "invalid_votes": 29,
+        "total_votes": 2809
+      },
+      "voter_turnout": 65.16999816894531
+    },
+    {
+      "name": "福昌里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 930,
+        "cand_2016_02": 1380,
+        "cand_2016_03": 412
+      },
+      "votes": {
+        "valid_votes": 2722,
+        "invalid_votes": 33,
+        "total_votes": 2755
+      },
+      "voter_turnout": 62.90999984741211
+    },
+    {
+      "name": "福興里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 1296,
+        "cand_2016_02": 2127,
+        "cand_2016_03": 660
+      },
+      "votes": {
+        "valid_votes": 4083,
+        "invalid_votes": 46,
+        "total_votes": 4129
+      },
+      "voter_turnout": 60.88999938964844
+    },
+    {
+      "name": "順興里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 587,
+        "cand_2016_02": 945,
+        "cand_2016_03": 289
+      },
+      "votes": {
+        "valid_votes": 1821,
+        "invalid_votes": 17,
+        "total_votes": 1838
+      },
+      "voter_turnout": 61.7400016784668
+    },
+    {
+      "name": "蘆興里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 325,
+        "cand_2016_02": 660,
+        "cand_2016_03": 132
+      },
+      "votes": {
+        "valid_votes": 1117,
+        "invalid_votes": 16,
+        "total_votes": 1133
+      },
+      "voter_turnout": 73.56999969482422
+    },
+    {
+      "name": "南榮里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 616,
+        "cand_2016_02": 1012,
+        "cand_2016_03": 249
+      },
+      "votes": {
+        "valid_votes": 1877,
+        "invalid_votes": 25,
+        "total_votes": 1902
+      },
+      "voter_turnout": 65.47000122070312
+    },
+    {
+      "name": "南崁里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 723,
+        "cand_2016_02": 1159,
+        "cand_2016_03": 244
+      },
+      "votes": {
+        "valid_votes": 2126,
+        "invalid_votes": 28,
+        "total_votes": 2154
+      },
+      "voter_turnout": 68.31999969482422
+    },
+    {
+      "name": "錦興里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 687,
+        "cand_2016_02": 1338,
+        "cand_2016_03": 317
+      },
+      "votes": {
+        "valid_votes": 2342,
+        "invalid_votes": 30,
+        "total_votes": 2372
+      },
+      "voter_turnout": 68.91000366210938
+    },
+    {
+      "name": "興榮里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 627,
+        "cand_2016_02": 797,
+        "cand_2016_03": 197
+      },
+      "votes": {
+        "valid_votes": 1621,
+        "invalid_votes": 17,
+        "total_votes": 1638
+      },
+      "voter_turnout": 66.97000122070312
+    },
+    {
+      "name": "錦中里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 617,
+        "cand_2016_02": 1087,
+        "cand_2016_03": 264
+      },
+      "votes": {
+        "valid_votes": 1968,
+        "invalid_votes": 15,
+        "total_votes": 1983
+      },
+      "voter_turnout": 67.83999633789062
+    },
+    {
+      "name": "長興里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 379,
+        "cand_2016_02": 841,
+        "cand_2016_03": 228
+      },
+      "votes": {
+        "valid_votes": 1448,
+        "invalid_votes": 20,
+        "total_votes": 1468
+      },
+      "voter_turnout": 60.4900016784668
+    },
+    {
+      "name": "五福里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 467,
+        "cand_2016_02": 717,
+        "cand_2016_03": 227
+      },
+      "votes": {
+        "valid_votes": 1411,
+        "invalid_votes": 18,
+        "total_votes": 1429
+      },
+      "voter_turnout": 65.66999816894531
+    },
+    {
+      "name": "中山里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 535,
+        "cand_2016_02": 746,
+        "cand_2016_03": 261
+      },
+      "votes": {
+        "valid_votes": 1542,
+        "invalid_votes": 22,
+        "total_votes": 1564
+      },
+      "voter_turnout": 60.459999084472656
+    },
+    {
+      "name": "福祿里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 546,
+        "cand_2016_02": 941,
+        "cand_2016_03": 257
+      },
+      "votes": {
+        "valid_votes": 1744,
+        "invalid_votes": 19,
+        "total_votes": 1763
+      },
+      "voter_turnout": 63.529998779296875
+    },
+    {
+      "name": "羊稠里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 834,
+        "cand_2016_02": 1286,
+        "cand_2016_03": 317
+      },
+      "votes": {
+        "valid_votes": 2437,
+        "invalid_votes": 34,
+        "total_votes": 2471
+      },
+      "voter_turnout": 65.94999694824219
+    },
+    {
+      "name": "吉祥里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 726,
+        "cand_2016_02": 994,
+        "cand_2016_03": 298
+      },
+      "votes": {
+        "valid_votes": 2018,
+        "invalid_votes": 31,
+        "total_votes": 2049
+      },
+      "voter_turnout": 68.13999938964844
+    },
+    {
+      "name": "長壽里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 1141,
+        "cand_2016_02": 1438,
+        "cand_2016_03": 524
+      },
+      "votes": {
+        "valid_votes": 3103,
+        "invalid_votes": 35,
+        "total_votes": 3138
+      },
+      "voter_turnout": 66.16000366210938
+    },
+    {
+      "name": "營盤里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 836,
+        "cand_2016_02": 1263,
+        "cand_2016_03": 399
+      },
+      "votes": {
+        "valid_votes": 2498,
+        "invalid_votes": 33,
+        "total_votes": 2531
+      },
+      "voter_turnout": 63.65999984741211
+    },
+    {
+      "name": "營福里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 568,
+        "cand_2016_02": 937,
+        "cand_2016_03": 256
+      },
+      "votes": {
+        "valid_votes": 1761,
+        "invalid_votes": 15,
+        "total_votes": 1776
+      },
+      "voter_turnout": 64.2300033569336
+    },
+    {
+      "name": "瓦窯里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 614,
+        "cand_2016_02": 776,
+        "cand_2016_03": 235
+      },
+      "votes": {
+        "valid_votes": 1625,
+        "invalid_votes": 21,
+        "total_votes": 1646
+      },
+      "voter_turnout": 62.9900016784668
+    },
+    {
+      "name": "內厝里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 408,
+        "cand_2016_02": 940,
+        "cand_2016_03": 160
+      },
+      "votes": {
+        "valid_votes": 1508,
+        "invalid_votes": 16,
+        "total_votes": 1524
+      },
+      "voter_turnout": 63.630001068115234
+    },
+    {
+      "name": "山鼻里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 336,
+        "cand_2016_02": 744,
+        "cand_2016_03": 149
+      },
+      "votes": {
+        "valid_votes": 1229,
+        "invalid_votes": 13,
+        "total_votes": 1242
+      },
+      "voter_turnout": 69.45999908447266
+    },
+    {
+      "name": "山腳里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 574,
+        "cand_2016_02": 1562,
+        "cand_2016_03": 296
+      },
+      "votes": {
+        "valid_votes": 2432,
+        "invalid_votes": 35,
+        "total_votes": 2467
+      },
+      "voter_turnout": 71.81999969482422
+    },
+    {
+      "name": "外社里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 189,
+        "cand_2016_02": 773,
+        "cand_2016_03": 98
+      },
+      "votes": {
+        "valid_votes": 1060,
+        "invalid_votes": 22,
+        "total_votes": 1082
+      },
+      "voter_turnout": 78.06999969482422
+    },
+    {
+      "name": "坑子里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 196,
+        "cand_2016_02": 882,
+        "cand_2016_03": 101
+      },
+      "votes": {
+        "valid_votes": 1179,
+        "invalid_votes": 17,
+        "total_votes": 1196
+      },
+      "voter_turnout": 73.6500015258789
+    },
+    {
+      "name": "坑口里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 367,
+        "cand_2016_02": 1148,
+        "cand_2016_03": 148
+      },
+      "votes": {
+        "valid_votes": 1663,
+        "invalid_votes": 15,
+        "total_votes": 1678
+      },
+      "voter_turnout": 73.33999633789062
+    },
+    {
+      "name": "海湖里",
+      "level": "village",
+      "affiliation": "蘆竹區",
+      "candidates": {
+        "cand_2016_01": 958,
+        "cand_2016_02": 1851,
+        "cand_2016_03": 434
+      },
+      "votes": {
+        "valid_votes": 3243,
+        "invalid_votes": 44,
+        "total_votes": 3287
+      },
+      "voter_turnout": 66.2300033569336
+    },
+    {
+      "name": "精忠里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 1674,
+        "cand_2016_02": 1256,
+        "cand_2016_03": 522
+      },
+      "votes": {
+        "valid_votes": 3452,
+        "invalid_votes": 51,
+        "total_votes": 3503
+      },
+      "voter_turnout": 66.5199966430664
+    },
+    {
+      "name": "陸光里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 1773,
+        "cand_2016_02": 261,
+        "cand_2016_03": 396
+      },
+      "votes": {
+        "valid_votes": 2430,
+        "invalid_votes": 27,
+        "total_votes": 2457
+      },
+      "voter_turnout": 70.31999969482422
+    },
+    {
+      "name": "中興里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 921,
+        "cand_2016_02": 1590,
+        "cand_2016_03": 418
+      },
+      "votes": {
+        "valid_votes": 2929,
+        "invalid_votes": 33,
+        "total_votes": 2962
+      },
+      "voter_turnout": 66.06999969482422
+    },
+    {
+      "name": "新興里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 648,
+        "cand_2016_02": 543,
+        "cand_2016_03": 194
+      },
+      "votes": {
+        "valid_votes": 1385,
+        "invalid_votes": 17,
+        "total_votes": 1402
+      },
+      "voter_turnout": 51.040000915527344
+    },
+    {
+      "name": "新路里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 1119,
+        "cand_2016_02": 1969,
+        "cand_2016_03": 500
+      },
+      "votes": {
+        "valid_votes": 3588,
+        "invalid_votes": 47,
+        "total_votes": 3635
+      },
+      "voter_turnout": 69.69999694824219
+    },
+    {
+      "name": "龜山里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 1300,
+        "cand_2016_02": 2246,
+        "cand_2016_03": 526
+      },
+      "votes": {
+        "valid_votes": 4072,
+        "invalid_votes": 33,
+        "total_votes": 4105
+      },
+      "voter_turnout": 66.12000274658203
+    },
+    {
+      "name": "大同里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 1124,
+        "cand_2016_02": 1844,
+        "cand_2016_03": 416
+      },
+      "votes": {
+        "valid_votes": 3384,
+        "invalid_votes": 61,
+        "total_votes": 3445
+      },
+      "voter_turnout": 65.44000244140625
+    },
+    {
+      "name": "山頂里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 1069,
+        "cand_2016_02": 1645,
+        "cand_2016_03": 475
+      },
+      "votes": {
+        "valid_votes": 3189,
+        "invalid_votes": 27,
+        "total_votes": 3216
+      },
+      "voter_turnout": 63.81999969482422
+    },
+    {
+      "name": "山德里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 1010,
+        "cand_2016_02": 1729,
+        "cand_2016_03": 359
+      },
+      "votes": {
+        "valid_votes": 3098,
+        "invalid_votes": 35,
+        "total_votes": 3133
+      },
+      "voter_turnout": 66.27999877929688
+    },
+    {
+      "name": "山福里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 645,
+        "cand_2016_02": 1081,
+        "cand_2016_03": 242
+      },
+      "votes": {
+        "valid_votes": 1968,
+        "invalid_votes": 26,
+        "total_votes": 1994
+      },
+      "voter_turnout": 67.05000305175781
+    },
+    {
+      "name": "幸福里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 911,
+        "cand_2016_02": 1443,
+        "cand_2016_03": 475
+      },
+      "votes": {
+        "valid_votes": 2829,
+        "invalid_votes": 41,
+        "total_votes": 2870
+      },
+      "voter_turnout": 59.540000915527344
+    },
+    {
+      "name": "龍壽里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 229,
+        "cand_2016_02": 778,
+        "cand_2016_03": 109
+      },
+      "votes": {
+        "valid_votes": 1116,
+        "invalid_votes": 11,
+        "total_votes": 1127
+      },
+      "voter_turnout": 68.63999938964844
+    },
+    {
+      "name": "龍華里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 601,
+        "cand_2016_02": 1129,
+        "cand_2016_03": 245
+      },
+      "votes": {
+        "valid_votes": 1975,
+        "invalid_votes": 30,
+        "total_votes": 2005
+      },
+      "voter_turnout": 66.37000274658203
+    },
+    {
+      "name": "迴龍里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 1008,
+        "cand_2016_02": 1851,
+        "cand_2016_03": 402
+      },
+      "votes": {
+        "valid_votes": 3261,
+        "invalid_votes": 50,
+        "total_votes": 3311
+      },
+      "voter_turnout": 64.87999725341797
+    },
+    {
+      "name": "嶺頂里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 613,
+        "cand_2016_02": 1438,
+        "cand_2016_03": 280
+      },
+      "votes": {
+        "valid_votes": 2331,
+        "invalid_votes": 31,
+        "total_votes": 2362
+      },
+      "voter_turnout": 63.84000015258789
+    },
+    {
+      "name": "新嶺里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 658,
+        "cand_2016_02": 1313,
+        "cand_2016_03": 323
+      },
+      "votes": {
+        "valid_votes": 2294,
+        "invalid_votes": 27,
+        "total_votes": 2321
+      },
+      "voter_turnout": 62.95000076293945
+    },
+    {
+      "name": "兔坑里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 764,
+        "cand_2016_02": 1306,
+        "cand_2016_03": 398
+      },
+      "votes": {
+        "valid_votes": 2468,
+        "invalid_votes": 27,
+        "total_votes": 2495
+      },
+      "voter_turnout": 63.150001525878906
+    },
+    {
+      "name": "福源里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 419,
+        "cand_2016_02": 622,
+        "cand_2016_03": 189
+      },
+      "votes": {
+        "valid_votes": 1230,
+        "invalid_votes": 10,
+        "total_votes": 1240
+      },
+      "voter_turnout": 64.41999816894531
+    },
+    {
+      "name": "舊路里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 447,
+        "cand_2016_02": 1006,
+        "cand_2016_03": 190
+      },
+      "votes": {
+        "valid_votes": 1643,
+        "invalid_votes": 14,
+        "total_votes": 1657
+      },
+      "voter_turnout": 72.11000061035156
+    },
+    {
+      "name": "大坑里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 314,
+        "cand_2016_02": 767,
+        "cand_2016_03": 128
+      },
+      "votes": {
+        "valid_votes": 1209,
+        "invalid_votes": 18,
+        "total_votes": 1227
+      },
+      "voter_turnout": 69.01000213623047
+    },
+    {
+      "name": "楓樹里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 1024,
+        "cand_2016_02": 2089,
+        "cand_2016_03": 509
+      },
+      "votes": {
+        "valid_votes": 3622,
+        "invalid_votes": 40,
+        "total_votes": 3662
+      },
+      "voter_turnout": 71.58000183105469
+    },
+    {
+      "name": "樂善里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 566,
+        "cand_2016_02": 1179,
+        "cand_2016_03": 311
+      },
+      "votes": {
+        "valid_votes": 2056,
+        "invalid_votes": 27,
+        "total_votes": 2083
+      },
+      "voter_turnout": 63.38999938964844
+    },
+    {
+      "name": "長庚里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 479,
+        "cand_2016_02": 1289,
+        "cand_2016_03": 301
+      },
+      "votes": {
+        "valid_votes": 2069,
+        "invalid_votes": 15,
+        "total_votes": 2084
+      },
+      "voter_turnout": 67.12000274658203
+    },
+    {
+      "name": "公西里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 304,
+        "cand_2016_02": 398,
+        "cand_2016_03": 88
+      },
+      "votes": {
+        "valid_votes": 790,
+        "invalid_votes": 11,
+        "total_votes": 801
+      },
+      "voter_turnout": 72.02999877929688
+    },
+    {
+      "name": "大崗里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 716,
+        "cand_2016_02": 1268,
+        "cand_2016_03": 288
+      },
+      "votes": {
+        "valid_votes": 2272,
+        "invalid_votes": 30,
+        "total_votes": 2302
+      },
+      "voter_turnout": 66.4000015258789
+    },
+    {
+      "name": "大湖里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 910,
+        "cand_2016_02": 1463,
+        "cand_2016_03": 421
+      },
+      "votes": {
+        "valid_votes": 2794,
+        "invalid_votes": 28,
+        "total_votes": 2822
+      },
+      "voter_turnout": 63.66999816894531
+    },
+    {
+      "name": "大華里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 1379,
+        "cand_2016_02": 2595,
+        "cand_2016_03": 782
+      },
+      "votes": {
+        "valid_votes": 4756,
+        "invalid_votes": 41,
+        "total_votes": 4797
+      },
+      "voter_turnout": 64.9800033569336
+    },
+    {
+      "name": "文化里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 1048,
+        "cand_2016_02": 1891,
+        "cand_2016_03": 471
+      },
+      "votes": {
+        "valid_votes": 3410,
+        "invalid_votes": 34,
+        "total_votes": 3444
+      },
+      "voter_turnout": 65.18000030517578
+    },
+    {
+      "name": "南上里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 307,
+        "cand_2016_02": 719,
+        "cand_2016_03": 169
+      },
+      "votes": {
+        "valid_votes": 1195,
+        "invalid_votes": 20,
+        "total_votes": 1215
+      },
+      "voter_turnout": 70.80000305175781
+    },
+    {
+      "name": "南美里",
+      "level": "village",
+      "affiliation": "龜山區",
+      "candidates": {
+        "cand_2016_01": 454,
+        "cand_2016_02": 787,
+        "cand_2016_03": 166
+      },
+      "votes": {
+        "valid_votes": 1407,
+        "invalid_votes": 12,
+        "total_votes": 1419
+      },
+      "voter_turnout": 67.54000091552734
+    },
+    {
+      "name": "三元里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 725,
+        "cand_2016_02": 1033,
+        "cand_2016_03": 328
+      },
+      "votes": {
+        "valid_votes": 2086,
+        "invalid_votes": 27,
+        "total_votes": 2113
+      },
+      "voter_turnout": 65.83000183105469
+    },
+    {
+      "name": "三民里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1025,
+        "cand_2016_02": 1129,
+        "cand_2016_03": 408
+      },
+      "votes": {
+        "valid_votes": 2562,
+        "invalid_votes": 24,
+        "total_votes": 2586
+      },
+      "voter_turnout": 67.58999633789062
+    },
+    {
+      "name": "大有里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1068,
+        "cand_2016_02": 1307,
+        "cand_2016_03": 478
+      },
+      "votes": {
+        "valid_votes": 2853,
+        "invalid_votes": 37,
+        "total_votes": 2890
+      },
+      "voter_turnout": 61.189998626708984
+    },
+    {
+      "name": "大興里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1802,
+        "cand_2016_02": 3102,
+        "cand_2016_03": 855
+      },
+      "votes": {
+        "valid_votes": 5759,
+        "invalid_votes": 73,
+        "total_votes": 5832
+      },
+      "voter_turnout": 62.619998931884766
+    },
+    {
+      "name": "汴洲里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 809,
+        "cand_2016_02": 1721,
+        "cand_2016_03": 406
+      },
+      "votes": {
+        "valid_votes": 2936,
+        "invalid_votes": 25,
+        "total_votes": 2961
+      },
+      "voter_turnout": 70.0999984741211
+    },
+    {
+      "name": "忠義里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1532,
+        "cand_2016_02": 2093,
+        "cand_2016_03": 723
+      },
+      "votes": {
+        "valid_votes": 4348,
+        "invalid_votes": 47,
+        "total_votes": 4395
+      },
+      "voter_turnout": 62.91999816894531
+    },
+    {
+      "name": "青溪里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 793,
+        "cand_2016_02": 1914,
+        "cand_2016_03": 413
+      },
+      "votes": {
+        "valid_votes": 3120,
+        "invalid_votes": 39,
+        "total_votes": 3159
+      },
+      "voter_turnout": 70.72000122070312
+    },
+    {
+      "name": "春日里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 995,
+        "cand_2016_02": 1942,
+        "cand_2016_03": 548
+      },
+      "votes": {
+        "valid_votes": 3485,
+        "invalid_votes": 36,
+        "total_votes": 3521
+      },
+      "voter_turnout": 63.06999969482422
+    },
+    {
+      "name": "會稽里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1820,
+        "cand_2016_02": 2369,
+        "cand_2016_03": 771
+      },
+      "votes": {
+        "valid_votes": 4960,
+        "invalid_votes": 42,
+        "total_votes": 5002
+      },
+      "voter_turnout": 62.630001068115234
+    },
+    {
+      "name": "萬壽里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 168,
+        "cand_2016_02": 380,
+        "cand_2016_03": 90
+      },
+      "votes": {
+        "valid_votes": 638,
+        "invalid_votes": 6,
+        "total_votes": 644
+      },
+      "voter_turnout": 65.37999725341797
+    },
+    {
+      "name": "寶山里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1498,
+        "cand_2016_02": 2206,
+        "cand_2016_03": 775
+      },
+      "votes": {
+        "valid_votes": 4479,
+        "invalid_votes": 37,
+        "total_votes": 4516
+      },
+      "voter_turnout": 62.33000183105469
+    },
+    {
+      "name": "大林里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1742,
+        "cand_2016_02": 3470,
+        "cand_2016_03": 842
+      },
+      "votes": {
+        "valid_votes": 6054,
+        "invalid_votes": 54,
+        "total_votes": 6108
+      },
+      "voter_turnout": 65.66000366210938
+    },
+    {
+      "name": "大豐里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 974,
+        "cand_2016_02": 1804,
+        "cand_2016_03": 408
+      },
+      "votes": {
+        "valid_votes": 3186,
+        "invalid_votes": 44,
+        "total_votes": 3230
+      },
+      "voter_turnout": 68.80000305175781
+    },
+    {
+      "name": "建國里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1031,
+        "cand_2016_02": 1691,
+        "cand_2016_03": 429
+      },
+      "votes": {
+        "valid_votes": 3151,
+        "invalid_votes": 35,
+        "total_votes": 3186
+      },
+      "voter_turnout": 67.52999877929688
+    },
+    {
+      "name": "雲林里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1349,
+        "cand_2016_02": 1900,
+        "cand_2016_03": 510
+      },
+      "votes": {
+        "valid_votes": 3759,
+        "invalid_votes": 56,
+        "total_votes": 3815
+      },
+      "voter_turnout": 68.83000183105469
+    },
+    {
+      "name": "福安里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 873,
+        "cand_2016_02": 1458,
+        "cand_2016_03": 324
+      },
+      "votes": {
+        "valid_votes": 2655,
+        "invalid_votes": 22,
+        "total_votes": 2677
+      },
+      "voter_turnout": 67.3499984741211
+    },
+    {
+      "name": "福林里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1259,
+        "cand_2016_02": 1990,
+        "cand_2016_03": 406
+      },
+      "votes": {
+        "valid_votes": 3655,
+        "invalid_votes": 48,
+        "total_votes": 3703
+      },
+      "voter_turnout": 69.70999908447266
+    },
+    {
+      "name": "豐林里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1300,
+        "cand_2016_02": 2243,
+        "cand_2016_03": 544
+      },
+      "votes": {
+        "valid_votes": 4087,
+        "invalid_votes": 41,
+        "total_votes": 4128
+      },
+      "voter_turnout": 69.37999725341797
+    },
+    {
+      "name": "中和里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 233,
+        "cand_2016_02": 602,
+        "cand_2016_03": 118
+      },
+      "votes": {
+        "valid_votes": 953,
+        "invalid_votes": 14,
+        "total_votes": 967
+      },
+      "voter_turnout": 72.5999984741211
+    },
+    {
+      "name": "中興里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 996,
+        "cand_2016_02": 2085,
+        "cand_2016_03": 388
+      },
+      "votes": {
+        "valid_votes": 3469,
+        "invalid_votes": 30,
+        "total_votes": 3499
+      },
+      "voter_turnout": 69.26000213623047
+    },
+    {
+      "name": "文化里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 149,
+        "cand_2016_02": 231,
+        "cand_2016_03": 44
+      },
+      "votes": {
+        "valid_votes": 424,
+        "invalid_votes": 5,
+        "total_votes": 429
+      },
+      "voter_turnout": 67.87999725341797
+    },
+    {
+      "name": "文昌里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 150,
+        "cand_2016_02": 386,
+        "cand_2016_03": 48
+      },
+      "votes": {
+        "valid_votes": 584,
+        "invalid_votes": 4,
+        "total_votes": 588
+      },
+      "voter_turnout": 68.29000091552734
+    },
+    {
+      "name": "文明里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 310,
+        "cand_2016_02": 522,
+        "cand_2016_03": 115
+      },
+      "votes": {
+        "valid_votes": 947,
+        "invalid_votes": 7,
+        "total_votes": 954
+      },
+      "voter_turnout": 72.66000366210938
+    },
+    {
+      "name": "北門里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 306,
+        "cand_2016_02": 657,
+        "cand_2016_03": 130
+      },
+      "votes": {
+        "valid_votes": 1093,
+        "invalid_votes": 9,
+        "total_votes": 1102
+      },
+      "voter_turnout": 68.23999786376953
+    },
+    {
+      "name": "民生里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 310,
+        "cand_2016_02": 580,
+        "cand_2016_03": 107
+      },
+      "votes": {
+        "valid_votes": 997,
+        "invalid_votes": 9,
+        "total_votes": 1006
+      },
+      "voter_turnout": 70.44999694824219
+    },
+    {
+      "name": "永興里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 280,
+        "cand_2016_02": 718,
+        "cand_2016_03": 137
+      },
+      "votes": {
+        "valid_votes": 1135,
+        "invalid_votes": 8,
+        "total_votes": 1143
+      },
+      "voter_turnout": 70.08000183105469
+    },
+    {
+      "name": "光興里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 973,
+        "cand_2016_02": 1889,
+        "cand_2016_03": 396
+      },
+      "votes": {
+        "valid_votes": 3258,
+        "invalid_votes": 34,
+        "total_votes": 3292
+      },
+      "voter_turnout": 71.56999969482422
+    },
+    {
+      "name": "西門里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 283,
+        "cand_2016_02": 558,
+        "cand_2016_03": 147
+      },
+      "votes": {
+        "valid_votes": 988,
+        "invalid_votes": 12,
+        "total_votes": 1000
+      },
+      "voter_turnout": 65.56999969482422
+    },
+    {
+      "name": "西湖里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 321,
+        "cand_2016_02": 482,
+        "cand_2016_03": 136
+      },
+      "votes": {
+        "valid_votes": 939,
+        "invalid_votes": 10,
+        "total_votes": 949
+      },
+      "voter_turnout": 69.16999816894531
+    },
+    {
+      "name": "武陵里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 257,
+        "cand_2016_02": 521,
+        "cand_2016_03": 117
+      },
+      "votes": {
+        "valid_votes": 895,
+        "invalid_votes": 12,
+        "total_votes": 907
+      },
+      "voter_turnout": 62.86000061035156
+    },
+    {
+      "name": "長美里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 163,
+        "cand_2016_02": 460,
+        "cand_2016_03": 68
+      },
+      "votes": {
+        "valid_votes": 691,
+        "invalid_votes": 5,
+        "total_votes": 696
+      },
+      "voter_turnout": 71.75
+    },
+    {
+      "name": "南門里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1192,
+        "cand_2016_02": 2004,
+        "cand_2016_03": 497
+      },
+      "votes": {
+        "valid_votes": 3693,
+        "invalid_votes": 46,
+        "total_votes": 3739
+      },
+      "voter_turnout": 67.75
+    },
+    {
+      "name": "南華里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 276,
+        "cand_2016_02": 535,
+        "cand_2016_03": 107
+      },
+      "votes": {
+        "valid_votes": 918,
+        "invalid_votes": 10,
+        "total_votes": 928
+      },
+      "voter_turnout": 69.05000305175781
+    },
+    {
+      "name": "中山里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1319,
+        "cand_2016_02": 2045,
+        "cand_2016_03": 558
+      },
+      "votes": {
+        "valid_votes": 3922,
+        "invalid_votes": 33,
+        "total_votes": 3955
+      },
+      "voter_turnout": 68.45999908447266
+    },
+    {
+      "name": "中平里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 954,
+        "cand_2016_02": 1390,
+        "cand_2016_03": 381
+      },
+      "votes": {
+        "valid_votes": 2725,
+        "invalid_votes": 28,
+        "total_votes": 2753
+      },
+      "voter_turnout": 65.8499984741211
+    },
+    {
+      "name": "中正里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1101,
+        "cand_2016_02": 1614,
+        "cand_2016_03": 419
+      },
+      "votes": {
+        "valid_votes": 3134,
+        "invalid_votes": 38,
+        "total_votes": 3172
+      },
+      "voter_turnout": 69.98999786376953
+    },
+    {
+      "name": "中成里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 965,
+        "cand_2016_02": 1549,
+        "cand_2016_03": 325
+      },
+      "votes": {
+        "valid_votes": 2839,
+        "invalid_votes": 25,
+        "total_votes": 2864
+      },
+      "voter_turnout": 68.87999725341797
+    },
+    {
+      "name": "中信里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1121,
+        "cand_2016_02": 1758,
+        "cand_2016_03": 488
+      },
+      "votes": {
+        "valid_votes": 3367,
+        "invalid_votes": 49,
+        "total_votes": 3416
+      },
+      "voter_turnout": 66.31999969482422
+    },
+    {
+      "name": "中原里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 971,
+        "cand_2016_02": 1358,
+        "cand_2016_03": 405
+      },
+      "votes": {
+        "valid_votes": 2734,
+        "invalid_votes": 29,
+        "total_votes": 2763
+      },
+      "voter_turnout": 68.58000183105469
+    },
+    {
+      "name": "中泰里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1004,
+        "cand_2016_02": 1108,
+        "cand_2016_03": 378
+      },
+      "votes": {
+        "valid_votes": 2490,
+        "invalid_votes": 28,
+        "total_votes": 2518
+      },
+      "voter_turnout": 68.62999725341797
+    },
+    {
+      "name": "中聖里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1354,
+        "cand_2016_02": 1312,
+        "cand_2016_03": 475
+      },
+      "votes": {
+        "valid_votes": 3141,
+        "invalid_votes": 31,
+        "total_votes": 3172
+      },
+      "voter_turnout": 65.23999786376953
+    },
+    {
+      "name": "中路里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 805,
+        "cand_2016_02": 1220,
+        "cand_2016_03": 350
+      },
+      "votes": {
+        "valid_votes": 2375,
+        "invalid_votes": 15,
+        "total_votes": 2390
+      },
+      "voter_turnout": 66.08000183105469
+    },
+    {
+      "name": "中德里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1349,
+        "cand_2016_02": 2138,
+        "cand_2016_03": 519
+      },
+      "votes": {
+        "valid_votes": 4006,
+        "invalid_votes": 38,
+        "total_votes": 4044
+      },
+      "voter_turnout": 68.25
+    },
+    {
+      "name": "文中里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 592,
+        "cand_2016_02": 906,
+        "cand_2016_03": 224
+      },
+      "votes": {
+        "valid_votes": 1722,
+        "invalid_votes": 23,
+        "total_votes": 1745
+      },
+      "voter_turnout": 72.05000305175781
+    },
+    {
+      "name": "玉山里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 903,
+        "cand_2016_02": 1901,
+        "cand_2016_03": 381
+      },
+      "votes": {
+        "valid_votes": 3185,
+        "invalid_votes": 33,
+        "total_votes": 3218
+      },
+      "voter_turnout": 68.37000274658203
+    },
+    {
+      "name": "泰山里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 763,
+        "cand_2016_02": 1309,
+        "cand_2016_03": 351
+      },
+      "votes": {
+        "valid_votes": 2423,
+        "invalid_votes": 21,
+        "total_votes": 2444
+      },
+      "voter_turnout": 69.23999786376953
+    },
+    {
+      "name": "龍山里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 824,
+        "cand_2016_02": 1039,
+        "cand_2016_03": 280
+      },
+      "votes": {
+        "valid_votes": 2143,
+        "invalid_votes": 27,
+        "total_votes": 2170
+      },
+      "voter_turnout": 64.18000030517578
+    },
+    {
+      "name": "龍安里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 943,
+        "cand_2016_02": 1452,
+        "cand_2016_03": 485
+      },
+      "votes": {
+        "valid_votes": 2880,
+        "invalid_votes": 27,
+        "total_votes": 2907
+      },
+      "voter_turnout": 66.72000122070312
+    },
+    {
+      "name": "龍岡里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1322,
+        "cand_2016_02": 1578,
+        "cand_2016_03": 572
+      },
+      "votes": {
+        "valid_votes": 3472,
+        "invalid_votes": 35,
+        "total_votes": 3507
+      },
+      "voter_turnout": 67.05999755859375
+    },
+    {
+      "name": "龍祥里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1104,
+        "cand_2016_02": 1218,
+        "cand_2016_03": 439
+      },
+      "votes": {
+        "valid_votes": 2761,
+        "invalid_votes": 31,
+        "total_votes": 2792
+      },
+      "voter_turnout": 65.98999786376953
+    },
+    {
+      "name": "龍壽里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 984,
+        "cand_2016_02": 1672,
+        "cand_2016_03": 473
+      },
+      "votes": {
+        "valid_votes": 3129,
+        "invalid_votes": 32,
+        "total_votes": 3161
+      },
+      "voter_turnout": 64.37000274658203
+    },
+    {
+      "name": "龍鳳里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1429,
+        "cand_2016_02": 1909,
+        "cand_2016_03": 697
+      },
+      "votes": {
+        "valid_votes": 4035,
+        "invalid_votes": 40,
+        "total_votes": 4075
+      },
+      "voter_turnout": 50.540000915527344
+    },
+    {
+      "name": "中埔里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 354,
+        "cand_2016_02": 971,
+        "cand_2016_03": 190
+      },
+      "votes": {
+        "valid_votes": 1515,
+        "invalid_votes": 13,
+        "total_votes": 1528
+      },
+      "voter_turnout": 72.5199966430664
+    },
+    {
+      "name": "中寧里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1154,
+        "cand_2016_02": 1644,
+        "cand_2016_03": 520
+      },
+      "votes": {
+        "valid_votes": 3318,
+        "invalid_votes": 34,
+        "total_votes": 3352
+      },
+      "voter_turnout": 63.75
+    },
+    {
+      "name": "北埔里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 824,
+        "cand_2016_02": 1309,
+        "cand_2016_03": 365
+      },
+      "votes": {
+        "valid_votes": 2498,
+        "invalid_votes": 25,
+        "total_votes": 2523
+      },
+      "voter_turnout": 64.69000244140625
+    },
+    {
+      "name": "永安里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 743,
+        "cand_2016_02": 1851,
+        "cand_2016_03": 373
+      },
+      "votes": {
+        "valid_votes": 2967,
+        "invalid_votes": 28,
+        "total_votes": 2995
+      },
+      "voter_turnout": 68.94999694824219
+    },
+    {
+      "name": "同安里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1482,
+        "cand_2016_02": 2391,
+        "cand_2016_03": 659
+      },
+      "votes": {
+        "valid_votes": 4532,
+        "invalid_votes": 38,
+        "total_votes": 4570
+      },
+      "voter_turnout": 65.41999816894531
+    },
+    {
+      "name": "同德里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1256,
+        "cand_2016_02": 1670,
+        "cand_2016_03": 541
+      },
+      "votes": {
+        "valid_votes": 3467,
+        "invalid_votes": 35,
+        "total_votes": 3502
+      },
+      "voter_turnout": 67.83000183105469
+    },
+    {
+      "name": "自強里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1481,
+        "cand_2016_02": 2044,
+        "cand_2016_03": 622
+      },
+      "votes": {
+        "valid_votes": 4147,
+        "invalid_votes": 39,
+        "total_votes": 4186
+      },
+      "voter_turnout": 65.69999694824219
+    },
+    {
+      "name": "西埔里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 498,
+        "cand_2016_02": 1368,
+        "cand_2016_03": 220
+      },
+      "votes": {
+        "valid_votes": 2086,
+        "invalid_votes": 20,
+        "total_votes": 2106
+      },
+      "voter_turnout": 71.87999725341797
+    },
+    {
+      "name": "明德里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 720,
+        "cand_2016_02": 906,
+        "cand_2016_03": 263
+      },
+      "votes": {
+        "valid_votes": 1889,
+        "invalid_votes": 24,
+        "total_votes": 1913
+      },
+      "voter_turnout": 65.48999786376953
+    },
+    {
+      "name": "東埔里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 807,
+        "cand_2016_02": 1776,
+        "cand_2016_03": 382
+      },
+      "votes": {
+        "valid_votes": 2965,
+        "invalid_votes": 28,
+        "total_votes": 2993
+      },
+      "voter_turnout": 67.18000030517578
+    },
+    {
+      "name": "長安里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 605,
+        "cand_2016_02": 1331,
+        "cand_2016_03": 286
+      },
+      "votes": {
+        "valid_votes": 2222,
+        "invalid_votes": 24,
+        "total_votes": 2246
+      },
+      "voter_turnout": 67.80999755859375
+    },
+    {
+      "name": "長德里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 939,
+        "cand_2016_02": 1763,
+        "cand_2016_03": 420
+      },
+      "votes": {
+        "valid_votes": 3122,
+        "invalid_votes": 42,
+        "total_votes": 3164
+      },
+      "voter_turnout": 70.2300033569336
+    },
+    {
+      "name": "信光里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1129,
+        "cand_2016_02": 2338,
+        "cand_2016_03": 553
+      },
+      "votes": {
+        "valid_votes": 4020,
+        "invalid_votes": 41,
+        "total_votes": 4061
+      },
+      "voter_turnout": 66.08999633789062
+    },
+    {
+      "name": "南埔里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 883,
+        "cand_2016_02": 1537,
+        "cand_2016_03": 393
+      },
+      "votes": {
+        "valid_votes": 2813,
+        "invalid_votes": 37,
+        "total_votes": 2850
+      },
+      "voter_turnout": 68.86000061035156
+    },
+    {
+      "name": "莊敬里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1765,
+        "cand_2016_02": 2214,
+        "cand_2016_03": 686
+      },
+      "votes": {
+        "valid_votes": 4665,
+        "invalid_votes": 49,
+        "total_votes": 4714
+      },
+      "voter_turnout": 64.38999938964844
+    },
+    {
+      "name": "慈文里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1008,
+        "cand_2016_02": 2004,
+        "cand_2016_03": 545
+      },
+      "votes": {
+        "valid_votes": 3557,
+        "invalid_votes": 31,
+        "total_votes": 3588
+      },
+      "voter_turnout": 64.94000244140625
+    },
+    {
+      "name": "新埔里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1926,
+        "cand_2016_02": 2554,
+        "cand_2016_03": 785
+      },
+      "votes": {
+        "valid_votes": 5265,
+        "invalid_votes": 51,
+        "total_votes": 5316
+      },
+      "voter_turnout": 67.16000366210938
+    },
+    {
+      "name": "瑞慶里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1037,
+        "cand_2016_02": 1628,
+        "cand_2016_03": 490
+      },
+      "votes": {
+        "valid_votes": 3155,
+        "invalid_votes": 33,
+        "total_votes": 3188
+      },
+      "voter_turnout": 63.95000076293945
+    },
+    {
+      "name": "寶安里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1485,
+        "cand_2016_02": 2056,
+        "cand_2016_03": 714
+      },
+      "votes": {
+        "valid_votes": 4255,
+        "invalid_votes": 43,
+        "total_votes": 4298
+      },
+      "voter_turnout": 62.119998931884766
+    },
+    {
+      "name": "寶慶里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 1228,
+        "cand_2016_02": 1673,
+        "cand_2016_03": 487
+      },
+      "votes": {
+        "valid_votes": 3388,
+        "invalid_votes": 35,
+        "total_votes": 3423
+      },
+      "voter_turnout": 66.25
+    },
+    {
+      "name": "朝陽里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 334,
+        "cand_2016_02": 725,
+        "cand_2016_03": 153
+      },
+      "votes": {
+        "valid_votes": 1212,
+        "invalid_votes": 12,
+        "total_votes": 1224
+      },
+      "voter_turnout": 64.86000061035156
+    },
+    {
+      "name": "成功里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 873,
+        "cand_2016_02": 1392,
+        "cand_2016_03": 311
+      },
+      "votes": {
+        "valid_votes": 2576,
+        "invalid_votes": 30,
+        "total_votes": 2606
+      },
+      "voter_turnout": 70.62000274658203
+    },
+    {
+      "name": "東門里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 629,
+        "cand_2016_02": 1002,
+        "cand_2016_03": 220
+      },
+      "votes": {
+        "valid_votes": 1851,
+        "invalid_votes": 24,
+        "total_votes": 1875
+      },
+      "voter_turnout": 67.83999633789062
+    },
+    {
+      "name": "東山里",
+      "level": "village",
+      "affiliation": "桃園區",
+      "candidates": {
+        "cand_2016_01": 366,
+        "cand_2016_02": 632,
+        "cand_2016_03": 161
+      },
+      "votes": {
+        "valid_votes": 1159,
+        "invalid_votes": 14,
+        "total_votes": 1173
+      },
+      "voter_turnout": 65.30999755859375
+    },
+    {
+      "name": "大園里",
+      "level": "village",
+      "affiliation": "大園區",
+      "candidates": {
+        "cand_2016_01": 1156,
+        "cand_2016_02": 2180,
+        "cand_2016_03": 506
+      },
+      "votes": {
+        "valid_votes": 3842,
+        "invalid_votes": 34,
+        "total_votes": 3876
+      },
+      "voter_turnout": 67.37000274658203
+    },
+    {
+      "name": "田心里",
+      "level": "village",
+      "affiliation": "大園區",
+      "candidates": {
+        "cand_2016_01": 1031,
+        "cand_2016_02": 2235,
+        "cand_2016_03": 464
+      },
+      "votes": {
+        "valid_votes": 3730,
+        "invalid_votes": 29,
+        "total_votes": 3759
+      },
+      "voter_turnout": 66.68000030517578
+    },
+    {
+      "name": "溪海里",
+      "level": "village",
+      "affiliation": "大園區",
+      "candidates": {
+        "cand_2016_01": 701,
+        "cand_2016_02": 1613,
+        "cand_2016_03": 336
+      },
+      "votes": {
+        "valid_votes": 2650,
+        "invalid_votes": 33,
+        "total_votes": 2683
+      },
+      "voter_turnout": 63.63999938964844
+    },
+    {
+      "name": "和平里",
+      "level": "village",
+      "affiliation": "大園區",
+      "candidates": {
+        "cand_2016_01": 248,
+        "cand_2016_02": 740,
+        "cand_2016_03": 76
+      },
+      "votes": {
+        "valid_votes": 1064,
+        "invalid_votes": 14,
+        "total_votes": 1078
+      },
+      "voter_turnout": 69.86000061035156
+    },
+    {
+      "name": "橫峰里",
+      "level": "village",
+      "affiliation": "大園區",
+      "candidates": {
+        "cand_2016_01": 1514,
+        "cand_2016_02": 2784,
+        "cand_2016_03": 747
+      },
+      "votes": {
+        "valid_votes": 5045,
+        "invalid_votes": 68,
+        "total_votes": 5113
+      },
+      "voter_turnout": 66.80999755859375
+    },
+    {
+      "name": "五權里",
+      "level": "village",
+      "affiliation": "大園區",
+      "candidates": {
+        "cand_2016_01": 726,
+        "cand_2016_02": 2043,
+        "cand_2016_03": 339
+      },
+      "votes": {
+        "valid_votes": 3108,
+        "invalid_votes": 41,
+        "total_votes": 3149
+      },
+      "voter_turnout": 71.18000030517578
+    },
+    {
+      "name": "埔心里",
+      "level": "village",
+      "affiliation": "大園區",
+      "candidates": {
+        "cand_2016_01": 982,
+        "cand_2016_02": 2204,
+        "cand_2016_03": 430
+      },
+      "votes": {
+        "valid_votes": 3616,
+        "invalid_votes": 33,
+        "total_votes": 3649
+      },
+      "voter_turnout": 65.13999938964844
+    },
+    {
+      "name": "大海里",
+      "level": "village",
+      "affiliation": "大園區",
+      "candidates": {
+        "cand_2016_01": 387,
+        "cand_2016_02": 515,
+        "cand_2016_03": 146
+      },
+      "votes": {
+        "valid_votes": 1048,
+        "invalid_votes": 11,
+        "total_votes": 1059
+      },
+      "voter_turnout": 69.48999786376953
+    },
+    {
+      "name": "三石里",
+      "level": "village",
+      "affiliation": "大園區",
+      "candidates": {
+        "cand_2016_01": 492,
+        "cand_2016_02": 1183,
+        "cand_2016_03": 236
+      },
+      "votes": {
+        "valid_votes": 1911,
+        "invalid_votes": 31,
+        "total_votes": 1942
+      },
+      "voter_turnout": 71.20999908447266
+    },
+    {
+      "name": "菓林里",
+      "level": "village",
+      "affiliation": "大園區",
+      "candidates": {
+        "cand_2016_01": 1097,
+        "cand_2016_02": 2400,
+        "cand_2016_03": 547
+      },
+      "votes": {
+        "valid_votes": 4044,
+        "invalid_votes": 56,
+        "total_votes": 4100
+      },
+      "voter_turnout": 64.98999786376953
+    },
+    {
+      "name": "竹圍里",
+      "level": "village",
+      "affiliation": "大園區",
+      "candidates": {
+        "cand_2016_01": 647,
+        "cand_2016_02": 1109,
+        "cand_2016_03": 251
+      },
+      "votes": {
+        "valid_votes": 2007,
+        "invalid_votes": 25,
+        "total_votes": 2032
+      },
+      "voter_turnout": 68.66999816894531
+    },
+    {
+      "name": "海口里",
+      "level": "village",
+      "affiliation": "大園區",
+      "candidates": {
+        "cand_2016_01": 349,
+        "cand_2016_02": 602,
+        "cand_2016_03": 189
+      },
+      "votes": {
+        "valid_votes": 1140,
+        "invalid_votes": 16,
+        "total_votes": 1156
+      },
+      "voter_turnout": 68.7300033569336
+    },
+    {
+      "name": "沙崙里",
+      "level": "village",
+      "affiliation": "大園區",
+      "candidates": {
+        "cand_2016_01": 517,
+        "cand_2016_02": 891,
+        "cand_2016_03": 229
+      },
+      "votes": {
+        "valid_votes": 1637,
+        "invalid_votes": 24,
+        "total_votes": 1661
+      },
+      "voter_turnout": 64.27999877929688
+    },
+    {
+      "name": "後厝里",
+      "level": "village",
+      "affiliation": "大園區",
+      "candidates": {
+        "cand_2016_01": 443,
+        "cand_2016_02": 880,
+        "cand_2016_03": 227
+      },
+      "votes": {
+        "valid_votes": 1550,
+        "invalid_votes": 25,
+        "total_votes": 1575
+      },
+      "voter_turnout": 68.51000213623047
+    },
+    {
+      "name": "圳頭里",
+      "level": "village",
+      "affiliation": "大園區",
+      "candidates": {
+        "cand_2016_01": 438,
+        "cand_2016_02": 972,
+        "cand_2016_03": 199
+      },
+      "votes": {
+        "valid_votes": 1609,
+        "invalid_votes": 16,
+        "total_votes": 1625
+      },
+      "voter_turnout": 68.44999694824219
+    },
+    {
+      "name": "內海里",
+      "level": "village",
+      "affiliation": "大園區",
+      "candidates": {
+        "cand_2016_01": 370,
+        "cand_2016_02": 841,
+        "cand_2016_03": 179
+      },
+      "votes": {
+        "valid_votes": 1390,
+        "invalid_votes": 24,
+        "total_votes": 1414
+      },
+      "voter_turnout": 68.20999908447266
+    },
+    {
+      "name": "北港里",
+      "level": "village",
+      "affiliation": "大園區",
+      "candidates": {
+        "cand_2016_01": 382,
+        "cand_2016_02": 976,
+        "cand_2016_03": 238
+      },
+      "votes": {
+        "valid_votes": 1596,
+        "invalid_votes": 14,
+        "total_votes": 1610
+      },
+      "voter_turnout": 66.16999816894531
+    },
+    {
+      "name": "南港里",
+      "level": "village",
+      "affiliation": "大園區",
+      "candidates": {
+        "cand_2016_01": 776,
+        "cand_2016_02": 1452,
+        "cand_2016_03": 461
+      },
+      "votes": {
+        "valid_votes": 2689,
+        "invalid_votes": 25,
+        "total_votes": 2714
+      },
+      "voter_turnout": 60.54999923706055
+    },
+    {
+      "name": "觀音里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 493,
+        "cand_2016_02": 1005,
+        "cand_2016_03": 169
+      },
+      "votes": {
+        "valid_votes": 1667,
+        "invalid_votes": 19,
+        "total_votes": 1686
+      },
+      "voter_turnout": 65.68000030517578
+    },
+    {
+      "name": "白玉里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 239,
+        "cand_2016_02": 417,
+        "cand_2016_03": 71
+      },
+      "votes": {
+        "valid_votes": 727,
+        "invalid_votes": 7,
+        "total_votes": 734
+      },
+      "voter_turnout": 70.98999786376953
+    },
+    {
+      "name": "廣興里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 232,
+        "cand_2016_02": 524,
+        "cand_2016_03": 147
+      },
+      "votes": {
+        "valid_votes": 903,
+        "invalid_votes": 13,
+        "total_votes": 916
+      },
+      "voter_turnout": 68
+    },
+    {
+      "name": "大潭里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 250,
+        "cand_2016_02": 621,
+        "cand_2016_03": 134
+      },
+      "votes": {
+        "valid_votes": 1005,
+        "invalid_votes": 6,
+        "total_votes": 1011
+      },
+      "voter_turnout": 66.91000366210938
+    },
+    {
+      "name": "保生里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 349,
+        "cand_2016_02": 809,
+        "cand_2016_03": 150
+      },
+      "votes": {
+        "valid_votes": 1308,
+        "invalid_votes": 16,
+        "total_votes": 1324
+      },
+      "voter_turnout": 67.76000213623047
+    },
+    {
+      "name": "武威里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 155,
+        "cand_2016_02": 383,
+        "cand_2016_03": 60
+      },
+      "votes": {
+        "valid_votes": 598,
+        "invalid_votes": 10,
+        "total_votes": 608
+      },
+      "voter_turnout": 73.87999725341797
+    },
+    {
+      "name": "三和里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 157,
+        "cand_2016_02": 371,
+        "cand_2016_03": 67
+      },
+      "votes": {
+        "valid_votes": 595,
+        "invalid_votes": 8,
+        "total_votes": 603
+      },
+      "voter_turnout": 72.12999725341797
+    },
+    {
+      "name": "新興里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 121,
+        "cand_2016_02": 308,
+        "cand_2016_03": 58
+      },
+      "votes": {
+        "valid_votes": 487,
+        "invalid_votes": 6,
+        "total_votes": 493
+      },
+      "voter_turnout": 69.62999725341797
+    },
+    {
+      "name": "坑尾里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 256,
+        "cand_2016_02": 591,
+        "cand_2016_03": 117
+      },
+      "votes": {
+        "valid_votes": 964,
+        "invalid_votes": 16,
+        "total_votes": 980
+      },
+      "voter_turnout": 66.44000244140625
+    },
+    {
+      "name": "金湖里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 397,
+        "cand_2016_02": 954,
+        "cand_2016_03": 217
+      },
+      "votes": {
+        "valid_votes": 1568,
+        "invalid_votes": 16,
+        "total_votes": 1584
+      },
+      "voter_turnout": 65.69999694824219
+    },
+    {
+      "name": "藍埔里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 329,
+        "cand_2016_02": 1025,
+        "cand_2016_03": 248
+      },
+      "votes": {
+        "valid_votes": 1602,
+        "invalid_votes": 8,
+        "total_votes": 1610
+      },
+      "voter_turnout": 69.06999969482422
+    },
+    {
+      "name": "大同里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 434,
+        "cand_2016_02": 1242,
+        "cand_2016_03": 211
+      },
+      "votes": {
+        "valid_votes": 1887,
+        "invalid_votes": 18,
+        "total_votes": 1905
+      },
+      "voter_turnout": 67.83999633789062
+    },
+    {
+      "name": "大堀里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 195,
+        "cand_2016_02": 629,
+        "cand_2016_03": 109
+      },
+      "votes": {
+        "valid_votes": 933,
+        "invalid_votes": 11,
+        "total_votes": 944
+      },
+      "voter_turnout": 69.16000366210938
+    },
+    {
+      "name": "崙坪里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 794,
+        "cand_2016_02": 1979,
+        "cand_2016_03": 373
+      },
+      "votes": {
+        "valid_votes": 3146,
+        "invalid_votes": 32,
+        "total_votes": 3178
+      },
+      "voter_turnout": 70.75
+    },
+    {
+      "name": "富源里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 642,
+        "cand_2016_02": 1226,
+        "cand_2016_03": 328
+      },
+      "votes": {
+        "valid_votes": 2196,
+        "invalid_votes": 24,
+        "total_votes": 2220
+      },
+      "voter_turnout": 64.80000305175781
+    },
+    {
+      "name": "上大里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 347,
+        "cand_2016_02": 861,
+        "cand_2016_03": 233
+      },
+      "votes": {
+        "valid_votes": 1441,
+        "invalid_votes": 15,
+        "total_votes": 1456
+      },
+      "voter_turnout": 67.41000366210938
+    },
+    {
+      "name": "新坡里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 406,
+        "cand_2016_02": 1259,
+        "cand_2016_03": 195
+      },
+      "votes": {
+        "valid_votes": 1860,
+        "invalid_votes": 21,
+        "total_votes": 1881
+      },
+      "voter_turnout": 68.56999969482422
+    },
+    {
+      "name": "廣福里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 292,
+        "cand_2016_02": 1050,
+        "cand_2016_03": 187
+      },
+      "votes": {
+        "valid_votes": 1529,
+        "invalid_votes": 15,
+        "total_votes": 1544
+      },
+      "voter_turnout": 69.93000030517578
+    },
+    {
+      "name": "塔腳里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 166,
+        "cand_2016_02": 418,
+        "cand_2016_03": 81
+      },
+      "votes": {
+        "valid_votes": 665,
+        "invalid_votes": 6,
+        "total_votes": 671
+      },
+      "voter_turnout": 67.2300033569336
+    },
+    {
+      "name": "保障里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 224,
+        "cand_2016_02": 868,
+        "cand_2016_03": 185
+      },
+      "votes": {
+        "valid_votes": 1277,
+        "invalid_votes": 21,
+        "total_votes": 1298
+      },
+      "voter_turnout": 68.52999877929688
+    },
+    {
+      "name": "草漯里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 210,
+        "cand_2016_02": 711,
+        "cand_2016_03": 137
+      },
+      "votes": {
+        "valid_votes": 1058,
+        "invalid_votes": 10,
+        "total_votes": 1068
+      },
+      "voter_turnout": 67.25
+    },
+    {
+      "name": "草新里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 761,
+        "cand_2016_02": 1653,
+        "cand_2016_03": 476
+      },
+      "votes": {
+        "valid_votes": 2890,
+        "invalid_votes": 26,
+        "total_votes": 2916
+      },
+      "voter_turnout": 63.68000030517578
+    },
+    {
+      "name": "樹林里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 494,
+        "cand_2016_02": 1004,
+        "cand_2016_03": 281
+      },
+      "votes": {
+        "valid_votes": 1779,
+        "invalid_votes": 21,
+        "total_votes": 1800
+      },
+      "voter_turnout": 58.52000045776367
+    },
+    {
+      "name": "富林里",
+      "level": "village",
+      "affiliation": "觀音區",
+      "candidates": {
+        "cand_2016_01": 250,
+        "cand_2016_02": 731,
+        "cand_2016_03": 176
+      },
+      "votes": {
+        "valid_votes": 1157,
+        "invalid_votes": 14,
+        "total_votes": 1171
+      },
+      "voter_turnout": 64.7699966430664
+    },
+    {
+      "name": "新屋里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 604,
+        "cand_2016_02": 994,
+        "cand_2016_03": 242
+      },
+      "votes": {
+        "valid_votes": 1840,
+        "invalid_votes": 20,
+        "total_votes": 1860
+      },
+      "voter_turnout": 69.2699966430664
+    },
+    {
+      "name": "新生里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 814,
+        "cand_2016_02": 1316,
+        "cand_2016_03": 364
+      },
+      "votes": {
+        "valid_votes": 2494,
+        "invalid_votes": 31,
+        "total_votes": 2525
+      },
+      "voter_turnout": 68.77999877929688
+    },
+    {
+      "name": "後湖里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 285,
+        "cand_2016_02": 576,
+        "cand_2016_03": 116
+      },
+      "votes": {
+        "valid_votes": 977,
+        "invalid_votes": 6,
+        "total_votes": 983
+      },
+      "voter_turnout": 69.62000274658203
+    },
+    {
+      "name": "清華里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 716,
+        "cand_2016_02": 1338,
+        "cand_2016_03": 338
+      },
+      "votes": {
+        "valid_votes": 2392,
+        "invalid_votes": 16,
+        "total_votes": 2408
+      },
+      "voter_turnout": 67.47000122070312
+    },
+    {
+      "name": "石磊里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 316,
+        "cand_2016_02": 803,
+        "cand_2016_03": 138
+      },
+      "votes": {
+        "valid_votes": 1257,
+        "invalid_votes": 16,
+        "total_votes": 1273
+      },
+      "voter_turnout": 68.37000274658203
+    },
+    {
+      "name": "東明里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 287,
+        "cand_2016_02": 524,
+        "cand_2016_03": 131
+      },
+      "votes": {
+        "valid_votes": 942,
+        "invalid_votes": 12,
+        "total_votes": 954
+      },
+      "voter_turnout": 69.69000244140625
+    },
+    {
+      "name": "社子里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 248,
+        "cand_2016_02": 648,
+        "cand_2016_03": 94
+      },
+      "votes": {
+        "valid_votes": 990,
+        "invalid_votes": 8,
+        "total_votes": 998
+      },
+      "voter_turnout": 76.06999969482422
+    },
+    {
+      "name": "埔頂里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 510,
+        "cand_2016_02": 961,
+        "cand_2016_03": 233
+      },
+      "votes": {
+        "valid_votes": 1704,
+        "invalid_votes": 19,
+        "total_votes": 1723
+      },
+      "voter_turnout": 70.0999984741211
+    },
+    {
+      "name": "九斗里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 393,
+        "cand_2016_02": 895,
+        "cand_2016_03": 194
+      },
+      "votes": {
+        "valid_votes": 1482,
+        "invalid_votes": 16,
+        "total_votes": 1498
+      },
+      "voter_turnout": 68.5
+    },
+    {
+      "name": "頭洲里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 720,
+        "cand_2016_02": 1477,
+        "cand_2016_03": 296
+      },
+      "votes": {
+        "valid_votes": 2493,
+        "invalid_votes": 30,
+        "total_votes": 2523
+      },
+      "voter_turnout": 70.52999877929688
+    },
+    {
+      "name": "大坡里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 225,
+        "cand_2016_02": 560,
+        "cand_2016_03": 88
+      },
+      "votes": {
+        "valid_votes": 873,
+        "invalid_votes": 6,
+        "total_votes": 879
+      },
+      "voter_turnout": 69.81999969482422
+    },
+    {
+      "name": "望間里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 226,
+        "cand_2016_02": 677,
+        "cand_2016_03": 90
+      },
+      "votes": {
+        "valid_votes": 993,
+        "invalid_votes": 3,
+        "total_votes": 996
+      },
+      "voter_turnout": 70.88999938964844
+    },
+    {
+      "name": "後庄里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 225,
+        "cand_2016_02": 415,
+        "cand_2016_03": 92
+      },
+      "votes": {
+        "valid_votes": 732,
+        "invalid_votes": 11,
+        "total_votes": 743
+      },
+      "voter_turnout": 71.58000183105469
+    },
+    {
+      "name": "蚵間里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 128,
+        "cand_2016_02": 352,
+        "cand_2016_03": 74
+      },
+      "votes": {
+        "valid_votes": 554,
+        "invalid_votes": 5,
+        "total_votes": 559
+      },
+      "voter_turnout": 64.7699966430664
+    },
+    {
+      "name": "深圳里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 116,
+        "cand_2016_02": 250,
+        "cand_2016_03": 82
+      },
+      "votes": {
+        "valid_votes": 448,
+        "invalid_votes": 5,
+        "total_votes": 453
+      },
+      "voter_turnout": 69.80000305175781
+    },
+    {
+      "name": "槺榔里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 177,
+        "cand_2016_02": 465,
+        "cand_2016_03": 72
+      },
+      "votes": {
+        "valid_votes": 714,
+        "invalid_votes": 4,
+        "total_votes": 718
+      },
+      "voter_turnout": 68.58000183105469
+    },
+    {
+      "name": "笨港里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 215,
+        "cand_2016_02": 389,
+        "cand_2016_03": 83
+      },
+      "votes": {
+        "valid_votes": 687,
+        "invalid_votes": 8,
+        "total_votes": 695
+      },
+      "voter_turnout": 70.48999786376953
+    },
+    {
+      "name": "永安里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 407,
+        "cand_2016_02": 947,
+        "cand_2016_03": 178
+      },
+      "votes": {
+        "valid_votes": 1532,
+        "invalid_votes": 17,
+        "total_votes": 1549
+      },
+      "voter_turnout": 70.12000274658203
+    },
+    {
+      "name": "永興里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 154,
+        "cand_2016_02": 411,
+        "cand_2016_03": 66
+      },
+      "votes": {
+        "valid_votes": 631,
+        "invalid_votes": 9,
+        "total_votes": 640
+      },
+      "voter_turnout": 68.88999938964844
+    },
+    {
+      "name": "下埔里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 122,
+        "cand_2016_02": 282,
+        "cand_2016_03": 42
+      },
+      "votes": {
+        "valid_votes": 446,
+        "invalid_votes": 2,
+        "total_votes": 448
+      },
+      "voter_turnout": 68.4000015258789
+    },
+    {
+      "name": "石牌里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 170,
+        "cand_2016_02": 369,
+        "cand_2016_03": 77
+      },
+      "votes": {
+        "valid_votes": 616,
+        "invalid_votes": 12,
+        "total_votes": 628
+      },
+      "voter_turnout": 71.69000244140625
+    },
+    {
+      "name": "下田里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 300,
+        "cand_2016_02": 738,
+        "cand_2016_03": 112
+      },
+      "votes": {
+        "valid_votes": 1150,
+        "invalid_votes": 8,
+        "total_votes": 1158
+      },
+      "voter_turnout": 69.93000030517578
+    },
+    {
+      "name": "赤欄里",
+      "level": "village",
+      "affiliation": "新屋區",
+      "candidates": {
+        "cand_2016_01": 261,
+        "cand_2016_02": 510,
+        "cand_2016_03": 125
+      },
+      "votes": {
+        "valid_votes": 896,
+        "invalid_votes": 9,
+        "total_votes": 905
+      },
+      "voter_turnout": 71.4800033569336
+    },
+    {
+      "name": "仁美里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 1017,
+        "cand_2016_02": 1173,
+        "cand_2016_03": 381
+      },
+      "votes": {
+        "valid_votes": 2571,
+        "invalid_votes": 39,
+        "total_votes": 2610
+      },
+      "voter_turnout": 68.7699966430664
+    },
+    {
+      "name": "埔心里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 343,
+        "cand_2016_02": 584,
+        "cand_2016_03": 104
+      },
+      "votes": {
+        "valid_votes": 1031,
+        "invalid_votes": 11,
+        "total_votes": 1042
+      },
+      "voter_turnout": 73.2300033569336
+    },
+    {
+      "name": "光華里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 945,
+        "cand_2016_02": 809,
+        "cand_2016_03": 313
+      },
+      "votes": {
+        "valid_votes": 2067,
+        "invalid_votes": 28,
+        "total_votes": 2095
+      },
+      "voter_turnout": 67.76000213623047
+    },
+    {
+      "name": "金龍里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 372,
+        "cand_2016_02": 181,
+        "cand_2016_03": 136
+      },
+      "votes": {
+        "valid_votes": 689,
+        "invalid_votes": 10,
+        "total_votes": 699
+      },
+      "voter_turnout": 66.76000213623047
+    },
+    {
+      "name": "四維里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 979,
+        "cand_2016_02": 1082,
+        "cand_2016_03": 430
+      },
+      "votes": {
+        "valid_votes": 2491,
+        "invalid_votes": 33,
+        "total_votes": 2524
+      },
+      "voter_turnout": 67.36000061035156
+    },
+    {
+      "name": "永平里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 372,
+        "cand_2016_02": 490,
+        "cand_2016_03": 215
+      },
+      "votes": {
+        "valid_votes": 1077,
+        "invalid_votes": 9,
+        "total_votes": 1086
+      },
+      "voter_turnout": 63.18000030517578
+    },
+    {
+      "name": "瑞塘里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 966,
+        "cand_2016_02": 1437,
+        "cand_2016_03": 433
+      },
+      "votes": {
+        "valid_votes": 2836,
+        "invalid_votes": 29,
+        "total_votes": 2865
+      },
+      "voter_turnout": 65.6500015258789
+    },
+    {
+      "name": "瑞坪里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 1179,
+        "cand_2016_02": 1241,
+        "cand_2016_03": 606
+      },
+      "votes": {
+        "valid_votes": 3026,
+        "invalid_votes": 45,
+        "total_votes": 3071
+      },
+      "voter_turnout": 61.75
+    },
+    {
+      "name": "梅溪里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 741,
+        "cand_2016_02": 820,
+        "cand_2016_03": 352
+      },
+      "votes": {
+        "valid_votes": 1913,
+        "invalid_votes": 16,
+        "total_votes": 1929
+      },
+      "voter_turnout": 60.43000030517578
+    },
+    {
+      "name": "瑞溪里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 614,
+        "cand_2016_02": 820,
+        "cand_2016_03": 319
+      },
+      "votes": {
+        "valid_votes": 1753,
+        "invalid_votes": 21,
+        "total_votes": 1774
+      },
+      "voter_turnout": 61.5099983215332
+    },
+    {
+      "name": "金溪里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 846,
+        "cand_2016_02": 893,
+        "cand_2016_03": 414
+      },
+      "votes": {
+        "valid_votes": 2153,
+        "invalid_votes": 16,
+        "total_votes": 2169
+      },
+      "voter_turnout": 67.55000305175781
+    },
+    {
+      "name": "三民里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 694,
+        "cand_2016_02": 741,
+        "cand_2016_03": 378
+      },
+      "votes": {
+        "valid_votes": 1813,
+        "invalid_votes": 20,
+        "total_votes": 1833
+      },
+      "voter_turnout": 61.529998779296875
+    },
+    {
+      "name": "楊明里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 1138,
+        "cand_2016_02": 1292,
+        "cand_2016_03": 574
+      },
+      "votes": {
+        "valid_votes": 3004,
+        "invalid_votes": 26,
+        "total_votes": 3030
+      },
+      "voter_turnout": 65.70999908447266
+    },
+    {
+      "name": "裕成里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 808,
+        "cand_2016_02": 730,
+        "cand_2016_03": 365
+      },
+      "votes": {
+        "valid_votes": 1903,
+        "invalid_votes": 18,
+        "total_votes": 1921
+      },
+      "voter_turnout": 66.23999786376953
+    },
+    {
+      "name": "裕新里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 416,
+        "cand_2016_02": 461,
+        "cand_2016_03": 238
+      },
+      "votes": {
+        "valid_votes": 1115,
+        "invalid_votes": 9,
+        "total_votes": 1124
+      },
+      "voter_turnout": 57.290000915527344
+    },
+    {
+      "name": "大同里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 842,
+        "cand_2016_02": 971,
+        "cand_2016_03": 305
+      },
+      "votes": {
+        "valid_votes": 2118,
+        "invalid_votes": 20,
+        "total_votes": 2138
+      },
+      "voter_turnout": 69.62000274658203
+    },
+    {
+      "name": "中山里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 676,
+        "cand_2016_02": 784,
+        "cand_2016_03": 304
+      },
+      "votes": {
+        "valid_votes": 1764,
+        "invalid_votes": 16,
+        "total_votes": 1780
+      },
+      "voter_turnout": 66.05000305175781
+    },
+    {
+      "name": "楊梅里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 906,
+        "cand_2016_02": 1046,
+        "cand_2016_03": 391
+      },
+      "votes": {
+        "valid_votes": 2343,
+        "invalid_votes": 30,
+        "total_votes": 2373
+      },
+      "voter_turnout": 68.77999877929688
+    },
+    {
+      "name": "楊江里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 317,
+        "cand_2016_02": 325,
+        "cand_2016_03": 89
+      },
+      "votes": {
+        "valid_votes": 731,
+        "invalid_votes": 10,
+        "total_votes": 741
+      },
+      "voter_turnout": 68.93000030517578
+    },
+    {
+      "name": "梅新里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 509,
+        "cand_2016_02": 592,
+        "cand_2016_03": 204
+      },
+      "votes": {
+        "valid_votes": 1305,
+        "invalid_votes": 13,
+        "total_votes": 1318
+      },
+      "voter_turnout": 69.30000305175781
+    },
+    {
+      "name": "紅梅里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 641,
+        "cand_2016_02": 796,
+        "cand_2016_03": 267
+      },
+      "votes": {
+        "valid_votes": 1704,
+        "invalid_votes": 17,
+        "total_votes": 1721
+      },
+      "voter_turnout": 67.83999633789062
+    },
+    {
+      "name": "永寧里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 1211,
+        "cand_2016_02": 1743,
+        "cand_2016_03": 597
+      },
+      "votes": {
+        "valid_votes": 3551,
+        "invalid_votes": 33,
+        "total_votes": 3584
+      },
+      "voter_turnout": 58.7599983215332
+    },
+    {
+      "name": "大平里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 805,
+        "cand_2016_02": 955,
+        "cand_2016_03": 287
+      },
+      "votes": {
+        "valid_votes": 2047,
+        "invalid_votes": 22,
+        "total_votes": 2069
+      },
+      "voter_turnout": 66.20999908447266
+    },
+    {
+      "name": "秀才里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 715,
+        "cand_2016_02": 1075,
+        "cand_2016_03": 329
+      },
+      "votes": {
+        "valid_votes": 2119,
+        "invalid_votes": 26,
+        "total_votes": 2145
+      },
+      "voter_turnout": 69.8499984741211
+    },
+    {
+      "name": "東流里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 485,
+        "cand_2016_02": 931,
+        "cand_2016_03": 247
+      },
+      "votes": {
+        "valid_votes": 1663,
+        "invalid_votes": 24,
+        "total_votes": 1687
+      },
+      "voter_turnout": 64.86000061035156
+    },
+    {
+      "name": "豐野里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 786,
+        "cand_2016_02": 1218,
+        "cand_2016_03": 350
+      },
+      "votes": {
+        "valid_votes": 2354,
+        "invalid_votes": 22,
+        "total_votes": 2376
+      },
+      "voter_turnout": 67.69000244140625
+    },
+    {
+      "name": "富岡里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 456,
+        "cand_2016_02": 571,
+        "cand_2016_03": 172
+      },
+      "votes": {
+        "valid_votes": 1199,
+        "invalid_votes": 21,
+        "total_votes": 1220
+      },
+      "voter_turnout": 69.44000244140625
+    },
+    {
+      "name": "富豐里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 498,
+        "cand_2016_02": 923,
+        "cand_2016_03": 299
+      },
+      "votes": {
+        "valid_votes": 1720,
+        "invalid_votes": 16,
+        "total_votes": 1736
+      },
+      "voter_turnout": 64.55999755859375
+    },
+    {
+      "name": "員本里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 497,
+        "cand_2016_02": 873,
+        "cand_2016_03": 269
+      },
+      "votes": {
+        "valid_votes": 1639,
+        "invalid_votes": 24,
+        "total_votes": 1663
+      },
+      "voter_turnout": 68.12999725341797
+    },
+    {
+      "name": "三湖里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 520,
+        "cand_2016_02": 863,
+        "cand_2016_03": 253
+      },
+      "votes": {
+        "valid_votes": 1636,
+        "invalid_votes": 13,
+        "total_votes": 1649
+      },
+      "voter_turnout": 66.27999877929688
+    },
+    {
+      "name": "頭湖里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 475,
+        "cand_2016_02": 699,
+        "cand_2016_03": 338
+      },
+      "votes": {
+        "valid_votes": 1512,
+        "invalid_votes": 24,
+        "total_votes": 1536
+      },
+      "voter_turnout": 63.209999084472656
+    },
+    {
+      "name": "上湖里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 880,
+        "cand_2016_02": 1423,
+        "cand_2016_03": 602
+      },
+      "votes": {
+        "valid_votes": 2905,
+        "invalid_votes": 30,
+        "total_votes": 2935
+      },
+      "voter_turnout": 62.61000061035156
+    },
+    {
+      "name": "上田里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 456,
+        "cand_2016_02": 944,
+        "cand_2016_03": 252
+      },
+      "votes": {
+        "valid_votes": 1652,
+        "invalid_votes": 12,
+        "total_votes": 1664
+      },
+      "voter_turnout": 67.86000061035156
+    },
+    {
+      "name": "高山里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 761,
+        "cand_2016_02": 948,
+        "cand_2016_03": 389
+      },
+      "votes": {
+        "valid_votes": 2098,
+        "invalid_votes": 29,
+        "total_votes": 2127
+      },
+      "voter_turnout": 62.709999084472656
+    },
+    {
+      "name": "高上里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 497,
+        "cand_2016_02": 859,
+        "cand_2016_03": 321
+      },
+      "votes": {
+        "valid_votes": 1677,
+        "invalid_votes": 20,
+        "total_votes": 1697
+      },
+      "voter_turnout": 68.93000030517578
+    },
+    {
+      "name": "青山里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 722,
+        "cand_2016_02": 858,
+        "cand_2016_03": 346
+      },
+      "votes": {
+        "valid_votes": 1926,
+        "invalid_votes": 20,
+        "total_votes": 1946
+      },
+      "voter_turnout": 57.08000183105469
+    },
+    {
+      "name": "高榮里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 595,
+        "cand_2016_02": 1183,
+        "cand_2016_03": 283
+      },
+      "votes": {
+        "valid_votes": 2061,
+        "invalid_votes": 22,
+        "total_votes": 2083
+      },
+      "voter_turnout": 69.87999725341797
+    },
+    {
+      "name": "雙榮里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 645,
+        "cand_2016_02": 1016,
+        "cand_2016_03": 290
+      },
+      "votes": {
+        "valid_votes": 1951,
+        "invalid_votes": 21,
+        "total_votes": 1972
+      },
+      "voter_turnout": 69.93000030517578
+    },
+    {
+      "name": "新榮里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 746,
+        "cand_2016_02": 1145,
+        "cand_2016_03": 330
+      },
+      "votes": {
+        "valid_votes": 2221,
+        "invalid_votes": 27,
+        "total_votes": 2248
+      },
+      "voter_turnout": 69.55000305175781
+    },
+    {
+      "name": "水美里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 886,
+        "cand_2016_02": 1260,
+        "cand_2016_03": 421
+      },
+      "votes": {
+        "valid_votes": 2567,
+        "invalid_votes": 23,
+        "total_votes": 2590
+      },
+      "voter_turnout": 67.29000091552734
+    },
+    {
+      "name": "瑞原里",
+      "level": "village",
+      "affiliation": "楊梅區",
+      "candidates": {
+        "cand_2016_01": 790,
+        "cand_2016_02": 1157,
+        "cand_2016_03": 376
+      },
+      "votes": {
+        "valid_votes": 2323,
+        "invalid_votes": 19,
+        "total_votes": 2342
+      },
+      "voter_turnout": 64.86000061035156
+    },
+    {
+      "name": "後寮里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 933,
+        "cand_2016_02": 1245,
+        "cand_2016_03": 478
+      },
+      "votes": {
+        "valid_votes": 2656,
+        "invalid_votes": 28,
+        "total_votes": 2684
+      },
+      "voter_turnout": 63.5099983215332
+    },
+    {
+      "name": "明德里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1033,
+        "cand_2016_02": 1477,
+        "cand_2016_03": 445
+      },
+      "votes": {
+        "valid_votes": 2955,
+        "invalid_votes": 35,
+        "total_votes": 2990
+      },
+      "voter_turnout": 70.69999694824219
+    },
+    {
+      "name": "至善里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 951,
+        "cand_2016_02": 736,
+        "cand_2016_03": 350
+      },
+      "votes": {
+        "valid_votes": 2037,
+        "invalid_votes": 21,
+        "total_votes": 2058
+      },
+      "voter_turnout": 61.90999984741211
+    },
+    {
+      "name": "龍慈里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1126,
+        "cand_2016_02": 1015,
+        "cand_2016_03": 524
+      },
+      "votes": {
+        "valid_votes": 2665,
+        "invalid_votes": 29,
+        "total_votes": 2694
+      },
+      "voter_turnout": 63.4900016784668
+    },
+    {
+      "name": "龍興里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1008,
+        "cand_2016_02": 1288,
+        "cand_2016_03": 387
+      },
+      "votes": {
+        "valid_votes": 2683,
+        "invalid_votes": 29,
+        "total_votes": 2712
+      },
+      "voter_turnout": 69.05999755859375
+    },
+    {
+      "name": "龍德里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1073,
+        "cand_2016_02": 1048,
+        "cand_2016_03": 406
+      },
+      "votes": {
+        "valid_votes": 2527,
+        "invalid_votes": 24,
+        "total_votes": 2551
+      },
+      "voter_turnout": 69.27999877929688
+    },
+    {
+      "name": "龍岡里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1414,
+        "cand_2016_02": 1059,
+        "cand_2016_03": 473
+      },
+      "votes": {
+        "valid_votes": 2946,
+        "invalid_votes": 34,
+        "total_votes": 2980
+      },
+      "voter_turnout": 69.7699966430664
+    },
+    {
+      "name": "龍東里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1790,
+        "cand_2016_02": 751,
+        "cand_2016_03": 497
+      },
+      "votes": {
+        "valid_votes": 3038,
+        "invalid_votes": 47,
+        "total_votes": 3085
+      },
+      "voter_turnout": 68.41999816894531
+    },
+    {
+      "name": "龍昌里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1427,
+        "cand_2016_02": 1298,
+        "cand_2016_03": 600
+      },
+      "votes": {
+        "valid_votes": 3325,
+        "invalid_votes": 32,
+        "total_votes": 3357
+      },
+      "voter_turnout": 67.22000122070312
+    },
+    {
+      "name": "龍平里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1182,
+        "cand_2016_02": 478,
+        "cand_2016_03": 287
+      },
+      "votes": {
+        "valid_votes": 1947,
+        "invalid_votes": 22,
+        "total_votes": 1969
+      },
+      "voter_turnout": 68.91999816894531
+    },
+    {
+      "name": "仁美里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1363,
+        "cand_2016_02": 1364,
+        "cand_2016_03": 532
+      },
+      "votes": {
+        "valid_votes": 3259,
+        "invalid_votes": 41,
+        "total_votes": 3300
+      },
+      "voter_turnout": 65.36000061035156
+    },
+    {
+      "name": "仁福里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1319,
+        "cand_2016_02": 1040,
+        "cand_2016_03": 442
+      },
+      "votes": {
+        "valid_votes": 2801,
+        "invalid_votes": 31,
+        "total_votes": 2832
+      },
+      "voter_turnout": 64.44999694824219
+    },
+    {
+      "name": "華愛里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 950,
+        "cand_2016_02": 750,
+        "cand_2016_03": 348
+      },
+      "votes": {
+        "valid_votes": 2048,
+        "invalid_votes": 17,
+        "total_votes": 2065
+      },
+      "voter_turnout": 66.62999725341797
+    },
+    {
+      "name": "普仁里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 887,
+        "cand_2016_02": 1203,
+        "cand_2016_03": 392
+      },
+      "votes": {
+        "valid_votes": 2482,
+        "invalid_votes": 33,
+        "total_votes": 2515
+      },
+      "voter_turnout": 64.94000244140625
+    },
+    {
+      "name": "普忠里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 737,
+        "cand_2016_02": 945,
+        "cand_2016_03": 301
+      },
+      "votes": {
+        "valid_votes": 1983,
+        "invalid_votes": 19,
+        "total_votes": 2002
+      },
+      "voter_turnout": 67.7300033569336
+    },
+    {
+      "name": "普強里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 928,
+        "cand_2016_02": 1009,
+        "cand_2016_03": 411
+      },
+      "votes": {
+        "valid_votes": 2348,
+        "invalid_votes": 26,
+        "total_votes": 2374
+      },
+      "voter_turnout": 68.7300033569336
+    },
+    {
+      "name": "普慶里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 651,
+        "cand_2016_02": 842,
+        "cand_2016_03": 258
+      },
+      "votes": {
+        "valid_votes": 1751,
+        "invalid_votes": 19,
+        "total_votes": 1770
+      },
+      "voter_turnout": 71.77999877929688
+    },
+    {
+      "name": "信義里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1068,
+        "cand_2016_02": 1309,
+        "cand_2016_03": 409
+      },
+      "votes": {
+        "valid_votes": 2786,
+        "invalid_votes": 18,
+        "total_votes": 2804
+      },
+      "voter_turnout": 69.3499984741211
+    },
+    {
+      "name": "正義里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 910,
+        "cand_2016_02": 1388,
+        "cand_2016_03": 433
+      },
+      "votes": {
+        "valid_votes": 2731,
+        "invalid_votes": 30,
+        "total_votes": 2761
+      },
+      "voter_turnout": 68.83999633789062
+    },
+    {
+      "name": "普義里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 868,
+        "cand_2016_02": 990,
+        "cand_2016_03": 381
+      },
+      "votes": {
+        "valid_votes": 2239,
+        "invalid_votes": 31,
+        "total_votes": 2270
+      },
+      "voter_turnout": 43.560001373291016
+    },
+    {
+      "name": "德義里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 654,
+        "cand_2016_02": 855,
+        "cand_2016_03": 262
+      },
+      "votes": {
+        "valid_votes": 1771,
+        "invalid_votes": 20,
+        "total_votes": 1791
+      },
+      "voter_turnout": 69.69000244140625
+    },
+    {
+      "name": "仁義里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 703,
+        "cand_2016_02": 1171,
+        "cand_2016_03": 392
+      },
+      "votes": {
+        "valid_votes": 2266,
+        "invalid_votes": 21,
+        "total_votes": 2287
+      },
+      "voter_turnout": 66.30999755859375
+    },
+    {
+      "name": "忠義里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 679,
+        "cand_2016_02": 970,
+        "cand_2016_03": 286
+      },
+      "votes": {
+        "valid_votes": 1935,
+        "invalid_votes": 15,
+        "total_votes": 1950
+      },
+      "voter_turnout": 66.26000213623047
+    },
+    {
+      "name": "中興里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 792,
+        "cand_2016_02": 710,
+        "cand_2016_03": 352
+      },
+      "votes": {
+        "valid_votes": 1854,
+        "invalid_votes": 17,
+        "total_votes": 1871
+      },
+      "voter_turnout": 64.87999725341797
+    },
+    {
+      "name": "自立里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 2280,
+        "cand_2016_02": 504,
+        "cand_2016_03": 540
+      },
+      "votes": {
+        "valid_votes": 3324,
+        "invalid_votes": 40,
+        "total_votes": 3364
+      },
+      "voter_turnout": 68.62999725341797
+    },
+    {
+      "name": "自信里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1356,
+        "cand_2016_02": 1199,
+        "cand_2016_03": 592
+      },
+      "votes": {
+        "valid_votes": 3147,
+        "invalid_votes": 36,
+        "total_votes": 3183
+      },
+      "voter_turnout": 67.13999938964844
+    },
+    {
+      "name": "莊敬里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1345,
+        "cand_2016_02": 529,
+        "cand_2016_03": 344
+      },
+      "votes": {
+        "valid_votes": 2218,
+        "invalid_votes": 29,
+        "total_votes": 2247
+      },
+      "voter_turnout": 69.83000183105469
+    },
+    {
+      "name": "自治里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1215,
+        "cand_2016_02": 514,
+        "cand_2016_03": 362
+      },
+      "votes": {
+        "valid_votes": 2091,
+        "invalid_votes": 30,
+        "total_votes": 2121
+      },
+      "voter_turnout": 67.80999755859375
+    },
+    {
+      "name": "內壢里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 569,
+        "cand_2016_02": 548,
+        "cand_2016_03": 200
+      },
+      "votes": {
+        "valid_votes": 1317,
+        "invalid_votes": 14,
+        "total_votes": 1331
+      },
+      "voter_turnout": 64.80000305175781
+    },
+    {
+      "name": "成功里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 964,
+        "cand_2016_02": 1126,
+        "cand_2016_03": 389
+      },
+      "votes": {
+        "valid_votes": 2479,
+        "invalid_votes": 40,
+        "total_votes": 2519
+      },
+      "voter_turnout": 64
+    },
+    {
+      "name": "福德里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 699,
+        "cand_2016_02": 792,
+        "cand_2016_03": 264
+      },
+      "votes": {
+        "valid_votes": 1755,
+        "invalid_votes": 19,
+        "total_votes": 1774
+      },
+      "voter_turnout": 69.16000366210938
+    },
+    {
+      "name": "中原里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 928,
+        "cand_2016_02": 1165,
+        "cand_2016_03": 339
+      },
+      "votes": {
+        "valid_votes": 2432,
+        "invalid_votes": 17,
+        "total_votes": 2449
+      },
+      "voter_turnout": 68.63999938964844
+    },
+    {
+      "name": "忠孝里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1015,
+        "cand_2016_02": 1161,
+        "cand_2016_03": 401
+      },
+      "votes": {
+        "valid_votes": 2577,
+        "invalid_votes": 37,
+        "total_votes": 2614
+      },
+      "voter_turnout": 65.06999969482422
+    },
+    {
+      "name": "復興里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1810,
+        "cand_2016_02": 2297,
+        "cand_2016_03": 820
+      },
+      "votes": {
+        "valid_votes": 4927,
+        "invalid_votes": 42,
+        "total_votes": 4969
+      },
+      "voter_turnout": 63.68000030517578
+    },
+    {
+      "name": "復華里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1207,
+        "cand_2016_02": 1499,
+        "cand_2016_03": 481
+      },
+      "votes": {
+        "valid_votes": 3187,
+        "invalid_votes": 25,
+        "total_votes": 3212
+      },
+      "voter_turnout": 68.4000015258789
+    },
+    {
+      "name": "文化里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1787,
+        "cand_2016_02": 2691,
+        "cand_2016_03": 873
+      },
+      "votes": {
+        "valid_votes": 5351,
+        "invalid_votes": 64,
+        "total_votes": 5415
+      },
+      "voter_turnout": 67.48999786376953
+    },
+    {
+      "name": "和平里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 666,
+        "cand_2016_02": 777,
+        "cand_2016_03": 225
+      },
+      "votes": {
+        "valid_votes": 1668,
+        "invalid_votes": 17,
+        "total_votes": 1685
+      },
+      "voter_turnout": 69.91999816894531
+    },
+    {
+      "name": "內定里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1080,
+        "cand_2016_02": 2437,
+        "cand_2016_03": 585
+      },
+      "votes": {
+        "valid_votes": 4102,
+        "invalid_votes": 40,
+        "total_votes": 4142
+      },
+      "voter_turnout": 68.98999786376953
+    },
+    {
+      "name": "石頭里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 363,
+        "cand_2016_02": 577,
+        "cand_2016_03": 144
+      },
+      "votes": {
+        "valid_votes": 1084,
+        "invalid_votes": 8,
+        "total_votes": 1092
+      },
+      "voter_turnout": 66.13999938964844
+    },
+    {
+      "name": "中央里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 844,
+        "cand_2016_02": 1158,
+        "cand_2016_03": 325
+      },
+      "votes": {
+        "valid_votes": 2327,
+        "invalid_votes": 32,
+        "total_votes": 2359
+      },
+      "voter_turnout": 70.33000183105469
+    },
+    {
+      "name": "新興里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 810,
+        "cand_2016_02": 1140,
+        "cand_2016_03": 358
+      },
+      "votes": {
+        "valid_votes": 2308,
+        "invalid_votes": 29,
+        "total_votes": 2337
+      },
+      "voter_turnout": 66.88999938964844
+    },
+    {
+      "name": "林森里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 822,
+        "cand_2016_02": 1132,
+        "cand_2016_03": 378
+      },
+      "votes": {
+        "valid_votes": 2332,
+        "invalid_votes": 19,
+        "total_votes": 2351
+      },
+      "voter_turnout": 66.9800033569336
+    },
+    {
+      "name": "振興里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1101,
+        "cand_2016_02": 1352,
+        "cand_2016_03": 533
+      },
+      "votes": {
+        "valid_votes": 2986,
+        "invalid_votes": 25,
+        "total_votes": 3011
+      },
+      "voter_turnout": 69.19999694824219
+    },
+    {
+      "name": "東興里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 635,
+        "cand_2016_02": 1083,
+        "cand_2016_03": 286
+      },
+      "votes": {
+        "valid_votes": 2004,
+        "invalid_votes": 22,
+        "total_votes": 2026
+      },
+      "voter_turnout": 67.51000213623047
+    },
+    {
+      "name": "健行里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1015,
+        "cand_2016_02": 1367,
+        "cand_2016_03": 451
+      },
+      "votes": {
+        "valid_votes": 2833,
+        "invalid_votes": 36,
+        "total_votes": 2869
+      },
+      "voter_turnout": 68.62000274658203
+    },
+    {
+      "name": "水尾里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 689,
+        "cand_2016_02": 1344,
+        "cand_2016_03": 340
+      },
+      "votes": {
+        "valid_votes": 2373,
+        "invalid_votes": 17,
+        "total_votes": 2390
+      },
+      "voter_turnout": 70.12999725341797
+    },
+    {
+      "name": "金華里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1067,
+        "cand_2016_02": 1018,
+        "cand_2016_03": 338
+      },
+      "votes": {
+        "valid_votes": 2423,
+        "invalid_votes": 39,
+        "total_votes": 2462
+      },
+      "voter_turnout": 69.51000213623047
+    },
+    {
+      "name": "忠福里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1588,
+        "cand_2016_02": 2416,
+        "cand_2016_03": 736
+      },
+      "votes": {
+        "valid_votes": 4740,
+        "invalid_votes": 53,
+        "total_votes": 4793
+      },
+      "voter_turnout": 69.33000183105469
+    },
+    {
+      "name": "幸福里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1178,
+        "cand_2016_02": 1887,
+        "cand_2016_03": 540
+      },
+      "votes": {
+        "valid_votes": 3605,
+        "invalid_votes": 32,
+        "total_votes": 3637
+      },
+      "voter_turnout": 68.01000213623047
+    },
+    {
+      "name": "永福里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1120,
+        "cand_2016_02": 1912,
+        "cand_2016_03": 500
+      },
+      "votes": {
+        "valid_votes": 3532,
+        "invalid_votes": 28,
+        "total_votes": 3560
+      },
+      "voter_turnout": 69.5
+    },
+    {
+      "name": "青埔里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 429,
+        "cand_2016_02": 812,
+        "cand_2016_03": 214
+      },
+      "votes": {
+        "valid_votes": 1455,
+        "invalid_votes": 28,
+        "total_votes": 1483
+      },
+      "voter_turnout": 66.29000091552734
+    },
+    {
+      "name": "新街里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 453,
+        "cand_2016_02": 626,
+        "cand_2016_03": 183
+      },
+      "votes": {
+        "valid_votes": 1262,
+        "invalid_votes": 18,
+        "total_votes": 1280
+      },
+      "voter_turnout": 66.9800033569336
+    },
+    {
+      "name": "興南里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 670,
+        "cand_2016_02": 874,
+        "cand_2016_03": 262
+      },
+      "votes": {
+        "valid_votes": 1806,
+        "invalid_votes": 19,
+        "total_votes": 1825
+      },
+      "voter_turnout": 64.62000274658203
+    },
+    {
+      "name": "興國里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 395,
+        "cand_2016_02": 689,
+        "cand_2016_03": 186
+      },
+      "votes": {
+        "valid_votes": 1270,
+        "invalid_votes": 17,
+        "total_votes": 1287
+      },
+      "voter_turnout": 68.27999877929688
+    },
+    {
+      "name": "興平里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 515,
+        "cand_2016_02": 1038,
+        "cand_2016_03": 181
+      },
+      "votes": {
+        "valid_votes": 1734,
+        "invalid_votes": 14,
+        "total_votes": 1748
+      },
+      "voter_turnout": 74.66999816894531
+    },
+    {
+      "name": "興和里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 579,
+        "cand_2016_02": 1188,
+        "cand_2016_03": 263
+      },
+      "votes": {
+        "valid_votes": 2030,
+        "invalid_votes": 21,
+        "total_votes": 2051
+      },
+      "voter_turnout": 73.69999694824219
+    },
+    {
+      "name": "永興里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 205,
+        "cand_2016_02": 318,
+        "cand_2016_03": 102
+      },
+      "votes": {
+        "valid_votes": 625,
+        "invalid_votes": 5,
+        "total_votes": 630
+      },
+      "voter_turnout": 69.54000091552734
+    },
+    {
+      "name": "中壢里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 176,
+        "cand_2016_02": 265,
+        "cand_2016_03": 54
+      },
+      "votes": {
+        "valid_votes": 495,
+        "invalid_votes": 5,
+        "total_votes": 500
+      },
+      "voter_turnout": 70.5199966430664
+    },
+    {
+      "name": "中榮里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 193,
+        "cand_2016_02": 315,
+        "cand_2016_03": 60
+      },
+      "votes": {
+        "valid_votes": 568,
+        "invalid_votes": 8,
+        "total_votes": 576
+      },
+      "voter_turnout": 67.69000244140625
+    },
+    {
+      "name": "中建里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 184,
+        "cand_2016_02": 409,
+        "cand_2016_03": 93
+      },
+      "votes": {
+        "valid_votes": 686,
+        "invalid_votes": 7,
+        "total_votes": 693
+      },
+      "voter_turnout": 71.30000305175781
+    },
+    {
+      "name": "舊明里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 316,
+        "cand_2016_02": 655,
+        "cand_2016_03": 148
+      },
+      "votes": {
+        "valid_votes": 1119,
+        "invalid_votes": 17,
+        "total_votes": 1136
+      },
+      "voter_turnout": 75.33000183105469
+    },
+    {
+      "name": "新明里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 761,
+        "cand_2016_02": 1395,
+        "cand_2016_03": 318
+      },
+      "votes": {
+        "valid_votes": 2474,
+        "invalid_votes": 22,
+        "total_votes": 2496
+      },
+      "voter_turnout": 68.77999877929688
+    },
+    {
+      "name": "光明里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1343,
+        "cand_2016_02": 1625,
+        "cand_2016_03": 521
+      },
+      "votes": {
+        "valid_votes": 3489,
+        "invalid_votes": 36,
+        "total_votes": 3525
+      },
+      "voter_turnout": 69.01000213623047
+    },
+    {
+      "name": "永光里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1063,
+        "cand_2016_02": 1737,
+        "cand_2016_03": 445
+      },
+      "votes": {
+        "valid_votes": 3245,
+        "invalid_votes": 37,
+        "total_votes": 3282
+      },
+      "voter_turnout": 66.23999786376953
+    },
+    {
+      "name": "三民里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 524,
+        "cand_2016_02": 1297,
+        "cand_2016_03": 257
+      },
+      "votes": {
+        "valid_votes": 2078,
+        "invalid_votes": 19,
+        "total_votes": 2097
+      },
+      "voter_turnout": 70.45999908447266
+    },
+    {
+      "name": "五權里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1115,
+        "cand_2016_02": 2149,
+        "cand_2016_03": 515
+      },
+      "votes": {
+        "valid_votes": 3779,
+        "invalid_votes": 46,
+        "total_votes": 3825
+      },
+      "voter_turnout": 68.05000305175781
+    },
+    {
+      "name": "五福里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 675,
+        "cand_2016_02": 1348,
+        "cand_2016_03": 329
+      },
+      "votes": {
+        "valid_votes": 2352,
+        "invalid_votes": 17,
+        "total_votes": 2369
+      },
+      "voter_turnout": 70.51000213623047
+    },
+    {
+      "name": "芝芭里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 474,
+        "cand_2016_02": 1217,
+        "cand_2016_03": 192
+      },
+      "votes": {
+        "valid_votes": 1883,
+        "invalid_votes": 14,
+        "total_votes": 1897
+      },
+      "voter_turnout": 70.56999969482422
+    },
+    {
+      "name": "洽溪里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 470,
+        "cand_2016_02": 1026,
+        "cand_2016_03": 180
+      },
+      "votes": {
+        "valid_votes": 1676,
+        "invalid_votes": 17,
+        "total_votes": 1693
+      },
+      "voter_turnout": 66.76000213623047
+    },
+    {
+      "name": "內厝里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 708,
+        "cand_2016_02": 1925,
+        "cand_2016_03": 334
+      },
+      "votes": {
+        "valid_votes": 2967,
+        "invalid_votes": 22,
+        "total_votes": 2989
+      },
+      "voter_turnout": 70.4000015258789
+    },
+    {
+      "name": "月眉里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 554,
+        "cand_2016_02": 2016,
+        "cand_2016_03": 329
+      },
+      "votes": {
+        "valid_votes": 2899,
+        "invalid_votes": 27,
+        "total_votes": 2926
+      },
+      "voter_turnout": 68.69999694824219
+    },
+    {
+      "name": "山東里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 484,
+        "cand_2016_02": 1666,
+        "cand_2016_03": 267
+      },
+      "votes": {
+        "valid_votes": 2417,
+        "invalid_votes": 29,
+        "total_votes": 2446
+      },
+      "voter_turnout": 72.05000305175781
+    },
+    {
+      "name": "過嶺里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 810,
+        "cand_2016_02": 1631,
+        "cand_2016_03": 376
+      },
+      "votes": {
+        "valid_votes": 2817,
+        "invalid_votes": 32,
+        "total_votes": 2849
+      },
+      "voter_turnout": 66.55000305175781
+    },
+    {
+      "name": "龍安里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 890,
+        "cand_2016_02": 340,
+        "cand_2016_03": 253
+      },
+      "votes": {
+        "valid_votes": 1483,
+        "invalid_votes": 12,
+        "total_votes": 1495
+      },
+      "voter_turnout": 72.61000061035156
+    },
+    {
+      "name": "仁愛里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 668,
+        "cand_2016_02": 833,
+        "cand_2016_03": 318
+      },
+      "votes": {
+        "valid_votes": 1819,
+        "invalid_votes": 16,
+        "total_votes": 1835
+      },
+      "voter_turnout": 68.37000274658203
+    },
+    {
+      "name": "仁德里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 891,
+        "cand_2016_02": 687,
+        "cand_2016_03": 346
+      },
+      "votes": {
+        "valid_votes": 1924,
+        "invalid_votes": 22,
+        "total_votes": 1946
+      },
+      "voter_turnout": 66.37000274658203
+    },
+    {
+      "name": "仁和里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 927,
+        "cand_2016_02": 871,
+        "cand_2016_03": 373
+      },
+      "votes": {
+        "valid_votes": 2171,
+        "invalid_votes": 29,
+        "total_votes": 2200
+      },
+      "voter_turnout": 66.12999725341797
+    },
+    {
+      "name": "仁祥里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 886,
+        "cand_2016_02": 624,
+        "cand_2016_03": 278
+      },
+      "votes": {
+        "valid_votes": 1788,
+        "invalid_votes": 27,
+        "total_votes": 1815
+      },
+      "voter_turnout": 67.0199966430664
+    },
+    {
+      "name": "華勛里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1061,
+        "cand_2016_02": 575,
+        "cand_2016_03": 273
+      },
+      "votes": {
+        "valid_votes": 1909,
+        "invalid_votes": 21,
+        "total_votes": 1930
+      },
+      "voter_turnout": 68.05000305175781
+    },
+    {
+      "name": "中堅里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1100,
+        "cand_2016_02": 756,
+        "cand_2016_03": 359
+      },
+      "votes": {
+        "valid_votes": 2215,
+        "invalid_votes": 27,
+        "total_votes": 2242
+      },
+      "voter_turnout": 65.2699966430664
+    },
+    {
+      "name": "興仁里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 842,
+        "cand_2016_02": 796,
+        "cand_2016_03": 329
+      },
+      "votes": {
+        "valid_votes": 1967,
+        "invalid_votes": 17,
+        "total_votes": 1984
+      },
+      "voter_turnout": 63.91999816894531
+    },
+    {
+      "name": "中正里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1223,
+        "cand_2016_02": 1029,
+        "cand_2016_03": 508
+      },
+      "votes": {
+        "valid_votes": 2760,
+        "invalid_votes": 23,
+        "total_votes": 2783
+      },
+      "voter_turnout": 64.20999908447266
+    },
+    {
+      "name": "中山里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 1124,
+        "cand_2016_02": 1020,
+        "cand_2016_03": 496
+      },
+      "votes": {
+        "valid_votes": 2640,
+        "invalid_votes": 24,
+        "total_votes": 2664
+      },
+      "voter_turnout": 63.34000015258789
+    },
+    {
+      "name": "篤行里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 570,
+        "cand_2016_02": 603,
+        "cand_2016_03": 223
+      },
+      "votes": {
+        "valid_votes": 1396,
+        "invalid_votes": 16,
+        "total_votes": 1412
+      },
+      "voter_turnout": 63.380001068115234
+    },
+    {
+      "name": "自強里",
+      "level": "village",
+      "affiliation": "中壢區",
+      "candidates": {
+        "cand_2016_01": 969,
+        "cand_2016_02": 822,
+        "cand_2016_03": 325
+      },
+      "votes": {
+        "valid_votes": 2116,
+        "invalid_votes": 25,
+        "total_votes": 2141
+      },
+      "voter_turnout": 68.31999969482422
+    },
+    {
+      "name": "平鎮里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 834,
+        "cand_2016_02": 1453,
+        "cand_2016_03": 375
+      },
+      "votes": {
+        "valid_votes": 2662,
+        "invalid_votes": 30,
+        "total_votes": 2692
+      },
+      "voter_turnout": 65.83999633789062
+    },
+    {
+      "name": "鎮興里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 529,
+        "cand_2016_02": 1028,
+        "cand_2016_03": 299
+      },
+      "votes": {
+        "valid_votes": 1856,
+        "invalid_votes": 27,
+        "total_votes": 1883
+      },
+      "voter_turnout": 66.94000244140625
+    },
+    {
+      "name": "南勢里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 1114,
+        "cand_2016_02": 1784,
+        "cand_2016_03": 542
+      },
+      "votes": {
+        "valid_votes": 3440,
+        "invalid_votes": 28,
+        "total_votes": 3468
+      },
+      "voter_turnout": 66.91999816894531
+    },
+    {
+      "name": "金星里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 1073,
+        "cand_2016_02": 1552,
+        "cand_2016_03": 608
+      },
+      "votes": {
+        "valid_votes": 3233,
+        "invalid_votes": 37,
+        "total_votes": 3270
+      },
+      "voter_turnout": 64.73999786376953
+    },
+    {
+      "name": "平安里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 898,
+        "cand_2016_02": 1476,
+        "cand_2016_03": 387
+      },
+      "votes": {
+        "valid_votes": 2761,
+        "invalid_votes": 48,
+        "total_votes": 2809
+      },
+      "voter_turnout": 68.94999694824219
+    },
+    {
+      "name": "平南里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 1356,
+        "cand_2016_02": 1716,
+        "cand_2016_03": 648
+      },
+      "votes": {
+        "valid_votes": 3720,
+        "invalid_votes": 41,
+        "total_votes": 3761
+      },
+      "voter_turnout": 66.94999694824219
+    },
+    {
+      "name": "山峰里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 629,
+        "cand_2016_02": 640,
+        "cand_2016_03": 228
+      },
+      "votes": {
+        "valid_votes": 1497,
+        "invalid_votes": 17,
+        "total_votes": 1514
+      },
+      "voter_turnout": 68.16999816894531
+    },
+    {
+      "name": "福林里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 719,
+        "cand_2016_02": 1058,
+        "cand_2016_03": 298
+      },
+      "votes": {
+        "valid_votes": 2075,
+        "invalid_votes": 21,
+        "total_votes": 2096
+      },
+      "voter_turnout": 70.41000366210938
+    },
+    {
+      "name": "湧光里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 1306,
+        "cand_2016_02": 1557,
+        "cand_2016_03": 510
+      },
+      "votes": {
+        "valid_votes": 3373,
+        "invalid_votes": 25,
+        "total_votes": 3398
+      },
+      "voter_turnout": 67.55000305175781
+    },
+    {
+      "name": "莊敬里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 1349,
+        "cand_2016_02": 1037,
+        "cand_2016_03": 411
+      },
+      "votes": {
+        "valid_votes": 2797,
+        "invalid_votes": 34,
+        "total_votes": 2831
+      },
+      "voter_turnout": 67.52999877929688
+    },
+    {
+      "name": "湧豐里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 438,
+        "cand_2016_02": 518,
+        "cand_2016_03": 173
+      },
+      "votes": {
+        "valid_votes": 1129,
+        "invalid_votes": 14,
+        "total_votes": 1143
+      },
+      "voter_turnout": 67.30999755859375
+    },
+    {
+      "name": "湧安里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 875,
+        "cand_2016_02": 1204,
+        "cand_2016_03": 443
+      },
+      "votes": {
+        "valid_votes": 2522,
+        "invalid_votes": 23,
+        "total_votes": 2545
+      },
+      "voter_turnout": 63.86000061035156
+    },
+    {
+      "name": "宋屋里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 742,
+        "cand_2016_02": 1161,
+        "cand_2016_03": 389
+      },
+      "votes": {
+        "valid_votes": 2292,
+        "invalid_votes": 21,
+        "total_votes": 2313
+      },
+      "voter_turnout": 66.29000091552734
+    },
+    {
+      "name": "平興里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 1066,
+        "cand_2016_02": 1348,
+        "cand_2016_03": 549
+      },
+      "votes": {
+        "valid_votes": 2963,
+        "invalid_votes": 34,
+        "total_votes": 2997
+      },
+      "voter_turnout": 65.48999786376953
+    },
+    {
+      "name": "廣興里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 1179,
+        "cand_2016_02": 1802,
+        "cand_2016_03": 491
+      },
+      "votes": {
+        "valid_votes": 3472,
+        "invalid_votes": 27,
+        "total_votes": 3499
+      },
+      "voter_turnout": 69.30000305175781
+    },
+    {
+      "name": "廣達里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 659,
+        "cand_2016_02": 1335,
+        "cand_2016_03": 337
+      },
+      "votes": {
+        "valid_votes": 2331,
+        "invalid_votes": 20,
+        "total_votes": 2351
+      },
+      "voter_turnout": 69.69999694824219
+    },
+    {
+      "name": "廣仁里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 866,
+        "cand_2016_02": 1292,
+        "cand_2016_03": 463
+      },
+      "votes": {
+        "valid_votes": 2621,
+        "invalid_votes": 17,
+        "total_votes": 2638
+      },
+      "voter_turnout": 65.36000061035156
+    },
+    {
+      "name": "復旦里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 1162,
+        "cand_2016_02": 1476,
+        "cand_2016_03": 503
+      },
+      "votes": {
+        "valid_votes": 3141,
+        "invalid_votes": 35,
+        "total_votes": 3176
+      },
+      "voter_turnout": 66.72000122070312
+    },
+    {
+      "name": "復興里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 1046,
+        "cand_2016_02": 1598,
+        "cand_2016_03": 531
+      },
+      "votes": {
+        "valid_votes": 3175,
+        "invalid_votes": 42,
+        "total_votes": 3217
+      },
+      "voter_turnout": 71.11000061035156
+    },
+    {
+      "name": "義民里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 1098,
+        "cand_2016_02": 1399,
+        "cand_2016_03": 470
+      },
+      "votes": {
+        "valid_votes": 2967,
+        "invalid_votes": 46,
+        "total_votes": 3013
+      },
+      "voter_turnout": 64.98999786376953
+    },
+    {
+      "name": "義興里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 1361,
+        "cand_2016_02": 2188,
+        "cand_2016_03": 599
+      },
+      "votes": {
+        "valid_votes": 4148,
+        "invalid_votes": 55,
+        "total_votes": 4203
+      },
+      "voter_turnout": 68.68000030517578
+    },
+    {
+      "name": "雙連里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 1089,
+        "cand_2016_02": 1391,
+        "cand_2016_03": 409
+      },
+      "votes": {
+        "valid_votes": 2889,
+        "invalid_votes": 35,
+        "total_votes": 2924
+      },
+      "voter_turnout": 65.87000274658203
+    },
+    {
+      "name": "高雙里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 755,
+        "cand_2016_02": 1529,
+        "cand_2016_03": 341
+      },
+      "votes": {
+        "valid_votes": 2625,
+        "invalid_votes": 35,
+        "total_votes": 2660
+      },
+      "voter_turnout": 68.43000030517578
+    },
+    {
+      "name": "北勢里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 563,
+        "cand_2016_02": 881,
+        "cand_2016_03": 197
+      },
+      "votes": {
+        "valid_votes": 1641,
+        "invalid_votes": 17,
+        "total_votes": 1658
+      },
+      "voter_turnout": 70.55000305175781
+    },
+    {
+      "name": "北華里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 849,
+        "cand_2016_02": 1134,
+        "cand_2016_03": 372
+      },
+      "votes": {
+        "valid_votes": 2355,
+        "invalid_votes": 30,
+        "total_votes": 2385
+      },
+      "voter_turnout": 70.80999755859375
+    },
+    {
+      "name": "新勢里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 817,
+        "cand_2016_02": 1283,
+        "cand_2016_03": 351
+      },
+      "votes": {
+        "valid_votes": 2451,
+        "invalid_votes": 33,
+        "total_votes": 2484
+      },
+      "voter_turnout": 70.87000274658203
+    },
+    {
+      "name": "北安里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 306,
+        "cand_2016_02": 617,
+        "cand_2016_03": 133
+      },
+      "votes": {
+        "valid_votes": 1056,
+        "invalid_votes": 7,
+        "total_votes": 1063
+      },
+      "voter_turnout": 71.0999984741211
+    },
+    {
+      "name": "新榮里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 1088,
+        "cand_2016_02": 1645,
+        "cand_2016_03": 540
+      },
+      "votes": {
+        "valid_votes": 3273,
+        "invalid_votes": 37,
+        "total_votes": 3310
+      },
+      "voter_turnout": 70.66999816894531
+    },
+    {
+      "name": "新富里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 1210,
+        "cand_2016_02": 1536,
+        "cand_2016_03": 577
+      },
+      "votes": {
+        "valid_votes": 3323,
+        "invalid_votes": 47,
+        "total_votes": 3370
+      },
+      "voter_turnout": 57.20000076293945
+    },
+    {
+      "name": "新英里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 801,
+        "cand_2016_02": 827,
+        "cand_2016_03": 361
+      },
+      "votes": {
+        "valid_votes": 1989,
+        "invalid_votes": 27,
+        "total_votes": 2016
+      },
+      "voter_turnout": 64.30999755859375
+    },
+    {
+      "name": "新貴里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 656,
+        "cand_2016_02": 1126,
+        "cand_2016_03": 301
+      },
+      "votes": {
+        "valid_votes": 2083,
+        "invalid_votes": 29,
+        "total_votes": 2112
+      },
+      "voter_turnout": 70.9000015258789
+    },
+    {
+      "name": "北興里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 805,
+        "cand_2016_02": 1446,
+        "cand_2016_03": 407
+      },
+      "votes": {
+        "valid_votes": 2658,
+        "invalid_votes": 41,
+        "total_votes": 2699
+      },
+      "voter_turnout": 69.54000091552734
+    },
+    {
+      "name": "金陵里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 603,
+        "cand_2016_02": 872,
+        "cand_2016_03": 281
+      },
+      "votes": {
+        "valid_votes": 1756,
+        "invalid_votes": 29,
+        "total_votes": 1785
+      },
+      "voter_turnout": 70.44000244140625
+    },
+    {
+      "name": "北貴里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 816,
+        "cand_2016_02": 1379,
+        "cand_2016_03": 385
+      },
+      "votes": {
+        "valid_votes": 2580,
+        "invalid_votes": 26,
+        "total_votes": 2606
+      },
+      "voter_turnout": 68.62000274658203
+    },
+    {
+      "name": "北富里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 796,
+        "cand_2016_02": 1298,
+        "cand_2016_03": 360
+      },
+      "votes": {
+        "valid_votes": 2454,
+        "invalid_votes": 22,
+        "total_votes": 2476
+      },
+      "voter_turnout": 68.44000244140625
+    },
+    {
+      "name": "建安里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 869,
+        "cand_2016_02": 1508,
+        "cand_2016_03": 377
+      },
+      "votes": {
+        "valid_votes": 2754,
+        "invalid_votes": 28,
+        "total_votes": 2782
+      },
+      "voter_turnout": 69.0999984741211
+    },
+    {
+      "name": "華安里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 1161,
+        "cand_2016_02": 881,
+        "cand_2016_03": 445
+      },
+      "votes": {
+        "valid_votes": 2487,
+        "invalid_votes": 44,
+        "total_votes": 2531
+      },
+      "voter_turnout": 64.20999908447266
+    },
+    {
+      "name": "東安里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 770,
+        "cand_2016_02": 623,
+        "cand_2016_03": 279
+      },
+      "votes": {
+        "valid_votes": 1672,
+        "invalid_votes": 8,
+        "total_votes": 1680
+      },
+      "voter_turnout": 63.97999954223633
+    },
+    {
+      "name": "新安里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 1013,
+        "cand_2016_02": 977,
+        "cand_2016_03": 447
+      },
+      "votes": {
+        "valid_votes": 2437,
+        "invalid_votes": 19,
+        "total_votes": 2456
+      },
+      "voter_turnout": 64.98999786376953
+    },
+    {
+      "name": "東勢里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 980,
+        "cand_2016_02": 1818,
+        "cand_2016_03": 508
+      },
+      "votes": {
+        "valid_votes": 3306,
+        "invalid_votes": 31,
+        "total_votes": 3337
+      },
+      "voter_turnout": 66.77999877929688
+    },
+    {
+      "name": "龍恩里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 917,
+        "cand_2016_02": 574,
+        "cand_2016_03": 266
+      },
+      "votes": {
+        "valid_votes": 1757,
+        "invalid_votes": 29,
+        "total_votes": 1786
+      },
+      "voter_turnout": 66.79000091552734
+    },
+    {
+      "name": "東社里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 942,
+        "cand_2016_02": 803,
+        "cand_2016_03": 334
+      },
+      "votes": {
+        "valid_votes": 2079,
+        "invalid_votes": 27,
+        "total_votes": 2106
+      },
+      "voter_turnout": 65.13999938964844
+    },
+    {
+      "name": "忠貞里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 208,
+        "cand_2016_02": 85,
+        "cand_2016_03": 39
+      },
+      "votes": {
+        "valid_votes": 332,
+        "invalid_votes": 4,
+        "total_votes": 336
+      },
+      "voter_turnout": 70.58999633789062
+    },
+    {
+      "name": "貿易里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 641,
+        "cand_2016_02": 388,
+        "cand_2016_03": 204
+      },
+      "votes": {
+        "valid_votes": 1233,
+        "invalid_votes": 16,
+        "total_votes": 1249
+      },
+      "voter_turnout": 70.68000030517578
+    },
+    {
+      "name": "龍興里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 901,
+        "cand_2016_02": 480,
+        "cand_2016_03": 277
+      },
+      "votes": {
+        "valid_votes": 1658,
+        "invalid_votes": 24,
+        "total_votes": 1682
+      },
+      "voter_turnout": 69.5
+    },
+    {
+      "name": "中正里",
+      "level": "village",
+      "affiliation": "平鎮區",
+      "candidates": {
+        "cand_2016_01": 547,
+        "cand_2016_02": 276,
+        "cand_2016_03": 172
+      },
+      "votes": {
+        "valid_votes": 995,
+        "invalid_votes": 12,
+        "total_votes": 1007
+      },
+      "voter_turnout": 68.83000183105469
+    },
+    {
+      "name": "黃唐里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 928,
+        "cand_2016_02": 1256,
+        "cand_2016_03": 456
+      },
+      "votes": {
+        "valid_votes": 2640,
+        "invalid_votes": 25,
+        "total_votes": 2665
+      },
+      "voter_turnout": 64.43000030517578
+    },
+    {
+      "name": "永興里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 652,
+        "cand_2016_02": 809,
+        "cand_2016_03": 245
+      },
+      "votes": {
+        "valid_votes": 1706,
+        "invalid_votes": 21,
+        "total_votes": 1727
+      },
+      "voter_turnout": 64.11000061035156
+    },
+    {
+      "name": "中山里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 1166,
+        "cand_2016_02": 1549,
+        "cand_2016_03": 439
+      },
+      "votes": {
+        "valid_votes": 3154,
+        "invalid_votes": 39,
+        "total_votes": 3193
+      },
+      "voter_turnout": 70.05000305175781
+    },
+    {
+      "name": "烏樹林里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 466,
+        "cand_2016_02": 771,
+        "cand_2016_03": 212
+      },
+      "votes": {
+        "valid_votes": 1449,
+        "invalid_votes": 19,
+        "total_votes": 1468
+      },
+      "voter_turnout": 67.80999755859375
+    },
+    {
+      "name": "烏林里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 895,
+        "cand_2016_02": 1072,
+        "cand_2016_03": 330
+      },
+      "votes": {
+        "valid_votes": 2297,
+        "invalid_votes": 24,
+        "total_votes": 2321
+      },
+      "voter_turnout": 62.9900016784668
+    },
+    {
+      "name": "百年里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 1276,
+        "cand_2016_02": 772,
+        "cand_2016_03": 423
+      },
+      "votes": {
+        "valid_votes": 2471,
+        "invalid_votes": 33,
+        "total_votes": 2504
+      },
+      "voter_turnout": 68.05999755859375
+    },
+    {
+      "name": "凌雲里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 792,
+        "cand_2016_02": 983,
+        "cand_2016_03": 334
+      },
+      "votes": {
+        "valid_votes": 2109,
+        "invalid_votes": 29,
+        "total_votes": 2138
+      },
+      "voter_turnout": 63.95000076293945
+    },
+    {
+      "name": "龍祥里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 846,
+        "cand_2016_02": 925,
+        "cand_2016_03": 340
+      },
+      "votes": {
+        "valid_votes": 2111,
+        "invalid_votes": 18,
+        "total_votes": 2129
+      },
+      "voter_turnout": 63.689998626708984
+    },
+    {
+      "name": "八德里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 829,
+        "cand_2016_02": 1163,
+        "cand_2016_03": 378
+      },
+      "votes": {
+        "valid_votes": 2370,
+        "invalid_votes": 27,
+        "total_votes": 2397
+      },
+      "voter_turnout": 63.54999923706055
+    },
+    {
+      "name": "聖德里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 570,
+        "cand_2016_02": 912,
+        "cand_2016_03": 287
+      },
+      "votes": {
+        "valid_votes": 1769,
+        "invalid_votes": 13,
+        "total_votes": 1782
+      },
+      "voter_turnout": 62.349998474121094
+    },
+    {
+      "name": "上林里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 786,
+        "cand_2016_02": 1319,
+        "cand_2016_03": 397
+      },
+      "votes": {
+        "valid_votes": 2502,
+        "invalid_votes": 28,
+        "total_votes": 2530
+      },
+      "voter_turnout": 64.97000122070312
+    },
+    {
+      "name": "龍潭里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 453,
+        "cand_2016_02": 728,
+        "cand_2016_03": 177
+      },
+      "votes": {
+        "valid_votes": 1358,
+        "invalid_votes": 14,
+        "total_votes": 1372
+      },
+      "voter_turnout": 73.68000030517578
+    },
+    {
+      "name": "龍星里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 992,
+        "cand_2016_02": 1196,
+        "cand_2016_03": 348
+      },
+      "votes": {
+        "valid_votes": 2536,
+        "invalid_votes": 27,
+        "total_votes": 2563
+      },
+      "voter_turnout": 62.150001525878906
+    },
+    {
+      "name": "中正里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 1161,
+        "cand_2016_02": 1287,
+        "cand_2016_03": 457
+      },
+      "votes": {
+        "valid_votes": 2905,
+        "invalid_votes": 20,
+        "total_votes": 2925
+      },
+      "voter_turnout": 65.94999694824219
+    },
+    {
+      "name": "上華里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 835,
+        "cand_2016_02": 739,
+        "cand_2016_03": 332
+      },
+      "votes": {
+        "valid_votes": 1906,
+        "invalid_votes": 20,
+        "total_votes": 1926
+      },
+      "voter_turnout": 66.4800033569336
+    },
+    {
+      "name": "九龍里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 830,
+        "cand_2016_02": 953,
+        "cand_2016_03": 345
+      },
+      "votes": {
+        "valid_votes": 2128,
+        "invalid_votes": 27,
+        "total_votes": 2155
+      },
+      "voter_turnout": 63.97999954223633
+    },
+    {
+      "name": "武漢里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 569,
+        "cand_2016_02": 782,
+        "cand_2016_03": 224
+      },
+      "votes": {
+        "valid_votes": 1575,
+        "invalid_votes": 15,
+        "total_votes": 1590
+      },
+      "voter_turnout": 62.11000061035156
+    },
+    {
+      "name": "東興里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 1205,
+        "cand_2016_02": 784,
+        "cand_2016_03": 415
+      },
+      "votes": {
+        "valid_votes": 2404,
+        "invalid_votes": 29,
+        "total_votes": 2433
+      },
+      "voter_turnout": 63.720001220703125
+    },
+    {
+      "name": "中興里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 1089,
+        "cand_2016_02": 1058,
+        "cand_2016_03": 425
+      },
+      "votes": {
+        "valid_votes": 2572,
+        "invalid_votes": 20,
+        "total_votes": 2592
+      },
+      "voter_turnout": 64.25
+    },
+    {
+      "name": "北興里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 591,
+        "cand_2016_02": 483,
+        "cand_2016_03": 233
+      },
+      "votes": {
+        "valid_votes": 1307,
+        "invalid_votes": 14,
+        "total_votes": 1321
+      },
+      "voter_turnout": 60.349998474121094
+    },
+    {
+      "name": "佳安里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 1065,
+        "cand_2016_02": 722,
+        "cand_2016_03": 308
+      },
+      "votes": {
+        "valid_votes": 2095,
+        "invalid_votes": 25,
+        "total_votes": 2120
+      },
+      "voter_turnout": 68.87999725341797
+    },
+    {
+      "name": "三坑里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 242,
+        "cand_2016_02": 583,
+        "cand_2016_03": 113
+      },
+      "votes": {
+        "valid_votes": 938,
+        "invalid_votes": 8,
+        "total_votes": 946
+      },
+      "voter_turnout": 65.87999725341797
+    },
+    {
+      "name": "大平里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 423,
+        "cand_2016_02": 664,
+        "cand_2016_03": 164
+      },
+      "votes": {
+        "valid_votes": 1251,
+        "invalid_votes": 12,
+        "total_votes": 1263
+      },
+      "voter_turnout": 65.04000091552734
+    },
+    {
+      "name": "三林里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 846,
+        "cand_2016_02": 743,
+        "cand_2016_03": 231
+      },
+      "votes": {
+        "valid_votes": 1820,
+        "invalid_votes": 34,
+        "total_votes": 1854
+      },
+      "voter_turnout": 69.5199966430664
+    },
+    {
+      "name": "建林里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 1244,
+        "cand_2016_02": 817,
+        "cand_2016_03": 334
+      },
+      "votes": {
+        "valid_votes": 2395,
+        "invalid_votes": 39,
+        "total_votes": 2434
+      },
+      "voter_turnout": 69.45999908447266
+    },
+    {
+      "name": "富林里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 1021,
+        "cand_2016_02": 805,
+        "cand_2016_03": 361
+      },
+      "votes": {
+        "valid_votes": 2187,
+        "invalid_votes": 39,
+        "total_votes": 2226
+      },
+      "voter_turnout": 67.02999877929688
+    },
+    {
+      "name": "高平里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 564,
+        "cand_2016_02": 1040,
+        "cand_2016_03": 280
+      },
+      "votes": {
+        "valid_votes": 1884,
+        "invalid_votes": 23,
+        "total_votes": 1907
+      },
+      "voter_turnout": 65.69000244140625
+    },
+    {
+      "name": "高原里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 744,
+        "cand_2016_02": 1309,
+        "cand_2016_03": 415
+      },
+      "votes": {
+        "valid_votes": 2468,
+        "invalid_votes": 28,
+        "total_votes": 2496
+      },
+      "voter_turnout": 63.529998779296875
+    },
+    {
+      "name": "三和里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 510,
+        "cand_2016_02": 708,
+        "cand_2016_03": 184
+      },
+      "votes": {
+        "valid_votes": 1402,
+        "invalid_votes": 22,
+        "total_votes": 1424
+      },
+      "voter_turnout": 69.83999633789062
+    },
+    {
+      "name": "三水里",
+      "level": "village",
+      "affiliation": "龍潭區",
+      "candidates": {
+        "cand_2016_01": 106,
+        "cand_2016_02": 348,
+        "cand_2016_03": 39
+      },
+      "votes": {
+        "valid_votes": 493,
+        "invalid_votes": 5,
+        "total_votes": 498
+      },
+      "voter_turnout": 75.80000305175781
+    },
+    {
+      "name": "興仁里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 1012,
+        "cand_2016_02": 1397,
+        "cand_2016_03": 400
+      },
+      "votes": {
+        "valid_votes": 2809,
+        "invalid_votes": 26,
+        "total_votes": 2835
+      },
+      "voter_turnout": 54.349998474121094
+    },
+    {
+      "name": "福興里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 1157,
+        "cand_2016_02": 1718,
+        "cand_2016_03": 516
+      },
+      "votes": {
+        "valid_votes": 3391,
+        "invalid_votes": 36,
+        "total_votes": 3427
+      },
+      "voter_turnout": 63.369998931884766
+    },
+    {
+      "name": "瑞豐里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 583,
+        "cand_2016_02": 687,
+        "cand_2016_03": 236
+      },
+      "votes": {
+        "valid_votes": 1506,
+        "invalid_votes": 23,
+        "total_votes": 1529
+      },
+      "voter_turnout": 63.099998474121094
+    },
+    {
+      "name": "瑞興里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 543,
+        "cand_2016_02": 969,
+        "cand_2016_03": 224
+      },
+      "votes": {
+        "valid_votes": 1736,
+        "invalid_votes": 19,
+        "total_votes": 1755
+      },
+      "voter_turnout": 71.66000366210938
+    },
+    {
+      "name": "瑞泰里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 858,
+        "cand_2016_02": 1310,
+        "cand_2016_03": 374
+      },
+      "votes": {
+        "valid_votes": 2542,
+        "invalid_votes": 26,
+        "total_votes": 2568
+      },
+      "voter_turnout": 65.58000183105469
+    },
+    {
+      "name": "瑞發里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 896,
+        "cand_2016_02": 908,
+        "cand_2016_03": 292
+      },
+      "votes": {
+        "valid_votes": 2096,
+        "invalid_votes": 29,
+        "total_votes": 2125
+      },
+      "voter_turnout": 68.3499984741211
+    },
+    {
+      "name": "瑞德里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 1056,
+        "cand_2016_02": 817,
+        "cand_2016_03": 317
+      },
+      "votes": {
+        "valid_votes": 2190,
+        "invalid_votes": 14,
+        "total_votes": 2204
+      },
+      "voter_turnout": 65.4800033569336
+    },
+    {
+      "name": "瑞祥里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 1040,
+        "cand_2016_02": 742,
+        "cand_2016_03": 304
+      },
+      "votes": {
+        "valid_votes": 2086,
+        "invalid_votes": 33,
+        "total_votes": 2119
+      },
+      "voter_turnout": 67.56999969482422
+    },
+    {
+      "name": "廣德里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 520,
+        "cand_2016_02": 956,
+        "cand_2016_03": 232
+      },
+      "votes": {
+        "valid_votes": 1708,
+        "invalid_votes": 13,
+        "total_votes": 1721
+      },
+      "voter_turnout": 68.43000030517578
+    },
+    {
+      "name": "廣興里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 647,
+        "cand_2016_02": 1082,
+        "cand_2016_03": 263
+      },
+      "votes": {
+        "valid_votes": 1992,
+        "invalid_votes": 18,
+        "total_votes": 2010
+      },
+      "voter_turnout": 64.86000061035156
+    },
+    {
+      "name": "廣隆里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 1057,
+        "cand_2016_02": 1330,
+        "cand_2016_03": 383
+      },
+      "votes": {
+        "valid_votes": 2770,
+        "invalid_votes": 31,
+        "total_votes": 2801
+      },
+      "voter_turnout": 70.54000091552734
+    },
+    {
+      "name": "竹園里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 725,
+        "cand_2016_02": 1108,
+        "cand_2016_03": 366
+      },
+      "votes": {
+        "valid_votes": 2199,
+        "invalid_votes": 28,
+        "total_votes": 2227
+      },
+      "voter_turnout": 69.75
+    },
+    {
+      "name": "霄裡里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 374,
+        "cand_2016_02": 686,
+        "cand_2016_03": 174
+      },
+      "votes": {
+        "valid_votes": 1234,
+        "invalid_votes": 17,
+        "total_votes": 1251
+      },
+      "voter_turnout": 63.70000076293945
+    },
+    {
+      "name": "龍友里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 893,
+        "cand_2016_02": 351,
+        "cand_2016_03": 231
+      },
+      "votes": {
+        "valid_votes": 1475,
+        "invalid_votes": 26,
+        "total_votes": 1501
+      },
+      "voter_turnout": 71.30999755859375
+    },
+    {
+      "name": "茄明里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 811,
+        "cand_2016_02": 1248,
+        "cand_2016_03": 447
+      },
+      "votes": {
+        "valid_votes": 2506,
+        "invalid_votes": 29,
+        "total_votes": 2535
+      },
+      "voter_turnout": 62.59000015258789
+    },
+    {
+      "name": "茄苳里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 463,
+        "cand_2016_02": 925,
+        "cand_2016_03": 252
+      },
+      "votes": {
+        "valid_votes": 1640,
+        "invalid_votes": 13,
+        "total_votes": 1653
+      },
+      "voter_turnout": 69.51000213623047
+    },
+    {
+      "name": "永豐里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 558,
+        "cand_2016_02": 986,
+        "cand_2016_03": 256
+      },
+      "votes": {
+        "valid_votes": 1800,
+        "invalid_votes": 21,
+        "total_votes": 1821
+      },
+      "voter_turnout": 67.8499984741211
+    },
+    {
+      "name": "高明里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 724,
+        "cand_2016_02": 1193,
+        "cand_2016_03": 347
+      },
+      "votes": {
+        "valid_votes": 2264,
+        "invalid_votes": 26,
+        "total_votes": 2290
+      },
+      "voter_turnout": 64.62999725341797
+    },
+    {
+      "name": "高城里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 666,
+        "cand_2016_02": 959,
+        "cand_2016_03": 303
+      },
+      "votes": {
+        "valid_votes": 1928,
+        "invalid_votes": 26,
+        "total_votes": 1954
+      },
+      "voter_turnout": 67.1500015258789
+    },
+    {
+      "name": "白鷺里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 588,
+        "cand_2016_02": 1091,
+        "cand_2016_03": 273
+      },
+      "votes": {
+        "valid_votes": 1952,
+        "invalid_votes": 25,
+        "total_votes": 1977
+      },
+      "voter_turnout": 67.11000061035156
+    },
+    {
+      "name": "大湳里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 674,
+        "cand_2016_02": 1333,
+        "cand_2016_03": 304
+      },
+      "votes": {
+        "valid_votes": 2311,
+        "invalid_votes": 28,
+        "total_votes": 2339
+      },
+      "voter_turnout": 64.6500015258789
+    },
+    {
+      "name": "大發里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 317,
+        "cand_2016_02": 746,
+        "cand_2016_03": 173
+      },
+      "votes": {
+        "valid_votes": 1236,
+        "invalid_votes": 13,
+        "total_votes": 1249
+      },
+      "voter_turnout": 65.87999725341797
+    },
+    {
+      "name": "大仁里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 727,
+        "cand_2016_02": 1584,
+        "cand_2016_03": 377
+      },
+      "votes": {
+        "valid_votes": 2688,
+        "invalid_votes": 26,
+        "total_votes": 2714
+      },
+      "voter_turnout": 69.61000061035156
+    },
+    {
+      "name": "大明里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 607,
+        "cand_2016_02": 1269,
+        "cand_2016_03": 292
+      },
+      "votes": {
+        "valid_votes": 2168,
+        "invalid_votes": 25,
+        "total_votes": 2193
+      },
+      "voter_turnout": 66.91999816894531
+    },
+    {
+      "name": "大安里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 553,
+        "cand_2016_02": 1154,
+        "cand_2016_03": 306
+      },
+      "votes": {
+        "valid_votes": 2013,
+        "invalid_votes": 14,
+        "total_votes": 2027
+      },
+      "voter_turnout": 68.66999816894531
+    },
+    {
+      "name": "大竹里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 268,
+        "cand_2016_02": 604,
+        "cand_2016_03": 148
+      },
+      "votes": {
+        "valid_votes": 1020,
+        "invalid_votes": 9,
+        "total_votes": 1029
+      },
+      "voter_turnout": 71.70999908447266
+    },
+    {
+      "name": "大興里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 742,
+        "cand_2016_02": 1123,
+        "cand_2016_03": 284
+      },
+      "votes": {
+        "valid_votes": 2149,
+        "invalid_votes": 17,
+        "total_votes": 2166
+      },
+      "voter_turnout": 68.3499984741211
+    },
+    {
+      "name": "大愛里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 598,
+        "cand_2016_02": 704,
+        "cand_2016_03": 234
+      },
+      "votes": {
+        "valid_votes": 1536,
+        "invalid_votes": 27,
+        "total_votes": 1563
+      },
+      "voter_turnout": 67.66000366210938
+    },
+    {
+      "name": "大華里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 616,
+        "cand_2016_02": 747,
+        "cand_2016_03": 222
+      },
+      "votes": {
+        "valid_votes": 1585,
+        "invalid_votes": 16,
+        "total_votes": 1601
+      },
+      "voter_turnout": 69.33999633789062
+    },
+    {
+      "name": "大順里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 517,
+        "cand_2016_02": 850,
+        "cand_2016_03": 246
+      },
+      "votes": {
+        "valid_votes": 1613,
+        "invalid_votes": 13,
+        "total_votes": 1626
+      },
+      "voter_turnout": 65.16999816894531
+    },
+    {
+      "name": "大和里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 1671,
+        "cand_2016_02": 1556,
+        "cand_2016_03": 549
+      },
+      "votes": {
+        "valid_votes": 3776,
+        "invalid_votes": 52,
+        "total_votes": 3828
+      },
+      "voter_turnout": 64.06999969482422
+    },
+    {
+      "name": "大昌里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 681,
+        "cand_2016_02": 911,
+        "cand_2016_03": 258
+      },
+      "votes": {
+        "valid_votes": 1850,
+        "invalid_votes": 18,
+        "total_votes": 1868
+      },
+      "voter_turnout": 69.33999633789062
+    },
+    {
+      "name": "大信里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 1131,
+        "cand_2016_02": 934,
+        "cand_2016_03": 282
+      },
+      "votes": {
+        "valid_votes": 2347,
+        "invalid_votes": 45,
+        "total_votes": 2392
+      },
+      "voter_turnout": 65.61000061035156
+    },
+    {
+      "name": "陸光里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 1838,
+        "cand_2016_02": 508,
+        "cand_2016_03": 406
+      },
+      "votes": {
+        "valid_votes": 2752,
+        "invalid_votes": 43,
+        "total_votes": 2795
+      },
+      "voter_turnout": 68.05000305175781
+    },
+    {
+      "name": "大同里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 317,
+        "cand_2016_02": 545,
+        "cand_2016_03": 98
+      },
+      "votes": {
+        "valid_votes": 960,
+        "invalid_votes": 11,
+        "total_votes": 971
+      },
+      "voter_turnout": 67.94999694824219
+    },
+    {
+      "name": "大慶里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 329,
+        "cand_2016_02": 445,
+        "cand_2016_03": 143
+      },
+      "votes": {
+        "valid_votes": 917,
+        "invalid_votes": 8,
+        "total_votes": 925
+      },
+      "voter_turnout": 67.5199966430664
+    },
+    {
+      "name": "大成里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 767,
+        "cand_2016_02": 1162,
+        "cand_2016_03": 264
+      },
+      "votes": {
+        "valid_votes": 2193,
+        "invalid_votes": 27,
+        "total_votes": 2220
+      },
+      "voter_turnout": 71.5
+    },
+    {
+      "name": "大義里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 930,
+        "cand_2016_02": 1004,
+        "cand_2016_03": 302
+      },
+      "votes": {
+        "valid_votes": 2236,
+        "invalid_votes": 29,
+        "total_votes": 2265
+      },
+      "voter_turnout": 65.29000091552734
+    },
+    {
+      "name": "大忠里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 441,
+        "cand_2016_02": 497,
+        "cand_2016_03": 147
+      },
+      "votes": {
+        "valid_votes": 1085,
+        "invalid_votes": 17,
+        "total_votes": 1102
+      },
+      "voter_turnout": 67.44000244140625
+    },
+    {
+      "name": "大智里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 1045,
+        "cand_2016_02": 910,
+        "cand_2016_03": 318
+      },
+      "votes": {
+        "valid_votes": 2273,
+        "invalid_votes": 23,
+        "total_votes": 2296
+      },
+      "voter_turnout": 68.1500015258789
+    },
+    {
+      "name": "大宏里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 811,
+        "cand_2016_02": 990,
+        "cand_2016_03": 267
+      },
+      "votes": {
+        "valid_votes": 2068,
+        "invalid_votes": 17,
+        "total_votes": 2085
+      },
+      "voter_turnout": 71.5
+    },
+    {
+      "name": "大正里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 901,
+        "cand_2016_02": 1192,
+        "cand_2016_03": 340
+      },
+      "votes": {
+        "valid_votes": 2433,
+        "invalid_votes": 22,
+        "total_votes": 2455
+      },
+      "voter_turnout": 65.83999633789062
+    },
+    {
+      "name": "大福里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 1106,
+        "cand_2016_02": 1710,
+        "cand_2016_03": 463
+      },
+      "votes": {
+        "valid_votes": 3279,
+        "invalid_votes": 38,
+        "total_votes": 3317
+      },
+      "voter_turnout": 70.81999969482422
+    },
+    {
+      "name": "大強里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 573,
+        "cand_2016_02": 1198,
+        "cand_2016_03": 297
+      },
+      "votes": {
+        "valid_votes": 2068,
+        "invalid_votes": 21,
+        "total_votes": 2089
+      },
+      "voter_turnout": 73.19999694824219
+    },
+    {
+      "name": "大勇里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 835,
+        "cand_2016_02": 1356,
+        "cand_2016_03": 339
+      },
+      "votes": {
+        "valid_votes": 2530,
+        "invalid_votes": 31,
+        "total_votes": 2561
+      },
+      "voter_turnout": 70.51000213623047
+    },
+    {
+      "name": "大榮里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 410,
+        "cand_2016_02": 629,
+        "cand_2016_03": 167
+      },
+      "votes": {
+        "valid_votes": 1206,
+        "invalid_votes": 12,
+        "total_votes": 1218
+      },
+      "voter_turnout": 66.62999725341797
+    },
+    {
+      "name": "大千里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 533,
+        "cand_2016_02": 591,
+        "cand_2016_03": 215
+      },
+      "votes": {
+        "valid_votes": 1339,
+        "invalid_votes": 17,
+        "total_votes": 1356
+      },
+      "voter_turnout": 67.5999984741211
+    },
+    {
+      "name": "大漢里",
+      "level": "village",
+      "affiliation": "八德區",
+      "candidates": {
+        "cand_2016_01": 856,
+        "cand_2016_02": 993,
+        "cand_2016_03": 360
+      },
+      "votes": {
+        "valid_votes": 2209,
+        "invalid_votes": 20,
+        "total_votes": 2229
+      },
+      "voter_turnout": 64.81999969482422
+    },
+    {
+      "name": "興和里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 279,
+        "cand_2016_02": 704,
+        "cand_2016_03": 94
+      },
+      "votes": {
+        "valid_votes": 1077,
+        "invalid_votes": 14,
+        "total_votes": 1091
+      },
+      "voter_turnout": 71.87000274658203
+    },
+    {
+      "name": "福仁里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 138,
+        "cand_2016_02": 475,
+        "cand_2016_03": 46
+      },
+      "votes": {
+        "valid_votes": 659,
+        "invalid_votes": 7,
+        "total_votes": 666
+      },
+      "voter_turnout": 71.37999725341797
+    },
+    {
+      "name": "田心里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 721,
+        "cand_2016_02": 1880,
+        "cand_2016_03": 314
+      },
+      "votes": {
+        "valid_votes": 2915,
+        "invalid_votes": 34,
+        "total_votes": 2949
+      },
+      "voter_turnout": 68.18000030517578
+    },
+    {
+      "name": "一心里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 799,
+        "cand_2016_02": 1790,
+        "cand_2016_03": 317
+      },
+      "votes": {
+        "valid_votes": 2906,
+        "invalid_votes": 21,
+        "total_votes": 2927
+      },
+      "voter_turnout": 65.97000122070312
+    },
+    {
+      "name": "一德里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 839,
+        "cand_2016_02": 2107,
+        "cand_2016_03": 401
+      },
+      "votes": {
+        "valid_votes": 3347,
+        "invalid_votes": 38,
+        "total_votes": 3385
+      },
+      "voter_turnout": 65.5
+    },
+    {
+      "name": "月眉里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 163,
+        "cand_2016_02": 570,
+        "cand_2016_03": 82
+      },
+      "votes": {
+        "valid_votes": 815,
+        "invalid_votes": 6,
+        "total_votes": 821
+      },
+      "voter_turnout": 70.05000305175781
+    },
+    {
+      "name": "永福里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 128,
+        "cand_2016_02": 457,
+        "cand_2016_03": 45
+      },
+      "votes": {
+        "valid_votes": 630,
+        "invalid_votes": 7,
+        "total_votes": 637
+      },
+      "voter_turnout": 67.12000274658203
+    },
+    {
+      "name": "康安里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 167,
+        "cand_2016_02": 611,
+        "cand_2016_03": 82
+      },
+      "votes": {
+        "valid_votes": 860,
+        "invalid_votes": 8,
+        "total_votes": 868
+      },
+      "voter_turnout": 71.26000213623047
+    },
+    {
+      "name": "義和里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 240,
+        "cand_2016_02": 834,
+        "cand_2016_03": 105
+      },
+      "votes": {
+        "valid_votes": 1179,
+        "invalid_votes": 8,
+        "total_votes": 1187
+      },
+      "voter_turnout": 69.12999725341797
+    },
+    {
+      "name": "美華里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 419,
+        "cand_2016_02": 1403,
+        "cand_2016_03": 176
+      },
+      "votes": {
+        "valid_votes": 1998,
+        "invalid_votes": 24,
+        "total_votes": 2022
+      },
+      "voter_turnout": 70.01000213623047
+    },
+    {
+      "name": "福安里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 315,
+        "cand_2016_02": 1038,
+        "cand_2016_03": 141
+      },
+      "votes": {
+        "valid_votes": 1494,
+        "invalid_votes": 13,
+        "total_votes": 1507
+      },
+      "voter_turnout": 68.97000122070312
+    },
+    {
+      "name": "復興里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 115,
+        "cand_2016_02": 402,
+        "cand_2016_03": 67
+      },
+      "votes": {
+        "valid_votes": 584,
+        "invalid_votes": 8,
+        "total_votes": 592
+      },
+      "voter_turnout": 65.8499984741211
+    },
+    {
+      "name": "新峰里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 129,
+        "cand_2016_02": 366,
+        "cand_2016_03": 56
+      },
+      "votes": {
+        "valid_votes": 551,
+        "invalid_votes": 5,
+        "total_votes": 556
+      },
+      "voter_turnout": 69.8499984741211
+    },
+    {
+      "name": "中新里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 245,
+        "cand_2016_02": 744,
+        "cand_2016_03": 81
+      },
+      "votes": {
+        "valid_votes": 1070,
+        "invalid_votes": 11,
+        "total_votes": 1081
+      },
+      "voter_turnout": 72.83999633789062
+    },
+    {
+      "name": "瑞興里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 456,
+        "cand_2016_02": 1069,
+        "cand_2016_03": 221
+      },
+      "votes": {
+        "valid_votes": 1746,
+        "invalid_votes": 23,
+        "total_votes": 1769
+      },
+      "voter_turnout": 69.18000030517578
+    },
+    {
+      "name": "仁善里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 1385,
+        "cand_2016_02": 2050,
+        "cand_2016_03": 567
+      },
+      "votes": {
+        "valid_votes": 4002,
+        "invalid_votes": 48,
+        "total_votes": 4050
+      },
+      "voter_turnout": 65.36000061035156
+    },
+    {
+      "name": "僑愛里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 1106,
+        "cand_2016_02": 306,
+        "cand_2016_03": 221
+      },
+      "votes": {
+        "valid_votes": 1633,
+        "invalid_votes": 21,
+        "total_votes": 1654
+      },
+      "voter_turnout": 68.26000213623047
+    },
+    {
+      "name": "仁義里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 1044,
+        "cand_2016_02": 477,
+        "cand_2016_03": 246
+      },
+      "votes": {
+        "valid_votes": 1767,
+        "invalid_votes": 27,
+        "total_votes": 1794
+      },
+      "voter_turnout": 65.70999908447266
+    },
+    {
+      "name": "仁和里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 985,
+        "cand_2016_02": 1398,
+        "cand_2016_03": 422
+      },
+      "votes": {
+        "valid_votes": 2805,
+        "invalid_votes": 24,
+        "total_votes": 2829
+      },
+      "voter_turnout": 68.0999984741211
+    },
+    {
+      "name": "仁愛里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 954,
+        "cand_2016_02": 1530,
+        "cand_2016_03": 461
+      },
+      "votes": {
+        "valid_votes": 2945,
+        "invalid_votes": 37,
+        "total_votes": 2982
+      },
+      "voter_turnout": 67.12000274658203
+    },
+    {
+      "name": "仁武里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 657,
+        "cand_2016_02": 908,
+        "cand_2016_03": 292
+      },
+      "votes": {
+        "valid_votes": 1857,
+        "invalid_votes": 16,
+        "total_votes": 1873
+      },
+      "voter_turnout": 66.54000091552734
+    },
+    {
+      "name": "仁文里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 805,
+        "cand_2016_02": 1114,
+        "cand_2016_03": 347
+      },
+      "votes": {
+        "valid_votes": 2266,
+        "invalid_votes": 24,
+        "total_votes": 2290
+      },
+      "voter_turnout": 65.54000091552734
+    },
+    {
+      "name": "南興里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 834,
+        "cand_2016_02": 1812,
+        "cand_2016_03": 345
+      },
+      "votes": {
+        "valid_votes": 2991,
+        "invalid_votes": 22,
+        "total_votes": 3013
+      },
+      "voter_turnout": 64.8499984741211
+    },
+    {
+      "name": "光明里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 710,
+        "cand_2016_02": 531,
+        "cand_2016_03": 216
+      },
+      "votes": {
+        "valid_votes": 1457,
+        "invalid_votes": 19,
+        "total_votes": 1476
+      },
+      "voter_turnout": 64.12000274658203
+    },
+    {
+      "name": "員林里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 355,
+        "cand_2016_02": 454,
+        "cand_2016_03": 97
+      },
+      "votes": {
+        "valid_votes": 906,
+        "invalid_votes": 14,
+        "total_votes": 920
+      },
+      "voter_turnout": 64.47000122070312
+    },
+    {
+      "name": "三元里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 962,
+        "cand_2016_02": 622,
+        "cand_2016_03": 258
+      },
+      "votes": {
+        "valid_votes": 1842,
+        "invalid_votes": 18,
+        "total_votes": 1860
+      },
+      "voter_turnout": 68.30999755859375
+    },
+    {
+      "name": "瑞源里",
+      "level": "village",
+      "affiliation": "大溪區",
+      "candidates": {
+        "cand_2016_01": 719,
+        "cand_2016_02": 1307,
+        "cand_2016_03": 310
+      },
+      "votes": {
+        "valid_votes": 2336,
+        "invalid_votes": 34,
+        "total_votes": 2370
+      },
+      "voter_turnout": 67.0999984741211
+    },
+    {
+      "name": "三民里",
+      "level": "village",
+      "affiliation": "復興區",
+      "candidates": {
+        "cand_2016_01": 381,
+        "cand_2016_02": 555,
+        "cand_2016_03": 157
+      },
+      "votes": {
+        "valid_votes": 1093,
+        "invalid_votes": 18,
+        "total_votes": 1111
+      },
+      "voter_turnout": 61.209999084472656
+    },
+    {
+      "name": "澤仁里",
+      "level": "village",
+      "affiliation": "復興區",
+      "candidates": {
+        "cand_2016_01": 374,
+        "cand_2016_02": 218,
+        "cand_2016_03": 116
+      },
+      "votes": {
+        "valid_votes": 708,
+        "invalid_votes": 10,
+        "total_votes": 718
+      },
+      "voter_turnout": 58.560001373291016
+    },
+    {
+      "name": "霞雲里",
+      "level": "village",
+      "affiliation": "復興區",
+      "candidates": {
+        "cand_2016_01": 193,
+        "cand_2016_02": 42,
+        "cand_2016_03": 54
+      },
+      "votes": {
+        "valid_votes": 289,
+        "invalid_votes": 1,
+        "total_votes": 290
+      },
+      "voter_turnout": 58.939998626708984
+    },
+    {
+      "name": "義盛里",
+      "level": "village",
+      "affiliation": "復興區",
+      "candidates": {
+        "cand_2016_01": 240,
+        "cand_2016_02": 45,
+        "cand_2016_03": 74
+      },
+      "votes": {
+        "valid_votes": 359,
+        "invalid_votes": 3,
+        "total_votes": 362
+      },
+      "voter_turnout": 58.38999938964844
+    },
+    {
+      "name": "羅浮里",
+      "level": "village",
+      "affiliation": "復興區",
+      "candidates": {
+        "cand_2016_01": 241,
+        "cand_2016_02": 152,
+        "cand_2016_03": 112
+      },
+      "votes": {
+        "valid_votes": 505,
+        "invalid_votes": 4,
+        "total_votes": 509
+      },
+      "voter_turnout": 57.31999969482422
+    },
+    {
+      "name": "長興里",
+      "level": "village",
+      "affiliation": "復興區",
+      "candidates": {
+        "cand_2016_01": 161,
+        "cand_2016_02": 81,
+        "cand_2016_03": 52
+      },
+      "votes": {
+        "valid_votes": 294,
+        "invalid_votes": 4,
+        "total_votes": 298
+      },
+      "voter_turnout": 52.0099983215332
+    },
+    {
+      "name": "奎輝里",
+      "level": "village",
+      "affiliation": "復興區",
+      "candidates": {
+        "cand_2016_01": 170,
+        "cand_2016_02": 70,
+        "cand_2016_03": 64
+      },
+      "votes": {
+        "valid_votes": 304,
+        "invalid_votes": 3,
+        "total_votes": 307
+      },
+      "voter_turnout": 52.84000015258789
+    },
+    {
+      "name": "高義里",
+      "level": "village",
+      "affiliation": "復興區",
+      "candidates": {
+        "cand_2016_01": 155,
+        "cand_2016_02": 89,
+        "cand_2016_03": 67
+      },
+      "votes": {
+        "valid_votes": 311,
+        "invalid_votes": 3,
+        "total_votes": 314
+      },
+      "voter_turnout": 51.38999938964844
+    },
+    {
+      "name": "三光里",
+      "level": "village",
+      "affiliation": "復興區",
+      "candidates": {
+        "cand_2016_01": 163,
+        "cand_2016_02": 84,
+        "cand_2016_03": 66
+      },
+      "votes": {
+        "valid_votes": 313,
+        "invalid_votes": 2,
+        "total_votes": 315
+      },
+      "voter_turnout": 55.2599983215332
+    },
+    {
+      "name": "華陵里",
+      "level": "village",
+      "affiliation": "復興區",
+      "candidates": {
+        "cand_2016_01": 250,
+        "cand_2016_02": 221,
+        "cand_2016_03": 94
+      },
+      "votes": {
+        "valid_votes": 565,
+        "invalid_votes": 4,
+        "total_votes": 569
+      },
+      "voter_turnout": 52.779998779296875
+    }
+  ]
+}
