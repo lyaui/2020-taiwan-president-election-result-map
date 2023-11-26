@@ -8,7 +8,7 @@ import {
   type VotingResult,
 } from '@/types/index';
 import { type BreadCrumbProps } from '@/components/UI/Breadcrumb';
-import { transCommaStringToNumber } from '@/utils/index';
+import { numberWithCommas, transCommaStringToNumber } from '@/utils/index';
 import { years } from '@/constants/index';
 import { ROUTER, QUERY } from '@/routers/index';
 
@@ -76,8 +76,41 @@ export async function fetchElectionData(
     'utf8',
   );
 
-  // TODO type
-  const votingResult = JSON.parse(votingFile);
+  const transferObjValueToString = (obj: VotingResult) => {
+    return (Object.entries(obj) as [string, number | string][]).reduce(
+      (_acc, [_key, _value]) => {
+        _acc[_key] =
+          typeof _value === 'number' ? numberWithCommas(_value) : _value;
+        return _acc;
+      },
+      {} as { [key: string]: string },
+    );
+  };
+
+  // FIXME type
+  const formatResult = (arr: VotingResult[]) => {
+    return arr.map((_item) => ({
+      name: _item.name,
+      level: _item.level,
+      affiliation: _item.affiliation,
+      candidates: transferObjValueToString(_item.candidates),
+      votes: transferObjValueToString(_item.votes),
+      voter_turnout:
+        typeof _item.voter_turnout === 'number'
+          ? _item.voter_turnout + ''
+          : _item.voter_turnout,
+    }));
+  };
+
+  // FIXME type
+  const votingResult = Object.entries(JSON.parse(votingFile)).reduce(
+    (_acc, [_key, _value]) => {
+      _acc[_key] = formatResult(_value as VotingResult[]);
+      return _acc;
+    },
+    {} as { [key: string]: VotingResult[] },
+  );
+
   const candidates = JSON.parse(candiFile)[year];
 
   if (dist) {

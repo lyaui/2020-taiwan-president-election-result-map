@@ -20,6 +20,7 @@ export interface Candidate {
 }
 
 export interface VotingResult {
+  [key: string]: string | undefined | object;
   name: string;
   level: Level;
   affiliation: string;

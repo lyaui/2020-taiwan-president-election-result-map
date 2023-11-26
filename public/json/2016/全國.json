@@ -1,0 +1,377 @@
+{
+  "country": [
+    {
+      "name": "總計",
+      "level": "country",
+      "affiliation": "",
+      "candidates": {
+        "cand_2016_01": 3813365,
+        "cand_2016_02": 6894744,
+        "cand_2016_03": 1576861
+      },
+      "votes": {
+        "valid_votes": 12284970,
+        "invalid_votes": 163332,
+        "total_votes": 12448302
+      },
+      "voter_turnout": 66.2699966430664
+    }
+  ],
+  "city": [
+    {
+      "name": "臺北市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 546491,
+        "cand_2016_02": 757383,
+        "cand_2016_03": 153804
+      },
+      "votes": {
+        "valid_votes": 1457678,
+        "invalid_votes": 22540,
+        "total_votes": 1480218
+      },
+      "voter_turnout": 68.02999877929688
+    },
+    {
+      "name": "新北市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 709374,
+        "cand_2016_02": 1165888,
+        "cand_2016_03": 252486
+      },
+      "votes": {
+        "valid_votes": 2127748,
+        "invalid_votes": 26481,
+        "total_votes": 2154229
+      },
+      "voter_turnout": 67.2300033569336
+    },
+    {
+      "name": "桃園市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 369013,
+        "cand_2016_02": 547573,
+        "cand_2016_03": 156518
+      },
+      "votes": {
+        "valid_votes": 1073104,
+        "invalid_votes": 11898,
+        "total_votes": 1085002
+      },
+      "voter_turnout": 66.66000366210938
+    },
+    {
+      "name": "臺中市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 430005,
+        "cand_2016_02": 793281,
+        "cand_2016_03": 218810
+      },
+      "votes": {
+        "valid_votes": 1442096,
+        "invalid_votes": 19800,
+        "total_votes": 1461896
+      },
+      "voter_turnout": 68.36000061035156
+    },
+    {
+      "name": "臺南市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 219196,
+        "cand_2016_02": 670608,
+        "cand_2016_03": 103432
+      },
+      "votes": {
+        "valid_votes": 993236,
+        "invalid_votes": 12457,
+        "total_votes": 1005693
+      },
+      "voter_turnout": 65.80999755859375
+    },
+    {
+      "name": "高雄市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 391823,
+        "cand_2016_02": 955168,
+        "cand_2016_03": 159765
+      },
+      "votes": {
+        "valid_votes": 1506756,
+        "invalid_votes": 18117,
+        "total_votes": 1524873
+      },
+      "voter_turnout": 67.63999938964844
+    },
+    {
+      "name": "基隆市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 68357,
+        "cand_2016_02": 93402,
+        "cand_2016_03": 31955
+      },
+      "votes": {
+        "valid_votes": 193714,
+        "invalid_votes": 2432,
+        "total_votes": 196146
+      },
+      "voter_turnout": 63.9900016784668
+    },
+    {
+      "name": "宜蘭縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 38822,
+        "cand_2016_02": 83143,
+        "cand_2016_03": 16926
+      },
+      "votes": {
+        "valid_votes": 138891,
+        "invalid_votes": 1492,
+        "total_votes": 140383
+      },
+      "voter_turnout": 66.61000061035156
+    },
+    {
+      "name": "新竹市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 71771,
+        "cand_2016_02": 113386,
+        "cand_2016_03": 36198
+      },
+      "votes": {
+        "valid_votes": 221355,
+        "invalid_votes": 3138,
+        "total_votes": 224493
+      },
+      "voter_turnout": 68.31999969482422
+    },
+    {
+      "name": "新竹縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 94603,
+        "cand_2016_02": 114023,
+        "cand_2016_03": 59510
+      },
+      "votes": {
+        "valid_votes": 268136,
+        "invalid_votes": 3803,
+        "total_votes": 271939
+      },
+      "voter_turnout": 65.88999938964844
+    },
+    {
+      "name": "苗栗縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 107779,
+        "cand_2016_02": 130461,
+        "cand_2016_03": 48788
+      },
+      "votes": {
+        "valid_votes": 287028,
+        "invalid_votes": 3652,
+        "total_votes": 290680
+      },
+      "voter_turnout": 64.80999755859375
+    },
+    {
+      "name": "彰化縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 193117,
+        "cand_2016_02": 378736,
+        "cand_2016_03": 98807
+      },
+      "votes": {
+        "valid_votes": 670660,
+        "invalid_votes": 10921,
+        "total_votes": 681581
+      },
+      "voter_turnout": 66.62999725341797
+    },
+    {
+      "name": "南投縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 83604,
+        "cand_2016_02": 136104,
+        "cand_2016_03": 40868
+      },
+      "votes": {
+        "valid_votes": 260576,
+        "invalid_votes": 3649,
+        "total_votes": 264225
+      },
+      "voter_turnout": 63.650001525878906
+    },
+    {
+      "name": "雲林縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 86047,
+        "cand_2016_02": 218842,
+        "cand_2016_03": 40236
+      },
+      "votes": {
+        "valid_votes": 345125,
+        "invalid_votes": 4997,
+        "total_votes": 350122
+      },
+      "voter_turnout": 61.84000015258789
+    },
+
+    {
+      "name": "嘉義市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 38822,
+        "cand_2016_02": 83143,
+        "cand_2016_03": 16926
+      },
+      "votes": {
+        "valid_votes": 138891,
+        "invalid_votes": 1492,
+        "total_votes": 140383
+      },
+      "voter_turnout": 66.61000061035156
+    },
+    {
+      "name": "嘉義縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 65425,
+        "cand_2016_02": 182913,
+        "cand_2016_03": 31469
+      },
+      "votes": {
+        "valid_votes": 279807,
+        "invalid_votes": 4295,
+        "total_votes": 284102
+      },
+      "voter_turnout": 65.93000030517578
+    },
+    {
+      "name": "屏東縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 59216,
+        "cand_2016_02": 144798,
+        "cand_2016_03": 29288
+      },
+      "votes": {
+        "valid_votes": 233302,
+        "invalid_votes": 3188,
+        "total_votes": 236490
+      },
+      "voter_turnout": 64.05000305175781
+    },
+
+    {
+      "name": "花蓮縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 73894,
+        "cand_2016_02": 57198,
+        "cand_2016_03": 23751
+      },
+      "votes": {
+        "valid_votes": 154843,
+        "invalid_votes": 2342,
+        "total_votes": 157185
+      },
+      "voter_turnout": 58.68000030517578
+    },
+    {
+      "name": "臺東縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 43581,
+        "cand_2016_02": 37517,
+        "cand_2016_03": 16565
+      },
+      "votes": {
+        "valid_votes": 97663,
+        "invalid_votes": 1208,
+        "total_votes": 98871
+      },
+      "voter_turnout": 55.06999969482422
+    },
+    {
+      "name": "澎湖縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 12564,
+        "cand_2016_02": 21658,
+        "cand_2016_03": 8401
+      },
+      "votes": {
+        "valid_votes": 42623,
+        "invalid_votes": 643,
+        "total_votes": 43266
+      },
+      "voter_turnout": 51.369998931884766
+    },
+
+    {
+      "name": "金門縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 24327,
+        "cand_2016_02": 6626,
+        "cand_2016_03": 5852
+      },
+      "votes": {
+        "valid_votes": 36805,
+        "invalid_votes": 599,
+        "total_votes": 37404
+      },
+      "voter_turnout": 33.58000183105469
+    },
+    {
+      "name": "連江縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 3065,
+        "cand_2016_02": 739,
+        "cand_2016_03": 664
+      },
+      "votes": {
+        "valid_votes": 4468,
+        "invalid_votes": 85,
+        "total_votes": 4553
+      },
+      "voter_turnout": 44.459999084472656
+    }
+  ]
+}
