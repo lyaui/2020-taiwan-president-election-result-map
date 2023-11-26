@@ -35,7 +35,7 @@ function PercentageBar({
             return (
               <span
                 key={_item.color}
-                className={`${_item.color} text-center text-white caption hover:brightness-110 c-transition`}
+                className={`!text-white ${_item.color} text-center caption hover:brightness-110 c-transition`}
                 style={{
                   width: percent * 100 + '%',
                   lineHeight: height + 'px',
