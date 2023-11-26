@@ -24,19 +24,32 @@ function IconButton(props: ButtonProps) {
     large: 'w-[44px] h-[44px] p-3',
   }[size];
 
+  // TODO variantClasses
   const colorClasses = {
-    primary: 'bg-primary text-white hover:bg-primary-light active:bg-primary',
-    secondary:
-      'bg-background text-text-primary hover:bg-hover active:bg-background',
+    primary: {
+      button: `${variant === 'outlined' ? 'bg-white' : 'bg-primary'} ${
+        variant === 'outlined' && 'border border-primary'
+      } ${
+        variant === 'outlined'
+          ? 'hover:border-primary-light'
+          : 'hover:bg-primary-light active:bg-primary'
+      }`,
+      icon: `${variant === 'outlined' ? 'text-primary' : 'text-white'}`,
+    },
+    secondary: {
+      button:
+        'bg-background text-text-primary hover:bg-hover active:bg-background',
+      icon: 'text-text-primary',
+    },
   }[color];
 
-  const classes = `flex-center body-small rounded-full c-transition ${sizeClasses} ${colorClasses} ${className}`;
+  const classes = `flex-center body-small rounded-full c-transition ${sizeClasses} ${colorClasses.button} ${className}`;
 
   const Icon = HeroIcon[iconName];
 
   return (
     <button className={classes} {...others}>
-      <Icon className='w-[18px] h-[18px]' />
+      <Icon className={`w-[18px] h-[18px] ${colorClasses.icon}`} />
     </button>
   );
 }
