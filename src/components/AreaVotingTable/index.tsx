@@ -8,19 +8,26 @@ function AreaVotingTable({
   candidates: Candidate[];
   votingResultArr: VotingResult[];
 }) {
-  const headers = ['地區', '得票率', '當選人', '投票數', '投票率', ' '];
   return (
     <table className='w-full table-auto'>
       <thead className='bg-background'>
         <tr>
-          {headers.map((_header) => (
-            <th className='text-left p-2 body-small' key={_header}>
-              {_header}
-            </th>
-          ))}
+          <th className='text-left p-2 body-small'>地區</th>
+          <th className='text-left p-2 body-small'>
+            <div className='hidden xs:table-cell'>得票率</div>
+          </th>
+          <th className='hidden xs:table-cell text-left p-2 body-small'>
+            當選人
+          </th>
+          <th className='hidden sm:table-cell text-left p-2 body-small'>
+            投票數
+          </th>
+          <th className='hidden sm:table-cell text-left p-2 body-small'>
+            投票率
+          </th>
+          <th className='text-left p-2 body-small'></th>
         </tr>
       </thead>
-      {/* TODO order , children server comp */}
       <tbody>
         {votingResultArr.map((_result) => (
           <VotingTableRow

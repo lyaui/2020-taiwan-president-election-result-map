@@ -23,34 +23,48 @@ function VotingTableRow({
 
   const winner = orderedCandiData[0];
 
+  const displayWinner = (
+    <div className='flex items-center gap-2'>
+      <span className='xs:hidden text-text-secondary'>當選人</span>
+      <div
+        className={`relative w-[32px] h-[32px] ${winner.party_id} rounded-full overflow-hidden`}
+      >
+        <Image
+          src={`/assets/images/candidate_${winner.cand_img}.png`}
+          alt={winner.cand_name}
+          fill
+          style={{ objectFit: 'cover', transform: 'scale(1.2)', top: 8 }}
+          draggable={false}
+        />
+      </div>
+      {winner.cand_name}
+    </div>
+  );
+
   return (
     <VotingTableRowWrapper
       placeName={votingResult.name}
       placeLevel={votingResult.level}
     >
-      <td className='w-[180px] heading-6 px-2 py-2.5'>{name}</td>
-      <td className='w-[330px] px-2 py-2.5'>
+      <td className='w-[80px] xs:w-[100px] xl:w-[180px] heading-6 px-2 py-3 xs:py-2.5'>
+        {name}
+      </td>
+      <td className='w-[180px] lg:w-[330px] px-2 py-3 xs:py-2.5'>
+        <div className='xs:hidden'>{displayWinner}</div>
         <PercentageBar height={8} groups={barGroups} />
       </td>
-      <td className='flex items-center gap-2 px-2 py-2.5'>
-        <div
-          className={`relative w-[32px] h-[32px] ${winner.party_id} rounded-full overflow-hidden`}
-        >
-          <Image
-            src={`/assets/images/candidate_${winner.cand_img}.png`}
-            alt={winner.cand_name}
-            fill
-            style={{ objectFit: 'cover', transform: 'scale(1.2)', top: 8 }}
-            draggable={false}
-          />
-        </div>
-        {winner.cand_name}
+      <td className='hidden xs:table-cell px-2 py-3 xs:py-2.5'>
+        {displayWinner}
       </td>
-      <td className='px-2 py-2.5'>{votes.total_votes}</td>
-      <td className='px-2 py-2.5'>{(+voter_turnout).toFixed(2) + '%'}</td>
-      <td className='px-2 py-2.5 w-10'>
+      <td className='hidden sm:table-cell px-2 py-3 xs:py-2.5'>
+        {votes.total_votes}
+      </td>
+      <td className='hidden sm:table-cell px-2 py-3 xs:py-2.5'>
+        {(+voter_turnout).toFixed(2) + '%'}
+      </td>
+      <td className='xs:py-2.5 w-[20px] xs:w-8'>
         {level !== levels.village && (
-          <ChevronRightIcon className='w-[14px] mr-5' />
+          <ChevronRightIcon className='w-[14px] ml-2 xs:mr-5' />
         )}
       </td>
     </VotingTableRowWrapper>
