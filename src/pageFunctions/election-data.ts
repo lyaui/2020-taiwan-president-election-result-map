@@ -127,8 +127,8 @@ export function getOrderedVoteResult({
     })
     .sort((_a, _b) => _b.vote_cnt - _a.vote_cnt);
 
-  // TODO tooltip
   const barGroups = orderedCandiData.map((_cand) => ({
+    label: _cand.cand_name,
     color: _cand.party_id,
     value: _cand.vote_cnt,
   }));
