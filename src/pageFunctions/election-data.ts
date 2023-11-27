@@ -8,7 +8,7 @@ import {
   type VotingResult,
 } from '@/types/index';
 import { type BreadCrumbProps } from '@/components/UI/Breadcrumb';
-import { numberWithCommas, transCommaStringToNumber } from '@/utils/index';
+import { transCommaStringToNumber } from '@/utils/index';
 import { years } from '@/constants/index';
 import { ROUTER, QUERY } from '@/routers/index';
 
@@ -58,88 +58,124 @@ export function getBreadcrumbRouters(searchParams: SearchParams): RoutersType {
   }));
 }
 
-export async function fetchElectionData(
-  year: (typeof years)[number] = years[0],
-  city: string = '',
-  dist: string = '',
-) {
+export async function fetchElectionData({
+  year = '2020',
+  city = '',
+  dist = '',
+}: {
+  year: (typeof years)[number];
+  city?: string;
+  dist?: string;
+}) {
   const workDirPath = process.cwd();
   const folderPath = `public/json`;
 
-  // TODO: error handling
-  const votingFile = await fs.readFile(
-    path.join(workDirPath, `${folderPath}/${year}`, `${city || '全國'}.json`),
-    'utf8',
-  );
   const candiFile = await fs.readFile(
     path.join(workDirPath, `${folderPath}/`, 'candidates.json'),
     'utf8',
   );
 
-  const transferObjValueToString = (obj: VotingResult) => {
-    return (Object.entries(obj) as [string, number | string][]).reduce(
+  const readFiles = async () => {
+    const filePaths = years.map((_year) =>
+      path.join(
+        workDirPath,
+        `${folderPath}/${_year}`,
+        `${city || '全國'}.json`,
+      ),
+    );
+
+    try {
+      const fileContents = await Promise.all(
+        filePaths.map(async (filePath) => {
+          return await fs.readFile(filePath, 'utf8');
+        }),
+      );
+
+      return { isSuccess: true, data: fileContents };
+    } catch (error) {
+      if (error instanceof Error) {
+        return { isSuccess: false, error: error.message };
+      }
+    }
+  };
+
+  const result = await readFiles();
+
+  if (result && result.isSuccess && result.data) {
+    const currentYearIdx = years.indexOf(year);
+    const votingFile = result.data[currentYearIdx];
+
+    const transferObjValueToString = (obj: VotingResult) => {
+      return (Object.entries(obj) as [string, number | string][]).reduce(
+        (_acc, [_key, _value]) => {
+          _acc[_key] =
+            typeof _value === 'number'
+              ? _value
+              : transCommaStringToNumber(_value);
+          return _acc;
+        },
+        {} as { [key: string]: string },
+      );
+    };
+
+    const formatResult = (arr: VotingResult[]) => {
+      return arr.map((_item) => ({
+        name: _item.name,
+        level: _item.level,
+        affiliation: _item.affiliation,
+        candidates: transferObjValueToString(_item.candidates),
+        votes: transferObjValueToString(_item.votes),
+        voter_turnout:
+          typeof _item.voter_turnout === 'number'
+            ? _item.voter_turnout
+            : +_item.voter_turnout,
+      }));
+    };
+
+    const votingResult = Object.entries(JSON.parse(votingFile)).reduce(
       (_acc, [_key, _value]) => {
-        _acc[_key] =
-          typeof _value === 'number' ? numberWithCommas(_value) : _value;
+        _acc[_key] = formatResult(_value as VotingResult[]);
         return _acc;
       },
-      {} as { [key: string]: string },
+      {} as { [key: string]: VotingResult[] },
     );
-  };
 
-  // FIXME type
-  const formatResult = (arr: VotingResult[]) => {
-    return arr.map((_item) => ({
-      name: _item.name,
-      level: _item.level,
-      affiliation: _item.affiliation,
-      candidates: transferObjValueToString(_item.candidates),
-      votes: transferObjValueToString(_item.votes),
-      voter_turnout:
-        typeof _item.voter_turnout === 'number'
-          ? _item.voter_turnout + ''
-          : _item.voter_turnout,
-    }));
-  };
+    const candidates = JSON.parse(candiFile)[year];
 
-  // FIXME type
-  const votingResult = Object.entries(JSON.parse(votingFile)).reduce(
-    (_acc, [_key, _value]) => {
-      _acc[_key] = formatResult(_value as VotingResult[]);
-      return _acc;
-    },
-    {} as { [key: string]: VotingResult[] },
-  );
+    let res = { isSuccess: true, candidates };
 
-  const candidates = JSON.parse(candiFile)[year];
+    if (dist) {
+      return {
+        ...res,
+        votingResult: votingResult.dist?.find(
+          (_result: VotingResult) => _result.name === dist,
+        ),
+        subareas: votingResult.village?.filter(
+          (_result: VotingResult) => _result.affiliation === dist,
+        ),
+      };
+    }
 
-  if (dist) {
+    if (city) {
+      return {
+        ...res,
+        votingResult: votingResult.city.find(
+          (_result: VotingResult) => _result.name === city,
+        ),
+        subareas: votingResult.dist,
+      };
+    }
+
     return {
-      candidates,
-      votingResult: votingResult.dist.find(
-        (_result: VotingResult) => _result.name === dist,
-      ),
-      subareas: votingResult.village.filter(
-        (_result: VotingResult) => _result.affiliation === dist,
-      ),
+      ...res,
+      votingResult: votingResult.country[0],
+      subareas: votingResult.city,
+      yearlyPartyResults: [],
     };
+  } else {
+    console.error(`Failed to read files: ${result?.error}`);
+    // 失敗時的處理
   }
-
-  if (city) {
-    return {
-      candidates,
-      votingResult: votingResult.city.find(
-        (_result: VotingResult) => _result.name === city,
-      ),
-      subareas: votingResult.dist,
-    };
-  }
-
-  return {
-    candidates,
-    votingResult: votingResult.country[0],
-    subareas: votingResult.city,
-  };
 }
 
 export function getOrderedVoteResult({
@@ -153,9 +189,7 @@ export function getOrderedVoteResult({
     .map((_cand) => {
       return {
         ..._cand,
-        vote_cnt: transCommaStringToNumber(
-          votingResult?.candidates[_cand.cand_id],
-        ),
+        vote_cnt: votingResult?.candidates[_cand.cand_id],
       };
     })
     .sort((_a, _b) => _b.vote_cnt - _a.vote_cnt);

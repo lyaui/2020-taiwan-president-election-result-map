@@ -1,5 +1,6 @@
-import Navbar from '@/components/layout/Navbar';
+import { notFound } from 'next/navigation';
 
+import Navbar from '@/components/layout/Navbar';
 import Map from '@/components/Map/index';
 import GoPreviousLevelButton from '@/components/GoPreviousLevelButton';
 import Breadcrumb from '@/components/UI/Breadcrumb';
@@ -22,14 +23,19 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
   const title = getTitle(searchParams);
   const routers = getBreadcrumbRouters(searchParams);
 
-  const { year, city, dist = '' } = searchParams;
+  const { year = '2020', city, dist = '' } = searchParams;
 
   // TODO sleep & error handling
-  const { candidates, votingResult, subareas } = await fetchElectionData(
-    year,
-    city,
-    dist,
-  );
+  const { isSuccess, candidates, votingResult, subareas } =
+    await fetchElectionData({
+      year,
+      city,
+      dist,
+    });
+
+  if (!isSuccess) {
+    notFound();
+  }
 
   return (
     <div>

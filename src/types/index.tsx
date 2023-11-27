@@ -24,11 +24,11 @@ export type VotingResult = {
   name: string;
   level: Level;
   affiliation: string;
-  candidates: Record<string, string>;
+  candidates: Record<string, number>;
   votes: {
-    valid_votes: string;
-    invalid_votes: string;
-    total_votes: string;
+    valid_votes: number;
+    invalid_votes: number;
+    total_votes: number;
   };
-  voter_turnout: string;
+  voter_turnout: number;
 };

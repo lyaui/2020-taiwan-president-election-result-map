@@ -4,6 +4,7 @@ import { ChevronRightIcon } from '@heroicons/react/24/solid';
 import { type Candidate, type VotingResult } from '@/types';
 import { levels } from '@/constants';
 import { getOrderedVoteResult } from '@/pageFunctions/election-data';
+import { numberWithCommas } from '@/utils/index';
 import VotingTableRowWrapper from '@/components/AreaVotingTable/VotingTableRowWrapper';
 import PercentageBar from '@/components/UI/PercentageBar';
 
@@ -57,7 +58,7 @@ function VotingTableRow({
         {displayWinner}
       </td>
       <td className='hidden sm:table-cell px-2 py-3 xs:py-2.5'>
-        {votes.total_votes}
+        {numberWithCommas(votes.total_votes)}
       </td>
       <td className='hidden sm:table-cell px-2 py-3 xs:py-2.5'>
         {(+voter_turnout).toFixed(2) + '%'}
