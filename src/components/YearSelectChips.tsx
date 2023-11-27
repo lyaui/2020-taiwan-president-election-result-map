@@ -18,7 +18,7 @@ function YearSelectChips() {
   };
 
   return (
-    <div className='flex flex-col sm:flex-row flex-wrap gap-4'>
+    <div className='flex flex-col sm:flex-row flex-wrap gap-4 z-10'>
       {years.map((_year) => (
         <Chip
           key={_year}
