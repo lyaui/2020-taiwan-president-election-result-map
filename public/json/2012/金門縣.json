@@ -1,0 +1,712 @@
+{
+  "city": [
+    {
+      "name": "金門縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 3193,
+        "cand_2012_02": 34676,
+        "cand_2012_03": 990
+      },
+      "votes": {
+        "valid_votes": 38859,
+        "invalid_votes": 316,
+        "total_votes": 39175
+      },
+      "voter_turnout": 46.66999816894531
+    }
+  ],
+  "dist": [
+    {
+      "name": "金城鎮",
+      "level": "dist",
+      "affiliation": "金門縣",
+      "candidates": {
+        "cand_2012_01": 1118,
+        "cand_2012_02": 11611,
+        "cand_2012_03": 335
+      },
+      "votes": {
+        "valid_votes": 13064,
+        "invalid_votes": 90,
+        "total_votes": 13154
+      },
+      "voter_turnout": 47.880001068115234
+    },
+    {
+      "name": "金寧鄉",
+      "level": "dist",
+      "affiliation": "金門縣",
+      "candidates": {
+        "cand_2012_01": 732,
+        "cand_2012_02": 6589,
+        "cand_2012_03": 170
+      },
+      "votes": {
+        "valid_votes": 7491,
+        "invalid_votes": 72,
+        "total_votes": 7563
+      },
+      "voter_turnout": 46.150001525878906
+    },
+    {
+      "name": "烈嶼鄉",
+      "level": "dist",
+      "affiliation": "金門縣",
+      "candidates": {
+        "cand_2012_01": 175,
+        "cand_2012_02": 3023,
+        "cand_2012_03": 69
+      },
+      "votes": {
+        "valid_votes": 3267,
+        "invalid_votes": 35,
+        "total_votes": 3302
+      },
+      "voter_turnout": 41.52000045776367
+    },
+    {
+      "name": "烏坵鄉",
+      "level": "dist",
+      "affiliation": "金門縣",
+      "candidates": {
+        "cand_2012_01": 9,
+        "cand_2012_02": 94,
+        "cand_2012_03": 0
+      },
+      "votes": {
+        "valid_votes": 103,
+        "invalid_votes": 1,
+        "total_votes": 104
+      },
+      "voter_turnout": 26
+    },
+    {
+      "name": "金湖鎮",
+      "level": "dist",
+      "affiliation": "金門縣",
+      "candidates": {
+        "cand_2012_01": 806,
+        "cand_2012_02": 7740,
+        "cand_2012_03": 268
+      },
+      "votes": {
+        "valid_votes": 8814,
+        "invalid_votes": 58,
+        "total_votes": 8872
+      },
+      "voter_turnout": 48.29999923706055
+    },
+    {
+      "name": "金沙鎮",
+      "level": "dist",
+      "affiliation": "金門縣",
+      "candidates": {
+        "cand_2012_01": 353,
+        "cand_2012_02": 5619,
+        "cand_2012_03": 148
+      },
+      "votes": {
+        "valid_votes": 6120,
+        "invalid_votes": 60,
+        "total_votes": 6180
+      },
+      "voter_turnout": 46.22999954223633
+    }
+  ],
+  "village": [
+    {
+      "name": "東門里",
+      "level": "village",
+      "affiliation": "金城鎮",
+      "candidates": {
+        "cand_2012_01": 206,
+        "cand_2012_02": 1616,
+        "cand_2012_03": 39
+      },
+      "votes": {
+        "valid_votes": 1861,
+        "invalid_votes": 10,
+        "total_votes": 1871
+      },
+      "voter_turnout": 49.43000030517578
+    },
+    {
+      "name": "南門里",
+      "level": "village",
+      "affiliation": "金城鎮",
+      "candidates": {
+        "cand_2012_01": 174,
+        "cand_2012_02": 1770,
+        "cand_2012_03": 71
+      },
+      "votes": {
+        "valid_votes": 2015,
+        "invalid_votes": 13,
+        "total_votes": 2028
+      },
+      "voter_turnout": 49.38999938964844
+    },
+    {
+      "name": "西門里",
+      "level": "village",
+      "affiliation": "金城鎮",
+      "candidates": {
+        "cand_2012_01": 260,
+        "cand_2012_02": 3267,
+        "cand_2012_03": 82
+      },
+      "votes": {
+        "valid_votes": 3609,
+        "invalid_votes": 27,
+        "total_votes": 3636
+      },
+      "voter_turnout": 49.27000045776367
+    },
+    {
+      "name": "北門里",
+      "level": "village",
+      "affiliation": "金城鎮",
+      "candidates": {
+        "cand_2012_01": 150,
+        "cand_2012_02": 1414,
+        "cand_2012_03": 45
+      },
+      "votes": {
+        "valid_votes": 1609,
+        "invalid_votes": 9,
+        "total_votes": 1618
+      },
+      "voter_turnout": 48.56999969482422
+    },
+    {
+      "name": "賢庵里",
+      "level": "village",
+      "affiliation": "金城鎮",
+      "candidates": {
+        "cand_2012_01": 140,
+        "cand_2012_02": 1200,
+        "cand_2012_03": 34
+      },
+      "votes": {
+        "valid_votes": 1374,
+        "invalid_votes": 8,
+        "total_votes": 1382
+      },
+      "voter_turnout": 46.36000061035156
+    },
+    {
+      "name": "金水里",
+      "level": "village",
+      "affiliation": "金城鎮",
+      "candidates": {
+        "cand_2012_01": 38,
+        "cand_2012_02": 582,
+        "cand_2012_03": 17
+      },
+      "votes": {
+        "valid_votes": 637,
+        "invalid_votes": 6,
+        "total_votes": 643
+      },
+      "voter_turnout": 43.7400016784668
+    },
+    {
+      "name": "古城里",
+      "level": "village",
+      "affiliation": "金城鎮",
+      "candidates": {
+        "cand_2012_01": 78,
+        "cand_2012_02": 1067,
+        "cand_2012_03": 24
+      },
+      "votes": {
+        "valid_votes": 1169,
+        "invalid_votes": 10,
+        "total_votes": 1179
+      },
+      "voter_turnout": 46.970001220703125
+    },
+    {
+      "name": "珠沙里",
+      "level": "village",
+      "affiliation": "金城鎮",
+      "candidates": {
+        "cand_2012_01": 72,
+        "cand_2012_02": 695,
+        "cand_2012_03": 23
+      },
+      "votes": {
+        "valid_votes": 790,
+        "invalid_votes": 7,
+        "total_votes": 797
+      },
+      "voter_turnout": 41.75
+    },
+    {
+      "name": "古寧村",
+      "level": "village",
+      "affiliation": "金寧鄉",
+      "candidates": {
+        "cand_2012_01": 59,
+        "cand_2012_02": 902,
+        "cand_2012_03": 13
+      },
+      "votes": {
+        "valid_votes": 974,
+        "invalid_votes": 16,
+        "total_votes": 990
+      },
+      "voter_turnout": 43.36000061035156
+    },
+    {
+      "name": "安美村",
+      "level": "village",
+      "affiliation": "金寧鄉",
+      "candidates": {
+        "cand_2012_01": 93,
+        "cand_2012_02": 1154,
+        "cand_2012_03": 36
+      },
+      "votes": {
+        "valid_votes": 1283,
+        "invalid_votes": 20,
+        "total_votes": 1303
+      },
+      "voter_turnout": 44.9900016784668
+    },
+    {
+      "name": "湖埔村",
+      "level": "village",
+      "affiliation": "金寧鄉",
+      "candidates": {
+        "cand_2012_01": 126,
+        "cand_2012_02": 1476,
+        "cand_2012_03": 35
+      },
+      "votes": {
+        "valid_votes": 1637,
+        "invalid_votes": 9,
+        "total_votes": 1646
+      },
+      "voter_turnout": 47.900001525878906
+    },
+    {
+      "name": "榜林村",
+      "level": "village",
+      "affiliation": "金寧鄉",
+      "candidates": {
+        "cand_2012_01": 96,
+        "cand_2012_02": 1238,
+        "cand_2012_03": 30
+      },
+      "votes": {
+        "valid_votes": 1364,
+        "invalid_votes": 8,
+        "total_votes": 1372
+      },
+      "voter_turnout": 43.310001373291016
+    },
+    {
+      "name": "盤山村",
+      "level": "village",
+      "affiliation": "金寧鄉",
+      "candidates": {
+        "cand_2012_01": 324,
+        "cand_2012_02": 1411,
+        "cand_2012_03": 47
+      },
+      "votes": {
+        "valid_votes": 1782,
+        "invalid_votes": 18,
+        "total_votes": 1800
+      },
+      "voter_turnout": 50.560001373291016
+    },
+    {
+      "name": "后盤村",
+      "level": "village",
+      "affiliation": "金寧鄉",
+      "candidates": {
+        "cand_2012_01": 34,
+        "cand_2012_02": 408,
+        "cand_2012_03": 9
+      },
+      "votes": {
+        "valid_votes": 451,
+        "invalid_votes": 1,
+        "total_votes": 452
+      },
+      "voter_turnout": 43.209999084472656
+    },
+    {
+      "name": "林湖村",
+      "level": "village",
+      "affiliation": "烈嶼鄉",
+      "candidates": {
+        "cand_2012_01": 61,
+        "cand_2012_02": 980,
+        "cand_2012_03": 27
+      },
+      "votes": {
+        "valid_votes": 1068,
+        "invalid_votes": 6,
+        "total_votes": 1074
+      },
+      "voter_turnout": 45.2400016784668
+    },
+    {
+      "name": "黃埔村",
+      "level": "village",
+      "affiliation": "烈嶼鄉",
+      "candidates": {
+        "cand_2012_01": 28,
+        "cand_2012_02": 376,
+        "cand_2012_03": 2
+      },
+      "votes": {
+        "valid_votes": 406,
+        "invalid_votes": 11,
+        "total_votes": 417
+      },
+      "voter_turnout": 40.68000030517578
+    },
+    {
+      "name": "西口村",
+      "level": "village",
+      "affiliation": "烈嶼鄉",
+      "candidates": {
+        "cand_2012_01": 30,
+        "cand_2012_02": 540,
+        "cand_2012_03": 8
+      },
+      "votes": {
+        "valid_votes": 578,
+        "invalid_votes": 8,
+        "total_votes": 586
+      },
+      "voter_turnout": 36.279998779296875
+    },
+    {
+      "name": "上林村",
+      "level": "village",
+      "affiliation": "烈嶼鄉",
+      "candidates": {
+        "cand_2012_01": 25,
+        "cand_2012_02": 385,
+        "cand_2012_03": 11
+      },
+      "votes": {
+        "valid_votes": 421,
+        "invalid_votes": 2,
+        "total_votes": 423
+      },
+      "voter_turnout": 40.869998931884766
+    },
+    {
+      "name": "上岐村",
+      "level": "village",
+      "affiliation": "烈嶼鄉",
+      "candidates": {
+        "cand_2012_01": 31,
+        "cand_2012_02": 742,
+        "cand_2012_03": 21
+      },
+      "votes": {
+        "valid_votes": 794,
+        "invalid_votes": 8,
+        "total_votes": 802
+      },
+      "voter_turnout": 42.13999938964844
+    },
+    {
+      "name": "大坵村",
+      "level": "village",
+      "affiliation": "烏坵鄉",
+      "candidates": {
+        "cand_2012_01": 7,
+        "cand_2012_02": 47,
+        "cand_2012_03": 0
+      },
+      "votes": {
+        "valid_votes": 54,
+        "invalid_votes": 0,
+        "total_votes": 54
+      },
+      "voter_turnout": 29.350000381469727
+    },
+    {
+      "name": "小坵村",
+      "level": "village",
+      "affiliation": "烏坵鄉",
+      "candidates": {
+        "cand_2012_01": 2,
+        "cand_2012_02": 47,
+        "cand_2012_03": 0
+      },
+      "votes": {
+        "valid_votes": 49,
+        "invalid_votes": 1,
+        "total_votes": 50
+      },
+      "voter_turnout": 23.149999618530273
+    },
+    {
+      "name": "新市里",
+      "level": "village",
+      "affiliation": "金湖鎮",
+      "candidates": {
+        "cand_2012_01": 162,
+        "cand_2012_02": 1590,
+        "cand_2012_03": 52
+      },
+      "votes": {
+        "valid_votes": 1804,
+        "invalid_votes": 8,
+        "total_votes": 1812
+      },
+      "voter_turnout": 50.7400016784668
+    },
+    {
+      "name": "山外里",
+      "level": "village",
+      "affiliation": "金湖鎮",
+      "candidates": {
+        "cand_2012_01": 117,
+        "cand_2012_02": 1025,
+        "cand_2012_03": 31
+      },
+      "votes": {
+        "valid_votes": 1173,
+        "invalid_votes": 5,
+        "total_votes": 1178
+      },
+      "voter_turnout": 47.439998626708984
+    },
+    {
+      "name": "溪湖里",
+      "level": "village",
+      "affiliation": "金湖鎮",
+      "candidates": {
+        "cand_2012_01": 31,
+        "cand_2012_02": 428,
+        "cand_2012_03": 18
+      },
+      "votes": {
+        "valid_votes": 477,
+        "invalid_votes": 4,
+        "total_votes": 481
+      },
+      "voter_turnout": 46.43000030517578
+    },
+    {
+      "name": "蓮庵里",
+      "level": "village",
+      "affiliation": "金湖鎮",
+      "candidates": {
+        "cand_2012_01": 35,
+        "cand_2012_02": 487,
+        "cand_2012_03": 12
+      },
+      "votes": {
+        "valid_votes": 534,
+        "invalid_votes": 8,
+        "total_votes": 542
+      },
+      "voter_turnout": 46.209999084472656
+    },
+    {
+      "name": "料羅里",
+      "level": "village",
+      "affiliation": "金湖鎮",
+      "candidates": {
+        "cand_2012_01": 38,
+        "cand_2012_02": 525,
+        "cand_2012_03": 25
+      },
+      "votes": {
+        "valid_votes": 588,
+        "invalid_votes": 6,
+        "total_votes": 594
+      },
+      "voter_turnout": 46.54999923706055
+    },
+    {
+      "name": "新湖里",
+      "level": "village",
+      "affiliation": "金湖鎮",
+      "candidates": {
+        "cand_2012_01": 251,
+        "cand_2012_02": 1968,
+        "cand_2012_03": 81
+      },
+      "votes": {
+        "valid_votes": 2300,
+        "invalid_votes": 9,
+        "total_votes": 2309
+      },
+      "voter_turnout": 48.29999923706055
+    },
+    {
+      "name": "正義里",
+      "level": "village",
+      "affiliation": "金湖鎮",
+      "candidates": {
+        "cand_2012_01": 72,
+        "cand_2012_02": 758,
+        "cand_2012_03": 25
+      },
+      "votes": {
+        "valid_votes": 855,
+        "invalid_votes": 12,
+        "total_votes": 867
+      },
+      "voter_turnout": 48.849998474121094
+    },
+    {
+      "name": "瓊林里",
+      "level": "village",
+      "affiliation": "金湖鎮",
+      "candidates": {
+        "cand_2012_01": 100,
+        "cand_2012_02": 959,
+        "cand_2012_03": 24
+      },
+      "votes": {
+        "valid_votes": 1083,
+        "invalid_votes": 6,
+        "total_votes": 1089
+      },
+      "voter_turnout": 47.90999984741211
+    },
+    {
+      "name": "汶沙里",
+      "level": "village",
+      "affiliation": "金沙鎮",
+      "candidates": {
+        "cand_2012_01": 122,
+        "cand_2012_02": 1609,
+        "cand_2012_03": 54
+      },
+      "votes": {
+        "valid_votes": 1785,
+        "invalid_votes": 11,
+        "total_votes": 1796
+      },
+      "voter_turnout": 46.75
+    },
+    {
+      "name": "何斗里",
+      "level": "village",
+      "affiliation": "金沙鎮",
+      "candidates": {
+        "cand_2012_01": 50,
+        "cand_2012_02": 588,
+        "cand_2012_03": 14
+      },
+      "votes": {
+        "valid_votes": 652,
+        "invalid_votes": 3,
+        "total_votes": 655
+      },
+      "voter_turnout": 46.2599983215332
+    },
+    {
+      "name": "浦山里",
+      "level": "village",
+      "affiliation": "金沙鎮",
+      "candidates": {
+        "cand_2012_01": 37,
+        "cand_2012_02": 731,
+        "cand_2012_03": 19
+      },
+      "votes": {
+        "valid_votes": 787,
+        "invalid_votes": 13,
+        "total_votes": 800
+      },
+      "voter_turnout": 48.959999084472656
+    },
+    {
+      "name": "西園里",
+      "level": "village",
+      "affiliation": "金沙鎮",
+      "candidates": {
+        "cand_2012_01": 32,
+        "cand_2012_02": 435,
+        "cand_2012_03": 12
+      },
+      "votes": {
+        "valid_votes": 479,
+        "invalid_votes": 2,
+        "total_votes": 481
+      },
+      "voter_turnout": 43.650001525878906
+    },
+    {
+      "name": "官嶼里",
+      "level": "village",
+      "affiliation": "金沙鎮",
+      "candidates": {
+        "cand_2012_01": 30,
+        "cand_2012_02": 634,
+        "cand_2012_03": 13
+      },
+      "votes": {
+        "valid_votes": 677,
+        "invalid_votes": 7,
+        "total_votes": 684
+      },
+      "voter_turnout": 43.959999084472656
+    },
+    {
+      "name": "三山里",
+      "level": "village",
+      "affiliation": "金沙鎮",
+      "candidates": {
+        "cand_2012_01": 21,
+        "cand_2012_02": 555,
+        "cand_2012_03": 17
+      },
+      "votes": {
+        "valid_votes": 593,
+        "invalid_votes": 12,
+        "total_votes": 605
+      },
+      "voter_turnout": 43.650001525878906
+    },
+    {
+      "name": "大洋里",
+      "level": "village",
+      "affiliation": "金沙鎮",
+      "candidates": {
+        "cand_2012_01": 22,
+        "cand_2012_02": 364,
+        "cand_2012_03": 9
+      },
+      "votes": {
+        "valid_votes": 395,
+        "invalid_votes": 3,
+        "total_votes": 398
+      },
+      "voter_turnout": 47.84000015258789
+    },
+    {
+      "name": "光前里",
+      "level": "village",
+      "affiliation": "金沙鎮",
+      "candidates": {
+        "cand_2012_01": 39,
+        "cand_2012_02": 703,
+        "cand_2012_03": 10
+      },
+      "votes": {
+        "valid_votes": 752,
+        "invalid_votes": 9,
+        "total_votes": 761
+      },
+      "voter_turnout": 47.529998779296875
+    }
+  ]
+}
