@@ -6,6 +6,7 @@ import {
   type SearchParams,
   type Candidate,
   type VotingResult,
+  type Level,
 } from '@/types/index';
 import { type BreadCrumbProps } from '@/components/UI/Breadcrumb';
 import { transCommaStringToNumber } from '@/utils/index';
@@ -144,6 +145,40 @@ export async function fetchElectionData({
 
     let res = { isSuccess: true, candidates };
 
+    const getYearlyPartyVotes = ({
+      name,
+      level,
+    }: {
+      name: string;
+      level: Level;
+    }) => {
+      return result.data.map((_result, _index) => {
+        // 找出目標地區
+        const targetArea: VotingResult = JSON.parse(_result)[level].find(
+          (_item: VotingResult) => _item.name === name,
+        );
+
+        // 將候選人替換成該政黨
+        const yearCandidates = JSON.parse(candiFile)[years[_index]];
+
+        const partyVotes = Object.entries(targetArea.candidates).reduce(
+          (_acc, [_key, _value]) => {
+            const party = yearCandidates.find(
+              (_cand: Candidate) => _cand.cand_id === _key,
+            )['party_id'];
+            _acc[party] = transCommaStringToNumber(_value);
+            return _acc;
+          },
+          {},
+        );
+
+        return {
+          year: years[_index],
+          party_votes: partyVotes,
+        };
+      });
+    };
+
     if (dist) {
       return {
         ...res,
@@ -153,6 +188,8 @@ export async function fetchElectionData({
         subareas: votingResult.village?.filter(
           (_result: VotingResult) => _result.affiliation === dist,
         ),
+
+        prePartyVotes: getYearlyPartyVotes({ name: dist, level: 'dist' }),
       };
     }
 
@@ -163,6 +200,7 @@ export async function fetchElectionData({
           (_result: VotingResult) => _result.name === city,
         ),
         subareas: votingResult.dist,
+        prePartyVotes: getYearlyPartyVotes({ name: city, level: 'city' }),
       };
     }
 
@@ -170,7 +208,7 @@ export async function fetchElectionData({
       ...res,
       votingResult: votingResult.country[0],
       subareas: votingResult.city,
-      yearlyPartyResults: [],
+      prePartyVotes: getYearlyPartyVotes({ name: '總計', level: 'country' }),
     };
   } else {
     console.error(`Failed to read files: ${result?.error}`);
