@@ -1,0 +1,1976 @@
+{
+  "city": [
+    {
+      "name": "新竹市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 92632,
+        "cand_2012_02": 134728,
+        "cand_2012_03": 7216
+      },
+      "votes": {
+        "valid_votes": 234576,
+        "invalid_votes": 1628,
+        "total_votes": 236204
+      },
+      "voter_turnout": 75.68000030517578
+    }
+  ],
+  "dist": [
+    {
+      "name": "東區",
+      "level": "dist",
+      "affiliation": "新竹市",
+      "candidates": {
+        "cand_2012_01": 38394,
+        "cand_2012_02": 67736,
+        "cand_2012_03": 3362
+      },
+      "votes": {
+        "valid_votes": 109492,
+        "invalid_votes": 722,
+        "total_votes": 110214
+      },
+      "voter_turnout": 76.51000213623047
+    },
+    {
+      "name": "北區",
+      "level": "dist",
+      "affiliation": "新竹市",
+      "candidates": {
+        "cand_2012_01": 34624,
+        "cand_2012_02": 45997,
+        "cand_2012_03": 2604
+      },
+      "votes": {
+        "valid_votes": 83225,
+        "invalid_votes": 570,
+        "total_votes": 83795
+      },
+      "voter_turnout": 75.18000030517578
+    },
+    {
+      "name": "香山區",
+      "level": "dist",
+      "affiliation": "新竹市",
+      "candidates": {
+        "cand_2012_01": 19614,
+        "cand_2012_02": 20995,
+        "cand_2012_03": 1250
+      },
+      "votes": {
+        "valid_votes": 41859,
+        "invalid_votes": 336,
+        "total_votes": 42195
+      },
+      "voter_turnout": 74.55999755859375
+    }
+  ],
+  "village": [
+    {
+      "name": "育賢里、三民里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 317,
+        "cand_2012_02": 426,
+        "cand_2012_03": 17
+      },
+      "votes": {
+        "valid_votes": 760,
+        "invalid_votes": 4,
+        "total_votes": 764
+      },
+      "voter_turnout": 48.849998474121094
+    },
+    {
+      "name": "親仁里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 278,
+        "cand_2012_02": 833,
+        "cand_2012_03": 38
+      },
+      "votes": {
+        "valid_votes": 1149,
+        "invalid_votes": 10,
+        "total_votes": 1159
+      },
+      "voter_turnout": 75.41000366210938
+    },
+    {
+      "name": "東門里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 256,
+        "cand_2012_02": 203,
+        "cand_2012_03": 21
+      },
+      "votes": {
+        "valid_votes": 480,
+        "invalid_votes": 1,
+        "total_votes": 481
+      },
+      "voter_turnout": 74.91999816894531
+    },
+    {
+      "name": "成功里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 246,
+        "cand_2012_02": 252,
+        "cand_2012_03": 16
+      },
+      "votes": {
+        "valid_votes": 514,
+        "invalid_votes": 2,
+        "total_votes": 516
+      },
+      "voter_turnout": 75
+    },
+    {
+      "name": "榮光里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 117,
+        "cand_2012_02": 127,
+        "cand_2012_03": 5
+      },
+      "votes": {
+        "valid_votes": 249,
+        "invalid_votes": 4,
+        "total_votes": 253
+      },
+      "voter_turnout": 70.08000183105469
+    },
+    {
+      "name": "中正里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 197,
+        "cand_2012_02": 179,
+        "cand_2012_03": 8
+      },
+      "votes": {
+        "valid_votes": 384,
+        "invalid_votes": 2,
+        "total_votes": 386
+      },
+      "voter_turnout": 77.9800033569336
+    },
+    {
+      "name": "錦華里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 365,
+        "cand_2012_02": 1018,
+        "cand_2012_03": 60
+      },
+      "votes": {
+        "valid_votes": 1443,
+        "invalid_votes": 11,
+        "total_votes": 1454
+      },
+      "voter_turnout": 74.5999984741211
+    },
+    {
+      "name": "文華里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 1163,
+        "cand_2012_02": 1976,
+        "cand_2012_03": 101
+      },
+      "votes": {
+        "valid_votes": 3240,
+        "invalid_votes": 20,
+        "total_votes": 3260
+      },
+      "voter_turnout": 77.86000061035156
+    },
+    {
+      "name": "復中里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 1208,
+        "cand_2012_02": 1877,
+        "cand_2012_03": 80
+      },
+      "votes": {
+        "valid_votes": 3165,
+        "invalid_votes": 20,
+        "total_votes": 3185
+      },
+      "voter_turnout": 77.25
+    },
+    {
+      "name": "復興里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 1179,
+        "cand_2012_02": 2046,
+        "cand_2012_03": 91
+      },
+      "votes": {
+        "valid_votes": 3316,
+        "invalid_votes": 21,
+        "total_votes": 3337
+      },
+      "voter_turnout": 77.12000274658203
+    },
+    {
+      "name": "三民里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 1318,
+        "cand_2012_02": 1726,
+        "cand_2012_03": 110
+      },
+      "votes": {
+        "valid_votes": 3154,
+        "invalid_votes": 12,
+        "total_votes": 3166
+      },
+      "voter_turnout": 78.1500015258789
+    },
+    {
+      "name": "東園里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 812,
+        "cand_2012_02": 1368,
+        "cand_2012_03": 81
+      },
+      "votes": {
+        "valid_votes": 2261,
+        "invalid_votes": 12,
+        "total_votes": 2273
+      },
+      "voter_turnout": 76.69000244140625
+    },
+    {
+      "name": "公園里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 755,
+        "cand_2012_02": 1329,
+        "cand_2012_03": 65
+      },
+      "votes": {
+        "valid_votes": 2149,
+        "invalid_votes": 15,
+        "total_votes": 2164
+      },
+      "voter_turnout": 76.8499984741211
+    },
+    {
+      "name": "建華里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 718,
+        "cand_2012_02": 939,
+        "cand_2012_03": 50
+      },
+      "votes": {
+        "valid_votes": 1707,
+        "invalid_votes": 13,
+        "total_votes": 1720
+      },
+      "voter_turnout": 76.44000244140625
+    },
+    {
+      "name": "東山里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 816,
+        "cand_2012_02": 1540,
+        "cand_2012_03": 87
+      },
+      "votes": {
+        "valid_votes": 2443,
+        "invalid_votes": 15,
+        "total_votes": 2458
+      },
+      "voter_turnout": 79.01000213623047
+    },
+    {
+      "name": "綠水里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 1335,
+        "cand_2012_02": 2797,
+        "cand_2012_03": 126
+      },
+      "votes": {
+        "valid_votes": 4258,
+        "invalid_votes": 23,
+        "total_votes": 4281
+      },
+      "voter_turnout": 76.76000213623047
+    },
+    {
+      "name": "東勢里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 633,
+        "cand_2012_02": 898,
+        "cand_2012_03": 42
+      },
+      "votes": {
+        "valid_votes": 1573,
+        "invalid_votes": 7,
+        "total_votes": 1580
+      },
+      "voter_turnout": 77.83000183105469
+    },
+    {
+      "name": "光復里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 700,
+        "cand_2012_02": 855,
+        "cand_2012_03": 36
+      },
+      "votes": {
+        "valid_votes": 1591,
+        "invalid_votes": 18,
+        "total_votes": 1609
+      },
+      "voter_turnout": 78.94999694824219
+    },
+    {
+      "name": "前溪里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 882,
+        "cand_2012_02": 1016,
+        "cand_2012_03": 64
+      },
+      "votes": {
+        "valid_votes": 1962,
+        "invalid_votes": 18,
+        "total_votes": 1980
+      },
+      "voter_turnout": 75.62999725341797
+    },
+    {
+      "name": "水源里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 1256,
+        "cand_2012_02": 1124,
+        "cand_2012_03": 86
+      },
+      "votes": {
+        "valid_votes": 2466,
+        "invalid_votes": 13,
+        "total_votes": 2479
+      },
+      "voter_turnout": 76.6500015258789
+    },
+    {
+      "name": "千甲里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 543,
+        "cand_2012_02": 888,
+        "cand_2012_03": 42
+      },
+      "votes": {
+        "valid_votes": 1473,
+        "invalid_votes": 19,
+        "total_votes": 1492
+      },
+      "voter_turnout": 77.3499984741211
+    },
+    {
+      "name": "豐功里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 913,
+        "cand_2012_02": 2213,
+        "cand_2012_03": 94
+      },
+      "votes": {
+        "valid_votes": 3220,
+        "invalid_votes": 22,
+        "total_votes": 3242
+      },
+      "voter_turnout": 79.0199966430664
+    },
+    {
+      "name": "武功里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 399,
+        "cand_2012_02": 2495,
+        "cand_2012_03": 104
+      },
+      "votes": {
+        "valid_votes": 2998,
+        "invalid_votes": 25,
+        "total_votes": 3023
+      },
+      "voter_turnout": 79.94999694824219
+    },
+    {
+      "name": "軍功里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 539,
+        "cand_2012_02": 1996,
+        "cand_2012_03": 77
+      },
+      "votes": {
+        "valid_votes": 2612,
+        "invalid_votes": 26,
+        "total_votes": 2638
+      },
+      "voter_turnout": 77.83999633789062
+    },
+    {
+      "name": "立功里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 118,
+        "cand_2012_02": 535,
+        "cand_2012_03": 30
+      },
+      "votes": {
+        "valid_votes": 683,
+        "invalid_votes": 8,
+        "total_votes": 691
+      },
+      "voter_turnout": 76.77999877929688
+    },
+    {
+      "name": "建功里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 281,
+        "cand_2012_02": 1303,
+        "cand_2012_03": 56
+      },
+      "votes": {
+        "valid_votes": 1640,
+        "invalid_votes": 15,
+        "total_votes": 1655
+      },
+      "voter_turnout": 80.11000061035156
+    },
+    {
+      "name": "光明里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 593,
+        "cand_2012_02": 1655,
+        "cand_2012_03": 61
+      },
+      "votes": {
+        "valid_votes": 2309,
+        "invalid_votes": 21,
+        "total_votes": 2330
+      },
+      "voter_turnout": 76.5199966430664
+    },
+    {
+      "name": "龍山里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 770,
+        "cand_2012_02": 1650,
+        "cand_2012_03": 75
+      },
+      "votes": {
+        "valid_votes": 2495,
+        "invalid_votes": 8,
+        "total_votes": 2503
+      },
+      "voter_turnout": 78.54000091552734
+    },
+    {
+      "name": "科園里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 1355,
+        "cand_2012_02": 3269,
+        "cand_2012_03": 128
+      },
+      "votes": {
+        "valid_votes": 4752,
+        "invalid_votes": 25,
+        "total_votes": 4777
+      },
+      "voter_turnout": 81.01000213623047
+    },
+    {
+      "name": "埔頂里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 847,
+        "cand_2012_02": 1181,
+        "cand_2012_03": 64
+      },
+      "votes": {
+        "valid_votes": 2092,
+        "invalid_votes": 13,
+        "total_votes": 2105
+      },
+      "voter_turnout": 77.4800033569336
+    },
+    {
+      "name": "新莊里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 1723,
+        "cand_2012_02": 3515,
+        "cand_2012_03": 178
+      },
+      "votes": {
+        "valid_votes": 5416,
+        "invalid_votes": 22,
+        "total_votes": 5438
+      },
+      "voter_turnout": 77.83000183105469
+    },
+    {
+      "name": "關東里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 834,
+        "cand_2012_02": 2092,
+        "cand_2012_03": 89
+      },
+      "votes": {
+        "valid_votes": 3015,
+        "invalid_votes": 24,
+        "total_votes": 3039
+      },
+      "voter_turnout": 75.9800033569336
+    },
+    {
+      "name": "金山里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 989,
+        "cand_2012_02": 2412,
+        "cand_2012_03": 88
+      },
+      "votes": {
+        "valid_votes": 3489,
+        "invalid_votes": 35,
+        "total_votes": 3524
+      },
+      "voter_turnout": 74.98999786376953
+    },
+    {
+      "name": "仙水里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 911,
+        "cand_2012_02": 2051,
+        "cand_2012_03": 109
+      },
+      "votes": {
+        "valid_votes": 3071,
+        "invalid_votes": 22,
+        "total_votes": 3093
+      },
+      "voter_turnout": 78.23999786376953
+    },
+    {
+      "name": "仙宮里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 293,
+        "cand_2012_02": 511,
+        "cand_2012_03": 36
+      },
+      "votes": {
+        "valid_votes": 840,
+        "invalid_votes": 6,
+        "total_votes": 846
+      },
+      "voter_turnout": 75
+    },
+    {
+      "name": "關帝里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 227,
+        "cand_2012_02": 162,
+        "cand_2012_03": 17
+      },
+      "votes": {
+        "valid_votes": 406,
+        "invalid_votes": 3,
+        "total_votes": 409
+      },
+      "voter_turnout": 74.2300033569336
+    },
+    {
+      "name": "南門里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 254,
+        "cand_2012_02": 261,
+        "cand_2012_03": 17
+      },
+      "votes": {
+        "valid_votes": 532,
+        "invalid_votes": 1,
+        "total_votes": 533
+      },
+      "voter_turnout": 72.70999908447266
+    },
+    {
+      "name": "南市里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 365,
+        "cand_2012_02": 308,
+        "cand_2012_03": 17
+      },
+      "votes": {
+        "valid_votes": 690,
+        "invalid_votes": 6,
+        "total_votes": 696
+      },
+      "voter_turnout": 75.16000366210938
+    },
+    {
+      "name": "福德里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 431,
+        "cand_2012_02": 557,
+        "cand_2012_03": 18
+      },
+      "votes": {
+        "valid_votes": 1006,
+        "invalid_votes": 3,
+        "total_votes": 1009
+      },
+      "voter_turnout": 74.45999908447266
+    },
+    {
+      "name": "振興里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 1490,
+        "cand_2012_02": 2129,
+        "cand_2012_03": 125
+      },
+      "votes": {
+        "valid_votes": 3744,
+        "invalid_votes": 27,
+        "total_votes": 3771
+      },
+      "voter_turnout": 73.37000274658203
+    },
+    {
+      "name": "新興里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 1019,
+        "cand_2012_02": 1189,
+        "cand_2012_03": 72
+      },
+      "votes": {
+        "valid_votes": 2280,
+        "invalid_votes": 15,
+        "total_votes": 2295
+      },
+      "voter_turnout": 77.04000091552734
+    },
+    {
+      "name": "寺前里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 274,
+        "cand_2012_02": 265,
+        "cand_2012_03": 18
+      },
+      "votes": {
+        "valid_votes": 557,
+        "invalid_votes": 3,
+        "total_votes": 560
+      },
+      "voter_turnout": 75.2699966430664
+    },
+    {
+      "name": "竹蓮里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 345,
+        "cand_2012_02": 259,
+        "cand_2012_03": 22
+      },
+      "votes": {
+        "valid_votes": 626,
+        "invalid_votes": 4,
+        "total_votes": 630
+      },
+      "voter_turnout": 79.8499984741211
+    },
+    {
+      "name": "下竹里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 169,
+        "cand_2012_02": 271,
+        "cand_2012_03": 23
+      },
+      "votes": {
+        "valid_votes": 463,
+        "invalid_votes": 0,
+        "total_votes": 463
+      },
+      "voter_turnout": 79.55000305175781
+    },
+    {
+      "name": "頂竹里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 985,
+        "cand_2012_02": 1193,
+        "cand_2012_03": 57
+      },
+      "votes": {
+        "valid_votes": 2235,
+        "invalid_votes": 14,
+        "total_votes": 2249
+      },
+      "voter_turnout": 75.69999694824219
+    },
+    {
+      "name": "南大里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 509,
+        "cand_2012_02": 500,
+        "cand_2012_03": 44
+      },
+      "votes": {
+        "valid_votes": 1053,
+        "invalid_votes": 9,
+        "total_votes": 1062
+      },
+      "voter_turnout": 73.80000305175781
+    },
+    {
+      "name": "新光里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 1056,
+        "cand_2012_02": 1390,
+        "cand_2012_03": 67
+      },
+      "votes": {
+        "valid_votes": 2513,
+        "invalid_votes": 10,
+        "total_votes": 2523
+      },
+      "voter_turnout": 75.55999755859375
+    },
+    {
+      "name": "光鎮里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 995,
+        "cand_2012_02": 1387,
+        "cand_2012_03": 72
+      },
+      "votes": {
+        "valid_votes": 2454,
+        "invalid_votes": 18,
+        "total_votes": 2472
+      },
+      "voter_turnout": 75.63999938964844
+    },
+    {
+      "name": "高峰里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 1575,
+        "cand_2012_02": 2401,
+        "cand_2012_03": 82
+      },
+      "votes": {
+        "valid_votes": 4058,
+        "invalid_votes": 30,
+        "total_votes": 4088
+      },
+      "voter_turnout": 75.48999786376953
+    },
+    {
+      "name": "湖濱里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 1018,
+        "cand_2012_02": 1437,
+        "cand_2012_03": 68
+      },
+      "votes": {
+        "valid_votes": 2523,
+        "invalid_votes": 14,
+        "total_votes": 2537
+      },
+      "voter_turnout": 77.20999908447266
+    },
+    {
+      "name": "柴橋里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 1147,
+        "cand_2012_02": 1981,
+        "cand_2012_03": 120
+      },
+      "votes": {
+        "valid_votes": 3248,
+        "invalid_votes": 16,
+        "total_votes": 3264
+      },
+      "voter_turnout": 76.23999786376953
+    },
+    {
+      "name": "明湖里",
+      "level": "village",
+      "affiliation": "東區",
+      "candidates": {
+        "cand_2012_01": 876,
+        "cand_2012_02": 1751,
+        "cand_2012_03": 108
+      },
+      "votes": {
+        "valid_votes": 2735,
+        "invalid_votes": 17,
+        "total_votes": 2752
+      },
+      "voter_turnout": 70.19999694824219
+    },
+    {
+      "name": "西門里、中央里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 397,
+        "cand_2012_02": 277,
+        "cand_2012_03": 17
+      },
+      "votes": {
+        "valid_votes": 691,
+        "invalid_votes": 5,
+        "total_votes": 696
+      },
+      "voter_turnout": 74.44000244140625
+    },
+    {
+      "name": "潛園里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 315,
+        "cand_2012_02": 242,
+        "cand_2012_03": 18
+      },
+      "votes": {
+        "valid_votes": 575,
+        "invalid_votes": 6,
+        "total_votes": 581
+      },
+      "voter_turnout": 76.05000305175781
+    },
+    {
+      "name": "石坊里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 188,
+        "cand_2012_02": 181,
+        "cand_2012_03": 13
+      },
+      "votes": {
+        "valid_votes": 382,
+        "invalid_votes": 3,
+        "total_votes": 385
+      },
+      "voter_turnout": 74.9000015258789
+    },
+    {
+      "name": "仁德里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 292,
+        "cand_2012_02": 231,
+        "cand_2012_03": 14
+      },
+      "votes": {
+        "valid_votes": 537,
+        "invalid_votes": 2,
+        "total_votes": 539
+      },
+      "voter_turnout": 74.86000061035156
+    },
+    {
+      "name": "崇禮里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 515,
+        "cand_2012_02": 342,
+        "cand_2012_03": 35
+      },
+      "votes": {
+        "valid_votes": 892,
+        "invalid_votes": 7,
+        "total_votes": 899
+      },
+      "voter_turnout": 78.04000091552734
+    },
+    {
+      "name": "興南里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 484,
+        "cand_2012_02": 542,
+        "cand_2012_03": 27
+      },
+      "votes": {
+        "valid_votes": 1053,
+        "invalid_votes": 9,
+        "total_votes": 1062
+      },
+      "voter_turnout": 74.68000030517578
+    },
+    {
+      "name": "育英里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 1135,
+        "cand_2012_02": 1251,
+        "cand_2012_03": 72
+      },
+      "votes": {
+        "valid_votes": 2458,
+        "invalid_votes": 14,
+        "total_votes": 2472
+      },
+      "voter_turnout": 75.38999938964844
+    },
+    {
+      "name": "台溪里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 369,
+        "cand_2012_02": 603,
+        "cand_2012_03": 25
+      },
+      "votes": {
+        "valid_votes": 997,
+        "invalid_votes": 8,
+        "total_votes": 1005
+      },
+      "voter_turnout": 69.0199966430664
+    },
+    {
+      "name": "曲溪里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 1355,
+        "cand_2012_02": 2121,
+        "cand_2012_03": 125
+      },
+      "votes": {
+        "valid_votes": 3601,
+        "invalid_votes": 26,
+        "total_votes": 3627
+      },
+      "voter_turnout": 72.98999786376953
+    },
+    {
+      "name": "西雅里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 985,
+        "cand_2012_02": 990,
+        "cand_2012_03": 61
+      },
+      "votes": {
+        "valid_votes": 2036,
+        "invalid_votes": 15,
+        "total_votes": 2051
+      },
+      "voter_turnout": 75.54000091552734
+    },
+    {
+      "name": "客雅里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 1126,
+        "cand_2012_02": 2151,
+        "cand_2012_03": 106
+      },
+      "votes": {
+        "valid_votes": 3383,
+        "invalid_votes": 37,
+        "total_votes": 3420
+      },
+      "voter_turnout": 77.23999786376953
+    },
+    {
+      "name": "南勢里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 1510,
+        "cand_2012_02": 1121,
+        "cand_2012_03": 78
+      },
+      "votes": {
+        "valid_votes": 2709,
+        "invalid_votes": 24,
+        "total_votes": 2733
+      },
+      "voter_turnout": 75.33000183105469
+    },
+    {
+      "name": "大鵬里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 34,
+        "cand_2012_02": 140,
+        "cand_2012_03": 14
+      },
+      "votes": {
+        "valid_votes": 188,
+        "invalid_votes": 3,
+        "total_votes": 191
+      },
+      "voter_turnout": 57.189998626708984
+    },
+    {
+      "name": "大同里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 223,
+        "cand_2012_02": 322,
+        "cand_2012_03": 8
+      },
+      "votes": {
+        "valid_votes": 553,
+        "invalid_votes": 4,
+        "total_votes": 557
+      },
+      "voter_turnout": 74.37000274658203
+    },
+    {
+      "name": "中山里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 290,
+        "cand_2012_02": 189,
+        "cand_2012_03": 19
+      },
+      "votes": {
+        "valid_votes": 498,
+        "invalid_votes": 4,
+        "total_votes": 502
+      },
+      "voter_turnout": 79.05999755859375
+    },
+    {
+      "name": "中興里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 220,
+        "cand_2012_02": 175,
+        "cand_2012_03": 11
+      },
+      "votes": {
+        "valid_votes": 406,
+        "invalid_votes": 4,
+        "total_votes": 410
+      },
+      "voter_turnout": 72.81999969482422
+    },
+    {
+      "name": "新民里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 452,
+        "cand_2012_02": 506,
+        "cand_2012_03": 29
+      },
+      "votes": {
+        "valid_votes": 987,
+        "invalid_votes": 6,
+        "total_votes": 993
+      },
+      "voter_turnout": 71.69999694824219
+    },
+    {
+      "name": "長和里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 488,
+        "cand_2012_02": 455,
+        "cand_2012_03": 35
+      },
+      "votes": {
+        "valid_votes": 978,
+        "invalid_votes": 7,
+        "total_votes": 985
+      },
+      "voter_turnout": 74.33999633789062
+    },
+    {
+      "name": "北門里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 387,
+        "cand_2012_02": 300,
+        "cand_2012_03": 17
+      },
+      "votes": {
+        "valid_votes": 704,
+        "invalid_votes": 6,
+        "total_votes": 710
+      },
+      "voter_turnout": 76.66999816894531
+    },
+    {
+      "name": "民富里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 1455,
+        "cand_2012_02": 1574,
+        "cand_2012_03": 97
+      },
+      "votes": {
+        "valid_votes": 3126,
+        "invalid_votes": 19,
+        "total_votes": 3145
+      },
+      "voter_turnout": 73
+    },
+    {
+      "name": "磐石里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 1669,
+        "cand_2012_02": 1958,
+        "cand_2012_03": 108
+      },
+      "votes": {
+        "valid_votes": 3735,
+        "invalid_votes": 22,
+        "total_votes": 3757
+      },
+      "voter_turnout": 76.36000061035156
+    },
+    {
+      "name": "新雅里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 1468,
+        "cand_2012_02": 1543,
+        "cand_2012_03": 76
+      },
+      "votes": {
+        "valid_votes": 3087,
+        "invalid_votes": 16,
+        "total_votes": 3103
+      },
+      "voter_turnout": 75.01000213623047
+    },
+    {
+      "name": "文雅里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 1169,
+        "cand_2012_02": 1519,
+        "cand_2012_03": 76
+      },
+      "votes": {
+        "valid_votes": 2764,
+        "invalid_votes": 16,
+        "total_votes": 2780
+      },
+      "voter_turnout": 78.69000244140625
+    },
+    {
+      "name": "水田里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 839,
+        "cand_2012_02": 1143,
+        "cand_2012_03": 68
+      },
+      "votes": {
+        "valid_votes": 2050,
+        "invalid_votes": 10,
+        "total_votes": 2060
+      },
+      "voter_turnout": 76.41000366210938
+    },
+    {
+      "name": "光田里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 650,
+        "cand_2012_02": 884,
+        "cand_2012_03": 41
+      },
+      "votes": {
+        "valid_votes": 1575,
+        "invalid_votes": 6,
+        "total_votes": 1581
+      },
+      "voter_turnout": 76.44999694824219
+    },
+    {
+      "name": "光華里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 896,
+        "cand_2012_02": 1450,
+        "cand_2012_03": 62
+      },
+      "votes": {
+        "valid_votes": 2408,
+        "invalid_votes": 17,
+        "total_votes": 2425
+      },
+      "voter_turnout": 64.51000213623047
+    },
+    {
+      "name": "金華里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 1300,
+        "cand_2012_02": 1987,
+        "cand_2012_03": 112
+      },
+      "votes": {
+        "valid_votes": 3399,
+        "invalid_votes": 15,
+        "total_votes": 3414
+      },
+      "voter_turnout": 77
+    },
+    {
+      "name": "湳雅里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 633,
+        "cand_2012_02": 1109,
+        "cand_2012_03": 74
+      },
+      "votes": {
+        "valid_votes": 1816,
+        "invalid_votes": 19,
+        "total_votes": 1835
+      },
+      "voter_turnout": 76.77999877929688
+    },
+    {
+      "name": "金雅里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 734,
+        "cand_2012_02": 888,
+        "cand_2012_03": 44
+      },
+      "votes": {
+        "valid_votes": 1666,
+        "invalid_votes": 7,
+        "total_votes": 1673
+      },
+      "voter_turnout": 80.55000305175781
+    },
+    {
+      "name": "湳中里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 1459,
+        "cand_2012_02": 2745,
+        "cand_2012_03": 132
+      },
+      "votes": {
+        "valid_votes": 4336,
+        "invalid_votes": 24,
+        "total_votes": 4360
+      },
+      "voter_turnout": 78.25
+    },
+    {
+      "name": "舊社里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 1578,
+        "cand_2012_02": 2274,
+        "cand_2012_03": 134
+      },
+      "votes": {
+        "valid_votes": 3986,
+        "invalid_votes": 21,
+        "total_votes": 4007
+      },
+      "voter_turnout": 75.06999969482422
+    },
+    {
+      "name": "金竹里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 1353,
+        "cand_2012_02": 2317,
+        "cand_2012_03": 129
+      },
+      "votes": {
+        "valid_votes": 3799,
+        "invalid_votes": 24,
+        "total_votes": 3823
+      },
+      "voter_turnout": 76.30999755859375
+    },
+    {
+      "name": "武陵里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 385,
+        "cand_2012_02": 2934,
+        "cand_2012_03": 122
+      },
+      "votes": {
+        "valid_votes": 3441,
+        "invalid_votes": 31,
+        "total_votes": 3472
+      },
+      "voter_turnout": 77.76000213623047
+    },
+    {
+      "name": "福林里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 1031,
+        "cand_2012_02": 1592,
+        "cand_2012_03": 88
+      },
+      "votes": {
+        "valid_votes": 2711,
+        "invalid_votes": 21,
+        "total_votes": 2732
+      },
+      "voter_turnout": 78.77999877929688
+    },
+    {
+      "name": "境福里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 1437,
+        "cand_2012_02": 1867,
+        "cand_2012_03": 121
+      },
+      "votes": {
+        "valid_votes": 3425,
+        "invalid_votes": 20,
+        "total_votes": 3445
+      },
+      "voter_turnout": 77.54000091552734
+    },
+    {
+      "name": "士林里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 628,
+        "cand_2012_02": 494,
+        "cand_2012_03": 50
+      },
+      "votes": {
+        "valid_votes": 1172,
+        "invalid_votes": 7,
+        "total_votes": 1179
+      },
+      "voter_turnout": 77.36000061035156
+    },
+    {
+      "name": "古賢里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 359,
+        "cand_2012_02": 281,
+        "cand_2012_03": 15
+      },
+      "votes": {
+        "valid_votes": 655,
+        "invalid_votes": 6,
+        "total_votes": 661
+      },
+      "voter_turnout": 75.62999725341797
+    },
+    {
+      "name": "南寮里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 1529,
+        "cand_2012_02": 1733,
+        "cand_2012_03": 97
+      },
+      "votes": {
+        "valid_votes": 3359,
+        "invalid_votes": 28,
+        "total_votes": 3387
+      },
+      "voter_turnout": 71.19999694824219
+    },
+    {
+      "name": "康樂里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 745,
+        "cand_2012_02": 839,
+        "cand_2012_03": 49
+      },
+      "votes": {
+        "valid_votes": 1633,
+        "invalid_votes": 19,
+        "total_votes": 1652
+      },
+      "voter_turnout": 74.18000030517578
+    },
+    {
+      "name": "中寮里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 892,
+        "cand_2012_02": 1064,
+        "cand_2012_03": 58
+      },
+      "votes": {
+        "valid_votes": 2014,
+        "invalid_votes": 12,
+        "total_votes": 2026
+      },
+      "voter_turnout": 72.80000305175781
+    },
+    {
+      "name": "海濱里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 932,
+        "cand_2012_02": 1074,
+        "cand_2012_03": 85
+      },
+      "votes": {
+        "valid_votes": 2091,
+        "invalid_votes": 11,
+        "total_votes": 2102
+      },
+      "voter_turnout": 71.2300033569336
+    },
+    {
+      "name": "港北里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 538,
+        "cand_2012_02": 390,
+        "cand_2012_03": 25
+      },
+      "votes": {
+        "valid_votes": 953,
+        "invalid_votes": 7,
+        "total_votes": 960
+      },
+      "voter_turnout": 75.83000183105469
+    },
+    {
+      "name": "舊港里",
+      "level": "village",
+      "affiliation": "北區",
+      "candidates": {
+        "cand_2012_01": 180,
+        "cand_2012_02": 199,
+        "cand_2012_03": 17
+      },
+      "votes": {
+        "valid_votes": 396,
+        "invalid_votes": 2,
+        "total_votes": 398
+      },
+      "voter_turnout": 70.44000244140625
+    },
+    {
+      "name": "頂埔里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 1276,
+        "cand_2012_02": 1553,
+        "cand_2012_03": 103
+      },
+      "votes": {
+        "valid_votes": 2932,
+        "invalid_votes": 15,
+        "total_votes": 2947
+      },
+      "voter_turnout": 73.93000030517578
+    },
+    {
+      "name": "頂福里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 1092,
+        "cand_2012_02": 1501,
+        "cand_2012_03": 71
+      },
+      "votes": {
+        "valid_votes": 2664,
+        "invalid_votes": 15,
+        "total_votes": 2679
+      },
+      "voter_turnout": 76.12999725341797
+    },
+    {
+      "name": "中埔里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 911,
+        "cand_2012_02": 1071,
+        "cand_2012_03": 46
+      },
+      "votes": {
+        "valid_votes": 2028,
+        "invalid_votes": 10,
+        "total_votes": 2038
+      },
+      "voter_turnout": 75.26000213623047
+    },
+    {
+      "name": "牛埔里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 1037,
+        "cand_2012_02": 1338,
+        "cand_2012_03": 82
+      },
+      "votes": {
+        "valid_votes": 2457,
+        "invalid_votes": 12,
+        "total_votes": 2469
+      },
+      "voter_turnout": 74.83999633789062
+    },
+    {
+      "name": "埔前里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 1061,
+        "cand_2012_02": 921,
+        "cand_2012_03": 67
+      },
+      "votes": {
+        "valid_votes": 2049,
+        "invalid_votes": 15,
+        "total_votes": 2064
+      },
+      "voter_turnout": 73.3499984741211
+    },
+    {
+      "name": "樹下里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 954,
+        "cand_2012_02": 564,
+        "cand_2012_03": 31
+      },
+      "votes": {
+        "valid_votes": 1549,
+        "invalid_votes": 9,
+        "total_votes": 1558
+      },
+      "voter_turnout": 76.37000274658203
+    },
+    {
+      "name": "浸水里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 841,
+        "cand_2012_02": 563,
+        "cand_2012_03": 36
+      },
+      "votes": {
+        "valid_votes": 1440,
+        "invalid_votes": 9,
+        "total_votes": 1449
+      },
+      "voter_turnout": 74.58000183105469
+    },
+    {
+      "name": "虎林里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 748,
+        "cand_2012_02": 791,
+        "cand_2012_03": 44
+      },
+      "votes": {
+        "valid_votes": 1583,
+        "invalid_votes": 16,
+        "total_votes": 1599
+      },
+      "voter_turnout": 75.81999969482422
+    },
+    {
+      "name": "虎山里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 1883,
+        "cand_2012_02": 1708,
+        "cand_2012_03": 125
+      },
+      "votes": {
+        "valid_votes": 3716,
+        "invalid_votes": 24,
+        "total_votes": 3740
+      },
+      "voter_turnout": 74.86000061035156
+    },
+    {
+      "name": "港南里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 855,
+        "cand_2012_02": 680,
+        "cand_2012_03": 45
+      },
+      "votes": {
+        "valid_votes": 1580,
+        "invalid_votes": 18,
+        "total_votes": 1598
+      },
+      "voter_turnout": 75.23999786376953
+    },
+    {
+      "name": "東香里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 842,
+        "cand_2012_02": 1505,
+        "cand_2012_03": 84
+      },
+      "votes": {
+        "valid_votes": 2431,
+        "invalid_votes": 23,
+        "total_votes": 2454
+      },
+      "voter_turnout": 77.48999786376953
+    },
+    {
+      "name": "香村里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 826,
+        "cand_2012_02": 1081,
+        "cand_2012_03": 57
+      },
+      "votes": {
+        "valid_votes": 1964,
+        "invalid_votes": 14,
+        "total_votes": 1978
+      },
+      "voter_turnout": 73.44999694824219
+    },
+    {
+      "name": "香山里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 1157,
+        "cand_2012_02": 1325,
+        "cand_2012_03": 85
+      },
+      "votes": {
+        "valid_votes": 2567,
+        "invalid_votes": 18,
+        "total_votes": 2585
+      },
+      "voter_turnout": 72.56999969482422
+    },
+    {
+      "name": "大庄里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 1002,
+        "cand_2012_02": 828,
+        "cand_2012_03": 53
+      },
+      "votes": {
+        "valid_votes": 1883,
+        "invalid_votes": 18,
+        "total_votes": 1901
+      },
+      "voter_turnout": 74.45999908447266
+    },
+    {
+      "name": "美山里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 435,
+        "cand_2012_02": 370,
+        "cand_2012_03": 26
+      },
+      "votes": {
+        "valid_votes": 831,
+        "invalid_votes": 3,
+        "total_votes": 834
+      },
+      "voter_turnout": 76.58000183105469
+    },
+    {
+      "name": "朝山里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 652,
+        "cand_2012_02": 674,
+        "cand_2012_03": 31
+      },
+      "votes": {
+        "valid_votes": 1357,
+        "invalid_votes": 18,
+        "total_votes": 1375
+      },
+      "voter_turnout": 75.18000030517578
+    },
+    {
+      "name": "海山里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 734,
+        "cand_2012_02": 757,
+        "cand_2012_03": 76
+      },
+      "votes": {
+        "valid_votes": 1567,
+        "invalid_votes": 18,
+        "total_votes": 1585
+      },
+      "voter_turnout": 75.01000213623047
+    },
+    {
+      "name": "鹽水里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 487,
+        "cand_2012_02": 454,
+        "cand_2012_03": 34
+      },
+      "votes": {
+        "valid_votes": 975,
+        "invalid_votes": 8,
+        "total_votes": 983
+      },
+      "voter_turnout": 73.62999725341797
+    },
+    {
+      "name": "內湖里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 1266,
+        "cand_2012_02": 1552,
+        "cand_2012_03": 64
+      },
+      "votes": {
+        "valid_votes": 2882,
+        "invalid_votes": 31,
+        "total_votes": 2913
+      },
+      "voter_turnout": 73.33999633789062
+    },
+    {
+      "name": "南港里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 354,
+        "cand_2012_02": 238,
+        "cand_2012_03": 16
+      },
+      "votes": {
+        "valid_votes": 608,
+        "invalid_votes": 5,
+        "total_votes": 613
+      },
+      "voter_turnout": 70.54000091552734
+    },
+    {
+      "name": "中隘里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 418,
+        "cand_2012_02": 669,
+        "cand_2012_03": 26
+      },
+      "votes": {
+        "valid_votes": 1113,
+        "invalid_votes": 8,
+        "total_votes": 1121
+      },
+      "voter_turnout": 71.16999816894531
+    },
+    {
+      "name": "南隘里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 217,
+        "cand_2012_02": 271,
+        "cand_2012_03": 14
+      },
+      "votes": {
+        "valid_votes": 502,
+        "invalid_votes": 12,
+        "total_votes": 514
+      },
+      "voter_turnout": 74.05999755859375
+    },
+    {
+      "name": "大湖里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 281,
+        "cand_2012_02": 283,
+        "cand_2012_03": 22
+      },
+      "votes": {
+        "valid_votes": 586,
+        "invalid_votes": 10,
+        "total_votes": 596
+      },
+      "voter_turnout": 77.4000015258789
+    },
+    {
+      "name": "茄苳里",
+      "level": "village",
+      "affiliation": "香山區",
+      "candidates": {
+        "cand_2012_01": 285,
+        "cand_2012_02": 298,
+        "cand_2012_03": 12
+      },
+      "votes": {
+        "valid_votes": 595,
+        "invalid_votes": 7,
+        "total_votes": 602
+      },
+      "voter_turnout": 72.18000030517578
+    }
+  ]
+}
