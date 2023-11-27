@@ -30,6 +30,10 @@ function DonutChart({
     };
   }, [degree, value]);
 
+  useEffect(() => {
+    setDegree(0);
+  }, [value]);
+
   return (
     <div
       className={`relative flex-center rounded-full before:content-[""] before:absolute before:w-[100px] before:h-[100px] before:bg-white before:rounded-full c-transition`}
