@@ -1,0 +1,374 @@
+{
+  "country": [
+    {
+      "name": "總計",
+      "level": "country",
+      "affiliation": "",
+      "candidates": {
+        "cand_2012_01": 6093578,
+        "cand_2012_02": 6891139,
+        "cand_2012_03": 369588
+      },
+      "votes": {
+        "valid_votes": 13354305,
+        "invalid_votes": 97711,
+        "total_votes": 13452016
+      },
+      "voter_turnout": 74.38
+    }
+  ],
+  "city": [
+    {
+      "name": "臺北市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 634565,
+        "cand_2012_02": 928717,
+        "cand_2012_03": 41448
+      },
+      "votes": {
+        "valid_votes": 1604730,
+        "invalid_votes": 9669,
+        "total_votes": 1614399
+      },
+      "voter_turnout": 76.77999877929688
+    },
+    {
+      "name": "新北市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 1007551,
+        "cand_2012_02": 1245673,
+        "cand_2012_03": 65269
+      },
+      "votes": {
+        "valid_votes": 2318493,
+        "invalid_votes": 15215,
+        "total_votes": 2333708
+      },
+      "voter_turnout": 75.9000015258789
+    },
+    {
+      "name": "桃園市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 445308,
+        "cand_2012_02": 639151,
+        "cand_2012_03": 32927
+      },
+      "votes": {
+        "valid_votes": 1117386,
+        "invalid_votes": 7610,
+        "total_votes": 1124996
+      },
+      "voter_turnout": 74.69000244140625
+    },
+    {
+      "name": "臺中市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 678736,
+        "cand_2012_02": 792334,
+        "cand_2012_03": 48030
+      },
+      "votes": {
+        "valid_votes": 1519100,
+        "invalid_votes": 9953,
+        "total_votes": 1529053
+      },
+      "voter_turnout": 75.76000213623047
+    },
+    {
+      "name": "臺南市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 631232,
+        "cand_2012_02": 435274,
+        "cand_2012_03": 27066
+      },
+      "votes": {
+        "valid_votes": 1093572,
+        "invalid_votes": 8090,
+        "total_votes": 1101662
+      },
+      "voter_turnout": 74.18000030517578
+    },
+    {
+      "name": "高雄市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 883158,
+        "cand_2012_02": 730461,
+        "cand_2012_03": 39469
+      },
+      "votes": {
+        "valid_votes": 1653088,
+        "invalid_votes": 10944,
+        "total_votes": 1664032
+      },
+      "voter_turnout": 75.91000366210938
+    },
+    {
+      "name": "基隆市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 79562,
+        "cand_2012_02": 128294,
+        "cand_2012_03": 8533
+      },
+      "votes": {
+        "valid_votes": 216389,
+        "invalid_votes": 1414,
+        "total_votes": 217803
+      },
+      "voter_turnout": 72.08999633789062
+    },
+    {
+      "name": "宜蘭縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 135156,
+        "cand_2012_02": 115496,
+        "cand_2012_03": 6652
+      },
+      "votes": {
+        "valid_votes": 257304,
+        "invalid_votes": 2437,
+        "total_votes": 259741
+      },
+      "voter_turnout": 72.54000091552734
+    },
+    {
+      "name": "新竹市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 92632,
+        "cand_2012_02": 134728,
+        "cand_2012_03": 7216
+      },
+      "votes": {
+        "valid_votes": 234576,
+        "invalid_votes": 1628,
+        "total_votes": 236204
+      },
+      "voter_turnout": 75.68000030517578
+    },
+    {
+      "name": "新竹縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 89741,
+        "cand_2012_02": 190797,
+        "cand_2012_03": 9599
+      },
+      "votes": {
+        "valid_votes": 290137,
+        "invalid_votes": 2176,
+        "total_votes": 292313
+      },
+      "voter_turnout": 76.06999969482422
+    },
+    {
+      "name": "苗栗縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 107164,
+        "cand_2012_02": 206200,
+        "cand_2012_03": 9597
+      },
+      "votes": {
+        "valid_votes": 322961,
+        "invalid_votes": 2600,
+        "total_votes": 325561
+      },
+      "voter_turnout": 74.62999725341797
+    },
+    {
+      "name": "彰化縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 340069,
+        "cand_2012_02": 369968,
+        "cand_2012_03": 21403
+      },
+      "votes": {
+        "valid_votes": 731440,
+        "invalid_votes": 7367,
+        "total_votes": 738807
+      },
+      "voter_turnout": 73.45999908447266
+    },
+    {
+      "name": "南投縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 123077,
+        "cand_2012_02": 158703,
+        "cand_2012_03": 8726
+      },
+      "votes": {
+        "valid_votes": 290506,
+        "invalid_votes": 2165,
+        "total_votes": 292671
+      },
+      "voter_turnout": 71.12999725341797
+    },
+    {
+      "name": "雲林縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 214141,
+        "cand_2012_02": 159891,
+        "cand_2012_03": 9662
+      },
+      "votes": {
+        "valid_votes": 383694,
+        "invalid_votes": 4348,
+        "total_votes": 388042
+      },
+      "voter_turnout": 68.91999816894531
+    },
+    {
+      "name": "嘉義市",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 76711,
+        "cand_2012_02": 69535,
+        "cand_2012_03": 4042
+      },
+      "votes": {
+        "valid_votes": 150288,
+        "invalid_votes": 973,
+        "total_votes": 151261
+      },
+      "voter_turnout": 73.52999877929688
+    },
+    {
+      "name": "嘉義縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 181463,
+        "cand_2012_02": 120946,
+        "cand_2012_03": 7364
+      },
+      "votes": {
+        "valid_votes": 309773,
+        "invalid_votes": 3052,
+        "total_votes": 312825
+      },
+      "voter_turnout": 72.4800033569336
+    },
+    {
+      "name": "屏東縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 271722,
+        "cand_2012_02": 211571,
+        "cand_2012_03": 9562
+      },
+      "votes": {
+        "valid_votes": 492855,
+        "invalid_votes": 4571,
+        "total_votes": 497426
+      },
+      "voter_turnout": 72.66999816894531
+    },
+    {
+      "name": "花蓮縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 43845,
+        "cand_2012_02": 118815,
+        "cand_2012_03": 6359
+      },
+      "votes": {
+        "valid_votes": 169019,
+        "invalid_votes": 1570,
+        "total_votes": 170589
+      },
+      "voter_turnout": 64.63999938964844
+    },
+    {
+      "name": "臺東縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 33417,
+        "cand_2012_02": 72823,
+        "cand_2012_03": 3313
+      },
+      "votes": {
+        "valid_votes": 109553,
+        "invalid_votes": 1019,
+        "total_votes": 110572
+      },
+      "voter_turnout": 61.790000915527344
+    },
+    {
+      "name": "澎湖縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 20717,
+        "cand_2012_02": 22579,
+        "cand_2012_03": 2082
+      },
+      "votes": {
+        "valid_votes": 45378,
+        "invalid_votes": 543,
+        "total_votes": 45921
+      },
+      "voter_turnout": 59.0099983215332
+    },
+    {
+      "name": "金門縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 3193,
+        "cand_2012_02": 34676,
+        "cand_2012_03": 990
+      },
+      "votes": {
+        "valid_votes": 38859,
+        "invalid_votes": 316,
+        "total_votes": 39175
+      },
+      "voter_turnout": 46.66999816894531
+    },
+    {
+      "name": "連江縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2012_01": 418,
+        "cand_2012_02": 4507,
+        "cand_2012_03": 279
+      },
+      "votes": {
+        "valid_votes": 5204,
+        "invalid_votes": 51,
+        "total_votes": 5255
+      },
+      "voter_turnout": 65.79000091552734
+    }
+  ]
+}
