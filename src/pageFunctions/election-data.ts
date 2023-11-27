@@ -106,7 +106,7 @@ export async function fetchElectionData({
     const currentYearIdx = years.indexOf(year);
     const votingFile = result.data[currentYearIdx];
 
-    const transferObjValueToString = (obj: VotingResult) => {
+    const transferObjValueToNumber = (obj: VotingResult) => {
       return (Object.entries(obj) as [string, number | string][]).reduce(
         (_acc, [_key, _value]) => {
           _acc[_key] =
@@ -115,7 +115,7 @@ export async function fetchElectionData({
               : transCommaStringToNumber(_value);
           return _acc;
         },
-        {} as { [key: string]: string },
+        {} as { [key: string]: number },
       );
     };
 
@@ -124,8 +124,8 @@ export async function fetchElectionData({
         name: _item.name,
         level: _item.level,
         affiliation: _item.affiliation,
-        candidates: transferObjValueToString(_item.candidates),
-        votes: transferObjValueToString(_item.votes),
+        candidates: transferObjValueToNumber(_item.candidates),
+        votes: transferObjValueToNumber(_item.votes),
         voter_turnout:
           typeof _item.voter_turnout === 'number'
             ? _item.voter_turnout
@@ -160,16 +160,20 @@ export async function fetchElectionData({
 
         // 將候選人替換成該政黨
         const yearCandidates = JSON.parse(candiFile)[years[_index]];
-
+        // [{year, partyA, partyB}]
         const partyVotes = Object.entries(targetArea.candidates).reduce(
           (_acc, [_key, _value]) => {
             const party = yearCandidates.find(
               (_cand: Candidate) => _cand.cand_id === _key,
-            )['party_id'];
-            _acc[party] = transCommaStringToNumber(_value);
+            );
+            _acc.push({
+              name: party.party_name,
+              id: party.party_id,
+              value: transCommaStringToNumber(_value),
+            });
             return _acc;
           },
-          {},
+          [],
         );
 
         return {
