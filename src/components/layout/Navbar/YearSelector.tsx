@@ -41,7 +41,7 @@ function YearSelector() {
       value={currentYear}
       onChange={handleYearChange}
       options={yearOptions}
-      width={120}
+      width={windowSize.width >= 480 ? 120 : 90}
     />
   );
 }

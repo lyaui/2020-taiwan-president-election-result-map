@@ -53,7 +53,10 @@ function CitySelector() {
       value={city}
       onChange={handleCityChange}
       options={cityOptions}
-      width={windowSize.width >= 1024 ? 190 : 120}
+      // FIXME 時間不夠，之後把醜三元修掉
+      width={
+        windowSize.width >= 1024 ? 190 : windowSize.width >= 480 ? 120 : 100
+      }
     />
   );
 }
