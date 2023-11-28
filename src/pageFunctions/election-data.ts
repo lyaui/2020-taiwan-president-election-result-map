@@ -158,17 +158,17 @@ export async function fetchElectionData({
       );
 
       // 將候選人替換成該政黨
-      const yearCandidates: Candidate = JSON.parse(candFile)[years[_index]];
+      const yearCandidates: Candidate[] = JSON.parse(candFile)[years[_index]];
       // [{year, partyA, partyB}]
-      const partyVotes: PartyVotes = Object.entries(
+      const partyVotes: PartyVotes[] = Object.entries(
         targetArea.candidates,
-      ).reduce((_acc, [_key, _value]) => {
+      ).reduce((_acc: PartyVotes[], [_key, _value]) => {
         const party = yearCandidates.find(
           (_cand: Candidate) => _cand.cand_id === _key,
         );
         const result: PartyVotes = {
-          name: party.party_name,
-          id: party.party_id,
+          name: party?.party_name || '',
+          id: party?.party_id || '',
           value:
             typeof _value === 'string'
               ? transCommaStringToNumber(_value)
