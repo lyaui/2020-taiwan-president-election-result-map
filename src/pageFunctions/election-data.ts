@@ -8,7 +8,8 @@ import type {
   VotingResult,
   Level,
   PartyVotes,
-} from '@/types/index';
+  PreviousPartyVotes,
+} from '@/types';
 import { type BreadCrumbProps } from '@/components/UI/Breadcrumb';
 import { transCommaStringToNumber } from '@/utils/index';
 import { years } from '@/constants/index';
@@ -245,9 +246,9 @@ export function getOrderedVoteResult({
   return { orderedCandiData, barGroups };
 }
 
-export function getUniqueParties(data: HistoryPartyVotes[]) {
+export function getUniqueParties(data: PreviousPartyVotes[]) {
   return data.reduce(
-    (_acc: Pick<PartyVotes, 'name' | 'id'>[], _cur: HistoryPartyVotes) => {
+    (_acc: Pick<PartyVotes, 'name' | 'id'>[], _cur: PreviousPartyVotes) => {
       _cur.party_votes.forEach((_cur_party) => {
         const isUniqueParty =
           _acc.findIndex((_party) => _party.id === _cur_party.id) === -1;
