@@ -1,4 +1,5 @@
 import { type VotingResult } from '@/types/index';
+import { numberWithCommas } from '@/utils/index';
 import DonutChart from '@/components/UI/DonutChart';
 
 function VotingRate({ votingResult }: { votingResult: VotingResult }) {
@@ -6,10 +7,10 @@ function VotingRate({ votingResult }: { votingResult: VotingResult }) {
   const { total_votes, valid_votes, invalid_votes } = votingResult.votes;
 
   const figures = [
-    { label: '投票數', value: total_votes },
+    { label: '投票數', value: numberWithCommas(total_votes) },
     { label: '投票率', value: voter_turnout.toFixed(2) },
-    { label: '有效票數', value: valid_votes },
-    { label: '無效票', value: invalid_votes },
+    { label: '有效票數', value: numberWithCommas(valid_votes) },
+    { label: '無效票', value: numberWithCommas(invalid_votes) },
   ];
   return (
     <div className='flex items-center gap-8 xs:gap-10 bg-white p-4 xs:px-6 xs:py-[30px] rounded-xl'>
