@@ -6,8 +6,8 @@ import GoPreviousLevelButton from '@/components/GoPreviousLevelButton';
 import Breadcrumb from '@/components/UI/Breadcrumb';
 import CandVoteShare from '@/components/CandVoteShare';
 import VotingRate from '@/components/VotingRate';
-import HistoryPartyVotes from '@/components/HistoryPartyVotes';
-import HistoryPartyRate from '@/components/HistoryPartyRate';
+import HistoryPartyVotes from '@/components/Chart/HistoryPartyVotes';
+import HistoryPartyRate from '@/components/Chart/HistoryPartyRate';
 import AreaVotingTable from '@/components/AreaVotingTable';
 import StatisticsLayout from '@/components/layout/StatisticsLayout';
 import {
@@ -73,14 +73,8 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
 
           {/* party result */}
           <section className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
-            <div className='border-[1px] border-line px-4 py-6 rounded-xl'>
-              <h4 className='heading-5'>歷屆政黨得票數</h4>
-              <HistoryPartyVotes prePartyVotes={prePartyVotes} />
-            </div>
-            <div className='border-[1px] border-line px-4 py-6 rounded-xl'>
-              <h4 className='heading-5'>歷屆政黨得票率</h4>
-              <HistoryPartyRate prePartyVotes={prePartyVotes} />
-            </div>
+            <HistoryPartyVotes prePartyVotes={prePartyVotes} />
+            <HistoryPartyRate prePartyVotes={prePartyVotes} />
           </section>
 
           {/* area result */}

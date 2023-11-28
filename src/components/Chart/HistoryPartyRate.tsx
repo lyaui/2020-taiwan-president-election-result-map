@@ -4,38 +4,37 @@ import {
   Chart as ChartJS,
   CategoryScale,
   LinearScale,
-  BarElement,
-  Title,
+  PointElement,
+  LineElement,
   Tooltip,
   Legend,
 } from 'chart.js';
-import { Bar } from 'react-chartjs-2';
+import { Line } from 'react-chartjs-2';
 
 import { partyColors } from '@/constants';
+import ChartWrapper from '@/components/Chart/ChartWrapper';
 
 ChartJS.register(
   CategoryScale,
   LinearScale,
-  BarElement,
-  Title,
+  PointElement,
+  LineElement,
+
   Tooltip,
   Legend,
 );
 
 export const options = {
   responsive: true,
+  maintainAspectRatio: false,
   plugins: {
     legend: {
       position: 'top' as const,
     },
   },
-  barThickness: 20,
-
-  categoryPercentage: 0.8,
-  barPercentage: 0.5,
 };
 
-function HistoryPartyVotes({ prePartyVotes: ascData }) {
+function HistoryPartyRate({ prePartyVotes: ascData }) {
   const allParties = ascData.reduce((_acc, _cur) => {
     _cur.party_votes.forEach((_cur_party) => {
       if (_acc.findIndex((_party) => _party.id === _cur_party.id) === -1) {
@@ -59,11 +58,15 @@ function HistoryPartyVotes({ prePartyVotes: ascData }) {
         )
         .reverse(),
       backgroundColor: partyColors[_party.id],
-      borderRadius: 5,
+      borderColor: partyColors[_party.id],
     })),
   };
 
-  return <Bar options={options} data={data} />;
+  return (
+    <ChartWrapper title='歷屆政黨得票數'>
+      <Line options={options} data={data} />
+    </ChartWrapper>
+  );
 }
 
-export default HistoryPartyVotes;
+export default HistoryPartyRate;
