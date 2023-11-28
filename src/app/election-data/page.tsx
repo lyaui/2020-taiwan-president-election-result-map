@@ -1,6 +1,5 @@
 import { notFound } from 'next/navigation';
 
-import Navbar from '@/components/layout/Navbar';
 import Map from '@/components/Map/index';
 import GoPreviousLevelButton from '@/components/GoPreviousLevelButton';
 import Breadcrumb from '@/components/UI/Breadcrumb';
@@ -41,7 +40,6 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
 
   return (
     <div>
-      <Navbar />
       <main className='2xl:flex mt-[65px]'>
         {/* map */}
         <article className='w-full 2xl:w-[500px] h-[150px] 2xl:h-[calc(100vh-65px)] bg-gray-400 overflow-auto shrink-0'>
