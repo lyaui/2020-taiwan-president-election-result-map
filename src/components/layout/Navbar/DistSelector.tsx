@@ -5,6 +5,7 @@ import querystring from 'query-string';
 
 import { ROUTER, QUERY } from '@/routers';
 import taiwanCities from 'public/json/taiwancities.json';
+import useWindowSize from '@/hooks/useWindowSize';
 import Selector from '@/components/UI/Selector';
 
 interface City {
@@ -22,10 +23,13 @@ interface DistOption {
 
 function DistSelector() {
   const router = useRouter();
-  const searchParams = useSearchParams();
 
+  const searchParams = useSearchParams();
   const city = searchParams.get(QUERY.CITY) || '';
   const dist = searchParams.get(QUERY.DIST) || '選擇區域';
+
+  const { windowSize } = useWindowSize();
+
   const handleDistChange = (value: string) => {
     const queryString = querystring.stringify(
       {
@@ -58,8 +62,8 @@ function DistSelector() {
       value={value}
       onChange={handleDistChange}
       options={distOptions}
-      width={190}
       disabled={!city}
+      width={windowSize.width >= 1024 ? 190 : 120}
     />
   );
 }

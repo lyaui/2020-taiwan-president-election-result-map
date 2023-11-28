@@ -5,6 +5,7 @@ import querystring from 'query-string';
 
 import { ROUTER, QUERY } from '@/routers';
 import taiwanCities from 'public/json/taiwancities.json';
+import useWindowSize from '@/hooks/useWindowSize';
 import Selector from '@/components/UI/Selector';
 
 interface City {
@@ -23,6 +24,8 @@ interface CityOption {
 function CitySelector() {
   const router = useRouter();
   const searchParams = useSearchParams();
+
+  const { windowSize } = useWindowSize();
 
   const city = searchParams.get(QUERY.CITY) || '';
   const handleCityChange = (value: string) => {
@@ -50,7 +53,7 @@ function CitySelector() {
       value={city}
       onChange={handleCityChange}
       options={cityOptions}
-      width={190}
+      width={windowSize.width >= 1024 ? 190 : 120}
     />
   );
 }

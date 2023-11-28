@@ -30,7 +30,7 @@ function Navbar() {
     { platform: 'youtube', icon: ytIcon },
   ];
   return (
-    <nav className='fixed top-0 z-50 bg-white w-full flex items-center gap-6 h-[65px] border-b-[1px] border-line py-3 px-6'>
+    <nav className='fixed top-0 z-50 bg-white w-full flex flex-col md:flex-row md:items-center md:justify-between gap-6 h-[65px] border-b-[1px] border-line py-3 px-6'>
       <h1 className='w-[310px] h-[40px]'>
         <Link href={ROUTER.HOME} style={logoStyle}>
           台灣歷年總統 都幾
@@ -44,7 +44,7 @@ function Navbar() {
           <DistSelector />
         </div>
       </div>
-      <div className='flex gap-4 ml-auto'>
+      <div className='hidden gap-4 ml-auto xl:flex'>
         <p className='text-text-primary'>分享</p>
         {medias.map((_media) => (
           <Image
