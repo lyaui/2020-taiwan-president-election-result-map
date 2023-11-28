@@ -39,53 +39,48 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
   }
 
   return (
-    <div>
-      <main className='2xl:flex mt-[65px]'>
-        {/* map */}
-        <article className='w-full 2xl:w-[500px] h-[150px] 2xl:h-[calc(100vh-65px)] bg-gray-400 overflow-auto shrink-0'>
-          <Map />
-        </article>
+    <main className='2xl:flex mt-[65px]'>
+      {/* map */}
+      <article className='w-full 2xl:w-[500px] h-[150px] 2xl:h-[calc(100vh-65px)] bg-gray-400 overflow-auto shrink-0'>
+        <Map />
+      </article>
 
-        {/* statistics */}
-        <StatisticsLayout>
-          {/* info */}
-          <section>
-            <div className='flex items-center gap-2.5 mb-[6px]'>
-              <GoPreviousLevelButton city={city} dist={dist} />
-              <h3 className='heading-3'>{title}</h3>
-            </div>
-            <Breadcrumb routers={routers} />
-          </section>
+      {/* statistics */}
+      <StatisticsLayout>
+        {/* info */}
+        <section>
+          <div className='flex items-center gap-2.5 mb-[6px]'>
+            <GoPreviousLevelButton city={city} dist={dist} />
+            <h3 className='heading-3'>{title}</h3>
+          </div>
+          <Breadcrumb routers={routers} />
+        </section>
 
-          {/* overview */}
-          <section className='flex flex-col gap-4 bg-background rounded-xl px-4 py-6'>
-            <h4 className='heading-5'>總統得票數</h4>
-            <div className='grid grid-cols-1 xl:grid-cols-2 gap-4'>
-              <CandVoteShare
-                candidates={candidates}
-                votingResult={votingResult!}
-              />
-              <VotingRate votingResult={votingResult!} />
-            </div>
-          </section>
-
-          {/* party result */}
-          <section className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
-            <HistoryPartyVotes prePartyVotes={prePartyVotes} />
-            <HistoryPartyRate prePartyVotes={prePartyVotes} />
-          </section>
-
-          {/* area result */}
-          <section className='flex flex-col gap-2 py-4'>
-            <h4 className='heading-5'>各區域投票總覽</h4>
-            <AreaVotingTable
+        {/* overview */}
+        <section className='flex flex-col gap-4 bg-background rounded-xl px-4 py-6'>
+          <h4 className='heading-5'>總統得票數</h4>
+          <div className='grid grid-cols-1 xl:grid-cols-2 gap-4'>
+            <CandVoteShare
               candidates={candidates}
-              votingResultArr={subareas}
+              votingResult={votingResult!}
             />
-          </section>
-        </StatisticsLayout>
-      </main>
-    </div>
+            <VotingRate votingResult={votingResult!} />
+          </div>
+        </section>
+
+        {/* party result */}
+        <section className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
+          <HistoryPartyVotes prePartyVotes={prePartyVotes} />
+          <HistoryPartyRate prePartyVotes={prePartyVotes} />
+        </section>
+
+        {/* area result */}
+        <section className='flex flex-col gap-2 py-4'>
+          <h4 className='heading-5'>各區域投票總覽</h4>
+          <AreaVotingTable candidates={candidates} votingResultArr={subareas} />
+        </section>
+      </StatisticsLayout>
+    </main>
   );
 }
 
