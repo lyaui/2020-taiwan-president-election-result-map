@@ -6,12 +6,13 @@ import {
   LinearScale,
   PointElement,
   LineElement,
+  Title,
   Tooltip,
   Legend,
 } from 'chart.js';
 import { Line } from 'react-chartjs-2';
 
-import { partyColors } from '@/constants';
+import { partyColors, options } from '@/constants/chart';
 import ChartWrapper from '@/components/Chart/ChartWrapper';
 
 ChartJS.register(
@@ -19,20 +20,13 @@ ChartJS.register(
   LinearScale,
   PointElement,
   LineElement,
-
+  Title,
   Tooltip,
   Legend,
 );
 
-export const options = {
-  responsive: true,
-  maintainAspectRatio: false,
-  plugins: {
-    legend: {
-      position: 'top' as const,
-    },
-  },
-};
+const chartOptions = { ...options };
+chartOptions.plugins.title.text = '歷屆政黨得票率';
 
 function HistoryPartyRate({ prePartyVotes: ascData }) {
   const allParties = ascData.reduce((_acc, _cur) => {
@@ -64,7 +58,7 @@ function HistoryPartyRate({ prePartyVotes: ascData }) {
 
   return (
     <ChartWrapper title='歷屆政黨得票數'>
-      <Line options={options} data={data} />
+      <Line options={chartOptions} data={data} />
     </ChartWrapper>
   );
 }
