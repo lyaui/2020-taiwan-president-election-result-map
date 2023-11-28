@@ -1,6 +1,6 @@
 'use client';
 
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useSearchParams } from 'next/navigation';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -10,7 +10,7 @@ import {
   Legend,
   Title,
 } from 'chart.js';
-import { type ChartOptions } from 'chart.js';
+import { type ChartOptions, type TooltipOptions } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 
 import { partyColors, options } from '@/constants/chart';
@@ -29,7 +29,6 @@ ChartJS.register(
 function HistoryPartyVotes({ prePartyVotes: ascData }) {
   const searchParams = useSearchParams();
   const dist = searchParams.get('dist');
-  const city = searchParams.get('city');
 
   const chartOptions: ChartOptions<'bar'> = {
     ...options.responsive,
@@ -50,6 +49,19 @@ function HistoryPartyVotes({ prePartyVotes: ascData }) {
         ...options.title,
         text: '歷屆政黨得票數',
       },
+      tooltip: {
+        ...options.tooltip,
+        callbacks: {
+          title(context) {
+            return context[0].label + ' 年得票數';
+          },
+          label(context) {
+            const partyName = `${context.dataset.label}             `;
+            const partyValue = `${context.formattedValue}`;
+            return `${partyName}${partyValue} 票`;
+          },
+        },
+      } as TooltipOptions<'bar'>,
     },
   };
 
@@ -82,7 +94,7 @@ function HistoryPartyVotes({ prePartyVotes: ascData }) {
   };
 
   return (
-    <ChartWrapper title='歷屆政黨得票率'>
+    <ChartWrapper>
       <Bar options={chartOptions} data={data} />
     </ChartWrapper>
   );
