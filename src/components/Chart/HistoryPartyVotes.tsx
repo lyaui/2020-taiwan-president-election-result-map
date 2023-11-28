@@ -13,8 +13,10 @@ import {
 import { type ChartOptions, type TooltipOptions } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 
+import type { HistoryPartyVotes } from '@/types';
 import { partyColors, options } from '@/constants/chart';
 import { numberWithCommas } from '@/utils/index';
+import { getUniqueParties } from '@/pageFunctions/election-data';
 import ChartWrapper from '@/components/Chart/ChartWrapper';
 
 ChartJS.register(
@@ -26,7 +28,11 @@ ChartJS.register(
   Title,
 );
 
-function HistoryPartyVotes({ prePartyVotes: ascData }) {
+function HistoryPartyVotes({
+  historyPartyVotes: ascData,
+}: {
+  historyPartyVotes: HistoryPartyVotes[];
+}) {
   const searchParams = useSearchParams();
   const dist = searchParams.get('dist');
 
@@ -65,32 +71,25 @@ function HistoryPartyVotes({ prePartyVotes: ascData }) {
     },
   };
 
-  const allParties = ascData.reduce((_acc, _cur) => {
-    _cur.party_votes.forEach((_cur_party) => {
-      if (_acc.findIndex((_party) => _party.id === _cur_party.id) === -1) {
-        _acc.push({
-          name: _cur_party.name,
-          id: _cur_party.id,
-        });
-      }
-    });
-    return _acc;
-  }, []);
+  const allUniqueParties = getUniqueParties(ascData);
 
   const data = {
     labels: ascData.map((_item) => _item.year).reverse(),
-    datasets: allParties.map((_party) => ({
-      label: _party.name,
-      data: ascData
-        .map(
-          (_item) =>
-            _item.party_votes.find((_vote) => _vote.id === _party.id).value,
-        )
-        .reverse(),
-      backgroundColor: partyColors[_party.id],
-      borderRadius: 5,
-      barThickness: 18,
-    })),
+    datasets: allUniqueParties.map((_party) => {
+      const id = _party.id as keyof typeof partyColors;
+      return {
+        label: _party.name,
+        data: ascData
+          .map(
+            (_item) =>
+              _item.party_votes.find((_vote) => _vote.id === id)?.value || 0,
+          )
+          .reverse(),
+        backgroundColor: partyColors[id],
+        borderRadius: 5,
+        barThickness: 18,
+      };
+    }),
   };
 
   return (

@@ -13,7 +13,9 @@ import {
 import { type ChartOptions, type TooltipOptions } from 'chart.js';
 import { Line } from 'react-chartjs-2';
 
+import type { HistoryPartyVotes } from '@/types';
 import { partyColors, options } from '@/constants/chart';
+import { getUniqueParties } from '@/pageFunctions/election-data';
 import ChartWrapper from '@/components/Chart/ChartWrapper';
 
 ChartJS.register(
@@ -59,38 +61,36 @@ const chartOptions: ChartOptions<'line'> = {
   },
 };
 
-function HistoryPartyRate({ prePartyVotes: ascData }) {
-  const allParties = ascData.reduce((_acc, _cur) => {
-    _cur.party_votes.forEach((_cur_party) => {
-      if (_acc.findIndex((_party) => _party.id === _cur_party.id) === -1) {
-        _acc.push({
-          name: _cur_party.name,
-          id: _cur_party.id,
-        });
-      }
-    });
-    return _acc;
-  }, []);
+function HistoryPartyRate({
+  historyPartyVotes: ascData,
+}: {
+  historyPartyVotes: HistoryPartyVotes[];
+}) {
+  const allUniqueParties = getUniqueParties(ascData);
 
   const data = {
     labels: ascData.map((_item) => _item.year).reverse(),
-    datasets: allParties.map((_party) => ({
-      label: _party.name,
-      data: ascData
-        .map((_item) => {
-          const total = _item.party_votes.reduce(
-            (_acc, _cur) => _acc + _cur.value,
-            0,
-          );
-          return (
-            _item.party_votes.find((_vote) => _vote.id === _party.id).value /
-            total
-          );
-        })
-        .reverse(),
-      backgroundColor: partyColors[_party.id],
-      borderColor: partyColors[_party.id],
-    })),
+    datasets: allUniqueParties.map((_party) => {
+      const id = _party.id as keyof typeof partyColors;
+      return {
+        label: _party.name,
+        data: ascData
+          .map((_item) => {
+            const total = _item.party_votes.reduce(
+              (_acc, _cur) => _acc + _cur.value,
+              0,
+            );
+
+            return (
+              _item.party_votes.find((_vote) => _vote.id === id)?.value ||
+              0 / total
+            );
+          })
+          .reverse(),
+        backgroundColor: partyColors[id],
+        borderColor: partyColors[id],
+      };
+    }),
   };
 
   return (

@@ -14,10 +14,32 @@ import {
   getBreadcrumbRouters,
   fetchElectionData,
 } from '@/pageFunctions/election-data';
-import { type SearchParams } from '@/types/index';
+import type {
+  SearchParams,
+  Candidate,
+  VotingResult,
+  Subareas,
+  historyPartyVotes,
+} from '@/types/index';
 
 interface ElectionDataPageProps {
   searchParams: SearchParams;
+}
+
+interface ResSuccess {
+  isSuccess: true;
+  candidates: Candidate[];
+  votingResult: VotingResult;
+  subareas: Subareas;
+  historyPartyVotes: historyPartyVotes[];
+}
+
+interface ResRejected {
+  isSuccess: false;
+}
+
+function isSuccess(res: ResSuccess | ResRejected): res is ResSuccess {
+  return res.isSuccess === true;
 }
 
 async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
@@ -26,17 +48,20 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
 
   const { year = '2020', city, dist = '' } = searchParams;
 
-  // TODO sleep & error handling
-  const { isSuccess, candidates, votingResult, subareas, prePartyVotes } =
-    await fetchElectionData({
-      year,
-      city,
-      dist,
-    });
+  const res = await fetchElectionData({
+    year,
+    city,
+    dist,
+  });
 
-  if (!isSuccess) {
+  if (!res.isSuccess) {
     notFound();
   }
+
+  const candidates = res?.candidates || {};
+  const votingResult = res?.votingResult || {};
+  const subareas = res?.subareas || [];
+  const historyPartyVotes = res?.historyPartyVotes || [];
 
   return (
     <main className='2xl:flex mt-[65px]'>
@@ -70,8 +95,8 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
 
         {/* party result */}
         <section className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
-          <HistoryPartyVotes prePartyVotes={prePartyVotes} />
-          <HistoryPartyRate prePartyVotes={prePartyVotes} />
+          <HistoryPartyVotes historyPartyVotes={historyPartyVotes} />
+          <HistoryPartyRate historyPartyVotes={historyPartyVotes} />
         </section>
 
         {/* area result */}
