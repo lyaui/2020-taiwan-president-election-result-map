@@ -5,11 +5,14 @@ import querystring from 'query-string';
 
 import { ROUTER, QUERY } from '@/routers';
 import { years } from '@/constants/index';
+import useWindowSize from '@/hooks/useWindowSize';
 import Selector from '@/components/UI/Selector';
 
 function YearSelector() {
   const router = useRouter();
   const searchParams = useSearchParams();
+
+  const { windowSize } = useWindowSize();
 
   const year = searchParams.get(QUERY.YEAR);
   const currentYear = year || (years.at(0) as string);
@@ -30,13 +33,15 @@ function YearSelector() {
     value: _year,
   }));
 
+  const label = windowSize.width >= 1024 ? '選擇年份' : '';
+
   return (
     <Selector
-      label='選擇年份'
+      label={label}
       value={currentYear}
       onChange={handleYearChange}
       options={yearOptions}
-      width={120}
+      width={windowSize.width >= 480 ? 120 : 90}
     />
   );
 }

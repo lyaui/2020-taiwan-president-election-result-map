@@ -49,7 +49,7 @@ function Selector<T extends ReactNode>({
               leaveFrom='opacity-100'
               leaveTo='opacity-0'
             >
-              <Listbox.Options className='absolute z-10 w-[185px] max-h-[475px] overflow-scroll top-10 bg-white border-[1px] border-line rounded-lg py-2 text-text-primary'>
+              <Listbox.Options className='absolute z-10 w-[130px] xs:w-[185px] max-h-[475px] overflow-scroll top-10 bg-white border-[1px] border-line rounded-lg py-2 text-text-primary'>
                 {options.map((_option) => (
                   <Listbox.Option
                     key={_option.label}
