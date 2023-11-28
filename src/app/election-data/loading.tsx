@@ -1,6 +1,19 @@
 import StatisticsLayout from '@/components/layout/StatisticsLayout';
 
+function LineText({ className }: { className?: string }) {
+  return (
+    <div
+      className={`h-[15px] mb-1 bg-gray-200 rounded animate-pulse ${className}`}
+    />
+  );
+}
+
 function Loading() {
+  const generateLines = (num: number) => {
+    return Array(num)
+      .fill(null)
+      .map((_, _index) => <LineText key={_index} />);
+  };
   return (
     <main className='2xl:flex mt-[65px]'>
       {/* map */}
@@ -26,9 +39,7 @@ function Loading() {
                     <div key={_index} className='flex gap-3'>
                       <div className='w-[48px] h-[48px] shrink-0 bg-gray-200 rounded-2xl animate-pulse' />
                       <div className='w-full flex flex-col gap-3'>
-                        <div className='h-[15px] bg-gray-200 rounded animate-pulse' />
-                        <div className='h-[15px] bg-gray-200 rounded animate-pulse' />
-                        <div className='h-[15px] bg-gray-200 rounded animate-pulse' />
+                        {generateLines(3)}
                       </div>
                     </div>
                   ))}
@@ -64,13 +75,7 @@ function Loading() {
                 className='border-[1px] border-line px-4 py-6 rounded-xl'
               >
                 <div className='h-[42px] mr-20 mb-10 bg-gray-200 animate-pulse rounded' />
-                <div className='flex flex-col gap-4'>
-                  <div className='h-[15px] bg-gray-200 rounded animate-pulse' />
-                  <div className='h-[15px] bg-gray-200 rounded animate-pulse' />
-                  <div className='h-[15px] bg-gray-200 rounded animate-pulse' />
-                  <div className='h-[15px] bg-gray-200 rounded animate-pulse' />
-                  <div className='h-[15px] bg-gray-200 rounded animate-pulse' />
-                </div>
+                <div className='flex flex-col gap-4'>{generateLines(6)}</div>
               </div>
             ))}
         </section>
@@ -78,14 +83,8 @@ function Loading() {
         {/* area result */}
         <section className='flex flex-col gap-2 py-4'>
           <div className='w-[220px] h-[42px] bg-gray-200 animate-pulse rounded mb-5' />
-          <div className='h-[35px] bg-gray-200 animate-pulse rounded' />
-          <div className='h-[15px] bg-gray-200 rounded animate-pulse' />
-          <div className='h-[15px] bg-gray-200 rounded animate-pulse' />
-          <div className='h-[15px] bg-gray-200 rounded animate-pulse' />
-          <div className='h-[15px] bg-gray-200 rounded animate-pulse' />
-          <div className='h-[15px] bg-gray-200 rounded animate-pulse' />
-          <div className='h-[15px] bg-gray-200 rounded animate-pulse' />
-          <div className='h-[15px] bg-gray-200 rounded animate-pulse' />
+          <div className='h-[35px] bg-gray-200 animate-pulse rounded mb-3' />
+          {generateLines(10)}
         </section>
       </StatisticsLayout>
     </main>
