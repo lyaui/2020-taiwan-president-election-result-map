@@ -1,5 +1,6 @@
 'use client';
 
+import { useRouter, useSearchParams } from 'next/navigation';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -9,9 +10,11 @@ import {
   Legend,
   Title,
 } from 'chart.js';
+import { type ChartOptions } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 
 import { partyColors, options } from '@/constants/chart';
+import { numberWithCommas } from '@/utils/index';
 import ChartWrapper from '@/components/Chart/ChartWrapper';
 
 ChartJS.register(
@@ -23,10 +26,33 @@ ChartJS.register(
   Title,
 );
 
-const chartOptions = { ...options };
-chartOptions.plugins.title.text = '歷屆政黨得票數';
-
 function HistoryPartyVotes({ prePartyVotes: ascData }) {
+  const searchParams = useSearchParams();
+  const dist = searchParams.get('dist');
+  const city = searchParams.get('city');
+
+  const chartOptions: ChartOptions<'bar'> = {
+    ...options.responsive,
+    scales: {
+      y: {
+        ticks: {
+          callback: (value: string | number) => {
+            return dist
+              ? numberWithCommas(+value / 1000) + '千'
+              : numberWithCommas(+value / 10000) + '萬';
+          },
+        },
+      },
+    },
+    plugins: {
+      legend: { ...options.legend },
+      title: {
+        ...options.title,
+        text: '歷屆政黨得票數',
+      },
+    },
+  };
+
   const allParties = ascData.reduce((_acc, _cur) => {
     _cur.party_votes.forEach((_cur_party) => {
       if (_acc.findIndex((_party) => _party.id === _cur_party.id) === -1) {
