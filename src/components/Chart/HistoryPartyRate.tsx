@@ -10,7 +10,7 @@ import {
   Tooltip,
   Legend,
 } from 'chart.js';
-import { type ChartOptions } from 'chart.js';
+import { type ChartOptions, type TooltipOptions } from 'chart.js';
 import { Line } from 'react-chartjs-2';
 
 import { partyColors, options } from '@/constants/chart';
@@ -43,6 +43,19 @@ const chartOptions: ChartOptions<'line'> = {
       ...options.title,
       text: '歷屆政黨得票率',
     },
+    tooltip: {
+      ...options.tooltip,
+      callbacks: {
+        title(context) {
+          return context[0].label + ' 年得票率';
+        },
+        label(context) {
+          const partyName = `${context.dataset.label}             `;
+          const partyValue = `${(+context.formattedValue * 100).toFixed(2)}`;
+          return `${partyName}${partyValue}%`;
+        },
+      },
+    } as TooltipOptions<'line'>,
   },
 };
 
@@ -81,7 +94,7 @@ function HistoryPartyRate({ prePartyVotes: ascData }) {
   };
 
   return (
-    <ChartWrapper title='歷屆政黨得票數'>
+    <ChartWrapper>
       <Line options={chartOptions} data={data} />
     </ChartWrapper>
   );
