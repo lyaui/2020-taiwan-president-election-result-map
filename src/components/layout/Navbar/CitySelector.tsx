@@ -55,7 +55,7 @@ function CitySelector() {
       options={cityOptions}
       // FIXME 時間不夠，之後把醜三元修掉
       width={
-        windowSize.width >= 1024 ? 190 : windowSize.width >= 480 ? 120 : 100
+        windowSize.width >= 1024 ? 190 : windowSize.width >= 480 ? 120 : 110
       }
     />
   );

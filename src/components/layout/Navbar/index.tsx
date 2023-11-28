@@ -75,7 +75,7 @@ function Navbar() {
         </div>
       </div>
 
-      <div className='flex-center justify-between md:hidden gap-4'>
+      <div className='flex-center justify-between md:hidden gap-2'>
         <YearSelector />
         {selectors}
       </div>
