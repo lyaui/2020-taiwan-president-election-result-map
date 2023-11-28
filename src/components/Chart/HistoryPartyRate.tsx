@@ -13,7 +13,7 @@ import {
 import { type ChartOptions, type TooltipOptions } from 'chart.js';
 import { Line } from 'react-chartjs-2';
 
-import type { HistoryPartyVotes } from '@/types';
+import type { PreviousPartyVotes } from '@/types';
 import { partyColors, options } from '@/constants/chart';
 import { getUniqueParties } from '@/pageFunctions/election-data';
 import ChartWrapper from '@/components/Chart/ChartWrapper';
@@ -64,7 +64,7 @@ const chartOptions: ChartOptions<'line'> = {
 function HistoryPartyRate({
   historyPartyVotes: ascData,
 }: {
-  historyPartyVotes: HistoryPartyVotes[];
+  historyPartyVotes: PreviousPartyVotes[];
 }) {
   const allUniqueParties = getUniqueParties(ascData);
 

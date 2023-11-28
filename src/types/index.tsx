@@ -20,7 +20,6 @@ export interface Candidate {
 }
 
 export type VotingResult = {
-  [key: string]: string | undefined | object;
   name: string;
   level: Level;
   affiliation: string;
@@ -32,3 +31,16 @@ export type VotingResult = {
   };
   voter_turnout: number;
 };
+
+export type Subareas = VotingResult[];
+
+export interface PartyVotes {
+  name: string;
+  id: string;
+  value: number;
+}
+
+export interface PreviousPartyVotes {
+  year: Year;
+  party_votes: PartyVotes[];
+}

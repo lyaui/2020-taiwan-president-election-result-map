@@ -19,7 +19,7 @@ import type {
   Candidate,
   VotingResult,
   Subareas,
-  historyPartyVotes,
+  PreviousPartyVotes,
 } from '@/types/index';
 
 interface ElectionDataPageProps {
@@ -31,15 +31,11 @@ interface ResSuccess {
   candidates: Candidate[];
   votingResult: VotingResult;
   subareas: Subareas;
-  historyPartyVotes: historyPartyVotes[];
+  historyPartyVotes: PreviousPartyVotes[];
 }
 
 interface ResRejected {
   isSuccess: false;
-}
-
-function isSuccess(res: ResSuccess | ResRejected): res is ResSuccess {
-  return res.isSuccess === true;
 }
 
 async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
@@ -48,20 +44,20 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
 
   const { year = '2020', city, dist = '' } = searchParams;
 
-  const res = await fetchElectionData({
+  const res = (await fetchElectionData({
     year,
     city,
     dist,
-  });
+  })) as ResSuccess | ResRejected;
 
   if (!res.isSuccess) {
     notFound();
   }
 
-  const candidates = res?.candidates || {};
-  const votingResult = res?.votingResult || {};
-  const subareas = res?.subareas || [];
-  const historyPartyVotes = res?.historyPartyVotes || [];
+  const candidates = res.candidates || {};
+  const votingResult = res.votingResult || {};
+  const subareas = res.subareas || [];
+  const historyPartyVotes = res.historyPartyVotes || [];
 
   return (
     <main className='2xl:flex mt-[65px]'>

@@ -13,7 +13,7 @@ import {
 import { type ChartOptions, type TooltipOptions } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 
-import type { HistoryPartyVotes } from '@/types';
+import type { PreviousPartyVotes } from '@/types';
 import { partyColors, options } from '@/constants/chart';
 import { numberWithCommas } from '@/utils/index';
 import { getUniqueParties } from '@/pageFunctions/election-data';
@@ -31,7 +31,7 @@ ChartJS.register(
 function HistoryPartyVotes({
   historyPartyVotes: ascData,
 }: {
-  historyPartyVotes: HistoryPartyVotes[];
+  historyPartyVotes: PreviousPartyVotes[];
 }) {
   const searchParams = useSearchParams();
   const dist = searchParams.get('dist');

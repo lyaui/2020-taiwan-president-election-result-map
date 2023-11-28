@@ -2,11 +2,12 @@ import path from 'path';
 import { promises as fs } from 'fs';
 import querystring from 'query-string';
 
-import {
-  type SearchParams,
-  type Candidate,
-  type VotingResult,
-  type Level,
+import type {
+  SearchParams,
+  Candidate,
+  VotingResult,
+  Level,
+  PartyVotes,
 } from '@/types/index';
 import { type BreadCrumbProps } from '@/components/UI/Breadcrumb';
 import { transCommaStringToNumber } from '@/utils/index';
@@ -67,11 +68,11 @@ export async function fetchElectionData({
   year: (typeof years)[number];
   city?: string;
   dist?: string;
-}) {
+}): Promise<unknown> {
   const workDirPath = process.cwd();
   const folderPath = `public/json`;
 
-  const candiFile = await fs.readFile(
+  const candFile = await fs.readFile(
     path.join(workDirPath, `${folderPath}/`, 'candidates.json'),
     'utf8',
   );
@@ -84,140 +85,139 @@ export async function fetchElectionData({
         `${city || '全國'}.json`,
       ),
     );
-
-    try {
-      const fileContents = await Promise.all(
-        filePaths.map(async (filePath) => {
-          return await fs.readFile(filePath, 'utf8');
-        }),
-      );
-
-      return { isSuccess: true, data: fileContents };
-    } catch (error) {
-      if (error instanceof Error) {
-        return { isSuccess: false, error: error.message };
-      }
-    }
+    const fileContents = await Promise.all(
+      filePaths.map(async (filePath) => {
+        return await fs.readFile(filePath, 'utf8');
+      }),
+    );
+    return fileContents;
   };
 
   const result = await readFiles();
 
-  if (result && result.isSuccess && result.data) {
-    const currentYearIdx = years.indexOf(year);
-    const votingFile = result.data[currentYearIdx];
+  const currentYearIdx = years.indexOf(year);
+  const currentVotingFile = result[currentYearIdx];
 
-    const transferObjValueToNumber = (obj: VotingResult) => {
-      return (Object.entries(obj) as [string, number | string][]).reduce(
-        (_acc, [_key, _value]) => {
-          _acc[_key] =
-            typeof _value === 'number'
-              ? _value
-              : transCommaStringToNumber(_value);
-          return _acc;
-        },
-        {} as { [key: string]: number },
+  if (currentVotingFile === undefined) {
+    return { isSuccess: false };
+  }
+
+  const transferObjValueToNumber = (obj: {
+    [key: string]: string | number;
+  }) => {
+    return Object.entries(obj).reduce((_acc, [_key, _value]) => {
+      _acc[_key] =
+        typeof _value === 'number' ? _value : transCommaStringToNumber(_value);
+      return _acc;
+    }, {} as { [key: string]: number });
+  };
+
+  const formatResult = (arr: VotingResult[]): VotingResult[] => {
+    return arr.map((_item) => ({
+      name: _item.name,
+      level: _item.level,
+      affiliation: _item.affiliation,
+      candidates: transferObjValueToNumber(_item.candidates),
+      votes: transferObjValueToNumber(_item.votes),
+      voter_turnout:
+        typeof _item.voter_turnout === 'number'
+          ? _item.voter_turnout
+          : +_item.voter_turnout,
+    }));
+  };
+
+  // { country: VotingResult[], city: VotingResult[]... }
+  const votingObj = JSON.parse(currentVotingFile) as {
+    [key: string]: VotingResult[];
+  };
+
+  const votingResult = Object.entries(votingObj).reduce(
+    (_acc, [_key, _value]) => {
+      _acc[_key] = formatResult(_value);
+      return _acc;
+    },
+    {} as { [key: string]: VotingResult[] },
+  );
+
+  const candidates = JSON.parse(candFile)[year];
+
+  let res = { isSuccess: true, candidates };
+
+  const getYearlyPartyVotes = ({
+    name,
+    level,
+  }: {
+    name: string;
+    level: Level;
+  }) => {
+    return result.map((_result, _index) => {
+      // 找出目標地區
+      const targetArea: VotingResult = JSON.parse(_result)[level].find(
+        (_item: VotingResult) => _item.name === name,
       );
-    };
 
-    const formatResult = (arr: VotingResult[]) => {
-      return arr.map((_item) => ({
-        name: _item.name,
-        level: _item.level,
-        affiliation: _item.affiliation,
-        candidates: transferObjValueToNumber(_item.candidates),
-        votes: transferObjValueToNumber(_item.votes),
-        voter_turnout:
-          typeof _item.voter_turnout === 'number'
-            ? _item.voter_turnout
-            : +_item.voter_turnout,
-      }));
-    };
-
-    const votingResult = Object.entries(JSON.parse(votingFile)).reduce(
-      (_acc, [_key, _value]) => {
-        _acc[_key] = formatResult(_value as VotingResult[]);
-        return _acc;
-      },
-      {} as { [key: string]: VotingResult[] },
-    );
-
-    const candidates = JSON.parse(candiFile)[year];
-
-    let res = { isSuccess: true, candidates };
-
-    const getYearlyPartyVotes = ({
-      name,
-      level,
-    }: {
-      name: string;
-      level: Level;
-    }) => {
-      return result.data.map((_result, _index) => {
-        // 找出目標地區
-        const targetArea: VotingResult = JSON.parse(_result)[level].find(
-          (_item: VotingResult) => _item.name === name,
+      // 將候選人替換成該政黨
+      const yearCandidates: Candidate = JSON.parse(candFile)[years[_index]];
+      // [{year, partyA, partyB}]
+      const partyVotes: PartyVotes = Object.entries(
+        targetArea.candidates,
+      ).reduce((_acc, [_key, _value]) => {
+        const party = yearCandidates.find(
+          (_cand: Candidate) => _cand.cand_id === _key,
         );
-
-        // 將候選人替換成該政黨
-        const yearCandidates = JSON.parse(candiFile)[years[_index]];
-        // [{year, partyA, partyB}]
-        const partyVotes = Object.entries(targetArea.candidates).reduce(
-          (_acc, [_key, _value]) => {
-            const party = yearCandidates.find(
-              (_cand: Candidate) => _cand.cand_id === _key,
-            );
-            _acc.push({
-              name: party.party_name,
-              id: party.party_id,
-              value: transCommaStringToNumber(_value),
-            });
-            return _acc;
-          },
-          [],
-        );
-
-        return {
-          year: years[_index],
-          party_votes: partyVotes,
+        const result: PartyVotes = {
+          name: party.party_name,
+          id: party.party_id,
+          value:
+            typeof _value === 'string'
+              ? transCommaStringToNumber(_value)
+              : _value,
         };
-      });
-    };
+        _acc.push(result);
+        return _acc;
+      }, []);
 
-    if (dist) {
       return {
-        ...res,
-        votingResult: votingResult.dist?.find(
-          (_result: VotingResult) => _result.name === dist,
-        ),
-        subareas: votingResult.village?.filter(
-          (_result: VotingResult) => _result.affiliation === dist,
-        ),
-
-        prePartyVotes: getYearlyPartyVotes({ name: dist, level: 'dist' }),
+        year: years[_index],
+        party_votes: partyVotes,
       };
-    }
+    });
+  };
 
-    if (city) {
-      return {
-        ...res,
-        votingResult: votingResult.city.find(
-          (_result: VotingResult) => _result.name === city,
-        ),
-        subareas: votingResult.dist,
-        prePartyVotes: getYearlyPartyVotes({ name: city, level: 'city' }),
-      };
-    }
-
+  if (dist) {
     return {
       ...res,
-      votingResult: votingResult.country[0],
-      subareas: votingResult.city,
-      prePartyVotes: getYearlyPartyVotes({ name: '總計', level: 'country' }),
+      votingResult: votingResult.dist?.find(
+        (_result: VotingResult) => _result.name === dist,
+      ),
+      subareas: votingResult.village?.filter(
+        (_result: VotingResult) => _result.affiliation === dist,
+      ),
+
+      historyPartyVotes: getYearlyPartyVotes({ name: dist, level: 'dist' }),
     };
-  } else {
-    console.error(`Failed to read files: ${result?.error}`);
-    // 失敗時的處理
   }
+
+  if (city) {
+    return {
+      ...res,
+      votingResult: votingResult.city.find(
+        (_result: VotingResult) => _result.name === city,
+      ),
+      subareas: votingResult.dist,
+      historyPartyVotes: getYearlyPartyVotes({ name: city, level: 'city' }),
+    };
+  }
+
+  return {
+    ...res,
+    votingResult: votingResult.country[0],
+    subareas: votingResult.city,
+    historyPartyVotes: getYearlyPartyVotes({
+      name: '總計',
+      level: 'country',
+    }),
+  };
 }
 
 export function getOrderedVoteResult({
@@ -243,4 +243,23 @@ export function getOrderedVoteResult({
   }));
 
   return { orderedCandiData, barGroups };
+}
+
+export function getUniqueParties(data: HistoryPartyVotes[]) {
+  return data.reduce(
+    (_acc: Pick<PartyVotes, 'name' | 'id'>[], _cur: HistoryPartyVotes) => {
+      _cur.party_votes.forEach((_cur_party) => {
+        const isUniqueParty =
+          _acc.findIndex((_party) => _party.id === _cur_party.id) === -1;
+        if (isUniqueParty) {
+          _acc.push({
+            name: _cur_party.name,
+            id: _cur_party.id,
+          });
+        }
+      });
+      return _acc;
+    },
+    [],
+  );
 }
