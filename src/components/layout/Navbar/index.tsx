@@ -50,7 +50,7 @@ function Navbar() {
   if (!mounted) return null;
   return (
     <nav className='fixed top-0 z-50 flex items-center bg-white w-full h-[65px] border-b-[1px] border-line px-3 xs:px-6'>
-      <div className='hidden md:block'>
+      <div className='w-full hidden md:block'>
         <div className='flex items-center justify-between gap-6'>
           <h1 className='w-[310px] h-[40px]'>
             <Link href={ROUTER.HOME} style={logoStyle}>
