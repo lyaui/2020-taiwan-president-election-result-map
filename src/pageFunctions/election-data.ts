@@ -113,7 +113,7 @@ export async function fetchElectionData({
     }, {} as { [key: string]: number });
   };
 
-  const formatResult = (arr: VotingResult[]): VotingResult[] => {
+  const formatResult = (arr: VotingResult[]) => {
     return arr.map((_item) => ({
       name: _item.name,
       level: _item.level,
@@ -124,7 +124,7 @@ export async function fetchElectionData({
         typeof _item.voter_turnout === 'number'
           ? _item.voter_turnout
           : +_item.voter_turnout,
-    }));
+    })) as VotingResult[];
   };
 
   // { country: VotingResult[], city: VotingResult[]... }
