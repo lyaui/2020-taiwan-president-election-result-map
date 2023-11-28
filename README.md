@@ -57,4 +57,9 @@ $ yarn dev
 
 無
 
+## TODO
+
+- Map
+- FIX: Not found page shallow router problem
+
 THANK YOU!

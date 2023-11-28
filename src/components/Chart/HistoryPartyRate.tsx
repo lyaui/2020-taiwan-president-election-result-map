@@ -82,8 +82,8 @@ function HistoryPartyRate({
             );
 
             return (
-              _item.party_votes.find((_vote) => _vote.id === id)?.value ||
-              0 / total
+              (_item.party_votes.find((_vote) => _vote.id === id)?.value || 0) /
+              total
             );
           })
           .reverse(),
