@@ -25,7 +25,7 @@ ChartJS.register(
   BarElement,
   Tooltip,
   Legend,
-  Title,
+  Title
 );
 
 function HistoryPartyVotes({
@@ -82,7 +82,7 @@ function HistoryPartyVotes({
         data: ascData
           .map(
             (_item) =>
-              _item.party_votes.find((_vote) => _vote.id === id)?.value || 0,
+              _item.party_votes.find((_vote) => _vote.id === id)?.value || 0
           )
           .reverse(),
         backgroundColor: partyColors[id],

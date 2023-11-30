@@ -31,14 +31,14 @@ function VotingTableRowWrapper({
         ...querystring.parse(searchParams.toString()),
         [placeLevel]: placeName,
       },
-      { skipEmptyString: true },
+      { skipEmptyString: true }
     );
     router.push(`${ROUTER.ELECTION_DATA}?${queryString}`);
   };
   return (
     <tr
       onClick={handleNextLevelClick}
-      className='cursor-pointer text-text-primary hover:bg-hover border-b-[1px] border-line'
+      className='cursor-pointer border-b-[1px] border-line text-text-primary hover:bg-hover'
     >
       {children}
     </tr>

@@ -12,7 +12,7 @@ function Footer() {
     },
   ];
   return (
-    <footer className='bg-background -mx-12 p-4 text-center mt-auto'>
+    <footer className='-mx-12 mt-auto bg-background p-4 text-center'>
       <p className='body-small mb-1'>版權所有©2023 台灣歷年總統 都幾?</p>
       <ul className='flex justify-center gap-2'>
         {members.map((_member) => (

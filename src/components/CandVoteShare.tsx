@@ -23,7 +23,7 @@ function CandidateInfo({
   return (
     <div key={cand_id} className='flex gap-3'>
       <div
-        className={`relative w-[48px] h-[48px] ${party_id} rounded-2xl overflow-hidden`}
+        className={`relative h-[48px] w-[48px] ${party_id} overflow-hidden rounded-2xl`}
       >
         <Image
           src={`/assets/images/candidate_${cand_img}.png`}
@@ -34,7 +34,7 @@ function CandidateInfo({
         />
       </div>
       <div className='flex flex-col gap-[2px]'>
-        <p className='!text-text-secondary caption'>{party_name}</p>
+        <p className='caption !text-text-secondary'>{party_name}</p>
         <p className='flex gap-1'>
           {cand_name}
           {winner && <CheckCircleIcon className='w-[20px] text-primary' />}
@@ -61,8 +61,8 @@ function CandVoteShare({
   });
 
   return (
-    <div className='flex flex-col gap-3 bg-white p-4 xs:px-6 xs:py-[30px] rounded-xl'>
-      <div className='grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-10'>
+    <div className='flex flex-col gap-3 rounded-xl bg-white p-4 xs:px-6 xs:py-[30px]'>
+      <div className='grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-10'>
         {orderedCandiData.map(
           (_cand: Candidate & { vote_cnt: number }, _index) => (
             <CandidateInfo
@@ -70,7 +70,7 @@ function CandVoteShare({
               {..._cand}
               winner={_index === 0}
             />
-          ),
+          )
         )}
       </div>
       <PercentageBar height={18} showValue={true} groups={barGroups} />

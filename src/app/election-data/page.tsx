@@ -60,9 +60,9 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
   const historyPartyVotes = res.historyPartyVotes || [];
 
   return (
-    <main className='2xl:flex mt-[65px]'>
+    <main className='mt-[65px] 2xl:flex'>
       {/* map */}
-      <article className='w-full 2xl:w-[500px] h-[150px] 2xl:h-[calc(100vh-65px)] bg-gray-400 overflow-auto shrink-0'>
+      <article className='h-[150px] w-full shrink-0 overflow-auto bg-gray-400 2xl:h-[calc(100vh-65px)] 2xl:w-[500px]'>
         <Map />
       </article>
 
@@ -70,7 +70,7 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
       <StatisticsLayout>
         {/* info */}
         <section>
-          <div className='flex items-center gap-2.5 mb-[6px]'>
+          <div className='mb-[6px] flex items-center gap-2.5'>
             <GoPreviousLevelButton city={city} dist={dist} />
             <h3 className='heading-3'>{title}</h3>
           </div>
@@ -78,9 +78,9 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
         </section>
 
         {/* overview */}
-        <section className='flex flex-col gap-4 bg-background rounded-xl px-4 py-6'>
+        <section className='flex flex-col gap-4 rounded-xl bg-background px-4 py-6'>
           <h4 className='heading-5'>總統得票數</h4>
-          <div className='grid grid-cols-1 xl:grid-cols-2 gap-4'>
+          <div className='grid grid-cols-1 gap-4 xl:grid-cols-2'>
             <CandVoteShare
               candidates={candidates}
               votingResult={votingResult!}
@@ -90,7 +90,7 @@ async function ElectionDataPage({ searchParams }: ElectionDataPageProps) {
         </section>
 
         {/* party result */}
-        <section className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
+        <section className='grid grid-cols-1 gap-4 lg:grid-cols-2'>
           <HistoryPartyVotes historyPartyVotes={historyPartyVotes} />
           <HistoryPartyRate historyPartyVotes={historyPartyVotes} />
         </section>

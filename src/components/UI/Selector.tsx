@@ -35,12 +35,12 @@ function Selector<T extends ReactNode>({
             <Listbox.Button
               className={`${
                 disabled ? 'text-gray-600' : 'text-text-primary'
-              } flex justify-between items-center rounded-[500px] bg-background px-4 py-[8.5px]`}
+              } flex items-center justify-between rounded-[500px] bg-background px-4 py-[8.5px]`}
               style={{ width }}
             >
               {buttonText}
               <ChevronDownIcon
-                className={`w-[12px] ${open && '-rotate-180 c-transition'}`}
+                className={`w-[12px] ${open && 'c-transition -rotate-180'}`}
               />
             </Listbox.Button>
             <Transition
@@ -49,12 +49,12 @@ function Selector<T extends ReactNode>({
               leaveFrom='opacity-100'
               leaveTo='opacity-0'
             >
-              <Listbox.Options className='absolute z-10 w-[130px] xs:w-[185px] max-h-[475px] overflow-scroll top-10 bg-white border-[1px] border-line rounded-lg py-2 text-text-primary'>
+              <Listbox.Options className='absolute top-10 z-10 max-h-[475px] w-[130px] overflow-scroll rounded-lg border-[1px] border-line bg-white py-2 text-text-primary xs:w-[185px]'>
                 {options.map((_option) => (
                   <Listbox.Option
                     key={_option.label}
                     value={_option.value}
-                    className='px-4 py-2 cursor-pointer hover:bg-hover c-transition'
+                    className='c-transition cursor-pointer px-4 py-2 hover:bg-hover'
                   >
                     {_option.label}
                   </Listbox.Option>

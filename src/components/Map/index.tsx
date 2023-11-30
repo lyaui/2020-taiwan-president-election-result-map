@@ -3,7 +3,7 @@ import oopsImg from 'public/assets/images/oops.png';
 
 function Map() {
   return (
-    <article className='w-full 2xl:w-[500px] h-[calc(100vh-65px)] p-5 bg-gray-400 overflow-auto shrink-0'>
+    <article className='h-[calc(100vh-65px)] w-full shrink-0 overflow-auto bg-gray-400 p-5 2xl:w-[500px]'>
       <Image
         src={oopsImg}
         width={350}

@@ -36,13 +36,13 @@ function DistSelector() {
         ...querystring.parse(searchParams.toString()),
         [QUERY.DIST]: value,
       },
-      { skipEmptyString: true },
+      { skipEmptyString: true }
     );
     router.push(`${ROUTER.ELECTION_DATA}?${queryString}`);
   };
 
   const foundCity: City = taiwanCities.find(
-    (_city: City) => _city.name === city,
+    (_city: City) => _city.name === city
   );
 
   const distOptions: DistOption[] = foundCity

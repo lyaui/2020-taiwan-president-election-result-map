@@ -49,7 +49,7 @@ function IconButton(props: ButtonProps) {
 
   return (
     <button className={classes} {...others}>
-      <Icon className={`w-[18px] h-[18px] ${colorClasses.icon}`} />
+      <Icon className={`h-[18px] w-[18px] ${colorClasses.icon}`} />
     </button>
   );
 }

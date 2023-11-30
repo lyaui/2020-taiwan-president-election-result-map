@@ -25,7 +25,7 @@ ChartJS.register(
   LineElement,
   Title,
   Tooltip,
-  Legend,
+  Legend
 );
 
 const chartOptions: ChartOptions<'line'> = {
@@ -78,7 +78,7 @@ function HistoryPartyRate({
           .map((_item) => {
             const total = _item.party_votes.reduce(
               (_acc, _cur) => _acc + _cur.value,
-              0,
+              0
             );
 
             return (

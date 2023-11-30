@@ -36,8 +36,8 @@ function Navbar() {
   ];
 
   const selectors = (
-    <div className='relative flex items-center  bg-background rounded-[500px] pl-6'>
-      <MagnifyingGlassIcon className='absolute z-10 left-3 w-[18px] text-text-primary' />
+    <div className='relative flex items-center  rounded-[500px] bg-background pl-6'>
+      <MagnifyingGlassIcon className='absolute left-3 z-10 w-[18px] text-text-primary' />
       <CitySelector />
       <DistSelector />
     </div>
@@ -49,10 +49,10 @@ function Navbar() {
 
   if (!mounted) return null;
   return (
-    <nav className='fixed top-0 z-50 flex items-center bg-white w-full h-[65px] border-b-[1px] border-line px-3 xs:px-6'>
-      <div className='w-full hidden md:block'>
+    <nav className='fixed top-0 z-50 flex h-[65px] w-full items-center border-b-[1px] border-line bg-white px-3 xs:px-6'>
+      <div className='hidden w-full md:block'>
         <div className='flex items-center justify-between gap-6'>
-          <h1 className='w-[310px] h-[40px]'>
+          <h1 className='h-[40px] w-[310px]'>
             <Link href={ROUTER.HOME} style={logoStyle}>
               台灣歷年總統 都幾
             </Link>
@@ -61,7 +61,7 @@ function Navbar() {
             <YearSelector />
             {selectors}
           </div>
-          <div className='hidden gap-4 ml-auto xl:flex'>
+          <div className='ml-auto hidden gap-4 xl:flex'>
             <p className='text-text-primary'>分享</p>
             {medias.map((_media) => (
               <Image
@@ -75,7 +75,7 @@ function Navbar() {
         </div>
       </div>
 
-      <div className='flex-center justify-between md:hidden gap-2'>
+      <div className='flex-center justify-between gap-2 md:hidden'>
         <YearSelector />
         {selectors}
       </div>

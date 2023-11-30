@@ -28,7 +28,7 @@ function Tooltip({ children, label, isShowing, onOpen, onClose }: Tooltip) {
         onMouseEnter={onOpen}
         onMouseLeave={onClose}
       >
-        <Popover.Panel className='absolute z-50 left-1/2 -translate-x-1/2 bg-white p-4 border-[1px] border-line rounded-lg c-shadow'>
+        <Popover.Panel className='c-shadow absolute left-1/2 z-50 -translate-x-1/2 rounded-lg border-[1px] border-line bg-white p-4'>
           <div className='inset-0'>{label}</div>
         </Popover.Panel>
       </Transition>

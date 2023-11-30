@@ -21,14 +21,14 @@ interface PercentageBar {
 function StatisticsPanel({ groups }: { groups: Group[] }) {
   const total = groups.reduce((_acc, _cur) => _acc + _cur.value || 0, 0);
   return (
-    <ul className='w-[230px] flex flex-col gap-2.5 relative'>
+    <ul className='relative flex w-[230px] flex-col gap-2.5'>
       {groups.map((_cand) => {
         const percent = ((_cand.value / total) * 100).toFixed(0) + '%';
         return (
           <li key={_cand.label} className='flex justify-between'>
             <p className='flex items-center gap-2'>
               <span
-                className={`block w-[12px] h-[12px] ${_cand.color} rounded-full`}
+                className={`block h-[12px] w-[12px] ${_cand.color} rounded-full`}
               />
               {_cand.label}
             </p>
@@ -72,7 +72,7 @@ function PercentageBar({
             onMouseLeave={handleHideTooltip}
           >
             <div
-              className='w-full flex overflow-hidden rounded-[50px] bg-gray-200'
+              className='flex w-full overflow-hidden rounded-[50px] bg-gray-200'
               style={{ height }}
             >
               {totalValue > 0 &&
@@ -81,7 +81,7 @@ function PercentageBar({
                   return (
                     <span
                       key={_item.color}
-                      className={` !text-white ${_item.color} text-center caption hover:brightness-110 c-transition`}
+                      className={` !text-white ${_item.color} caption c-transition text-center hover:brightness-110`}
                       style={{
                         width: percent * 100 + '%',
                         lineHeight: height + 'px',

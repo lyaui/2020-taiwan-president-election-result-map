@@ -28,7 +28,7 @@ function StatisticsLayout({ children }: StatisticsLayoutProps) {
   return (
     <article
       ref={sectionRef}
-      className='h-[calc(100vh-65px)] w-full flex flex-col gap-6 px-4 md:px-12 pt-8 overflow-x-hidden'
+      className='flex h-[calc(100vh-65px)] w-full flex-col gap-6 overflow-x-hidden px-4 pt-8 md:px-12'
     >
       {children}
       <IconButton
@@ -37,7 +37,7 @@ function StatisticsLayout({ children }: StatisticsLayoutProps) {
         variant='outlined'
         color='primary'
         size='large'
-        className='fixed right-[24px] bottom-[24px] c-shadow'
+        className='c-shadow fixed bottom-[24px] right-[24px]'
       />
       <Footer />
     </article>

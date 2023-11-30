@@ -23,7 +23,7 @@ function YearSelector() {
         ...querystring.parse(searchParams.toString()),
         [QUERY.YEAR]: value,
       },
-      { skipEmptyString: true },
+      { skipEmptyString: true }
     );
     router.push(`${ROUTER.ELECTION_DATA}?${queryString}`);
   };

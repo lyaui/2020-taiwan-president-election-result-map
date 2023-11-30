@@ -35,7 +35,7 @@ function CitySelector() {
         [QUERY.CITY]: value,
         [QUERY.DIST]: '',
       },
-      { skipEmptyString: true },
+      { skipEmptyString: true }
     );
     router.push(`${ROUTER.ELECTION_DATA}?${queryString}`);
   };

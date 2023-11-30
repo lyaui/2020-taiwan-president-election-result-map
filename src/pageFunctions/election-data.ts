@@ -75,21 +75,17 @@ export async function fetchElectionData({
 
   const candFile = await fs.readFile(
     path.join(workDirPath, `${folderPath}/`, 'candidates.json'),
-    'utf8',
+    'utf8'
   );
 
   const readFiles = async () => {
     const filePaths = years.map((_year) =>
-      path.join(
-        workDirPath,
-        `${folderPath}/${_year}`,
-        `${city || '全國'}.json`,
-      ),
+      path.join(workDirPath, `${folderPath}/${_year}`, `${city || '全國'}.json`)
     );
     const fileContents = await Promise.all(
       filePaths.map(async (filePath) => {
         return await fs.readFile(filePath, 'utf8');
-      }),
+      })
     );
     return fileContents;
   };
@@ -106,11 +102,16 @@ export async function fetchElectionData({
   const transferObjValueToNumber = (obj: {
     [key: string]: string | number;
   }) => {
-    return Object.entries(obj).reduce((_acc, [_key, _value]) => {
-      _acc[_key] =
-        typeof _value === 'number' ? _value : transCommaStringToNumber(_value);
-      return _acc;
-    }, {} as { [key: string]: number });
+    return Object.entries(obj).reduce(
+      (_acc, [_key, _value]) => {
+        _acc[_key] =
+          typeof _value === 'number'
+            ? _value
+            : transCommaStringToNumber(_value);
+        return _acc;
+      },
+      {} as { [key: string]: number }
+    );
   };
 
   const formatResult = (arr: VotingResult[]) => {
@@ -137,7 +138,7 @@ export async function fetchElectionData({
       _acc[_key] = formatResult(_value);
       return _acc;
     },
-    {} as { [key: string]: VotingResult[] },
+    {} as { [key: string]: VotingResult[] }
   );
 
   const candidates = JSON.parse(candFile)[year];
@@ -154,17 +155,17 @@ export async function fetchElectionData({
     return result.map((_result, _index) => {
       // 找出目標地區
       const targetArea: VotingResult = JSON.parse(_result)[level].find(
-        (_item: VotingResult) => _item.name === name,
+        (_item: VotingResult) => _item.name === name
       );
 
       // 將候選人替換成該政黨
       const yearCandidates: Candidate[] = JSON.parse(candFile)[years[_index]];
       // [{year, partyA, partyB}]
       const partyVotes: PartyVotes[] = Object.entries(
-        targetArea.candidates,
+        targetArea.candidates
       ).reduce((_acc: PartyVotes[], [_key, _value]) => {
         const party = yearCandidates.find(
-          (_cand: Candidate) => _cand.cand_id === _key,
+          (_cand: Candidate) => _cand.cand_id === _key
         );
         const result: PartyVotes = {
           name: party?.party_name || '',
@@ -189,10 +190,10 @@ export async function fetchElectionData({
     return {
       ...res,
       votingResult: votingResult.dist?.find(
-        (_result: VotingResult) => _result.name === dist,
+        (_result: VotingResult) => _result.name === dist
       ),
       subareas: votingResult.village?.filter(
-        (_result: VotingResult) => _result.affiliation === dist,
+        (_result: VotingResult) => _result.affiliation === dist
       ),
 
       historyPartyVotes: getYearlyPartyVotes({ name: dist, level: 'dist' }),
@@ -203,7 +204,7 @@ export async function fetchElectionData({
     return {
       ...res,
       votingResult: votingResult.city.find(
-        (_result: VotingResult) => _result.name === city,
+        (_result: VotingResult) => _result.name === city
       ),
       subareas: votingResult.dist,
       historyPartyVotes: getYearlyPartyVotes({ name: city, level: 'city' }),
@@ -261,6 +262,6 @@ export function getUniqueParties(data: PreviousPartyVotes[]) {
       });
       return _acc;
     },
-    [],
+    []
   );
 }

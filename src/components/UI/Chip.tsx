@@ -10,7 +10,7 @@ function Chip({ children, onClick, className }: ChipProps) {
   return (
     <div
       onClick={onClick}
-      className={`heading-6 text-center p-3 rounded-[500px] bg-background hover:bg-primary hover:text-white cursor-pointer c-transition ${className}`}
+      className={`heading-6 c-transition cursor-pointer rounded-[500px] bg-background p-3 text-center hover:bg-primary hover:text-white ${className}`}
     >
       {children}
     </div>

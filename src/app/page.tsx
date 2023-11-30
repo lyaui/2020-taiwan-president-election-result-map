@@ -20,8 +20,8 @@ export default function Home() {
     zombieImg,
   ];
   return (
-    <main className='relative flex flex-col 2xl:justify-center items-center w-full h-screen bg-gray-100 overflow-hidden'>
-      <div className='py-[96px] col-center gap-10 px-10'>
+    <main className='relative flex h-screen w-full flex-col items-center overflow-hidden bg-gray-100 2xl:justify-center'>
+      <div className='col-center gap-10 px-10 py-[96px]'>
         <>
           <Image
             src={logoImage}
@@ -41,11 +41,11 @@ export default function Home() {
         <h4 className='heading-4 !text-primary'>查詢選擇年份</h4>
         <YearSelectChips />
       </div>
-      <div className='absolute flex-center sm:gap-12 bottom-0'>
+      <div className='flex-center absolute bottom-0 sm:gap-12'>
         {candidatesImgs.map((_img, index) => (
           <div
             key={index}
-            className='relative w-[100px] sm:w-[200px] md:w-[256px] h-[100px] sm:h-[200px] md:h-[256px]'
+            className='relative h-[100px] w-[100px] sm:h-[200px] sm:w-[200px] md:h-[256px] md:w-[256px]'
           >
             <Image
               src={_img}

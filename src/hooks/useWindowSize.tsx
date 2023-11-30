@@ -9,7 +9,7 @@ type Breakpoint = '2xl' | 'xl' | 'lg' | 'md' | 'sm' | 'xs' | '';
 
 const debounce = <F extends (...args: any[]) => void>(
   func: F,
-  delay: number,
+  delay: number
 ) => {
   let timeoutId: ReturnType<typeof setTimeout>;
 
@@ -31,7 +31,7 @@ const useWindowSize = (): {
   const [windowSize, setWindowSize] = useState<WindowSize>(
     isClient
       ? { width: window.innerWidth, height: window.innerHeight }
-      : defaultSize,
+      : defaultSize
   );
 
   const getBreakpoint = (): Breakpoint => {

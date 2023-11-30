@@ -1,20 +1,22 @@
 {
-  "city": [{
-    "name": "彰化縣",
-    "level": "city",
-    "affiliation": "中央",
-    "candidates": {
-      "cand_2016_01": 193117,
-      "cand_2016_02": 378736,
-      "cand_2016_03": 98807
-    },
-    "votes": {
-      "valid_votes": 670660,
-      "invalid_votes": 10921,
-      "total_votes": 681581
-    },
-    "voter_turnout": 66.62999725341797
-  }],
+  "city": [
+    {
+      "name": "彰化縣",
+      "level": "city",
+      "affiliation": "中央",
+      "candidates": {
+        "cand_2016_01": 193117,
+        "cand_2016_02": 378736,
+        "cand_2016_03": 98807
+      },
+      "votes": {
+        "valid_votes": 670660,
+        "invalid_votes": 10921,
+        "total_votes": 681581
+      },
+      "voter_turnout": 66.62999725341797
+    }
+  ],
   "dist": [
     {
       "name": "伸港鄉",

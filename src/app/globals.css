@@ -9,8 +9,18 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Noto+Sans+TC', 'Roboto', -apple-system, BlinkMacSystemFont,
-    Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+  font-family:
+    'Noto+Sans+TC',
+    'Roboto',
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
     sans-serif;
 
   scroll-behavior: smooth;
@@ -35,36 +45,36 @@ p {
   @apply flex flex-col items-center justify-center;
 }
 .heading-1 {
-  @apply text-text-primary font-bold text-[33.5px] md:text-[40px] leading-normal;
+  @apply text-[33.5px] font-bold leading-normal text-text-primary md:text-[40px];
 }
 .heading-2 {
-  @apply text-text-primary font-bold text-[28px] md:text-[32px] leading-normal;
+  @apply text-[28px] font-bold leading-normal text-text-primary md:text-[32px];
 }
 .heading-3 {
-  @apply text-text-primary font-bold text-[25.4px] md:text-[28px];
+  @apply text-[25.4px] font-bold text-text-primary md:text-[28px];
 }
 .heading-4 {
-  @apply text-text-primary font-bold text-[22.7px] md:text-[24px] leading-normal;
+  @apply text-[22.7px] font-bold leading-normal text-text-primary md:text-[24px];
 }
 .heading-5 {
   /* 20px */
-  @apply text-text-primary font-bold text-xl leading-normal;
+  @apply text-xl font-bold leading-normal text-text-primary;
 }
 .heading-6 {
   /* 16px */
-  @apply text-text-primary font-bold text-base leading-normal;
+  @apply text-base font-bold leading-normal text-text-primary;
 }
 .body {
   /* 16px */
-  @apply text-text-primary font-normal text-base leading-normal;
+  @apply text-base font-normal leading-normal text-text-primary;
 }
 .body-small {
   /* 14px */
-  @apply text-text-primary font-normal text-sm leading-normal;
+  @apply text-sm font-normal leading-normal text-text-primary;
 }
 .caption {
   /* 12px */
-  @apply text-text-primary font-normal text-xs md:text-sm leading-normal;
+  @apply text-xs font-normal leading-normal text-text-primary md:text-sm;
 }
 .c-transition {
   @apply transition-all duration-300;
