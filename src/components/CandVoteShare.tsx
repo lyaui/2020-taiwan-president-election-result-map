@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 import { CheckCircleIcon } from '@heroicons/react/24/solid';
-import { numberWithCommas } from '@/utils/index';
+import { cn, numberWithCommas } from '@/utils';
 import { getOrderedVoteResult } from '@/pageFunctions/election-data';
 import { type Candidate, type VotingResult } from '@/types/index';
 import PercentageBar from '@/components/UI/PercentageBar';
@@ -23,7 +23,10 @@ function CandidateInfo({
   return (
     <div key={cand_id} className='flex gap-3'>
       <div
-        className={`relative h-[48px] w-[48px] ${party_id} overflow-hidden rounded-2xl`}
+        className={cn(
+          'relative h-[48px] w-[48px] overflow-hidden rounded-2xl',
+          party_id
+        )}
       >
         <Image
           src={`/assets/images/candidate_${cand_img}.png`}

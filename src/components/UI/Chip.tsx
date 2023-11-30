@@ -1,5 +1,7 @@
 import { type ReactNode } from 'react';
 
+import { cn } from '@/utils';
+
 interface ChipProps {
   children: ReactNode;
   onClick: () => void;
@@ -10,7 +12,10 @@ function Chip({ children, onClick, className }: ChipProps) {
   return (
     <div
       onClick={onClick}
-      className={`heading-6 c-transition cursor-pointer rounded-[500px] bg-background p-3 text-center hover:bg-primary hover:text-white ${className}`}
+      className={cn(
+        'heading-6 c-transition cursor-pointer rounded-[500px] bg-background p-3 text-center hover:bg-primary hover:text-white',
+        className
+      )}
     >
       {children}
     </div>

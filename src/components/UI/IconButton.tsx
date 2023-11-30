@@ -1,6 +1,8 @@
 import { type ComponentPropsWithoutRef } from 'react';
 import * as HeroIcon from '@heroicons/react/24/solid';
 
+import { cn } from '@/utils';
+
 interface ButtonProps extends ComponentPropsWithoutRef<'button'> {
   iconName: keyof typeof HeroIcon;
   variant?: 'solid' | 'outlined';
@@ -49,7 +51,7 @@ function IconButton(props: ButtonProps) {
 
   return (
     <button className={classes} {...others}>
-      <Icon className={`h-[18px] w-[18px] ${colorClasses.icon}`} />
+      <Icon className={cn('h-[18px] w-[18px]', colorClasses.icon)} />
     </button>
   );
 }

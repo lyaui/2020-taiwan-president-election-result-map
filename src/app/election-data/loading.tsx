@@ -1,19 +1,24 @@
+import { cn } from '@/utils';
 import StatisticsLayout from '@/components/layout/StatisticsLayout';
 
 function LineText({ className }: { className?: string }) {
   return (
     <div
-      className={`mb-1 h-[15px] animate-pulse rounded bg-gray-200 ${className}`}
+      className={cn(
+        'mb-1 h-[15px] animate-pulse rounded bg-gray-200',
+        className
+      )}
     />
   );
 }
 
 function Loading() {
-  const generateLines = (num: number) => {
+  const generateLines = (num: number, className?: string) => {
     return Array(num)
       .fill(null)
-      .map((_, _index) => <LineText key={_index} />);
+      .map((_, _index) => <LineText key={_index} className={className} />);
   };
+
   return (
     <main className='mt-[65px] 2xl:flex'>
       {/* map */}

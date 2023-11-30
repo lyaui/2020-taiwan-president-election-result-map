@@ -1,5 +1,7 @@
 import { type ComponentPropsWithoutRef } from 'react';
 
+import { cn } from '@/utils';
+
 interface ButtonProps extends ComponentPropsWithoutRef<'button'> {
   children: string;
   size?: 'small' | 'medium' | 'large';
@@ -28,7 +30,12 @@ function Button(props: ButtonProps) {
       'bg-background text-text-primary hover:bg-hover active:bg-background',
   }[color];
 
-  const classes = `flex-center body-small rounded-[6px] c-transition ${sizeClasses} ${colorClasses} ${className}`;
+  const classes = cn(
+    'flex-center body-small rounded-[6px] c-transition',
+    sizeClasses,
+    colorClasses,
+    className
+  );
 
   return (
     <button className={classes} {...others}>

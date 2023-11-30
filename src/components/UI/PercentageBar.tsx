@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { Transition } from '@headlessui/react';
 
-import { numberWithCommas } from '@/utils/index';
+import { cn, numberWithCommas } from '@/utils/index';
 import Tooltip from '@/components/UI/Tooltip';
 
 interface Group {
@@ -28,7 +28,10 @@ function StatisticsPanel({ groups }: { groups: Group[] }) {
           <li key={_cand.label} className='flex justify-between'>
             <p className='flex items-center gap-2'>
               <span
-                className={`block h-[12px] w-[12px] ${_cand.color} rounded-full`}
+                className={cn(
+                  'block h-[12px] w-[12px] rounded-full',
+                  _cand.color
+                )}
               />
               {_cand.label}
             </p>
@@ -52,7 +55,7 @@ function PercentageBar({
   const handleHideTooltip = () => setIsShowing(false);
 
   return (
-    <div className={`relative ${isShowing && 'z-50'}`}>
+    <div className={cn('relative', { 'z-50': isShowing })}>
       <Tooltip
         isShowing={isShowing}
         onOpen={handleShowTooltip}
@@ -81,7 +84,10 @@ function PercentageBar({
                   return (
                     <span
                       key={_item.color}
-                      className={` !text-white ${_item.color} caption c-transition text-center hover:brightness-110`}
+                      className={cn(
+                        'caption c-transition text-center !text-white hover:brightness-110',
+                        _item.color
+                      )}
                       style={{
                         width: percent * 100 + '%',
                         lineHeight: height + 'px',

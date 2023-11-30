@@ -4,6 +4,8 @@ import { Fragment, type ReactNode } from 'react';
 import { Listbox, Transition } from '@headlessui/react';
 import { ChevronDownIcon } from '@heroicons/react/24/solid';
 
+import { cn } from '@/utils';
+
 interface SelectorProps<T extends ReactNode> {
   label?: string;
   width?: number | string;
@@ -33,14 +35,15 @@ function Selector<T extends ReactNode>({
           )}
           <div className='relative'>
             <Listbox.Button
-              className={`${
+              className={cn(
+                'flex items-center justify-between rounded-[500px] bg-background px-4 py-[8.5px]',
                 disabled ? 'text-gray-600' : 'text-text-primary'
-              } flex items-center justify-between rounded-[500px] bg-background px-4 py-[8.5px]`}
+              )}
               style={{ width }}
             >
               {buttonText}
               <ChevronDownIcon
-                className={`w-[12px] ${open && 'c-transition -rotate-180'}`}
+                className={cn('w-[12px]', { 'c-transition -rotate-180': open })}
               />
             </Listbox.Button>
             <Transition

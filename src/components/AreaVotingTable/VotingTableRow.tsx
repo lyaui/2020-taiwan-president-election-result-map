@@ -4,7 +4,7 @@ import { ChevronRightIcon } from '@heroicons/react/24/solid';
 import { type Candidate, type VotingResult } from '@/types';
 import { levels } from '@/constants';
 import { getOrderedVoteResult } from '@/pageFunctions/election-data';
-import { numberWithCommas } from '@/utils/index';
+import { cn, numberWithCommas } from '@/utils';
 import VotingTableRowWrapper from '@/components/AreaVotingTable/VotingTableRowWrapper';
 import PercentageBar from '@/components/UI/PercentageBar';
 
@@ -28,7 +28,10 @@ function VotingTableRow({
     <div className='flex items-center gap-2'>
       <span className='text-text-secondary xs:hidden'>當選人</span>
       <div
-        className={`relative h-[32px] w-[32px] ${winner.party_id} overflow-hidden rounded-full`}
+        className={cn(
+          'relative h-[32px] w-[32px] overflow-hidden rounded-full',
+          winner.party_id
+        )}
       >
         <Image
           src={`/assets/images/candidate_${winner.cand_img}.png`}
