@@ -12,7 +12,7 @@ export interface BreadCrumbProps {
 function Breadcrumb({ routers = [] }: BreadCrumbProps) {
   if (routers.length === 0) return null;
   return (
-    <ul className='flex py-2'>
+    <ul className="flex py-2">
       {routers.map((_router, index, _arr) => {
         const isLast = index === _arr.length - 1;
         const textColor = isLast ? 'text-primary' : 'text-text-secondary';
@@ -22,7 +22,7 @@ function Breadcrumb({ routers = [] }: BreadCrumbProps) {
             <Link href={_router.path} className={cursor}>
               {_router.label}
             </Link>
-            {isLast ? null : <div className='px-2'>/</div>}
+            {isLast ? null : <div className="px-2">/</div>}
           </li>
         );
       })}

@@ -12,17 +12,17 @@ function Footer() {
     },
   ];
   return (
-    <footer className='-mx-12 mt-auto bg-background p-4 text-center'>
-      <p className='body-small mb-1'>版權所有©2023 台灣歷年總統 都幾?</p>
-      <ul className='flex justify-center gap-2'>
+    <footer className="-mx-12 mt-auto bg-background p-4 text-center">
+      <p className="body-small mb-1">版權所有©2023 台灣歷年總統 都幾?</p>
+      <ul className="flex justify-center gap-2">
         {members.map((_member) => (
-          <li key={_member.name} className='caption text-center'>
+          <li key={_member.name} className="caption text-center">
             {_member.title}
             <a
-              className='underline'
+              className="underline"
               href={_member.link}
-              target='_blank'
-              rel='noopener noreferrer'
+              target="_blank"
+              rel="noopener noreferrer"
             >
               {`@${_member.name}`}
             </a>

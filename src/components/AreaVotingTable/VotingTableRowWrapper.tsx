@@ -38,7 +38,7 @@ function VotingTableRowWrapper({
   return (
     <tr
       onClick={handleNextLevelClick}
-      className='cursor-pointer border-b-[1px] border-line text-text-primary hover:bg-hover'
+      className="cursor-pointer border-b-[1px] border-line text-text-primary hover:bg-hover"
     >
       {children}
     </tr>

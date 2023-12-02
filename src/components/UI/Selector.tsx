@@ -29,11 +29,11 @@ function Selector<T extends ReactNode>({
   return (
     <Listbox value={value} onChange={onChange} disabled={disabled}>
       {({ open }) => (
-        <div className='flex items-center gap-3'>
+        <div className="flex items-center gap-3">
           {label && (
-            <Listbox.Label className='heading-6'>{label}</Listbox.Label>
+            <Listbox.Label className="heading-6">{label}</Listbox.Label>
           )}
-          <div className='relative'>
+          <div className="relative">
             <Listbox.Button
               className={cn(
                 'flex items-center justify-between rounded-[500px] bg-background px-4 py-[8.5px]',
@@ -48,16 +48,16 @@ function Selector<T extends ReactNode>({
             </Listbox.Button>
             <Transition
               as={Fragment}
-              leave='transition ease-in duration-100'
-              leaveFrom='opacity-100'
-              leaveTo='opacity-0'
+              leave="transition ease-in duration-100"
+              leaveFrom="opacity-100"
+              leaveTo="opacity-0"
             >
-              <Listbox.Options className='absolute top-10 z-10 max-h-[475px] w-[130px] overflow-scroll rounded-lg border-[1px] border-line bg-white py-2 text-text-primary xs:w-[185px]'>
+              <Listbox.Options className="absolute top-10 z-10 max-h-[475px] w-[130px] overflow-scroll rounded-lg border-[1px] border-line bg-white py-2 text-text-primary xs:w-[185px]">
                 {options.map((_option) => (
                   <Listbox.Option
                     key={_option.label}
                     value={_option.value}
-                    className='c-transition cursor-pointer px-4 py-2 hover:bg-hover'
+                    className="c-transition cursor-pointer px-4 py-2 hover:bg-hover"
                   >
                     {_option.label}
                   </Listbox.Option>

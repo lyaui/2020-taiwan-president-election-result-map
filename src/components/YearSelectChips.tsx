@@ -18,12 +18,12 @@ function YearSelectChips() {
   };
 
   return (
-    <div className='z-10 flex flex-col flex-wrap gap-4 sm:flex-row'>
+    <div className="z-10 flex flex-col flex-wrap gap-4 sm:flex-row">
       {[...years].reverse().map((_year) => (
         <Chip
           key={_year}
           onClick={handleGoMapPage(_year)}
-          className='w-[170px]'
+          className="w-[170px]"
         >
           {_year}
         </Chip>

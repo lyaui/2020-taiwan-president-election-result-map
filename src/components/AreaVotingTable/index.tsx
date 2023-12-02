@@ -9,23 +9,23 @@ function AreaVotingTable({
   votingResultArr: VotingResult[];
 }) {
   return (
-    <table className='w-full table-auto'>
-      <thead className='bg-background'>
+    <table className="w-full table-auto">
+      <thead className="bg-background">
         <tr>
-          <th className='body-small p-2 text-left'>地區</th>
-          <th className='body-small p-2 text-left'>
-            <div className='hidden xs:table-cell'>得票率</div>
+          <th className="body-small p-2 text-left">地區</th>
+          <th className="body-small p-2 text-left">
+            <div className="hidden xs:table-cell">得票率</div>
           </th>
-          <th className='body-small hidden p-2 text-left xs:table-cell'>
+          <th className="body-small hidden p-2 text-left xs:table-cell">
             當選人
           </th>
-          <th className='body-small hidden p-2 text-left sm:table-cell'>
+          <th className="body-small hidden p-2 text-left sm:table-cell">
             投票數
           </th>
-          <th className='body-small hidden p-2 text-left sm:table-cell'>
+          <th className="body-small hidden p-2 text-left sm:table-cell">
             投票率
           </th>
-          <th className='body-small p-2 text-left'></th>
+          <th className="body-small p-2 text-left"></th>
         </tr>
       </thead>
       <tbody>

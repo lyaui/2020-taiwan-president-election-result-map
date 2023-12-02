@@ -28,16 +28,16 @@ function StatisticsLayout({ children }: StatisticsLayoutProps) {
   return (
     <article
       ref={sectionRef}
-      className='flex h-[calc(100vh-65px)] w-full flex-col gap-6 overflow-x-hidden px-4 pt-8 md:px-12'
+      className="flex h-[calc(100vh-65px)] w-full flex-col gap-6 overflow-x-hidden px-4 pt-8 md:px-12"
     >
       {children}
       <IconButton
         onClick={handleScrollTop}
-        iconName='ArrowUpIcon'
-        variant='outlined'
-        color='primary'
-        size='large'
-        className='c-shadow fixed bottom-[24px] right-[24px]'
+        iconName="ArrowUpIcon"
+        variant="outlined"
+        color="primary"
+        size="large"
+        className="c-shadow fixed bottom-[24px] right-[24px]"
       />
       <Footer />
     </article>

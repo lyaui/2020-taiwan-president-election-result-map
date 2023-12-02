@@ -38,8 +38,8 @@ function GoPreviousLevelButton({ city, dist }: GoPreviousLevelButton) {
   return (
     <IconButton
       onClick={handleGoPrevLevelClick}
-      iconName='ArrowLeftIcon'
-      color='secondary'
+      iconName="ArrowLeftIcon"
+      color="secondary"
     />
   );
 }

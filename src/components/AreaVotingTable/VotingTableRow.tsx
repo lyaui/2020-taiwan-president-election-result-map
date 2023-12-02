@@ -25,8 +25,8 @@ function VotingTableRow({
   const winner = orderedCandiData[0];
 
   const displayWinner = (
-    <div className='flex items-center gap-2'>
-      <span className='text-text-secondary xs:hidden'>當選人</span>
+    <div className="flex items-center gap-2">
+      <span className="text-text-secondary xs:hidden">當選人</span>
       <div
         className={cn(
           'relative h-[32px] w-[32px] overflow-hidden rounded-full',
@@ -50,25 +50,25 @@ function VotingTableRow({
       placeName={votingResult.name}
       placeLevel={votingResult.level}
     >
-      <td className='heading-6 w-[80px] px-2 py-3 xs:w-[100px] xs:py-2.5 xl:w-[180px]'>
+      <td className="heading-6 w-[80px] px-2 py-3 xs:w-[100px] xs:py-2.5 xl:w-[180px]">
         {name}
       </td>
-      <td className='w-[180px] px-2 py-3 xs:py-2.5 lg:w-[330px]'>
-        <div className='xs:hidden'>{displayWinner}</div>
+      <td className="w-[180px] px-2 py-3 xs:py-2.5 lg:w-[330px]">
+        <div className="xs:hidden">{displayWinner}</div>
         <PercentageBar height={8} groups={barGroups} />
       </td>
-      <td className='hidden px-2 py-3 xs:table-cell xs:py-2.5'>
+      <td className="hidden px-2 py-3 xs:table-cell xs:py-2.5">
         {displayWinner}
       </td>
-      <td className='hidden px-2 py-3 xs:py-2.5 sm:table-cell'>
+      <td className="hidden px-2 py-3 xs:py-2.5 sm:table-cell">
         {numberWithCommas(votes.total_votes)}
       </td>
-      <td className='hidden px-2 py-3 xs:py-2.5 sm:table-cell'>
+      <td className="hidden px-2 py-3 xs:py-2.5 sm:table-cell">
         {(+voter_turnout).toFixed(2) + '%'}
       </td>
-      <td className='w-[20px] xs:w-8 xs:py-2.5'>
+      <td className="w-[20px] xs:w-8 xs:py-2.5">
         {level !== levels.village && (
-          <ChevronRightIcon className='ml-2 w-[14px] xs:mr-5' />
+          <ChevronRightIcon className="ml-2 w-[14px] xs:mr-5" />
         )}
       </td>
     </VotingTableRowWrapper>

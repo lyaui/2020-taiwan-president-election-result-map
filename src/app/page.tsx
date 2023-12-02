@@ -20,36 +20,36 @@ export default function Home() {
     zombieImg,
   ];
   return (
-    <main className='relative flex h-screen w-full flex-col items-center overflow-hidden bg-gray-100 2xl:justify-center'>
-      <div className='col-center gap-10 px-10 py-[96px]'>
+    <main className="relative flex h-screen w-full flex-col items-center overflow-hidden bg-gray-100 2xl:justify-center">
+      <div className="col-center gap-10 px-10 py-[96px]">
         <>
           <Image
             src={logoImage}
-            alt='logo'
+            alt="logo"
             width={137}
             height={85}
             draggable={false}
           />
           <Image
             src={titleImage}
-            alt='台灣歷年總統 都幾?'
+            alt="台灣歷年總統 都幾?"
             width={525}
             height={85}
             draggable={false}
           />
         </>
-        <h4 className='heading-4 !text-primary'>查詢選擇年份</h4>
+        <h4 className="heading-4 !text-primary">查詢選擇年份</h4>
         <YearSelectChips />
       </div>
-      <div className='flex-center absolute bottom-0 sm:gap-12'>
+      <div className="flex-center absolute bottom-0 sm:gap-12">
         {candidatesImgs.map((_img, index) => (
           <div
             key={index}
-            className='relative h-[100px] w-[100px] sm:h-[200px] sm:w-[200px] md:h-[256px] md:w-[256px]'
+            className="relative h-[100px] w-[100px] sm:h-[200px] sm:w-[200px] md:h-[256px] md:w-[256px]"
           >
             <Image
               src={_img}
-              alt='candidate'
+              alt="candidate"
               fill
               draggable={false}
               style={{ objectFit: 'cover' }}

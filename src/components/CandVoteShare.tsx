@@ -21,7 +21,7 @@ function CandidateInfo({
   winner,
 }: CandidateInfoProps) {
   return (
-    <div key={cand_id} className='flex gap-3'>
+    <div key={cand_id} className="flex gap-3">
       <div
         className={cn(
           'relative h-[48px] w-[48px] overflow-hidden rounded-2xl',
@@ -36,14 +36,14 @@ function CandidateInfo({
           draggable={false}
         />
       </div>
-      <div className='flex flex-col gap-[2px]'>
-        <p className='caption !text-text-secondary'>{party_name}</p>
-        <p className='flex gap-1'>
+      <div className="flex flex-col gap-[2px]">
+        <p className="caption !text-text-secondary">{party_name}</p>
+        <p className="flex gap-1">
           {cand_name}
-          {winner && <CheckCircleIcon className='w-[20px] text-primary' />}
+          {winner && <CheckCircleIcon className="w-[20px] text-primary" />}
         </p>
         <p>
-          <span className='heading-6 mr-0.5'>{numberWithCommas(vote_cnt)}</span>
+          <span className="heading-6 mr-0.5">{numberWithCommas(vote_cnt)}</span>
           票
         </p>
       </div>
@@ -64,8 +64,8 @@ function CandVoteShare({
   });
 
   return (
-    <div className='flex flex-col gap-3 rounded-xl bg-white p-4 xs:px-6 xs:py-[30px]'>
-      <div className='grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-10'>
+    <div className="flex flex-col gap-3 rounded-xl bg-white p-4 xs:px-6 xs:py-[30px]">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-10">
         {orderedCandiData.map(
           (_cand: Candidate & { vote_cnt: number }, _index) => (
             <CandidateInfo

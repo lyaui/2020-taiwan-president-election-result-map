@@ -43,9 +43,9 @@ function DonutChart({
         background: `conic-gradient(${color} ${degree * 3.6}deg,#E2E8F0 0deg)`,
       }}
     >
-      <div className='col-center z-10 gap-0.5'>
-        {label && <p className='body-small text-text-primary'>{label}</p>}
-        <p className='heading-5' style={{ color }}>{`${(value * 100).toFixed(
+      <div className="col-center z-10 gap-0.5">
+        {label && <p className="body-small text-text-primary">{label}</p>}
+        <p className="heading-5" style={{ color }}>{`${(value * 100).toFixed(
           2
         )}%`}</p>
       </div>

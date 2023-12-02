@@ -21,12 +21,12 @@ interface PercentageBar {
 function StatisticsPanel({ groups }: { groups: Group[] }) {
   const total = groups.reduce((_acc, _cur) => _acc + _cur.value || 0, 0);
   return (
-    <ul className='relative flex w-[230px] flex-col gap-2.5'>
+    <ul className="relative flex w-[230px] flex-col gap-2.5">
       {groups.map((_cand) => {
         const percent = ((_cand.value / total) * 100).toFixed(0) + '%';
         return (
-          <li key={_cand.label} className='flex justify-between'>
-            <p className='flex items-center gap-2'>
+          <li key={_cand.label} className="flex justify-between">
+            <p className="flex items-center gap-2">
               <span
                 className={cn(
                   'block h-[12px] w-[12px] rounded-full',
@@ -65,17 +65,17 @@ function PercentageBar({
         <Transition
           appear={true}
           show={true}
-          enter='transition-opacity duration-75'
-          enterFrom='opacity-0'
-          enterTo='opacity-100'
+          enter="transition-opacity duration-75"
+          enterFrom="opacity-0"
+          enterTo="opacity-100"
         >
           <div
-            className='cursor-default py-2'
+            className="cursor-default py-2"
             onMouseEnter={handleShowTooltip}
             onMouseLeave={handleHideTooltip}
           >
             <div
-              className='flex w-full overflow-hidden rounded-[50px] bg-gray-200'
+              className="flex w-full overflow-hidden rounded-[50px] bg-gray-200"
               style={{ height }}
             >
               {totalValue > 0 &&
