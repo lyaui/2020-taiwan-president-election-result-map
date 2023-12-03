@@ -25,7 +25,6 @@ const buttonVariants = cva(
         large: ['px-6', 'py-4'],
       },
     },
-    compoundVariants: [{ color: 'primary', size: 'medium' }],
     defaultVariants: {
       color: 'primary',
       size: 'medium',
