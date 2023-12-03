@@ -59,7 +59,7 @@ const useWindowSize = (): {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, [isClient]);
 
   return {
     windowSize: isClient ? windowSize : defaultSize,
