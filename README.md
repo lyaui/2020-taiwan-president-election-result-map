@@ -63,7 +63,6 @@ $ yarn dev
 - FIX: Not found page shallow router problem
 - order data
 - error handling
-- cva tailwind
 - test case
 
 THANK YOU!

@@ -1,9 +1,59 @@
 import { type ComponentPropsWithoutRef } from 'react';
 import * as HeroIcon from '@heroicons/react/24/solid';
+import { cva, type VariantProps } from 'class-variance-authority';
 
-import { cn } from '@/utils';
+const buttonVariants = cva('flex-center body-small rounded-full c-transition', {
+  variants: {
+    variant: {
+      solid: ['bg-current', 'hover:bg-current-light active:bg-current'],
+      outlined: [
+        'bg-white',
+        'border border-current',
+        'hover:border-current-light',
+      ],
+    },
+    color: {
+      primary: [
+        'bg-primary',
+        '[&>svg]:text-white',
+        'hover:bg-primary-light',
+        'active:bg-primary',
+      ],
+      secondary: [
+        'bg-background',
+        '[&>svg]:text-text-primary',
+        'hover:bg-hover',
+        'active:bg-background',
+      ],
+    },
+    size: {
+      medium: ['w-[36px]', 'h-[36px]', 'p-2'],
+      large: ['w-[44px]', 'h-[44px]', 'p-3'],
+    },
+  },
 
-interface ButtonProps extends ComponentPropsWithoutRef<'button'> {
+  compoundVariants: [
+    // 綁定在一起
+    {
+      variant: 'outlined',
+      color: 'primary',
+      className: [
+        'border-primary',
+        '[&>svg]:text-primary',
+        'hover:bg-gray-100',
+        'active:bg-white',
+      ],
+    },
+  ],
+  defaultVariants: {
+    color: 'primary',
+    size: 'medium',
+  },
+});
+
+interface IconButtonProps
+  extends ComponentPropsWithoutRef<'button'>,
+    VariantProps<typeof buttonVariants> {
   iconName: keyof typeof HeroIcon;
   variant?: 'solid' | 'outlined';
   size?: 'medium' | 'large';
@@ -11,47 +61,22 @@ interface ButtonProps extends ComponentPropsWithoutRef<'button'> {
   className?: string;
 }
 
-function IconButton(props: ButtonProps) {
-  const {
-    iconName,
-    variant = 'solid',
-    size = 'medium',
-    color = 'primary',
-    className = '',
-    ...others
-  } = props;
-
-  const sizeClasses = {
-    medium: 'w-[36px] h-[36px] p-2',
-    large: 'w-[44px] h-[44px] p-3',
-  }[size];
-
-  // TODO variantClasses
-  const colorClasses = {
-    primary: {
-      button: `${variant === 'outlined' ? 'bg-white' : 'bg-primary'} ${
-        variant === 'outlined' && 'border border-primary'
-      } ${
-        variant === 'outlined'
-          ? 'hover:border-primary-light'
-          : 'hover:bg-primary-light active:bg-primary'
-      }`,
-      icon: `${variant === 'outlined' ? 'text-primary' : 'text-white'}`,
-    },
-    secondary: {
-      button:
-        'bg-background text-text-primary hover:bg-hover active:bg-background',
-      icon: 'text-text-primary',
-    },
-  }[color];
-
-  const classes = `flex-center body-small rounded-full c-transition ${sizeClasses} ${colorClasses.button} ${className}`;
-
+function IconButton({
+  iconName,
+  variant = 'solid',
+  size = 'medium',
+  color = 'primary',
+  className = '',
+  ...others
+}: IconButtonProps) {
   const Icon = HeroIcon[iconName];
 
   return (
-    <button className={classes} {...others}>
-      <Icon className={cn('h-[18px] w-[18px]', colorClasses.icon)} />
+    <button
+      className={buttonVariants({ variant, color, size, className })}
+      {...others}
+    >
+      <Icon className="h-[18px] w-[18px]" />
     </button>
   );
 }
