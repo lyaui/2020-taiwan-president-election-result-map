@@ -10,7 +10,8 @@ export function numberWithCommas(num: number) {
   return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
 
-export function transCommaStringToNumber(str: string = '') {
-  if (typeof str !== 'string') return str;
-  return parseInt(str.split(',').join(''));
+export function transCommaStringToNumber(input: unknown = '') {
+  if (typeof input === 'number') return input;
+  if (typeof input !== 'string') return NaN;
+  return parseFloat(input.replace(/,/g, ''));
 }

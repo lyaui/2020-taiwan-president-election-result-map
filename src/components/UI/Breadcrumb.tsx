@@ -18,8 +18,8 @@ function Breadcrumb({ routers = [] }: BreadCrumbProps) {
         const textColor = isLast ? 'text-primary' : 'text-text-secondary';
         const cursor = isLast ? 'cursor-auto' : 'cursor-pointer';
         return (
-          <li key={_router.label} className={cn('flex', textColor)}>
-            <Link href={_router.path} className={cursor}>
+          <li key={_router.label} className="flex">
+            <Link href={_router.path} className={cn(cursor, textColor)}>
               {_router.label}
             </Link>
             {isLast ? null : <div className="px-2">/</div>}

@@ -4,7 +4,7 @@ import { cn } from '@/utils';
 
 interface ChipProps {
   children: ReactNode;
-  onClick: () => void;
+  onClick?: () => void;
   className?: string;
 }
 
