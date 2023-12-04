@@ -104,10 +104,7 @@ export async function fetchElectionData({
   }) => {
     return Object.entries(obj).reduce(
       (_acc, [_key, _value]) => {
-        _acc[_key] =
-          typeof _value === 'number'
-            ? _value
-            : transCommaStringToNumber(_value);
+        _acc[_key] = transCommaStringToNumber(_value);
         return _acc;
       },
       {} as { [key: string]: number }
@@ -170,10 +167,7 @@ export async function fetchElectionData({
         const result: PartyVotes = {
           name: party?.party_name || '',
           id: party?.party_id || '',
-          value:
-            typeof _value === 'string'
-              ? transCommaStringToNumber(_value)
-              : _value,
+          value: transCommaStringToNumber(_value),
         };
         _acc.push(result);
         return _acc;
