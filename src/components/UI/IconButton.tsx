@@ -39,7 +39,7 @@ const buttonVariants = cva('flex-center body-small rounded-full c-transition', {
       color: 'primary',
       className: [
         'border-primary',
-        '[&>svg]:text-primary',
+        '[&>svg]:!text-primary',
         'hover:bg-gray-100',
         'active:bg-white',
       ],
